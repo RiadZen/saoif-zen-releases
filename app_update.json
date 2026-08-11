@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.2",
+  "latestVersion": "1.0.0",
   "downloadUrl": "https://raw.githubusercontent.com/RiadZen/saoif-zen-releases/main/SAOIF%20ZEN.msi",
-  "releaseNotes": "• New improvment\n• Automated Updates\n• Responsive Design Fixes",
+  "releaseNotes": "• Initial Launch (v1.0.0)\n• Added Skills & Armor Databases\n• Added Build Planner & Stats Calculator\n• Live Intel & Event Trackers\n• Gacha Viewer & RC Tracker",
   "mandatory": false
 }
