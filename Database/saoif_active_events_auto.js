@@ -1,0 +1,155 @@
+const ACTIVE_EVENTS_AUTO = [
+  {
+    "type": "EVENT",
+    "title": "[8/5 14:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
+    "startTime": "2026-07-22T19:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "[8/5 14:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the August 5, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a Crystal-Disabled Area where Revive Crystals cannot be used. The recommended Total Power is 600,000. You can complete ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5381.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "Get the Pure White Dress and a limited-edition stamp! \"Explore the Dungeon with Yui\" is here!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260801yui.png",
+    "startTime": "2026-07-31T15:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "\"Explore the dungeon with Yui\" is here to celebrate Yui's birthday. You can enjoy progressing through a dungeon with Yui in tow during this event. The dungeon found in this event is a Raising Dungeon that helps you and your Assisting Characters grow stronger.  Rewards Get the Pure White Dress avatar...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5361.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
+    "startTime": "2026-07-22T19:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "[Updated: 7/31 13:35]  We have confirmed an issue where the High Difficulty Dungeon and Trader Rewards, which were scheduled to be added after the maintenance on 7/29 (Wed), are not displaying correctly.  As a result, the release of this content has been postponed until maintenance on 8/5 (Wed). In ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5344.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[7/29 14:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
+    "startTime": "2026-07-22T19:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "[7/29 14:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the July 29, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a Crystal-Disabled Area where Revive Crystals cannot be used. The recommended Total Power is 600,000. You can complete ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5358.html"
+  },
+  {
+    "type": "Campaign",
+    "title": "The \"Ring Production Campaign\" is here! Production costs halved and battle rewards increased!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230426yubi.png",
+    "startTime": "2026-07-28T19:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "\"Ring Production Campaign\" is here.  During the campaign, the costs of producing \"rings\" and \"Ring Gemstone+\" are halved! Plus, you'll receive more \"Ring Gemstones\" than usual from the \"LafCof Phantoms & the Ring Gem Temple\" battle rewards! Use this chance to produce lots of rings!  Campaign Duratio...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5359.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "【Raising Dungeon】\"Leafa's Limit Break Dojo\" on now! Get heaps of Memoria Niter S for limit breaking your Skill Records!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230125ri.png",
+    "startTime": "2026-08-06T19:00:00+00:00",
+    "endTime": "2026-08-13T18:59:00+00:00",
+    "snippet": "The Raising Dungeon is here to help boost character growth!  Challenge Leafa at the \"Memoria Dojo\" and get heaps of \"Memoria Niter S\", the material for limit breaking Skill Records! The \"Leafa's Limit Break Dojo\" will begin.   You can also challenge the extremely difficult \"Serious Match  Memoria Do...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5385.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "Reach SSS Rank for a total of 5,000 Arcana Gems! \"Guild Battle Challenge VS Kobold Lord\" is here!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805gbc.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-18T19:00:00+00:00",
+    "snippet": "The new event \"Guild Battle Challenge VS Kobold Lord\" is here! Take on difficult raid boss dungeons with your entire guild and aim to clear the highest rank!  Get 1,000 Arcana Gems at S Rank, 1,500 at SS Rank, and 2,500 at SSS Rank from the achievements! If you reach SSS Rank, you can get a total of...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5377.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "\"Watermelon Panic!\" is back! Get a Swimsuit Avatar!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630su.png",
+    "startTime": "2026-06-29T19:00:00+00:00",
+    "endTime": "2026-08-25T19:00:00+00:00",
+    "snippet": "The Scenario Event \"Watermelon Panic!\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Watermelon Panic! A beautiful beach by the...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5302.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "\"Bit scary?! Cave Exploration\" is back! Get [Summer Clothes] Lisbeth!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630cho.png",
+    "startTime": "2026-06-29T19:00:00+00:00",
+    "endTime": "2026-08-25T19:00:00+00:00",
+    "snippet": "The Scenario Event \"Bit scary?! Cave Exploration\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Bit scary?! Cave Exploration Wa...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5303.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "Fight alongside Agil and defeat the monsters on the beach!  Rewards Get up to 500 \"Arcana Gems\", up to 500 \"Memoria Niter S\", up to 20 \"Medals of Combat Arts\", up to 100 \"Awakening Stars\", and up to 20 each of the \"Great Jewels\". 300 Arcana Gems come from dungeon clears, and the rest from the Trader...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5378.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "Fishing Ranking Event, \"2026 Midsummer Fishing Competition\" is here!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805fe.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "Fishing Ranking Event \"2026 Midsummer Fishing Competition\" is on now. In the \"2026 Midsummer Fishing Competition\", you fight for the best rank based on your catch scores.  The Bubbly Bonito and Lace Wraith, selected from user submissions, appear on this Event Map! Catch them to get a high score!  Bu...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5376.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[8/5 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
+    "startTime": "2026-07-28T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "[8/5 13:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Exile\" and items were added during the August 5, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Exile\" added This is a \"Field with some unusable items\" where certain items cannot be used and players cannot revive. The recommended Total ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5380.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "\"Klein's Test of Courage Operation\" is back!  Get ghost avatars!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805k.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "The Scenario Event \"Klein's Test of Courage Operation\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Klein's Test of Courage Op...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5383.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
+    "startTime": "2026-07-28T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "Scenario Event \"Operation: Summer Memories\" is on now!  Sasha organized a trip to give the orphanage children a chance to experience summer vacation. Together with the children, everyone relives the joys of summer by fishing, catching bugs, and playing hide-and-seek, just like the summers they once ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5357.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "The scenario event Heat the Beach! Summer Swimsuit Spectacular is back! Get a ★4 Silica Skill Record and limited-edition chat stamps!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250724se.png",
+    "startTime": "2026-07-22T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "Scenario Event \"Heat the Beach!: Ultimate Swimsuit Episode\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  The heroines take on ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5347.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "\"Will of Steel to Catch the King\" is back! ★4 Alice swimsuit Skill Records are back!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260715tu.png",
+    "startTime": "2026-07-14T19:00:00+00:00",
+    "endTime": "2026-09-01T19:00:00+00:00",
+    "snippet": "The Scenario Event \"Will of Steel to Catch the King\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Will of Steel to Catch the K...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5331.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "Venture into a Death Game Mode with Echoes of Survival: Echoes of Aincrad Opening Celebration!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260624es.png",
+    "startTime": "2026-06-23T19:00:00+00:00",
+    "endTime": "2026-09-28T19:00:00+00:00",
+    "snippet": "To celebrate the upcoming launch of the newest game of the Sword Art Online Game Series, we will be holding a special event in SAOIF!  Echoes of Survival is an event that recreates the unforgiving Death Game Mode to be implemented in Echoes of Aincrad. Defeat will not be an option. Entering a Near-D...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5288.html"
+  }
+];
