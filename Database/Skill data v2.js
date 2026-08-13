@@ -71735,7 +71735,6 @@ const characterData = {
             {
                 "name": "Extension 1",
                 "desc": "Attack rises 6% x the number of Yuuki Skill Records in the same set.",
-                "desc_template": "Attack rises {v}% x the number of Yuuki Skill Records in the same set.",
                 "type": "normal"
             },
             {
