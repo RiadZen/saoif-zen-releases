@@ -1,6 +1,15 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
+    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] New items added to the Trader!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
+    "startTime": "2026-07-22T19:00:00+00:00",
+    "endTime": "2026-08-12T19:00:00+00:00",
+    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Red Squeezer Plate\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10040 Record Frame L650 Glare Dragon Stone625 Restorative Potion325 Life Potion95 Emergency Crystal310 Cleans...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5396.html"
+  },
+  {
+    "type": "EVENT",
     "title": "[8/5 14:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
     "startTime": "2026-07-22T19:00:00+00:00",
@@ -55,6 +64,15 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "\"Multiple Rounds: 2x Experience Character Quest Campaign\" is here!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220427cq.png",
+    "startTime": "2026-08-12T19:00:00+00:00",
+    "endTime": "2026-08-18T19:00:00+00:00",
+    "snippet": "During this campaign, get 2x the experience in Multiple Rounds Character Quests! This is your chance to easily raise your player level!  Event Start Accept the Character Quest from the Bulletin Board in the Merchant District.  Participation Requirements Clear the 1F Main Quest through the end  Campa...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5393.html"
+  },
+  {
+    "type": "EVENT",
     "title": "Reach SSS Rank for a total of 5,000 Arcana Gems! \"Guild Battle Challenge VS Kobold Lord\" is here!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805gbc.png",
     "startTime": "2026-08-04T19:00:00+00:00",
@@ -79,6 +97,24 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-08-25T19:00:00+00:00",
     "snippet": "The Scenario Event \"Bit scary?! Cave Exploration\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Bit scary?! Cave Exploration Wa...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5303.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] New items added to the Trader!The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
+    "startTime": "2026-07-28T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Blue Nostalgic Lure\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10025 Restorative Potion350 Emergency Crystal95 Cleansing Potion920 Revive Crystal1010 Record Frame L920 Gla...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5395.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the August 13, 2026 (Thu) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a \"Field with some unusable items\" where certain items cannot be used and players cannot revive. The recommended Tota...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5394.html"
   },
   {
     "type": "EVENT",
