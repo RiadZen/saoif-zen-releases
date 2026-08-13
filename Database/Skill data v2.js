@@ -71787,7 +71787,6 @@ const characterData = {
             {
                 "name": "Earth Pile/Buff",
                 "desc": "Earth element damage +1% per stack (Stack3) during 20 sec.",
-                "desc_template": "Earth element damage +{v}% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             }
         ],
