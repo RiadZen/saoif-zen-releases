@@ -71825,6 +71825,11 @@ const characterData = {
                 "name": "While Full Burst state Bonus",
                 "desc": "Critical rate +500%.",
                 "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
             }
         ],
         "burst": [],
@@ -71992,6 +71997,11 @@ const characterData = {
                 "name": "[While Full Burst state] Ruinous Earth 4/Buff",
                 "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Earth element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
                 "type": "normal"
             }
         ],
