@@ -71716,5 +71716,315 @@ const characterData = {
         ],
         "rarity": 5
     },
+    "1816": {
+        "name": "[Fierce Tiger Strike] Yuuki",
+        "sub": "Ability (None/None)",
+        "type": "ability / full burst",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "skill_name": "Ability",
+        "stats": "[Attack 49] • [Defense 42] • [HP 2500]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001803.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101803.png",
+        "buffs": [
+            {
+                "name": "Extension 1",
+                "desc": "Attack rises 6% x the number of Yuuki Skill Records in the same set.",
+                "desc_template": "Attack rises {v}% x the number of Yuuki Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Engrave",
+                "desc": "When equipping no Kirito Skill Records in the same set and hitting with switch, adds debuff (Mark).(Invalid when equipped by Partner)",
+                "desc_template": "When equipping no Kirito Skill Records in the same set and hitting with switch, adds debuff (Mark).(Invalid when equipped by Partner)",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "tags": [],
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 24,
+        "ability_effect": [
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ]
+    },
+    "1817": {
+        "name": "[Graceful Predator] Leafa",
+        "sub": "1H Sword (Slash/Earth) Burst Skill",
+        "type": "burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 46,
+        "break_gauge": 43,
+        "skill_name": "Cross Earth",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 46] • [Break Gauge 43]",
+        "damage": "2100% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001804.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101804.png",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Earth Pile/Buff",
+                "desc": "Earth element damage +1% per stack (Stack3) during 20 sec.",
+                "desc_template": "Earth element damage +{v}% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "tags": [],
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 46] • [Break Gauge 86]",
+        "burst_skill_name": "Cross Earth Burst",
+        "burst_activation": "Earth→Slash→Earth→Earth",
+        "burst_activation_template": "Earth→Slash→Earth→Earth",
+        "burst_damage": "5800% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Earth element's damage rises by the number of Kirito Skill Records in the same set x 10%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Critical rate +500%.",
+                "type": "normal"
+            }
+        ],
+        "burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1901,
+                "buffs": [
+                    10.05
+                ],
+                "burst_damage": 4907
+            },
+            "80": {
+                "damage": 1980,
+                "buffs": [
+                    14
+                ],
+                "burst_damage": 5460
+            },
+            "100": {
+                "damage": 2100,
+                "buffs": [
+                    15
+                ],
+                "burst_damage": 5800
+            }
+        }
+    },
+    "1818": {
+        "name": "[Tiger's Mighty Axe] Agil",
+        "sub": "2H Axe (Blunt/Holy) Link Skill",
+        "type": "link",
+        "weapon": "2H Axe",
+        "element1": "Blunt",
+        "element2": "Holy",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 14,
+        "switch_gauge": 52,
+        "break_gauge": 48,
+        "skill_name": "Shining Launcher",
+        "stats": "[SP Cost 18] • [CD 14.0] • [Switch Gauge 52] • [Break Gauge 48]",
+        "damage": "2820% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001805.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101805.png",
+        "buffs": [
+            {
+                "name": "Shine Force 4/Buff",
+                "desc": "Holy element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Holy element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Blunt 2/Buff",
+                "desc": "Damage done to enemies weak to blunt +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Mark/Debuff/Buff",
+                "desc": "The next attack the enemy receives will induce double damage.(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "desc_template": "The next attack the enemy receives will induce double damage.(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/link.png",
+        "tags": [],
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "link_desc": "When Activated: Holy element damage +50.00% (LLv 1).\nLLv50: Holy element damage +50.00% (LLv 50).\nLLv100: Attack increases in proportion with your remaining HP x 200.00% (LLv 100).\nLLv250: Damage done to enemies weak to blunt +50.00% (LLv 250).",
+        "lv_data": {
+            "1": {
+                "damage": 2621,
+                "buffs": [
+                    5.1,
+                    10.1
+                ]
+            },
+            "80": {
+                "damage": 2700,
+                "buffs": [
+                    13,
+                    18
+                ]
+            },
+            "100": {
+                "damage": 2820,
+                "buffs": [
+                    15,
+                    20
+                ]
+            }
+        }
+    },
+    "1819": {
+        "name": "[Dragon & Tiger Pincer] Silica",
+        "sub": "Dagger (Slash/Earth) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 36,
+        "break_gauge": 37,
+        "skill_name": "Sand Cutter",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 36] • [Break Gauge 37]",
+        "damage": "2350% damage (Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001806.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101806.png",
+        "buffs": [
+            {
+                "name": "Weak Slash 4/Debuff/Buff",
+                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Poison/Status Ailments/Buff",
+                "desc": "Make it Poison (Stack 1) for 30 sec.",
+                "desc_template": "Make it Poison (Stack 1) for 30 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Earth 4/Buff",
+                "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Earth element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "tags": [],
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 36] • [Break Gauge 74]",
+        "burst_skill_name": "Sand Cutter Burst",
+        "burst_activation": "Earth→Slash→Earth→(Earth)",
+        "burst_activation_template": "Earth→Slash→Earth→(Earth)",
+        "burst_damage": "5700% damage (Single Foe)[Motion Range]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Motion Range]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +1500 against enemies with the blunt element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +1% for every Stack 1.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            }
+        ],
+        "burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "buffs": [
+                    15.1,
+                    25.5
+                ],
+                "burst_damage": 4507
+            },
+            "80": {
+                "damage": 1830,
+                "buffs": [
+                    23,
+                    65
+                ],
+                "burst_damage": 5060
+            },
+            "100": {
+                "damage": 2350,
+                "buffs": [
+                    25,
+                    75
+                ],
+                "burst_damage": 5700
+            }
+        }
+    },
+
 	
 };
