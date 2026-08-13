@@ -71823,7 +71823,7 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "Bonus",
+                "name": "While Full Burst state Bonus",
                 "desc": "Critical rate +500%.",
                 "type": "normal"
             }
@@ -71947,21 +71947,14 @@ const characterData = {
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101806.png",
         "buffs": [
             {
-                "name": "Weak Slash 4/Debuff/Buff",
+                "name": "Weak Slash 4/Debuff",
                 "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
-                "name": "Poison/Status Ailments/Buff",
+                "name": "Poison/Status Ailments",
                 "desc": "Make it Poison (Stack 1) for 30 sec.",
-                "desc_template": "Make it Poison (Stack 1) for 30 sec.",
-                "type": "normal"
-            },
-            {
-                "name": "Ruinous Earth 4/Buff",
-                "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
-                "desc_template": "Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
@@ -71995,36 +71988,41 @@ const characterData = {
                 "name": "Bonus",
                 "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
                 "type": "normal"
+            },
+            {
+                "name": "[While Full Burst state] Ruinous Earth 4/Buff",
+                "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Earth element damage +{v}% for 20 sec.",
+                "type": "normal"
             }
         ],
         "burst": [],
         "lv_data": {
             "1": {
                 "damage": 1751,
+                "burst_damage": 4507,
                 "buffs": [
-                    15.1,
-                    25.5
-                ],
-                "burst_damage": 4507
+                    15.10,
+                    25.50
+                ]
             },
             "80": {
                 "damage": 1830,
+                "burst_damage": 5060,
                 "buffs": [
-                    23,
-                    65
-                ],
-                "burst_damage": 5060
+                    23.00,
+                    65.00
+                ]
             },
             "100": {
                 "damage": 2350,
+                "burst_damage": 5700,
                 "buffs": [
-                    25,
-                    75
-                ],
-                "burst_damage": 5700
+                    25.00,
+                    75.00
+                ]
             }
         }
-    },
+    }
 
-	
 };
