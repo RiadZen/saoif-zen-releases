@@ -68556,8 +68556,8 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "While Full Burst State",
-                "desc": "Wind element damage +75%.",
+                "name": "Bonus",
+                "desc": "While Full Burst state Wind element damage +75%.",
                 "type": "normal"
             }
         ],
@@ -69106,8 +69106,8 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Full Burst state] Ruinous Wind 4/Buff",
-                "desc": "Wind element damage +75% for 20 sec.",
+                "name": "Ruinous Wind 4/Buff",
+                "desc": "While Full Burst state Wind element damage +75% for 20 sec.",
                 "desc_template": "Wind element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -70000,7 +70000,7 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Full Burst state] Ruinous Water 4/Buff",
+                "name": "Ruinous Water 4/Buff",
                 "desc": "While Full Burst state Water element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Water element damage +{v}% for 20 sec.",
                 "type": "normal"
@@ -71268,9 +71268,9 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Full Burst state] Ruinous Shine 4/Buff",
-                "desc": "Holy element damage +75.00% for 20 sec.",
-                "desc_template": "Holy element damage +{v}% for 20 sec.",
+                "name": " Ruinous Shine 4/Buff",
+                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
@@ -71491,9 +71491,9 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Full Burst state] Ruinous Earth 4/Buff",
-                "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
-                "desc_template": "Earth element damage +{v}% for 20 sec.",
+                "name": "Ruinous Earth 4/Buff",
+                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
@@ -71821,8 +71821,8 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "While Full Burst state Bonus",
-                "desc": "Critical rate +500%.",
+                "name": "Bonus",
+                "desc": "While Full Burst state Critical rate +500%.",
                 "type": "normal"
             },
             {
@@ -71993,9 +71993,9 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Full Burst state] Ruinous Earth 4/Buff",
-                "desc": "Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
-                "desc_template": "Earth element damage +{v}% for 20 sec.",
+                "name": "Ruinous Earth 4/Buff",
+                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
