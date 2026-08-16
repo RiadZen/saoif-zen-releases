@@ -125,7 +125,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Sword's Secret",
+      name: "劍的秘密",
       maxLvl: 10,
       req: "1H 劍 Lv.35、切換衝鋒 Lv.1",
       template: "裝備1H劍時，攻擊力+{val}%",
@@ -616,7 +616,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Rapier's Secret",
+      name: "劍的秘密",
       maxLvl: 10,
       req: "1H 劍 Lv.35",
       template: "裝備劍時攻擊力增加+{val}",
@@ -1063,7 +1063,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Club's Secret",
+      name: "俱樂部的秘密",
       maxLvl: 10,
       req: "1H 俱樂部 Lv.35",
       template: "裝備狼牙棒時攻擊力增加+{val}",
@@ -1686,7 +1686,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Axe's Secret",
+      name: "斧頭的秘密",
       maxLvl: 10,
       req: "2H 斧 Lv.35",
       template: "裝備斧頭時攻擊力增加+{val}",
@@ -2142,7 +2142,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Spear's Secret",
+      name: "長矛的秘密",
       maxLvl: 10,
       req: "2H 槍 Lv.35",
       template: "裝備長矛時攻擊力增加+{val}",
@@ -2567,7 +2567,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Predator's Keen Eye",
+      name: "掠食者的銳利之眼",
       maxLvl: 10,
       req: "弓 Lv.20",
       template: "增加對最大生命值+{val}%以下的敵人的攻擊力。",

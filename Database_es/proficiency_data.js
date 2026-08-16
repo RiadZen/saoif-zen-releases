@@ -125,7 +125,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Sword's Secret",
+      name: "El secreto de la espada",
       maxLvl: 10,
       req: "Espada 1H Lv.35, Carga de Cambio Lv.1",
       template: "Cuando la Espada 1H está equipada, Ataque +{val}%",
@@ -616,7 +616,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Rapier's Secret",
+      name: "El secreto del estoque",
       maxLvl: 10,
       req: "1H Estoque Lv.35",
       template: "Aumenta el ataque cuando se equipa un estoque+{val}",
@@ -1686,7 +1686,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Axe's Secret",
+      name: "El secreto del hacha",
       maxLvl: 10,
       req: "Hacha 2H Lv.35",
       template: "Aumenta el ataque cuando se equipa un hacha+{val}",
@@ -2142,7 +2142,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Spear's Secret",
+      name: "El secreto de la lanza",
       maxLvl: 10,
       req: "Lanza 2H Lv.35",
       template: "Aumenta el ataque cuando se equipa una lanza+{val}",
@@ -2567,7 +2567,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Predator's Keen Eye",
+      name: "El ojo agudo del depredador",
       maxLvl: 10,
       req: "Arco Lv.20",
       template: "Aumenta el ataque contra un enemigo con menos del +{val}% de su HP máximo.",
@@ -2597,7 +2597,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Bow's Secret",
+      name: "El secreto del arco",
       maxLvl: 10,
       req: "Arco Lv.35",
       template: "Aumenta el ataque cuando se equipa un arco+{val}",

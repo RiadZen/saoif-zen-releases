@@ -125,7 +125,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Sword's Secret",
+      name: "검의 비밀",
       maxLvl: 10,
       req: "상반기 소드 Lv.35, 스위치 차지 Lv.1",
       template: "상반기 소드 장착 시 공격력 +{val}%",
@@ -2142,7 +2142,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Spear's Secret",
+      name: "스피어의 비밀",
       maxLvl: 10,
       req: "2H 스피어 Lv.35",
       template: "창 장착 시 공격력 증가+{val}",
@@ -2567,7 +2567,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Predator's Keen Eye",
+      name: "포식자의 예리한 눈",
       maxLvl: 10,
       req: "활 Lv.20",
       template: "최대 HP의 +{val}% 미만인 적에 대한 공격력이 증가합니다.",
@@ -2597,7 +2597,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Bow's Secret",
+      name: "활의 비밀",
       maxLvl: 10,
       req: "활 Lv.35",
       template: "활 장착 시 공격력 증가+{val}",

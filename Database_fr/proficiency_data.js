@@ -125,7 +125,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Sword's Secret",
+      name: "Le secret de l'épée",
       maxLvl: 10,
       req: "Épée 1H Lv.35, Charge de commutation Lv.1",
       template: "Lorsque l'épée 1H est équipée, Attaque +{val}%",
@@ -616,7 +616,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Rapier's Secret",
+      name: "Le secret de la rapière",
       maxLvl: 10,
       req: "Rapière 1H Lv.35",
       template: "Augmente l'attaque lorsqu'une rapière est équipée + {val}",
@@ -1063,7 +1063,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Club's Secret",
+      name: "Le secret du club",
       maxLvl: 10,
       req: "Club 1H Niv.35",
       template: "Augmente l'attaque lorsqu'une masse est équipée + {val}",
@@ -1686,7 +1686,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Axe's Secret",
+      name: "Le secret de la hache",
       maxLvl: 10,
       req: "Hache 2H Lv.35",
       template: "Augmente l'attaque lorsqu'une hache est équipée+{val}",
@@ -2142,7 +2142,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Spear's Secret",
+      name: "Le secret de la lance",
       maxLvl: 10,
       req: "Lance 2H Lv.35",
       template: "Augmente l'Attaque lorsqu'une lance est équipée+{val}",
@@ -2567,7 +2567,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Predator's Keen Eye",
+      name: "Oeil vif du prédateur",
       maxLvl: 10,
       req: "Arc Lv.20",
       template: "Augmente l'attaque contre un ennemi avec moins de +{val} % de ses PV max.",
@@ -2597,7 +2597,7 @@ window.masteryData = {
       active: true,
     },
     {
-      name: "Bow's Secret",
+      name: "Le secret de l'arc",
       maxLvl: 10,
       req: "Arc Lv.35",
       template: "Augmente l'attaque lorsqu'un arc est équipé+{val}",

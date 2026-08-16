@@ -46,7 +46,7 @@ window.ringOptions = {
         {
             "name": "حلقة حادة",
             "image": "../resources/armor/Rings/HolyRing3Stars.png",
-            "main_stat_desc": "ضرر العنصر الحاد +3-5%"
+            "main_stat_desc": "ضرر عنصر السحق +3-5%"
         }
     ],
     "sub_stats_pool": [
