@@ -146,7 +146,7 @@ window.masteryData = {
       name: "Sobrecarga I (Espada 1H)",
       maxLvl: 10,
       req: "Espada 1H Lv.45",
-      template: "Switch Gauge se cargará hasta el tercer nivel cuando 1H Sword esté equipado. Daño +200% al usar el interruptor en el tercer nivel.",
+      template: "Switch Gauge se cargará hasta el tercer nivel cuando 1H Sword esté equipado. Daño +200% al usar el interruptor en el tercer nivel. ",
       calc: (lvl) => 0,
       bonusType: "atk_percent",
       active: true,

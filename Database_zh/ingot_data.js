@@ -1,5 +1,5 @@
 /**
- * TRADITIONAL CHINESE INGOT DATABASE & LOGIC
+ * ZH INGOT DATABASE & LOGIC
  */
 window.ingotData = {
     "Demon_God_Slash": {

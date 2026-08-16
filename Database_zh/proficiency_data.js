@@ -146,7 +146,7 @@ window.masteryData = {
       name: "過度充電 I (1H 劍)",
       maxLvl: 10,
       req: "1H 劍 Lv.45",
-      template: "當裝備 1H 劍時，開關量表將充能至第三級。使用第三級開關時傷害+200%。",
+      template: "當裝備 1H 劍時，開關量表將充能至第三級。使用第三級開關時傷害+200%。 ",
       calc: (lvl) => 0,
       bonusType: "atk_percent",
       active: true,

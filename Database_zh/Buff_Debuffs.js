@@ -1,4 +1,4 @@
-// Buff / Debuffs Database (Traditional Chinese)
+// Buff / Debuffs Database (zh)
 const buffDebuffData = [
     {
         "name": "強化攻擊4",
@@ -107,7 +107,7 @@ const buffDebuffData = [
     },
     {
         "name": "堅持4",
-        "buff": "自身生命值低於50%時攻擊+20%。",
+        "buff": "自身生命值低於50%時攻擊+20%。 ",
         "numbers": "atk_percent: 20"
     },
     {
@@ -132,7 +132,7 @@ const buffDebuffData = [
     },
     {
         "name": "強流血瞄準4",
-        "buff": "流血的幾率大大增加。 [精準出血4] 出血爆擊率+24%。",
+        "buff": "流血的幾率大大增加。 [精準出血4] 出血爆擊率+24%。 ",
         "numbers": "crit_rate: 24"
     },
     {
@@ -162,12 +162,12 @@ const buffDebuffData = [
     },
     {
         "name": "鈍保護4",
-        "buff": "鈍屬性魔物造成的傷害減少15%。 【防禦增強3】防禦+4%。",
+        "buff": "鈍屬性魔物造成的傷害減少15%。 【防禦增強3】防禦+4%。 ",
         "numbers": "def_percent: 4"
     },
     {
         "name": "鋼鐵般的意志4",
-        "buff": "當 HP 為 25% 或更低時，傷害減少至 20%。 【防禦增強3】防禦+4%。",
+        "buff": "當 HP 為 25% 或更低時，傷害減少至 20%。 【防禦增強3】防禦+4%。 ",
         "numbers": "def_percent: 4"
     },
     {
@@ -202,12 +202,12 @@ const buffDebuffData = [
     },
     {
         "name": "花香4",
-        "buff": "當你用場中的物體進行治療時，暴擊活化會增加 35%。",
+        "buff": "當你用場中的物體進行治療時，暴擊活化會增加 35%。 ",
         "numbers": "crit_rate: 35"
     },
     {
         "name": "消除你的恐懼4",
-        "buff": "防禦+buff生效時，攻擊力增加25%。",
+        "buff": "防禦+buff生效時，攻擊力增加25%。 ",
         "numbers": "atk_percent: 25"
     },
     {
@@ -1692,7 +1692,7 @@ const buffDebuffData = [
     },
     {
         "name": "冰雪賠償2",
-        "buff": "凍傷時，水屬性傷害+35%。",
+        "buff": "凍傷時，水屬性傷害+35%。 ",
         "numbers": "waterDmg: 35, general_dmg: 35"
     },
     {

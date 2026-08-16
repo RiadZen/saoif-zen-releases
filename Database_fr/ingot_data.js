@@ -1,5 +1,5 @@
 /**
- * FRENCH INGOT DATABASE & LOGIC
+ * FR INGOT DATABASE & LOGIC
  */
 window.ingotData = {
     "Demon_God_Slash": {

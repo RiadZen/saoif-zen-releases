@@ -1,4 +1,4 @@
-// Buff / Debuffs Database (French)
+// Buff / Debuffs Database (fr)
 const buffDebuffData = [
     {
         "name": "Améliorer l'attaque 4",
@@ -107,7 +107,7 @@ const buffDebuffData = [
     },
     {
         "name": "Persistance 4",
-        "buff": "Attaque +20 % à moins de 50 % de vos propres PV.",
+        "buff": "Attaque +20 % à moins de 50 % de vos propres PV. ",
         "numbers": "atk_percent: 20"
     },
     {
@@ -132,7 +132,7 @@ const buffDebuffData = [
     },
     {
         "name": "Saignement puissant, objectif 4",
-        "buff": "Les chances de saignement augmentent considérablement. [Précision Saignement 4] Taux de critique +24% sur le saignement.",
+        "buff": "Les chances de saignement augmentent considérablement. [Précision Saignement 4] Taux de critique +24% sur le saignement. ",
         "numbers": "crit_rate: 24"
     },
     {
@@ -162,12 +162,12 @@ const buffDebuffData = [
     },
     {
         "name": "Protection émoussée 4",
-        "buff": "Réduisez les dégâts de 15 % des monstres à éléments contondants. [Améliorer la Défense 3] Défense +4%.",
+        "buff": "Réduisez les dégâts de 15 % des monstres à éléments contondants. [Améliorer la Défense 3] Défense +4%. ",
         "numbers": "def_percent: 4"
     },
     {
         "name": "Volonté en acier 4",
-        "buff": "Les dégâts diminuent à 20 % lorsque les PV sont de 25 % ou moins. [Améliorer la Défense 3] Défense +4%.",
+        "buff": "Les dégâts diminuent à 20 % lorsque les PV sont de 25 % ou moins. [Améliorer la Défense 3] Défense +4%. ",
         "numbers": "def_percent: 4"
     },
     {
@@ -202,12 +202,12 @@ const buffDebuffData = [
     },
     {
         "name": "Parfum de fleur 4",
-        "buff": "L'activation critique augmente de 35 % lorsque vous soignez avec un objet sur le terrain.",
+        "buff": "L'activation critique augmente de 35 % lorsque vous soignez avec un objet sur le terrain. ",
         "numbers": "crit_rate: 35"
     },
     {
         "name": "Efface ta peur 4",
-        "buff": "Tant que le buff de défense+ est efficace, la puissance d'attaque augmentera de 25 %.",
+        "buff": "Tant que le buff de défense+ est efficace, la puissance d'attaque augmentera de 25 %. ",
         "numbers": "atk_percent: 25"
     },
     {
@@ -1692,7 +1692,7 @@ const buffDebuffData = [
     },
     {
         "name": "Indemnité de glace 2",
-        "buff": "Lorsque vous êtes gelé, les dégâts de l'élément eau +35%.",
+        "buff": "Lorsque vous êtes gelé, les dégâts de l'élément eau +35%. ",
         "numbers": "waterDmg: 35, general_dmg: 35"
     },
     {

@@ -1,4 +1,4 @@
-// Buff / Debuffs Database (Spanish)
+// Buff / Debuffs Database (es)
 const buffDebuffData = [
     {
         "name": "Mejorar el ataque 4",
@@ -107,7 +107,7 @@ const buffDebuffData = [
     },
     {
         "name": "Persistencia 4",
-        "buff": "Ataque +20% por debajo del 50% de tu propio HP.",
+        "buff": "Ataque +20% por debajo del 50% de tu propio HP. ",
         "numbers": "atk_percent: 20"
     },
     {
@@ -132,7 +132,7 @@ const buffDebuffData = [
     },
     {
         "name": "Objetivo de sangrado fuerte 4",
-        "buff": "La probabilidad de sangrado aumenta enormemente. [Sangrado de precisión 4] Tasa crítica +24 % en el sangrado.",
+        "buff": "La probabilidad de sangrado aumenta enormemente. [Sangrado de precisión 4] Tasa crítica +24 % en el sangrado. ",
         "numbers": "crit_rate: 24"
     },
     {
@@ -162,12 +162,12 @@ const buffDebuffData = [
     },
     {
         "name": "Protección contundente 4",
-        "buff": "Disminuye el daño un 15% de los monstruos de elemento contundente. [Mejorar Defensa 3] Defensa +4%.",
+        "buff": "Disminuye el daño un 15% de los monstruos de elemento contundente. [Mejorar Defensa 3] Defensa +4%. ",
         "numbers": "def_percent: 4"
     },
     {
         "name": "Voluntad de acero 4",
-        "buff": "El daño disminuye al 20% cuando HP es del 25% o menos. [Mejorar Defensa 3] Defensa +4%.",
+        "buff": "El daño disminuye al 20% cuando HP es del 25% o menos. [Mejorar Defensa 3] Defensa +4%. ",
         "numbers": "def_percent: 4"
     },
     {
@@ -202,12 +202,12 @@ const buffDebuffData = [
     },
     {
         "name": "Fragancia de flores 4",
-        "buff": "La activación crítica aumenta un 35% cuando te estás curando con un objeto en el campo.",
+        "buff": "La activación crítica aumenta un 35% cuando te estás curando con un objeto en el campo. ",
         "numbers": "crit_rate: 35"
     },
     {
         "name": "Elimina tu miedo 4",
-        "buff": "Si bien la mejora de defensa+ es efectiva, el poder de ataque aumentará un 25%.",
+        "buff": "Si bien la mejora de defensa+ es efectiva, el poder de ataque aumentará un 25%. ",
         "numbers": "atk_percent: 25"
     },
     {
@@ -1692,7 +1692,7 @@ const buffDebuffData = [
     },
     {
         "name": "Indemnización de hielo 2",
-        "buff": "Cuando estás congelado, el daño del elemento agua +35%.",
+        "buff": "Cuando estás congelado, el daño del elemento agua +35%. ",
         "numbers": "waterDmg: 35, general_dmg: 35"
     },
     {

@@ -1,3 +1,6 @@
+/**
+ * ZH RING OPTIONS DATABASE
+ */
 window.ringOptions = {
     "base_types": [
         {

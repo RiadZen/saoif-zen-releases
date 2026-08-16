@@ -1,5 +1,5 @@
 /**
- * ARABIC INGOT DATABASE & LOGIC
+ * AR INGOT DATABASE & LOGIC
  */
 window.ingotData = {
     "Demon_God_Slash": {

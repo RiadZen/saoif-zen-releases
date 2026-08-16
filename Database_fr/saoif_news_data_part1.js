@@ -89,7 +89,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5375",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5375.html",
     "news_date": 1786435200,
@@ -1383,7 +1383,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5269",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5269.html",
     "news_date": 1781683200,
@@ -1731,7 +1731,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5240",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5240.html",
     "news_date": 1780473600,
@@ -2145,7 +2145,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5195",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5195.html",
     "news_date": 1779030000,
@@ -2175,7 +2175,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5194",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5194.html",
     "news_date": 1778832000,
@@ -3429,7 +3429,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "5079",
-    "name": "Le \"Burst Step-Up Order\" est de retour ! Une compétence Burst ★4 est garantie à l'étape 3 !",
+    "name": "Le \"Burst Step-Up Order\" est de retour ! Une compétence Burst ★4 est garantie à l'étape 3 ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/dbd145cf5dd43fd791f6694ba39a923d.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5079.html",
     "news_date": 1774252800,
@@ -24518,7 +24518,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "3048",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/3048.html",
     "news_date": 1685890800,
@@ -24538,7 +24538,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "3047",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/3047.html",
     "news_date": 1685732400,
@@ -24612,7 +24612,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "3046",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/3046.html",
     "news_date": 1685545200,
@@ -24622,7 +24622,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "3045",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/3045.html",
     "news_date": 1685520000,
@@ -24838,7 +24838,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "3024",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/3024.html",
     "news_date": 1684335600,
@@ -26596,7 +26596,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2834",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2834.html",
     "news_date": 1675497600,
@@ -26712,7 +26712,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2835",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 27/01 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 27/01 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2835.html",
     "news_date": 1674806400,
@@ -26964,7 +26964,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2798",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2798.html",
     "news_date": 1673424000,
@@ -27394,7 +27394,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2747",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 16/12 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 16/12 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2747.html",
     "news_date": 1671177600,
@@ -27646,7 +27646,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2716",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2716.html",
     "news_date": 1670140800,
@@ -27958,7 +27958,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2686",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 22/11 (mardi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 22/11 (mardi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2686.html",
     "news_date": 1669108500,
@@ -28330,7 +28330,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2641",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 28/10 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 28/10 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2641.html",
     "news_date": 1666952700,
@@ -28490,7 +28490,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2635",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2635.html",
     "news_date": 1666166400,
@@ -28784,7 +28784,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2600",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2600.html",
     "news_date": 1664463600,
@@ -28992,7 +28992,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2578",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 16/09 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 16/09 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2578.html",
     "news_date": 1663318800,
@@ -29360,7 +29360,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2545",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 26/08 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 26/08 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2545.html",
     "news_date": 1661508000,
@@ -29568,7 +29568,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2516",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2516.html",
     "news_date": 1660550400,
@@ -29650,7 +29650,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2515",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2515.html",
     "news_date": 1660118400,
@@ -29746,7 +29746,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2500",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2500.html",
     "news_date": 1659513600,
@@ -29786,7 +29786,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2487",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2487.html",
     "news_date": 1659279600,
@@ -29940,7 +29940,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2475",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2475.html",
     "news_date": 1658718000,
@@ -30000,7 +30000,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2472",
-    "name": "Obtenez des matériaux d'amélioration et de transformation d'équipement dans « Construire de l'équipement avec Lisbeth » !",
+    "name": "Obtenez des matériaux d'amélioration et de transformation d'équipement dans « Construire de l'équipement avec Lisbeth » ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220218r.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2472.html",
     "news_date": 1658404800,
@@ -30194,7 +30194,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2447",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 15/07 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 15/07 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2447.html",
     "news_date": 1657335600,
@@ -30330,7 +30330,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2431",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2431.html",
     "news_date": 1656601200,
@@ -30610,7 +30610,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2392",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 17/06 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 17/06 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2392.html",
     "news_date": 1655373600,
@@ -31066,7 +31066,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2360",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2360.html",
     "news_date": 1653469200,
@@ -31220,7 +31220,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2325",
-    "name": "Diffusion en direct de \"Sword Art Online Integral Factor\" le 13/05 (vendredi) à 20h00 (JST/UTC+9) !",
+    "name": " Diffusion en direct de \"Sword Art Online Integral Factor\" le 13/05 (vendredi) à 20h00 (JST/UTC+9) !",
     "image": null,
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2325.html",
     "news_date": 1652432400,
@@ -31428,7 +31428,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2317",
-    "name": "\"Daily Dungeon +1\" est là ! Pendant une durée limitée, vous pouvez terminer le donjon deux fois !",
+    "name": "\"Daily Dungeon +1\" est là ! Pendant une durée limitée, vous pouvez terminer le donjon deux fois ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20211215dd.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2317.html",
     "news_date": 1651086000,
@@ -31662,7 +31662,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2290",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2290.html",
     "news_date": 1650294000,
@@ -31826,7 +31826,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2274",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2274.html",
     "news_date": 1649430000,
@@ -31858,7 +31858,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2270",
-    "name": "L'événement scénario \"Jumping Kibaou\" est de retour ! Mettez la main sur un dossier de compétences et des tampons Kibaou !",
+    "name": "L'événement scénario \"Jumping Kibaou\" est de retour ! Mettez la main sur un dossier de compétences et des tampons Kibaou ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220406kb.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2270.html",
     "news_date": 1649232000,
@@ -32478,7 +32478,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2211",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2211.html",
     "news_date": 1646208000,
@@ -32652,7 +32652,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2187",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2187.html",
     "news_date": 1645542000,
@@ -32754,7 +32754,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2186",
-    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires !",
+    "name": "La \"Campagne Arcana Gem Super Boost\" est là ! Obtenez jusqu'à 2 000 gemmes arcanes supplémentaires ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200610ar.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2186.html",
     "news_date": 1645084800,
@@ -33990,7 +33990,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "2038",
-    "name": "La « commande Connect Step-Up » est arrivée ! Une compétence ★4 Connect est garantie à l'étape 5 !",
+    "name": "La « commande Connect Step-Up » est arrivée ! Une compétence ★4 Connect est garantie à l'étape 5 ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/27a1a5987692af08c0e940f53726127f.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/2038.html",
     "news_date": 1638259800,
@@ -34298,7 +34298,7 @@ const SAOIF_NEWS_DATA_PART1 = [
   },
   {
     "id": "1999",
-    "name": "L'« Ordre d'Intensification de l'Éveil » est là ! Une compétence d'éveil ★4 est garantie à l'étape 5 !",
+    "name": "L'« Ordre d'Intensification de l'Éveil » est là ! Une compétence d'éveil ★4 est garantie à l'étape 5 ! ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/36d17e818ef8f11afdd1e041388ccf73.png",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/1999.html",
     "news_date": 1636790400,

@@ -146,7 +146,7 @@ window.masteryData = {
       name: "과충전 I (1H 검)",
       maxLvl: 10,
       req: "상반기 검 Lv.45",
-      template: "1H 소드 장착 시 스위치 게이지가 3레벨까지 충전됩니다. 3레벨 스위치 사용 시 데미지가 200% 증가합니다.",
+      template: "1H 소드 장착 시 스위치 게이지가 3레벨까지 충전됩니다. 3레벨 스위치 사용 시 데미지가 200% 증가합니다. ",
       calc: (lvl) => 0,
       bonusType: "atk_percent",
       active: true,

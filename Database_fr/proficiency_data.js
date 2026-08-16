@@ -146,7 +146,7 @@ window.masteryData = {
       name: "Surcharge I (Épée 1H)",
       maxLvl: 10,
       req: "Épée 1H Lv.45",
-      template: "La jauge de commutation se chargera jusqu'au troisième niveau lorsque l'épée 1H est équipée. Dégâts +200% lors de l'utilisation du commutateur au troisième niveau.",
+      template: "La jauge de commutation se chargera jusqu'au troisième niveau lorsque l'épée 1H est équipée. Dégâts +200% lors de l'utilisation du commutateur au troisième niveau. ",
       calc: (lvl) => 0,
       bonusType: "atk_percent",
       active: true,

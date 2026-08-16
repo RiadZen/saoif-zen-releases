@@ -1,4 +1,4 @@
-// Buff / Debuffs Database (Korean)
+// Buff / Debuffs Database (ko)
 const buffDebuffData = [
     {
         "name": "공격력 강화 4",
@@ -107,7 +107,7 @@ const buffDebuffData = [
     },
     {
         "name": "지속성 4",
-        "buff": "자신의 HP가 50% 이하일 때 공격력이 20% 증가합니다.",
+        "buff": "자신의 HP가 50% 이하일 때 공격력이 20% 증가합니다. ",
         "numbers": "atk_percent: 20"
     },
     {
@@ -132,7 +132,7 @@ const buffDebuffData = [
     },
     {
         "name": "강한 출혈 목표 4",
-        "buff": "출혈 확률이 대폭 증가합니다. [프리시전 블리드 4] 출혈 시 크리티컬 확률 +24%.",
+        "buff": "출혈 확률이 대폭 증가합니다. [프리시전 블리드 4] 출혈 시 크리티컬 확률 +24%. ",
         "numbers": "crit_rate: 24"
     },
     {
@@ -162,12 +162,12 @@ const buffDebuffData = [
     },
     {
         "name": "블런트 프로텍트 4",
-        "buff": "둔기속성 몬스터에게 주는 데미지 15% 감소. [방어력 강화3] 방어력 +4%.",
+        "buff": "둔기속성 몬스터에게 주는 데미지 15% 감소. [방어력 강화3] 방어력 +4%. ",
         "numbers": "def_percent: 4"
     },
     {
         "name": "강철 같은 의지 4",
-        "buff": "HP가 25% 이하일 때 데미지가 20%로 감소합니다. [방어력 강화3] 방어력 +4%.",
+        "buff": "HP가 25% 이하일 때 데미지가 20%로 감소합니다. [방어력 강화3] 방어력 +4%. ",
         "numbers": "def_percent: 4"
     },
     {
@@ -202,12 +202,12 @@ const buffDebuffData = [
     },
     {
         "name": "꽃향기 4",
-        "buff": "필드에 있는 물체로 치유를 하면 크리티컬 발동량이 35% 증가합니다.",
+        "buff": "필드에 있는 물체로 치유를 하면 크리티컬 발동량이 35% 증가합니다. ",
         "numbers": "crit_rate: 35"
     },
     {
         "name": "두려움을 없애라 4",
-        "buff": "방어+버프가 적용되는 동안 공격력이 25% 증가합니다.",
+        "buff": "방어+버프가 적용되는 동안 공격력이 25% 증가합니다. ",
         "numbers": "atk_percent: 25"
     },
     {
@@ -1692,7 +1692,7 @@ const buffDebuffData = [
     },
     {
         "name": "아이스 배상 2",
-        "buff": "동상에 걸리면 물 속성 데미지가 35% 증가합니다.",
+        "buff": "동상에 걸리면 물 속성 데미지가 35% 증가합니다. ",
         "numbers": "waterDmg: 35, general_dmg: 35"
     },
     {

@@ -1,5 +1,5 @@
 /**
- * KOREAN INGOT DATABASE & LOGIC
+ * KO INGOT DATABASE & LOGIC
  */
 window.ingotData = {
     "Demon_God_Slash": {
