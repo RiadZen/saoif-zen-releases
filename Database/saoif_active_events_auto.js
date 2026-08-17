@@ -1,69 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] New items added to the Trader!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "startTime": "2026-07-22T19:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Red Squeezer Plate\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10040 Record Frame L650 Glare Dragon Stone625 Restorative Potion325 Life Potion95 Emergency Crystal310 Cleans...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5396.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[8/5 14:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "startTime": "2026-07-22T19:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "[8/5 14:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the August 5, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a Crystal-Disabled Area where Revive Crystals cannot be used. The recommended Total Power is 600,000. You can complete ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5381.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "Get the Pure White Dress and a limited-edition stamp! \"Explore the Dungeon with Yui\" is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260801yui.png",
-    "startTime": "2026-07-31T15:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "\"Explore the dungeon with Yui\" is here to celebrate Yui's birthday. You can enjoy progressing through a dungeon with Yui in tow during this event. The dungeon found in this event is a Raising Dungeon that helps you and your Assisting Characters grow stronger.  Rewards Get the Pure White Dress avatar...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5361.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "startTime": "2026-07-22T19:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "[Updated: 7/31 13:35]  We have confirmed an issue where the High Difficulty Dungeon and Trader Rewards, which were scheduled to be added after the maintenance on 7/29 (Wed), are not displaying correctly.  As a result, the release of this content has been postponed until maintenance on 8/5 (Wed). In ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5344.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[7/29 14:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Hunting Event \"Wild Squeezer Hunt\" is here! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "startTime": "2026-07-22T19:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "[7/29 14:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the July 29, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a Crystal-Disabled Area where Revive Crystals cannot be used. The recommended Total Power is 600,000. You can complete ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5358.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "The \"Ring Production Campaign\" is here! Production costs halved and battle rewards increased!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230426yubi.png",
-    "startTime": "2026-07-28T19:00:00+00:00",
-    "endTime": "2026-08-12T19:00:00+00:00",
-    "snippet": "\"Ring Production Campaign\" is here.  During the campaign, the costs of producing \"rings\" and \"Ring Gemstone+\" are halved! Plus, you'll receive more \"Ring Gemstones\" than usual from the \"LafCof Phantoms & the Ring Gem Temple\" battle rewards! Use this chance to produce lots of rings!  Campaign Duratio...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5359.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "【Raising Dungeon】\"Leafa's Limit Break Dojo\" on now! Get heaps of Memoria Niter S for limit breaking your Skill Records!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230125ri.png",
-    "startTime": "2026-08-06T19:00:00+00:00",
-    "endTime": "2026-08-13T18:59:00+00:00",
-    "snippet": "The Raising Dungeon is here to help boost character growth!  Challenge Leafa at the \"Memoria Dojo\" and get heaps of \"Memoria Niter S\", the material for limit breaking Skill Records! The \"Leafa's Limit Break Dojo\" will begin.   You can also challenge the extremely difficult \"Serious Match  Memoria Do...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5385.html"
-  },
-  {
-    "type": "EVENT",
     "title": "\"Multiple Rounds: 2x Experience Character Quest Campaign\" is here!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220427cq.png",
     "startTime": "2026-08-12T19:00:00+00:00",
