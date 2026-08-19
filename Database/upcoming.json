@@ -135,12 +135,66 @@
   },
   {
     "category": "floor",
+    "floorSlideType": "overview",
     "floorNumber": "100F",
     "name": "100th Floor Release - Ruby Palace",
-    "badge": "FLOOR RELEASE",
-    "description": "The monumental 100F is finally here! Explore new labyrinth maps, experience in-game walkthroughs, and craft the legendary new series of weapons.",
+    "badge": "OVERVIEW",
+    "description": "The monumental 100F is finally here! Experience the grand climax of Aincrad with new labyrinth exploration, field maps, and the next tier of legendary craftable weapons.",
     "releaseDate": "2026-08-27 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
+    "image": "",
+    "highlights": [
+      "New Field: Crimson Expanse",
+      "New Labyrinth: Palace of the Sovereign",
+      "Sovereign Weapon Series",
+      "New Main Scenario Chapter"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "maps",
+    "floorNumber": "100F",
+    "name": "100F Field & Labyrinth Exploration",
+    "badge": "MAP & GAMEPLAY PREVIEW",
+    "description": "Experience the vast new 100F exploration zones featuring high-density monster spawns, atmospheric ruins, and intricate labyrinth pathways shown on stream.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "maps": [
+      {
+        "title": "100F Main Field",
+        "subtitle": "Crimson Expanse",
+        "type": "Field Map",
+        "desc": "Expansive open-world exploration with elite mob encounters and rare refinement material drops."
+      },
+      {
+        "title": "Palace of the Sovereign",
+        "subtitle": "100F Labyrinth Dungeon",
+        "type": "Labyrinth Dungeon",
+        "desc": "Multi-tier labyrinth dungeon with intricate corridors, traps, and the gateway to the summit."
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "weapons",
+    "floorNumber": "100F",
+    "name": "New Sovereign Weapon Series",
+    "badge": "NEW WEAPON SERIES",
+    "description": "Forge the ultimate weapon tier using rare materials gathered from 100F labyrinth monsters and dungeon clears. Features enhanced base ATK and unique series attributes.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "weapons": [
+      {"name": "Sovereign Sword", "type": "1H Sword"},
+      {"name": "Sovereign Rapier", "type": "1H Rapier"},
+      {"name": "Sovereign Lance", "type": "2H Spear"},
+      {"name": "Sovereign Dagger", "type": "Dagger"},
+      {"name": "Sovereign Hammer", "type": "1H Club"},
+      {"name": "Sovereign Axe", "type": "2H Axe"},
+      {"name": "Sovereign Bow", "type": "Bow"}
+    ],
     "isRerun": false,
     "clickable": false
   },
