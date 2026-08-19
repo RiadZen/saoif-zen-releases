@@ -72067,7 +72067,9 @@ const characterData = {
         ],
         "evo_glow": "#ffd700",
         "background": "resources/backgrounds/gold.png",
-        "tags": [],
+                "tags": [
+            "Bday"
+        ],
         "rarity": 5,
         "rarity_steps": {
             "1": 4,
@@ -72163,6 +72165,9 @@ const characterData = {
             "1": 4,
             "70": 5
         },
+		        "tags": [
+            "Bday"
+        ],
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002057.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102057.png",
@@ -72188,7 +72193,6 @@ const characterData = {
                 "type": "normal"
             }
         ],
-        "tags": [],
         "links": [
             "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
             "LLv100: Skill Power is added +100.00% (LLv 100).",
