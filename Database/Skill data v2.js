@@ -5760,6 +5760,7 @@ const characterData = {
         ]
     },
     "208": {
+		"tags": ["Bday"],
         "name": "[Relaxing Morning] Asuna",
         "sub": "Ability",
         "type": "normal",
@@ -12410,6 +12411,7 @@ const characterData = {
         ]
     },
     "415": {
+		"tags": ["Bday"],
         "name": "[Sleeping Queen] Asuna",
         "sub": "Ability",
         "type": "normal",
@@ -16743,6 +16745,7 @@ const characterData = {
         "rarity": 4
     },
     "538": {
+		"tags": ["Bday"],
         "name": "[Exciting Present] Alice",
         "sub": "Ability",
         "type": "ability",
@@ -16774,6 +16777,7 @@ const characterData = {
         "is_ex": true
     },
     "539": {
+		"tags": ["Bday"],
         "name": "[Unstoppable Drive] Alice",
         "sub": "1H Sword (Slash/Holy) Skill",
         "type": "normal",
@@ -20065,6 +20069,7 @@ const characterData = {
         "rarity": 4
     },
     "632": {
+		"tags": ["Bday"],
         "name": "[Extreme Home-Cooking] Asuna",
         "sub": "Ability",
         "type": "normal",
@@ -24625,6 +24630,7 @@ const characterData = {
         ]
     },
     "766": {
+		"tags": ["Bday"],
         "name": "[Hope Reborn] Alice",
         "sub": "1H Sword (Slash/Earth) Awakening Skill",
         "type": "awakening",
@@ -24662,6 +24668,7 @@ const characterData = {
         ]
     },
     "767": {
+		"tags": ["Bday"],
         "name": "[The Quest for Wisdom] Alice",
         "sub": "Ability",
         "type": "ability",
@@ -27208,6 +27215,7 @@ const characterData = {
         "rarity": 4
     },
     "844": {
+		"tags": ["Bday"],
         "name": "[With Love] Asuna",
         "sub": "Ability",
         "type": "ability",
@@ -30966,6 +30974,7 @@ const characterData = {
         ]
     },
     "957": {
+		"tags": ["Bday"],
         "name": "[Skull Crush] Agil",
         "sub": "Ability",
         "type": "awakening",
@@ -31549,6 +31558,7 @@ const characterData = {
         "rarity": 4
     },
     "973": {
+		"tags": ["Bday"],
         "name": "[Knight's Pride] Alice",
         "sub": "1H Sword (Slash/Dark) Skill",
         "type": "normal",
@@ -32779,6 +32789,7 @@ const characterData = {
         ]
     },
     "1010": {
+		"tags": ["Bday"],
         "name": "[Street Corner Informant] Argo",
         "sub": "Ability",
         "type": "normal",
@@ -34861,9 +34872,7 @@ const characterData = {
         ]
     },
     "1071": {
-		   "tags": [
-            "Bday"
-        ],
+		"tags": ["Bday"],
         "name": "[Dazzling Morning] Asuna",
         "sub": "Ability",
         "type": "normal",
@@ -38336,6 +38345,7 @@ const characterData = {
         "rarity": 4
     },
     "1174": {
+		"tags": ["Bday"],
         "name": "[Yell of Encouragement] Agil",
         "sub": "2H Axe (Blunt/Wind) MOD Skill",
         "type": "mod",
@@ -38368,6 +38378,7 @@ const characterData = {
         ]
     },
     "1175": {
+		"tags": ["Bday"],
         "name": "[Just the Right Temperature] Agil",
         "sub": "Ability",
         "type": "awakening",
@@ -39061,6 +39072,7 @@ const characterData = {
         ]
     },
     "1192": {
+		"tags": ["Bday"],
         "name": "[Starry Eyes] Alice",
         "sub": "Ability",
         "type": "awakening",
@@ -40092,6 +40104,7 @@ const characterData = {
         ]
     },
     "1222": {
+		"tags": ["Bday"],
         "name": "[Poolside at the Resort] Argo",
         "sub": "Ability",
         "type": "normal",
@@ -46616,6 +46629,7 @@ const characterData = {
         ]
     },
     "1396": {
+		"tags": ["Bday"],
         "name": "[Shining Shopkeeper] Agil",
         "sub": "Ability",
         "type": "normal",
@@ -47301,6 +47315,7 @@ const characterData = {
         ]
     },
     "1412": {
+		"tags": ["Bday"],
         "name": "[Flower Field Reminiscence] Alice",
         "sub": "Ability",
         "type": "full burst",
@@ -48473,6 +48488,7 @@ const characterData = {
         ]
     },
     "1441": {
+		"tags": ["Bday"],
         "name": "[Step Into the Unknown] Argo",
         "sub": "Ability",
         "type": "normal",
@@ -50643,6 +50659,7 @@ const characterData = {
         ]
     },
     "1496": {
+		"tags": ["Bday"],
         "name": "[Binding Bonds] Asuna",
         "sub": "Ability",
         "type": "full burst",
@@ -53840,6 +53857,7 @@ const characterData = {
         ]
     },
     "1575": {
+		"tags": ["Bday"],
         "name": "[Iron Tempest] Agil",
         "sub": "Ability",
         "type": "normal",
@@ -54233,6 +54251,7 @@ const characterData = {
         ]
     },
     "1584": {
+		"tags": ["Bday"],
         "name": "[Unleashed Power] Alice",
         "sub": "Ability",
         "type": "full burst",
@@ -55085,6 +55104,7 @@ const characterData = {
         ]
     },
     "1604": {
+		"tags": ["Bday"],
         "name": "[Informant's Insight] Argo",
         "sub": "Ability",
         "type": "ability",
@@ -57287,6 +57307,7 @@ const characterData = {
         ]
     },
     "1636": {
+		"tags": ["Bday"],
         "name": "[Creation & Rebirth] Asuna",
         "sub": "Ability",
         "type": "accele",
