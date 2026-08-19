@@ -200,10 +200,93 @@
   },
   {
     "category": "anniv",
-    "name": "8.5th Anniversary Celebration Campaign",
-    "description": "Special Anniversary festivities featuring free daily 11-Orders, double EXP campaigns, and an anniversary medal exchange shop!",
-    "releaseDate": "2026-11-30 17:00 (JST)",
+    "annivSlideType": "free_pulls",
+    "name": "8.5th Anniversary - 770 Free Pulls Mega Campaign",
+    "badge": "770 FREE PULLS",
+    "totalPulls": "770",
+    "description": "Celebrate the 8.5th Anniversary with up to 770 total Free Pulls across special daily skill orders, avatar summons, Argo search banners, and Lisbeth ingot scouts.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
+    "pullCategories": [
+      {
+        "count": "330",
+        "label": "Free Skill Pulls",
+        "desc": "Daily Free 11-Orders featuring ★4 character skills"
+      },
+      {
+        "count": "220",
+        "label": "Free Avatar Pulls",
+        "desc": "Exclusive anniversary cosmetic attire & outfits"
+      },
+      {
+        "count": "110",
+        "label": "Argo Search Pulls",
+        "desc": "Scout rare enhancement items & medals"
+      },
+      {
+        "count": "110",
+        "label": "Lisbeth Ingot Pulls",
+        "desc": "Crafting ingots & weapon refinement materials"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "annivSlideType": "orders_avatars",
+    "name": "Midnight Attire Order & New Weapon Avatars",
+    "badge": "SPECIAL ORDERS & AVATARS",
+    "description": "Special Anniversary Midnight Attire Order featuring Kirito, Koharu, Sachi, and Sinon in exclusive black outfits, alongside new 2-Handed weapon avatars.",
+    "releaseDate": "2026-09-01 17:00 (JST)",
+    "image": "",
+    "orders": [
+      {
+        "title": "Midnight Attire Special Order",
+        "date": "Starts Sept 1",
+        "characters": ["Kirito", "Koharu", "Sachi", "Sinon"],
+        "desc": "Exclusive 4★ Skills in sleek black anniversary attire."
+      },
+      {
+        "title": "New 2H Weapon Avatars",
+        "date": "Starts Sept 12",
+        "types": ["2H Axe", "2H Spear", "Bow"],
+        "desc": "Brand-new custom cosmetic models for heavy and ranged weaponry."
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "annivSlideType": "campaigns",
+    "name": "Anniversary Dungeons, EXP Boosts & Guild Event",
+    "badge": "DUNGEONS & CAMPAIGNS",
+    "description": "Supercharge progression with 7x Quest Board EXP, 4x Sub-Quest EXP, All-Boss Chaos Showdown, special character dungeons, and Guild Igniter rewards.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "campaigns": [
+      {
+        "title": "7x / 4x EXP Multipliers",
+        "tag": "EXP BOOST",
+        "desc": "7x XP on Quest Board & 4x XP on Sub-Quests for rapid leveling."
+      },
+      {
+        "title": "Character Event Dungeons",
+        "tag": "EXCLUSIVE DROPS",
+        "desc": "Kirito (Free Skills), Yuuki (Incense), Sinon (Mats), Cobalt Lord (Avatars)."
+      },
+      {
+        "title": "All-Boss Chaos Showdown",
+        "tag": "SPECIAL EVENT",
+        "desc": "Rotation removed on Sept 10 — all Chaos bosses open simultaneously."
+      },
+      {
+        "title": "Guild Roster Campaign",
+        "tag": "GUILD REWARDS",
+        "desc": "Earn up to 200 Small Igniters & Core Metal+ drop rate boost."
+      }
+    ],
     "isRerun": false,
     "clickable": false
   },
