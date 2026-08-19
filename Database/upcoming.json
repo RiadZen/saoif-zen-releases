@@ -22,38 +22,6 @@
     "description": "Step 1 Discounted to 1,500 Arcana Gems • Step 3 guarantees 1 featured ★4 Sinon Skill Record!",
     "releaseDate": "2026-08-21 17:00 (JST)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/145f54b9f38ff888d4f3df698dbfe5d2.png",
-    "steps": [
-      {"step": "STEP 1", "cost": "1,500 AG", "perk": "Discounted Pull"},
-      {"step": "STEP 2", "cost": "2,000 AG", "perk": "Rate Up"},
-      {"step": "STEP 3", "cost": "2,500 AG", "perk": "★4 Sinon Guaranteed"}
-    ],
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "bday",
-    "bdaySlideType": "order",
-    "character": "Sinon",
-    "birthdayDate": "August 21",
-    "name": "Free 1x Daily Birthday Order (9 Days)",
-    "badge": "9-DAY FREE GUARANTEED",
-    "description": "Celebrate Sinon's Birthday with 1 Free Guaranteed ★4 Order every single day for 9 consecutive days!",
-    "releaseDate": "2026-08-21 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
-    "highlight": "9 FREE ★4 PULLS TOTAL",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "bday",
-    "bdaySlideType": "skills",
-    "character": "Sinon",
-    "birthdayDate": "August 21",
-    "name": "New Skill Records Spotlight",
-    "badge": "NEW SKILLS UNVEILED",
-    "description": "Newly unveiled ★4 Sinon Skill Records featured in the Birthday Celebration Orders.",
-    "releaseDate": "2026-08-21 17:00 (JST)",
-    "image": "",
     "skills": [
       {
         "id": "1820",
@@ -74,6 +42,20 @@
         "image": ""
       }
     ],
+    "isRerun": false,
+    "clickable": true
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "order",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Free 1x Daily Birthday Order (9 Days)",
+    "badge": "9-DAY FREE GUARANTEED",
+    "description": "Celebrate Sinon's Birthday with 1 Free Guaranteed ★4 Order every single day for 9 consecutive days!",
+    "releaseDate": "2026-08-21 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
+    "highlight": "9 FREE ★4 PULLS TOTAL",
     "isRerun": false,
     "clickable": false
   },
