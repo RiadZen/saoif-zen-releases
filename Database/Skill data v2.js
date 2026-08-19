@@ -29780,6 +29780,9 @@ const characterData = {
         "rarity": 4
     },
     "922": {
+		        "tags": [
+            "Collab"
+        ],
         "name": "[Secret Wish] Mito",
         "sub": "Ability",
         "type": "ability",
@@ -29873,6 +29876,9 @@ const characterData = {
         "rarity": 4
     },
     "925": {
+		        "tags": [
+            "Collab"
+        ],
         "name": "[A Flash of Purple Wind] Mito",
         "sub": "Ability",
         "type": "ability",
@@ -34855,6 +34861,9 @@ const characterData = {
         ]
     },
     "1071": {
+		   "tags": [
+            "Bday"
+        ],
         "name": "[Dazzling Morning] Asuna",
         "sub": "Ability",
         "type": "normal",
@@ -35405,6 +35414,9 @@ const characterData = {
         "rarity": 4
     },
     "1088": {
+		   "tags": [
+            "Collab"
+        ],
         "name": "[Sharp Aiming] Asuna",
         "sub": "1H Rapier (Thrust/Earth) Connect Skill",
         "type": "connect",
@@ -35468,6 +35480,9 @@ const characterData = {
         "is_ex": true
     },
     "1090": {
+		        "tags": [
+            "Collab"
+        ],
         "name": "[Rebel Scythe User] Mito",
         "sub": "Ability",
         "type": "ability",
@@ -35504,6 +35519,9 @@ const characterData = {
         "is_ex": true
     },
     "1091": {
+		        "tags": [
+            "Collab"
+        ],
         "name": "[Flashing Sword at Twilight] Asuna",
         "sub": "1H Rapier (Thrust/Fire) Awakening Skill",
         "type": "awakening",
@@ -36968,6 +36986,7 @@ const characterData = {
         "rarity": 4
     },
     "1133": {
+		   "tags": ["limited"],
         "name": "[Night of Conquest] Asuna",
         "sub": "1H Rapier (Thrust/Holy) Awakening Skill",
         "type": "awakening",
