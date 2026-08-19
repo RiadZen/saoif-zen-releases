@@ -61,12 +61,43 @@
   },
   {
     "category": "bday",
+    "bdaySlideType": "dungeon",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Sinon's Birthday Dungeon",
+    "badge": "LIMITED BIRTHDAY DUNGEON",
+    "description": "Limited commemorative exploration dungeon. Clear stages to obtain exclusive Sinon avatar outfits, celebration stamps, and rewards!",
+    "releaseDate": "2026-08-21 17:00 (JST)",
+    "image": "",
+    "eventPeriod": "2026-08-21 17:00 ~ 2026-08-31 23:59 (JST)",
+    "rewards": [
+      {
+        "title": "Exclusive Avatar Outfit",
+        "desc": "Limited birthday commemoration costume for Sinon & Player",
+        "icon": "outfit"
+      },
+      {
+        "title": "Celebration Stamp & Title",
+        "desc": "Exclusive in-game chat stamp and commemorative title",
+        "icon": "stamp"
+      },
+      {
+        "title": "Arcana Gems & Medals",
+        "desc": "Stage clear Arcana Gems, score milestone rewards, and medals",
+        "icon": "gems"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
     "bdaySlideType": "events",
     "character": "Sinon",
     "birthdayDate": "August 21",
-    "name": "Commemorative Events & Gifts",
+    "name": "Commemorative Gifts & Campaigns",
     "badge": "BIRTHDAY CAMPAIGN",
-    "description": "250 Free Arcana Gems login bonus, limited Birthday Dungeon, and X / Twitter celebration campaign.",
+    "description": "250 Free Arcana Gems login bonus and X / Twitter celebration campaign.",
     "releaseDate": "2026-08-21 17:00 (JST)",
     "image": "",
     "events": [
@@ -75,13 +106,6 @@
         "title": "250 Arcana Gems",
         "subtitle": "Birthday Login Gift",
         "description": "Log in on August 21 to receive 250 free Arcana Gems in your Present Box.",
-        "image": ""
-      },
-      {
-        "type": "dungeon",
-        "title": "Birthday Dungeon",
-        "subtitle": "Limited Event & Rewards",
-        "description": "Special exploration dungeon featuring exclusive avatar rewards and stamps.",
         "image": ""
       },
       {
