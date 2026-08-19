@@ -3,6 +3,7 @@
     "isRerun": false,
     "category": "EVENT",
     "name": "Guild Battle Challenge VS New Boss",
+    "description": "Challenge the new raid boss dungeon with your guild members to earn limited rewards and title records.",
     "releaseDate": "2026-08-27 17:00 (JST)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805gbc.png",
     "clickable": false
@@ -11,6 +12,7 @@
     "isRerun": false,
     "category": "SHOP",
     "name": "Summer Nights Special Order",
+    "description": "Featuring all-new 4★ Skill Records with powerful awakening skills. Step 3 guarantees one featured 4★ record!",
     "releaseDate": "2026-08-27 17:00 (JST)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/cdab6a88b646581c3b1dc8dd94fd6ec0.png",
     "clickable": false
@@ -18,6 +20,7 @@
   {
     "isRerun": true,
     "id": "5407",
+    "description": "Chaos Showdown is returning with updated trader exchange rewards and high-difficulty boss rush!",
     "releaseDate": "2026-09-02 17:00 (JST)",
     "clickable": true
   }
