@@ -4187,6 +4187,7 @@ const characterData = {
         ]
     },
     "154": {
+		"tags": ["Bday"],
         "name": "[Vigourous Macer] Lisbeth",
         "sub": "Ability",
         "type": "normal",
@@ -4701,6 +4702,7 @@ const characterData = {
         ]
     },
     "172": {
+		"tags": ["Bday"],
         "name": "[Holiday Moment] Sachi",
         "sub": "1H Club (Blunt/Dark) Skill",
         "type": "normal",
@@ -4830,6 +4832,7 @@ const characterData = {
         "rarity": 4
     },
     "177": {
+		"tags": ["Bday"],
         "name": "[Sword Breaker] Philia",
         "sub": "Dagger (Slash) Skill",
         "type": "normal",
@@ -5825,6 +5828,7 @@ const characterData = {
         ]
     },
     "210": {
+		"tags": ["Bday"],
         "name": "[Secret Thoughts] Silica",
         "sub": "Ability",
         "type": "normal",
@@ -6548,6 +6552,7 @@ const characterData = {
         ]
     },
     "234": {
+		"tags": ["Bday"],
         "name": "[Harmless Heart] Strea",
         "sub": "Ability",
         "type": "ability",
@@ -9203,6 +9208,7 @@ const characterData = {
         ]
     },
     "316": {
+		"tags": ["Bday"],
         "name": "[Thoughtful Partner] Koharu",
         "sub": "Ability",
         "type": "normal",
@@ -9634,6 +9640,7 @@ const characterData = {
         ]
     },
     "331": {
+		"tags": ["Bday"],
         "name": "[Elegant Fairy] Leafa",
         "sub": "Ability",
         "type": "normal",
@@ -10033,6 +10040,7 @@ const characterData = {
         "rarity": 4
     },
     "342": {
+		"tags": ["Bday"],
         "name": "[Blacksmith's Love] Lisbeth",
         "sub": "Ability",
         "type": "ability",
@@ -10098,6 +10106,7 @@ const characterData = {
         ]
     },
     "344": {
+		"tags": ["Bday"],
         "name": "[Sword Princess' Wish] Yuuki",
         "sub": "Ability",
         "type": "normal",
@@ -10611,6 +10620,7 @@ const characterData = {
         "rarity": 4
     },
     "359": {
+		"tags": ["Bday"],
         "name": "[Relaxing Area] Sachi",
         "sub": "Ability",
         "type": "normal",
@@ -11110,6 +11120,7 @@ const characterData = {
         ]
     },
     "375": {
+		"tags": ["Bday"],
         "name": "[Diva of Hope] Yuna",
         "sub": "Ability",
         "type": "ability",
@@ -11712,6 +11723,7 @@ const characterData = {
         "rarity": 4
     },
     "393": {
+		"tags": ["Bday"],
         "name": "[Check Six] Sinon",
         "sub": "Ability",
         "type": "ability",
@@ -12517,6 +12529,7 @@ const characterData = {
         ]
     },
     "418": {
+		"tags": ["Bday"],
         "name": "[Flower of Recovery] Silica",
         "sub": "Ability",
         "type": "normal",
@@ -12581,6 +12594,7 @@ const characterData = {
         ]
     },
     "420": {
+		"tags": ["Bday"],
         "name": "[Sunny Day Break] Kirito",
         "sub": "Ability",
         "type": "normal",
@@ -15792,6 +15806,7 @@ const characterData = {
         "rarity": 4
     },
     "512": {
+		"tags": ["Bday"],
         "name": "[Talented Guardian] Koharu",
         "sub": "Ability",
         "type": "ability",
@@ -16418,6 +16433,7 @@ const characterData = {
         "rarity": 4
     },
     "530": {
+		"tags": ["Bday"],
         "name": "[Treasure Hunter] Philia",
         "sub": "Dagger (Slash/Holy) Awakening Skill",
         "type": "awakening",
@@ -16489,6 +16505,7 @@ const characterData = {
         }
     },
     "531": {
+		"tags": ["Bday"],
         "name": "[Blissful Joy] Philia",
         "sub": "Ability",
         "type": "ability",
@@ -16846,6 +16863,7 @@ const characterData = {
         ]
     },
     "541": {
+		"tags": ["Bday"],
         "name": "[Art of the Blue Rose] Eugeo",
         "sub": "Ability",
         "type": "normal",
@@ -16910,6 +16928,7 @@ const characterData = {
         ]
     },
     "543": {
+		"tags": ["Bday"],
         "name": "[Birthday Request] Leafa",
         "sub": "Ability",
         "type": "normal",
@@ -17206,6 +17225,7 @@ const characterData = {
         "rarity": 4
     },
     "552": {
+		"tags": ["Bday"],
         "name": "[Satisfying Masterpiece] Lisbeth",
         "sub": "Ability",
         "type": "normal",
@@ -17270,6 +17290,7 @@ const characterData = {
         ]
     },
     "554": {
+		"tags": ["Bday"],
         "name": "[Sunset Garden] Yuuki",
         "sub": "Ability",
         "type": "normal",
@@ -18067,6 +18088,7 @@ const characterData = {
         "rarity": 4
     },
     "575": {
+		"tags": ["Bday"],
         "name": "[Tea House Diva] Rain",
         "sub": "Ability",
         "type": "normal",
@@ -18136,6 +18158,7 @@ const characterData = {
         ]
     },
     "577": {
+		"tags": ["Bday"],
         "name": "[A Quiet Afternoon] Sachi",
         "sub": "Ability",
         "type": "normal",
@@ -19217,6 +19240,7 @@ const characterData = {
         "rarity": 4
     },
     "608": {
+		"tags": ["Bday"],
         "name": "[Exciting Stage] Yuna",
         "sub": "Ability",
         "type": "normal",
@@ -19599,6 +19623,7 @@ const characterData = {
         "rarity": 4
     },
     "618": {
+		"tags": ["Bday"],
         "name": "[Short Break] Sinon",
         "sub": "Ability",
         "type": "normal",
@@ -20689,6 +20714,7 @@ const characterData = {
         "rarity": 4
     },
     "650": {
+		"tags": ["Bday"],
         "name": "[Miracle Tamer] Silica",
         "sub": "Ability",
         "type": "ability",
@@ -20754,6 +20780,7 @@ const characterData = {
         ]
     },
     "652": {
+		"tags": ["Bday"],
         "name": "[Brave Guardian] Kirito",
         "sub": "Ability",
         "type": "normal",
@@ -20818,6 +20845,7 @@ const characterData = {
         ]
     },
     "654": {
+		"tags": ["Bday"],
         "name": "[Unstoppable Silver Fork] Sanya",
         "sub": "Ability",
         "type": "normal",
@@ -21366,6 +21394,7 @@ const characterData = {
         "rarity": 4
     },
     "670": {
+		"tags": ["Bday"],
         "name": "[Secret Snacking] Strea",
         "sub": "Ability",
         "type": "normal",
@@ -23478,6 +23507,7 @@ const characterData = {
         ]
     },
     "734": {
+		"tags": ["Bday"],
         "name": "[Knight of the Abyss] Eydis",
         "sub": "Ability",
         "type": "awakening",
@@ -23511,6 +23541,7 @@ const characterData = {
         ]
     },
     "735": {
+		"tags": ["Bday"],
         "name": "[Dark Slash Sword User] Eydis",
         "sub": "1H Sword (Slash/Dark) Awakening Skill",
         "type": "awakening",
@@ -23711,6 +23742,7 @@ const characterData = {
         "rarity": 4
     },
     "741": {
+		"tags": ["Bday"],
         "name": "[Treasure Hoarder] Philia",
         "sub": "Dagger (Slash/Wind) Awakening Skill",
         "type": "awakening",
@@ -23780,6 +23812,7 @@ const characterData = {
         ]
     },
     "742": {
+		"tags": ["Bday"],
         "name": "[In Search of Treasure] Philia",
         "sub": "Dagger (Slash/Dark) Skill",
         "type": "normal",
@@ -24597,6 +24630,7 @@ const characterData = {
         ]
     },
     "765": {
+		"tags": ["Bday"],
         "name": "[Taboo Defiance] Eugeo",
         "sub": "Ability",
         "type": "awakening",
@@ -25499,6 +25533,7 @@ const characterData = {
         ]
     },
     "792": {
+		"tags": ["Bday"],
         "name": "[Brief Pause] Kirito",
         "sub": "1H Sword (Slash/Water) MOD Skill",
         "type": "mod",
@@ -25616,6 +25651,7 @@ const characterData = {
         ]
     },
     "796": {
+		"tags": ["Bday"],
         "name": "[The Best Present] Rain",
         "sub": "Ability",
         "type": "awakening",
@@ -26057,6 +26093,7 @@ const characterData = {
         ]
     },
     "809": {
+		"tags": ["Bday"],
         "name": "[Heart-Soothing Voice] Yuna",
         "sub": "Dagger (Slash/Holy) MOD Skill",
         "type": "mod",
@@ -26656,6 +26693,7 @@ const characterData = {
         ]
     },
     "827": {
+		"tags": ["Bday"],
         "name": "[Afternoon Gaze] Sinon",
         "sub": "Ability",
         "type": "awakening",
@@ -27730,6 +27768,7 @@ const characterData = {
         "is_ex": true
     },
     "859": {
+		"tags": ["Bday"],
         "name": "[Relaxing Forest Bath] Eydis",
         "sub": "Ability",
         "type": "normal",
@@ -27760,6 +27799,7 @@ const characterData = {
         ]
     },
     "860": {
+		"tags": ["Bday"],
         "name": "[Momentary Gap] Eydis",
         "sub": "1H Sword (Slash/Dark) Awakening Skill",
         "type": "awakening",
@@ -27826,6 +27866,7 @@ const characterData = {
         ]
     },
     "862": {
+		"tags": ["Bday"],
         "name": "[One With the Horse] Kirito",
         "sub": "Ability",
         "type": "awakening",
@@ -28372,6 +28413,7 @@ const characterData = {
         "rarity": 4
     },
     "879": {
+		"tags": ["Bday"],
         "name": "[Dark Hunter] Sanya",
         "sub": "Ability",
         "type": "normal",
@@ -28562,6 +28604,7 @@ const characterData = {
         "rarity": 4
     },
     "885": {
+		"tags": ["Bday"],
         "name": "[Beginning Outlook] Strea",
         "sub": "Ability",
         "type": "normal",
@@ -28661,6 +28704,7 @@ const characterData = {
         ]
     },
     "888": {
+		"tags": ["Bday"],
         "name": "[Little Monster] Yui",
         "sub": "1H Rapier (Thrust/Wind) MOD Skill",
         "type": "mod",
@@ -28935,6 +28979,7 @@ const characterData = {
         "rarity": 4
     },
     "897": {
+		"tags": ["Bday"],
         "name": "[Sobbing in the Snow] Klein",
         "sub": "Ability",
         "type": "awakening",
@@ -30669,6 +30714,7 @@ const characterData = {
         "rarity": 4
     },
     "948": {
+		"tags": ["Bday"],
         "name": "[Bonding with a Loyal Dog] Koharu",
         "sub": "Ability",
         "type": "awakening",
@@ -31008,6 +31054,7 @@ const characterData = {
         ]
     },
     "958": {
+		"tags": ["Bday"],
         "name": "[Apprehensive Encounter] Philia",
         "sub": "Dagger (Slash/Water) MOD Skill",
         "type": "mod",
@@ -31061,6 +31108,7 @@ const characterData = {
         ]
     },
     "959": {
+		"tags": ["Bday"],
         "name": "[A Dazzling Ball] Philia",
         "sub": "Ability",
         "type": "ability",
@@ -31658,6 +31706,7 @@ const characterData = {
         ]
     },
     "976": {
+		"tags": ["Bday"],
         "name": "[Cuddly Heart] Eugeo",
         "sub": "Ability",
         "type": "normal",
@@ -32188,6 +32237,7 @@ const characterData = {
         ]
     },
     "992": {
+		"tags": ["Bday"],
         "name": "[Ardent Request] Lisbeth",
         "sub": "Ability",
         "type": "ability",
@@ -33140,6 +33190,7 @@ const characterData = {
         ]
     },
     "1021": {
+		"tags": ["Bday"],
         "name": "[Rising Highest Tide] Yuna",
         "sub": "1H Club (Blunt/Fire) Connect Skill",
         "type": "connect",
@@ -33172,6 +33223,7 @@ const characterData = {
         ]
     },
     "1022": {
+		"tags": ["Bday"],
         "name": "[Singer Under the Trees] Yuna",
         "sub": "Ability",
         "type": "awakening",
@@ -33615,6 +33667,7 @@ const characterData = {
         "rarity": 4
     },
     "1035": {
+		"tags": ["Bday"],
         "name": "[Lively Pace] Eydis",
         "sub": "1H Sword (Slash/Fire) Awakening Skill",
         "type": "awakening",
@@ -33649,6 +33702,7 @@ const characterData = {
         "rarity": 4
     },
     "1036": {
+		"tags": ["Bday"],
         "name": "[Sword Flash in the Moonlight] Eydis",
         "sub": "Ability",
         "type": "awakening",
@@ -34233,6 +34287,7 @@ const characterData = {
         ]
     },
     "1052": {
+		"tags": ["Bday"],
         "name": "[Relaxing at the Campsite] Sinon",
         "sub": "Ability",
         "type": "awakening",
@@ -34992,6 +35047,7 @@ const characterData = {
         "rarity": 4
     },
     "1075": {
+		"tags": ["Bday"],
         "name": "[Happy Days] Silica",
         "sub": "Ability",
         "type": "awakening",
@@ -35062,6 +35118,7 @@ const characterData = {
         ]
     },
     "1077": {
+		"tags": ["Bday"],
         "name": "[Mountain of Presents] Sanya",
         "sub": "Ability",
         "type": "normal",
@@ -35134,6 +35191,7 @@ const characterData = {
         ]
     },
     "1079": {
+		"tags": ["Bday"],
         "name": "[Night Party Celebration] Kirito",
         "sub": "Ability",
         "type": "ability",
@@ -36027,6 +36085,7 @@ const characterData = {
         "rarity": 4
     },
     "1104": {
+		"tags": ["Bday"],
         "name": "[Happy Wink] Strea",
         "sub": "Ability",
         "type": "normal",
@@ -37755,6 +37814,7 @@ const characterData = {
         ]
     },
     "1156": {
+		"tags": ["Bday"],
         "name": "[Natural Look] Sachi",
         "sub": "Ability",
         "type": "awakening",
@@ -37825,6 +37885,7 @@ const characterData = {
         ]
     },
     "1158": {
+		"tags": ["Bday"],
         "name": "[Gazing Into the Future] Koharu",
         "sub": "Ability",
         "type": "normal",
@@ -38417,6 +38478,7 @@ const characterData = {
         ]
     },
     "1176": {
+		"tags": ["Bday"],
         "name": "[Sweeping Blade] Philia",
         "sub": "Dagger (Slash/Earth) Awakening Skill",
         "type": "awakening",
@@ -38491,6 +38553,7 @@ const characterData = {
         ]
     },
     "1177": {
+		"tags": ["Bday"],
         "name": "[Celebratory Treasure Chest] Philia",
         "sub": "Ability",
         "type": "ability",
@@ -39143,6 +39206,7 @@ const characterData = {
         ]
     },
     "1194": {
+		"tags": ["Bday"],
         "name": "[Fragrant Rose] Eugeo",
         "sub": "Ability",
         "type": "normal",
@@ -39430,6 +39494,7 @@ const characterData = {
         ]
     },
     "1202": {
+		"tags": ["Bday"],
         "name": "[Revealed Feelings] Lisbeth",
         "sub": "Ability",
         "type": "awakening",
@@ -39505,6 +39570,7 @@ const characterData = {
         ]
     },
     "1204": {
+		"tags": ["Bday"],
         "name": "[Putting Off the Hard Part] Yuuki",
         "sub": "Ability",
         "type": "awakening",
@@ -40784,6 +40850,7 @@ const characterData = {
         ]
     },
     "1240": {
+		"tags": ["Bday"],
         "name": "[Listen Quietly] Yuna",
         "sub": "Ability",
         "type": "normal",
@@ -41614,6 +41681,7 @@ const characterData = {
         ]
     },
     "1263": {
+		"tags": ["Bday"],
         "name": "[Together From Here On] Yui",
         "sub": "Ability",
         "type": "awakening",
@@ -41652,6 +41720,7 @@ const characterData = {
         ]
     },
     "1264": {
+		"tags": ["Bday"],
         "name": "[Learning from Training] Sinon",
         "sub": "Ability",
         "type": "normal",
@@ -42176,6 +42245,7 @@ const characterData = {
         "rarity": 4
     },
     "1278": {
+		"tags": ["Bday"],
         "name": "[Darkness Following Sunset] Eydis",
         "sub": "1H Sword (Slash/Wind) Accele Skill",
         "type": "accele",
@@ -42210,6 +42280,7 @@ const characterData = {
         "rarity": 4
     },
     "1279": {
+		"tags": ["Bday"],
         "name": "[Autumn Leaf Hot Spring] Eydis",
         "sub": "Ability",
         "type": "normal",
@@ -42898,6 +42969,7 @@ const characterData = {
         "rarity": 4
     },
     "1299": {
+		"tags": ["Bday"],
         "name": "[Sparks in the Neon City] Kirito",
         "sub": "Ability",
         "type": "awakening",
@@ -42992,6 +43064,7 @@ const characterData = {
         ]
     },
     "1301": {
+		"tags": ["Bday"],
         "name": "[Escape in the Nick of Time] Silica",
         "sub": "Ability",
         "type": "normal",
@@ -43060,6 +43133,7 @@ const characterData = {
         ]
     },
     "1303": {
+		"tags": ["Bday"],
         "name": "[Thinking of Home] Sanya",
         "sub": "Ability",
         "type": "normal",
@@ -43792,6 +43866,7 @@ const characterData = {
         "rarity": 4
     },
     "1322": {
+		"tags": ["Bday"],
         "name": "[Enchanting Samurai Spirit] Klein",
         "sub": "Ability",
         "type": "ability",
@@ -43866,6 +43941,7 @@ const characterData = {
         ]
     },
     "1324": {
+		"tags": ["Bday"],
         "name": "[Fun Theme Park] Strea",
         "sub": "Ability",
         "type": "accele",
@@ -46043,6 +46119,7 @@ const characterData = {
         ]
     },
     "1381": {
+		"tags": ["Bday"],
         "name": "[Naughty Cat's Great Game] Sachi",
         "sub": "Ability",
         "type": "full burst",
@@ -46711,6 +46788,7 @@ const characterData = {
         ]
     },
     "1398": {
+		"tags": ["Bday"],
         "name": "[Attack From the Forest] Philia",
         "sub": "Ability",
         "type": "ability",
@@ -46787,6 +46865,7 @@ const characterData = {
         "is_ex": true
     },
     "1399": {
+		"tags": ["Bday"],
         "name": "[Easy Leap] Philia",
         "sub": "Dagger (Slash/Dark) Awakening Skill",
         "type": "awakening",
@@ -47245,6 +47324,7 @@ const characterData = {
         ]
     },
     "1410": {
+		"tags": ["Bday"],
         "name": "[Scorching Ice Strike] Eugeo",
         "sub": "Ability",
         "type": "accele",
@@ -47803,6 +47883,7 @@ const characterData = {
         ]
     },
     "1424": {
+		"tags": ["Bday"],
         "name": "[Smith's Masterpiece] Lisbeth",
         "sub": "Ability",
         "type": "accele",
@@ -47897,6 +47978,7 @@ const characterData = {
         ]
     },
     "1426": {
+		"tags": ["Bday"],
         "name": "[Time We Spend Together] Yuuki",
         "sub": "Ability",
         "type": "full burst",
@@ -48556,6 +48638,7 @@ const characterData = {
         ]
     },
     "1443": {
+		"tags": ["Bday"],
         "name": "[Sweet Time by the Window] Rain",
         "sub": "Ability",
         "type": "accele",
@@ -49818,6 +49901,7 @@ const characterData = {
         ]
     },
     "1476": {
+		"tags": ["Bday"],
         "name": "[The View From Here] Yui",
         "sub": "Ability",
         "type": "normal",
@@ -49989,6 +50073,7 @@ const characterData = {
         ]
     },
     "1480": {
+		"tags": ["Bday"],
         "name": "[Ice Sniper] Sinon",
         "sub": "Ability",
         "type": "accele",
@@ -50512,6 +50597,7 @@ const characterData = {
         ]
     },
     "1493": {
+		"tags": ["Bday"],
         "name": "[The Flash of a Sword] Eydis",
         "sub": "1H Sword (Slash/Water) Burst Skill",
         "type": "burst",
@@ -50563,6 +50649,7 @@ const characterData = {
         ]
     },
     "1494": {
+		"tags": ["Bday"],
         "name": "[Concentrated Ambition] Eydis",
         "sub": "Ability",
         "type": "normal",
@@ -51262,6 +51349,7 @@ const characterData = {
         ]
     },
     "1511": {
+		"tags": ["Bday"],
         "name": "[Guided By Moonlight] Kirito",
         "sub": "Ability",
         "type": "normal",
@@ -51297,6 +51385,7 @@ const characterData = {
         ]
     },
     "1512": {
+		"tags": ["Bday"],
         "name": "[Two Whirlwinds] Silica",
         "sub": "Ability",
         "type": "accele",
@@ -51391,6 +51480,7 @@ const characterData = {
         ]
     },
     "1514": {
+		"tags": ["Bday"],
         "name": "[Midnight Horror] Sanya",
         "sub": "Ability",
         "type": "awakening",
@@ -52190,6 +52280,7 @@ const characterData = {
         ]
     },
     "1535": {
+		"tags": ["Bday"],
         "name": "[Grateful Embrace] Strea",
         "sub": "Ability",
         "type": "normal",
@@ -52267,6 +52358,7 @@ const characterData = {
         ]
     },
     "1537": {
+		"tags": ["Bday"],
         "name": "[Blazing Blade Spirit] Klein",
         "sub": "Ability",
         "type": "accele",
@@ -53893,6 +53985,7 @@ const characterData = {
         ]
     },
     "1576": {
+		"tags": ["Bday"],
         "name": "[Jackpot Fever] Philia",
         "sub": "Dagger (Slash/Holy) Chain Skill",
         "type": "chain",
@@ -53953,6 +54046,7 @@ const characterData = {
         ]
     },
     "1577": {
+		"tags": ["Bday"],
         "name": "[Epic Getaway] Philia",
         "sub": "Ability",
         "type": "full burst",
@@ -54341,6 +54435,7 @@ const characterData = {
         ]
     },
     "1586": {
+		"tags": ["Bday"],
         "name": "[Flame Breaker Blade] Eugeo",
         "sub": "Ability",
         "type": "accele",
@@ -54709,6 +54804,7 @@ const characterData = {
         ]
     },
     "1595": {
+		"tags": ["Bday"],
         "name": "[Dazzling in the Mirror] Lisbeth",
         "sub": "Ability",
         "type": "chain",
@@ -54813,6 +54909,7 @@ const characterData = {
         ]
     },
     "1597": {
+		"tags": ["Bday"],
         "name": "[Comeback Strategy] Yuuki",
         "sub": "Ability",
         "type": "accele",
@@ -55185,6 +55282,7 @@ const characterData = {
         ]
     },
     "1606": {
+		"tags": ["Bday"],
         "name": "[Dazzling Summer Night] Rain",
         "sub": "Ability",
         "type": "normal",
@@ -56150,6 +56248,7 @@ const characterData = {
         ]
     },
     "1620": {
+		"tags": ["Bday"],
         "name": "[Lake Dancing Fairy] Yui",
         "sub": "Ability",
         "type": "normal",
@@ -57170,6 +57269,7 @@ const characterData = {
         "rarity": 4
     },
     "1634": {
+		"tags": ["Bday"],
         "name": "[Butterfly Smile] Eydis",
         "sub": "1H Sword (Slash/Dark) Chain Skill",
         "type": "chain",
@@ -57228,6 +57328,7 @@ const characterData = {
         ]
     },
     "1635": {
+		"tags": ["Bday"],
         "name": "[A Will to Defy Fate] Eydis",
         "sub": "Ability",
         "type": "chain",
@@ -57646,6 +57747,7 @@ const characterData = {
         ]
     },
     "1640": {
+		"tags": ["Bday"],
         "name": "[When the Battle Ends] Kirito",
         "sub": "Ability",
         "type": "full burst",
@@ -57812,6 +57914,7 @@ const characterData = {
         ]
     },
     "1642": {
+		"tags": ["Bday"],
         "name": "[Colorful Connection] Silica",
         "sub": "Ability",
         "type": "chain",
@@ -58904,6 +59007,7 @@ const characterData = {
         ]
     },
     "1657": {
+		"tags": ["Bday"],
         "name": "[Reminiscent Smile] Strea",
         "sub": "Ability",
         "type": "chain",
@@ -65093,6 +65197,7 @@ const characterData = {
         }
     },
     "1736": {
+		"tags": ["Bday"],
         "name": "[Golden Treasure] Philia",
         "sub": "Dagger (Slash/Wind) Accele Skill",
         "type": "accele",
@@ -65177,6 +65282,7 @@ const characterData = {
         }
     },
     "1737": {
+		"tags": ["Bday"],
         "name": "[Drowsy Morning Sun] Philia",
         "sub": "Ability",
         "type": "link",
