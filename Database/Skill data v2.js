@@ -72031,6 +72031,201 @@ const characterData = {
                 ]
             }
         }
-    }
+    },
+    "1820": {
+        "name": "[Melody of Nature's Power] Sinon",
+        "sub": "Bow (Thrust/Earth) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "Bow",
+        "element1": "Thrust",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 47,
+        "break_gauge": 47,
+        "skill_name": "Rock Volt",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 47] • [Break Gauge 47]",
+        "damage": "2350% damage (Single Foe)[Front/Long/Wide]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Wide]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002056.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102056.png",
+        "buffs": [
+            {
+                "name": "Earth Element Enhance 4/Buff",
+                "desc": "Earth element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Earth element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 1/Buff",
+                "desc": "Damage done to enemies weak to thrust +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "tags": [],
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 47] • [Break Gauge 94]",
+        "burst_skill_name": "Rock Volt Burst",
+        "burst_activation": "Earth→Thrust→Earth→(Water)",
+        "burst_activation_template": "Earth→Thrust→Earth→(Water)",
+        "burst_damage": "5700% damage (Single Foe)[Front/Long/Wide]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Long/Wide]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "The lower your own HP, attack increases.(max 200%)",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to thrusting +100%, when equipping no Eiji Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Earth 4/Buff",
+                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "burst_damage": 4507,
+                "buffs": [
+                    5.04,
+                    5.10,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1830,
+                "burst_damage": 5060,
+                "buffs": [
+                    8.20,
+                    13.00,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2350,
+                "burst_damage": 5700,
+                "buffs": [
+                    9.00,
+                    15.00,
+                    75.00
+                ]
+            }
+        }
+    },
+    "1821": {
+        "name": "[Flower Among the Ruins] Sinon",
+        "sub": "Ability Link Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 49] • [Defense 40] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002057.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102057.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Power Rise 4",
+                "desc": "Attack +108.00/740.00/900.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Attack 4",
+                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Wind Conversion 5",
+                "desc": "Earth element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and wind element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Earth element's damage to enemies -15.00% and wind element's damage to enemies +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "tags": [],
+        "links": [
+            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% (LLv 100).",
+            "LLv250: Wind element damage +20.00% (LLv 250)"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 17,
+                "def": 13,
+                "buffs": [
+                    108,
+                    5.10,
+                    20.10
+                ]
+            },
+            "80": {
+                "hp": 2150,
+                "atk": 43,
+                "def": 34,
+                "buffs": [
+                    740,
+                    13.00,
+                    28.00
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 49,
+                "def": 40,
+                "buffs": [
+                    900,
+                    15.00,
+                    30.00
+                ]
+            }
+        }
+    }	
 
 };
