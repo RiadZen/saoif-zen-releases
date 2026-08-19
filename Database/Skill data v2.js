@@ -23578,6 +23578,7 @@ const characterData = {
         ]
     },
     "737": {
+		"tags": ["limited"],
         "name": "[Gilded Hero] Kirito",
         "sub": "1H Sword (Slash/Holy) Awakening Skill",
         "type": "awakening",
@@ -23612,6 +23613,7 @@ const characterData = {
         "rarity": 4
     },
     "738": {
+		"tags": ["limited"],
         "name": "[Captured Princess] Asuna",
         "sub": "1H Rapier (Thrust/Dark) Awakening Skill",
         "type": "awakening",
@@ -24127,10 +24129,7 @@ const characterData = {
         "is_ex": true
     },
     "752": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Frontline Commander] Asuna",
         "sub": "1H Rapier (Thrust/Holy) MOD Skill",
         "type": "mod",
@@ -24160,10 +24159,7 @@ const characterData = {
         "rarity": 4
     },
     "753": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Golden Cat Knight] Alice",
         "sub": "1H Sword (Slash/Wind) Awakening Skill",
         "type": "awakening",
@@ -29717,6 +29713,7 @@ const characterData = {
         "rarity": 4
     },
     "920": {
+		"tags": ["limited"],
         "name": "[Taking the Initiative] Kirito",
         "sub": "1H Sword (Slash/Fire) Awakening Skill",
         "type": "awakening",
@@ -29751,6 +29748,7 @@ const characterData = {
         "rarity": 4
     },
     "921": {
+		"tags": ["limited"],
         "name": "[In My Sight] Asuna",
         "sub": "1H Rapier (Thrust/Fire) Connect Skill",
         "type": "connect",
@@ -29816,6 +29814,7 @@ const characterData = {
         "is_ex": true
     },
     "923": {
+		"tags": ["limited"],
         "name": "[A Strike of Hope] Kirito",
         "sub": "1H Sword (Slash/Water) Skill",
         "type": "normal",
@@ -29847,6 +29846,7 @@ const characterData = {
         "rarity": 4
     },
     "924": {
+		"tags": ["limited"],
         "name": "[Charging Into the Future] Asuna",
         "sub": "1H Rapier (Thrust/Water) MOD Skill",
         "type": "mod",
@@ -35380,6 +35380,7 @@ const characterData = {
         "rarity": 4
     },
     "1087": {
+		"tags": ["limited"],
         "name": "[Master Key of Strategy] Kirito",
         "sub": "1H Sword (Slash/Wind) Awakening Skill",
         "type": "awakening",
@@ -35414,9 +35415,7 @@ const characterData = {
         "rarity": 4
     },
     "1088": {
-		   "tags": [
-            "Collab"
-        ],
+		"tags": ["limited"],
         "name": "[Sharp Aiming] Asuna",
         "sub": "1H Rapier (Thrust/Earth) Connect Skill",
         "type": "connect",
@@ -35446,6 +35445,7 @@ const characterData = {
         "rarity": 4
     },
     "1089": {
+		"tags": ["limited"],
         "name": "[Sharp Shredding Claws] Argo",
         "sub": "Ability",
         "type": "ability",
@@ -35480,9 +35480,7 @@ const characterData = {
         "is_ex": true
     },
     "1090": {
-		        "tags": [
-            "Collab"
-        ],
+		"tags": ["limited"],
         "name": "[Rebel Scythe User] Mito",
         "sub": "Ability",
         "type": "ability",
@@ -35519,9 +35517,7 @@ const characterData = {
         "is_ex": true
     },
     "1091": {
-		        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Flashing Sword at Twilight] Asuna",
         "sub": "1H Rapier (Thrust/Fire) Awakening Skill",
         "type": "awakening",
@@ -36250,6 +36246,7 @@ const characterData = {
         "rarity": 4
     },
     "1111": {
+		"tags": ["limited"],
         "name": "[Agile Informant] Argo",
         "sub": "Dagger (Slash/Fire) MOD Skill",
         "type": "mod",
@@ -36279,10 +36276,7 @@ const characterData = {
         "rarity": 4
     },
     "1112": {
-		"collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+		"tags": ["limited"],
         "name": "[Superior Battle Skills] Mito",
         "sub": "Ability",
         "type": "ability",
@@ -36957,6 +36951,7 @@ const characterData = {
         "rarity": 4
     },
     "1132": {
+		"tags": ["limited"],
         "name": "[Sound of Liberation] Kirito",
         "sub": "1H Sword (Slash/Wind) MOD Skill",
         "type": "mod",
@@ -42820,10 +42815,7 @@ const characterData = {
         "rarity": 4
     },
     "1297": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Leader of the Human Empire] Kirito",
         "sub": "1H Sword (Slash/Wind) Awakening Skill",
         "type": "awakening",
@@ -42858,10 +42850,7 @@ const characterData = {
         "rarity": 4
     },
     "1298": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Goddess of the Human Empire] Asuna",
         "sub": "1H Rapier (Thrust/Dark) Awakening Skill",
         "type": "awakening",
@@ -44300,10 +44289,7 @@ const characterData = {
         ]
     },
     "1335": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Unstoppable Friendship] Asuna",
         "sub": "1H Rapier (Thrust/Dark) MOD Skill",
         "type": "mod",
@@ -44333,10 +44319,7 @@ const characterData = {
         "rarity": 4
     },
     "1336": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Invincible Journey] Yuuki",
         "sub": "Ability",
         "type": "awakening",
@@ -44375,10 +44358,7 @@ const characterData = {
         ]
     },
     "1337": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Hero Rises] Kirito",
         "sub": "1H Sword (Slash/Water) Awakening Skill",
         "type": "awakening",
@@ -44418,10 +44398,7 @@ const characterData = {
         "rarity": 4
     },
     "1338": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Heart Full of Memories] Eugeo",
         "sub": "2H Axe (Blunt/Earth) Full Burst Skill",
         "type": "full burst",
@@ -44470,6 +44447,7 @@ const characterData = {
         "rarity": 4
     },
     "1339": {
+		"tags": ["limited"],
         "name": "[Aim for the Sky] Leafa",
         "sub": "1H Sword (Slash/Holy) Accele Skill",
         "type": "accele",
@@ -44504,6 +44482,7 @@ const characterData = {
         "rarity": 4
     },
     "1340": {
+		"tags": ["limited"],
         "name": "[The Silent Sniper] Sinon",
         "sub": "Bow (Thrust/Earth) MOD Skill",
         "type": "mod",
@@ -44533,6 +44512,7 @@ const characterData = {
         "rarity": 4
     },
     "1341": {
+		"tags": ["limited"],
         "name": "[A New Beginning] Kirito",
         "sub": "Ability",
         "type": "accele",
@@ -44571,6 +44551,7 @@ const characterData = {
         ]
     },
     "1342": {
+		"tags": ["limited"],
         "name": "[A Thousand Years With You] Asuna",
         "sub": "1H Rapier (Thrust/Wind) Full Burst Skill",
         "type": "full burst",
@@ -46530,10 +46511,7 @@ const characterData = {
         ]
     },
     "1393": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[To the Stage Together] Kirito",
         "sub": "1H Sword (Slash/Earth) Connect Skill",
         "type": "connect",
@@ -46569,10 +46547,7 @@ const characterData = {
         "rarity": 4
     },
     "1394": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Scarlet Star Singer] Asuna",
         "sub": "1H Rapier (Thrust/Holy) MOD Skill",
         "type": "mod",
@@ -46602,10 +46577,7 @@ const characterData = {
         "rarity": 4
     },
     "1395": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Jacket Girl] Alice",
         "sub": "Ability",
         "type": "awakening",
@@ -48763,7 +48735,7 @@ const characterData = {
         "rarity": 4
     },
     "1449": {
-        "collab": "Future",
+        "collab": "Memory Defrag World",
         "tags": [
             "Collab"
         ],
@@ -48797,7 +48769,7 @@ const characterData = {
         "rarity": 4
     },
     "1450": {
-        "collab": "Future",
+        "collab": "Memory Defrag World",
         "tags": [
             "Collab"
         ],
@@ -48836,7 +48808,7 @@ const characterData = {
         ]
     },
     "1451": {
-        "collab": "Future",
+        "collab": "Memory Defrag World",
         "tags": [
             "Collab"
         ],
@@ -48874,7 +48846,7 @@ const characterData = {
         "rarity": 4
     },
     "1452": {
-        "collab": "Future",
+        "collab": "Memory Defrag World",
         "tags": [
             "Collab"
         ],
@@ -48926,10 +48898,7 @@ const characterData = {
         "rarity": 4
     },
     "1453": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[New Era] Kirito",
         "sub": "Ability",
         "type": "awakening",
@@ -48963,10 +48932,7 @@ const characterData = {
         ]
     },
     "1454": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Together in This World] Asuna",
         "sub": "1H Rapier (Thrust/Wind) Awakening Skill",
         "type": "awakening",
@@ -49001,10 +48967,7 @@ const characterData = {
         "rarity": 4
     },
     "1455": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[The Premier Knight] Alice",
         "sub": "1H Sword (Slash/Fire) Burst Skill",
         "type": "burst",
@@ -49053,10 +49016,7 @@ const characterData = {
         "rarity": 4
     },
     "1456": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[The Frozen Integrity Knight] Eugeo",
         "sub": "Ability",
         "type": "full burst",
@@ -50267,10 +50227,7 @@ const characterData = {
         "is_ex": true
     },
     "1486": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Aiming for the Future] Kirito",
         "sub": "1H Sword (Slash/Water) Connect Skill",
         "type": "connect",
@@ -50300,10 +50257,7 @@ const characterData = {
         "rarity": 4
     },
     "1487": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Beyond the Light] Asuna",
         "sub": "1H Rapier (Thrust/Water) Accele Skill",
         "type": "accele",
@@ -50348,10 +50302,7 @@ const characterData = {
         "rarity": 4
     },
     "1488": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Crystallized Thoughts] Kirito",
         "skin": {
             "name": "Secret Strategy Sword",
