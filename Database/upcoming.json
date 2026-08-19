@@ -200,93 +200,151 @@
   },
   {
     "category": "anniv",
-    "annivSlideType": "free_pulls",
-    "name": "8.5th Anniversary - 770 Free Pulls Mega Campaign",
-    "badge": "770 FREE PULLS",
-    "totalPulls": "770",
-    "description": "Celebrate the 8.5th Anniversary with up to 770 total Free Pulls across special daily skill orders, avatar summons, Argo search banners, and Lisbeth ingot scouts.",
+    "name": "330 Free Skill Pulls (Daily Free 11-Orders)",
+    "badge": "FREE SKILL ORDER",
+    "description": "Receive up to 330 free skill pulls with daily free 11-orders featuring ★4 Skill Records throughout the anniversary period.",
     "releaseDate": "2026-08-27 17:00 (JST)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "pullCategories": [
-      {
-        "count": "330",
-        "label": "Free Skill Pulls",
-        "desc": "Daily Free 11-Orders featuring ★4 character skills"
-      },
-      {
-        "count": "220",
-        "label": "Free Avatar Pulls",
-        "desc": "Exclusive anniversary cosmetic attire & outfits"
-      },
-      {
-        "count": "110",
-        "label": "Argo Search Pulls",
-        "desc": "Scout rare enhancement items & medals"
-      },
-      {
-        "count": "110",
-        "label": "Lisbeth Ingot Pulls",
-        "desc": "Crafting ingots & weapon refinement materials"
-      }
-    ],
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "annivSlideType": "orders_avatars",
-    "name": "Midnight Attire Order & New Weapon Avatars",
-    "badge": "SPECIAL ORDERS & AVATARS",
-    "description": "Special Anniversary Midnight Attire Order featuring Kirito, Koharu, Sachi, and Sinon in exclusive black outfits, alongside new 2-Handed weapon avatars.",
-    "releaseDate": "2026-09-01 17:00 (JST)",
-    "image": "",
-    "orders": [
-      {
-        "title": "Midnight Attire Special Order",
-        "date": "Starts Sept 1",
-        "characters": ["Kirito", "Koharu", "Sachi", "Sinon"],
-        "desc": "Exclusive 4★ Skills in sleek black anniversary attire."
-      },
-      {
-        "title": "New 2H Weapon Avatars",
-        "date": "Starts Sept 12",
-        "types": ["2H Axe", "2H Spear", "Bow"],
-        "desc": "Brand-new custom cosmetic models for heavy and ranged weaponry."
-      }
-    ],
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "annivSlideType": "campaigns",
-    "name": "Anniversary Dungeons, EXP Boosts & Guild Event",
-    "badge": "DUNGEONS & CAMPAIGNS",
-    "description": "Supercharge progression with 7x Quest Board EXP, 4x Sub-Quest EXP, All-Boss Chaos Showdown, special character dungeons, and Guild Igniter rewards.",
+    "name": "220 Free Avatar Summons",
+    "badge": "FREE AVATAR ORDER",
+    "description": "Summon up to 220 free avatar pulls to unlock exclusive commemorative anniversary cosmetic outfits and accessories.",
     "releaseDate": "2026-08-27 17:00 (JST)",
     "image": "",
-    "campaigns": [
-      {
-        "title": "7x / 4x EXP Multipliers",
-        "tag": "EXP BOOST",
-        "desc": "7x XP on Quest Board & 4x XP on Sub-Quests for rapid leveling."
-      },
-      {
-        "title": "Character Event Dungeons",
-        "tag": "EXCLUSIVE DROPS",
-        "desc": "Kirito (Free Skills), Yuuki (Incense), Sinon (Mats), Cobalt Lord (Avatars)."
-      },
-      {
-        "title": "All-Boss Chaos Showdown",
-        "tag": "SPECIAL EVENT",
-        "desc": "Rotation removed on Sept 10 — all Chaos bosses open simultaneously."
-      },
-      {
-        "title": "Guild Roster Campaign",
-        "tag": "GUILD REWARDS",
-        "desc": "Earn up to 200 Small Igniters & Core Metal+ drop rate boost."
-      }
-    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "110 Free Argo Search Pulls",
+    "badge": "FREE ARGO SEARCH",
+    "description": "Special Argo Search gacha providing 110 free pulls for rare enhancement items, awakening materials, and medals.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "110 Free Lisbeth Ingot Pulls",
+    "badge": "FREE INGOT ORDER",
+    "description": "Lisbeth's special workshop scout offering 110 free pulls for weapon crafting ingots and equipment refinement materials.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Midnight Attire Special Order",
+    "badge": "SPECIAL ORDER",
+    "description": "New limited anniversary gacha featuring Kirito, Koharu, Sachi, and Sinon in exclusive black midnight outfits with powerful 4★ skills.",
+    "releaseDate": "2026-09-01 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Kirito Commemorative Dungeon",
+    "badge": "ANNIVERSARY DUNGEON",
+    "description": "Special celebration dungeon offering free anniversary skill records and exclusive combat rewards upon clear.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Core Metal+ Drop Rate Boost Campaign",
+    "badge": "DROP RATE BOOST",
+    "description": "Significantly increased drop rates for Core Metal+ across designated dungeons to accelerate weapon upgrades and evolution.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Yuuki Incense Farming Dungeon",
+    "badge": "FARMING DUNGEON",
+    "description": "High-efficiency event dungeon focused on farming high-tier incense materials for stat progression.",
+    "releaseDate": "2026-08-29 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "The Greedy Cobalt Lord Returns",
+    "badge": "RETURNING EVENT",
+    "description": "Challenge the Greedy Cobalt Lord to earn exclusive midnight avatar cosmetics and anniversary tokens.",
+    "releaseDate": "2026-08-29 17:00 (JST)",
+    "image": "",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "7x Quest Board & 4x Sub-Quest EXP Campaign",
+    "badge": "EXP MULTIPLIER",
+    "description": "Massive level-up boost featuring 7x EXP on Quest Board runs and 4x EXP on all Sub-Quests starting Sept 10.",
+    "releaseDate": "2026-09-10 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Chaos Showdown - All Bosses Open",
+    "badge": "CHAOS SHOWDOWN",
+    "description": "The two-week rotation is completely removed — all Chaos Showdown bosses are available simultaneously for high-tier farming.",
+    "releaseDate": "2026-09-10 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "New Two-Handed Weapon Avatars Release",
+    "badge": "NEW AVATARS",
+    "description": "Brand-new cosmetic weapon avatar series releasing for Two-Handed Axe, Two-Handed Spear, and Bow.",
+    "releaseDate": "2026-09-12 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Daily Dungeons 3x Entry Boost",
+    "badge": "DAILY BOOST",
+    "description": "Daily dungeons allow 3 full runs per day instead of 1, tripling daily upgrade resource yields.",
+    "releaseDate": "2026-09-12 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Sinon Skill Enhancement Dungeon",
+    "badge": "SKILL ENHANCEMENT",
+    "description": "Dedicated dungeon to farm skill enhancement and skill leveling materials for rapid power spikes.",
+    "releaseDate": "2026-09-12 17:00 (JST)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Special Guild Member Igniter Campaign",
+    "badge": "GUILD CAMPAIGN",
+    "description": "Special cooperative guild event where members can earn up to 200 Small Igniters based on total guild roster count.",
+    "releaseDate": "2026-08-27 17:00 (JST)",
+    "image": "",
     "isRerun": false,
     "clickable": false
   },
