@@ -92,6 +92,20 @@
   },
   {
     "category": "bday",
+    "bdaySlideType": "order",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Sinon Birthday Special Login Bonus (10 Days)",
+    "badge": "10-DAY LOGIN BONUS // 1,000 AG",
+    "description": "To celebrate Sinon's birthday, receive 100 Arcana Gems every day for 10 days by logging in for a total of up to 1,000 Arcana Gems!",
+    "releaseDate": "2026-08-21 04:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250821lb.png",
+    "highlight": "UP TO 1,000 ARCANA GEMS",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "bday",
     "bdaySlideType": "events",
     "character": "Sinon",
     "birthdayDate": "August 21",
