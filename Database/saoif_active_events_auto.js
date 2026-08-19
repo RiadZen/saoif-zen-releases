@@ -36,6 +36,24 @@ const ACTIVE_EVENTS_AUTO = [
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5303.html"
   },
   {
+    "type": "Campaign",
+    "title": "\"Multiple Rounds: 2x Experience Subquest Campaign\" On Now!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220706q.png",
+    "startTime": "2026-08-18T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "During this campaign, get 2x the experience in Multiple Rounds Subquests! This is your chance to easily raise your player level!  Campaign Duration After August 19, 2026 (Wed) maintenance - Before August 27, 2026 (Thu) maintenance (JST/UTC+9)  Subquests You can accept requests from people with \"!\" m...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5408.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[8/19 13:00 (JST/UTC+9) UPDATE] New items added to the Trader! The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
+    "startTime": "2026-08-04T19:00:00+00:00",
+    "endTime": "2026-08-26T19:00:00+00:00",
+    "snippet": "[8/19 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Rainbow Tuna\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10050 Superior Ingot7510 Rare Metal Scrap755 Superior Metal Scrap2550 Record Frame L625 Glare Dragon Stone650 Resto...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5409.html"
+  },
+  {
     "type": "EVENT",
     "title": "[8/13 13:00 (JST/UTC+9) UPDATE] New items added to the Trader!The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
@@ -106,6 +124,15 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-08-26T19:00:00+00:00",
     "snippet": "Scenario Event \"Heat the Beach!: Ultimate Swimsuit Episode\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  The heroines take on ...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5347.html"
+  },
+  {
+    "type": "Campaign",
+    "title": "Clear the Underground Labyrinth to get lots of Protection Stones and Skill Releasers! The Underground Labyrinth Bonus Time Campaign is here!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260520pd.png",
+    "startTime": "2026-08-18T19:00:00+00:00",
+    "endTime": "2026-09-01T19:00:00+00:00",
+    "snippet": "The \"Underground Labyrinth Bonus Time Campaign\" is here! During the campaign period, the chances to obtain Protection Stones and Skill Releasers will be increased! Don't let this chance pass you by!  Protection Stone Increased Drop Rate Campaign For a limited time, every floor of the Underground Lab...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5406.html"
   },
   {
     "type": "EVENT",
