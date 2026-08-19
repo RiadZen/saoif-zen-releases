@@ -154,10 +154,92 @@
   },
   {
     "category": "rerun",
-    "id": "5407",
-    "description": "Chaos Showdown is returning! Challenge the high difficulty Chaos boss to earn exclusive Chaos Armor and avatar evolution materials.",
-    "releaseDate": "2026-09-02 17:00 (JST)",
+    "name": "Ring Production Campaign",
+    "badge": "RERUN CAMPAIGN",
+    "description": "Features halved production costs and increased rewards for specific boss battles to help players strengthen their equipment.",
+    "releaseDate": "2026-07-29 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230426yubi.png",
     "isRerun": true,
-    "clickable": true
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Summer Fishing Tournament",
+    "badge": "FISHING COMPETITION",
+    "description": "A competitive event where players aim for high scores. Participants are encouraged to aim for over 10,000 points to rank highly. Rewards include exchanging fish for Arcana Gems and Fishing Medals.",
+    "releaseDate": "2026-08-05 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20240807fi.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Klein's Test of Courage",
+    "badge": "STORY EVENT",
+    "description": "A horror-themed story event where players can obtain a \"Ghost Mask\" and a 4-star Yuuki reward. The event also provides a total of 1,000 Arcana Gems for participation.",
+    "releaseDate": "2026-08-05 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220810k.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Guild Battle Challenge",
+    "badge": "GUILD RAID EVENT",
+    "description": "Allows guilds to customize boss fight rules. Achieving an SSS Rank can reward up to 5,000 Arcana Gems.",
+    "releaseDate": "2026-08-05 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20240807gbc.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Summer Watermelon/Maguro Operation",
+    "badge": "SUMMER EVENT",
+    "description": "A returning event featuring Egil and fish-themed weapon avatars. Players can earn up to 500 Arcana Gems.",
+    "releaseDate": "2026-08-05 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Leafa's Limit Break Dojo",
+    "badge": "RAISING DUNGEON",
+    "description": "An enhancement-focused dungeon where players can gather large quantities of Memoria for skill record limit breaking. It also features a \"True Sword Limit Break Memoria Dojo\" for high-level players (recommended total power 250,000).",
+    "releaseDate": "2026-08-07 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230125ri.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Fatal Battle",
+    "badge": "HIGH DIFFICULTY CHALLENGE",
+    "description": "The highest difficulty challenge in SAOIF. It is designed as a peak test of player skill, with adjustments made to ensure it remains a formidable, high-end experience.",
+    "releaseDate": "2026-08-07 12:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20210804f.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "100% Egil Order",
+    "badge": "FREE DAILY 11-PULL",
+    "description": "A daily free 11-pull banner where the lineup consists exclusively of Egil skill records.",
+    "releaseDate": "2026-08-08 04:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/51da6350a2cc9af48da6bef904014bc1.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "8.5th Anniversary Avatar Campaign",
+    "badge": "FREE 110 AVATAR ORDERS",
+    "description": "To celebrate the global 8.5-year milestone, players will receive a daily free 11-pull avatar order for 10 days, totaling up to 110 free pulls.",
+    "releaseDate": "2026-08-09 04:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/15bb1b4f4e6e76087e9398513f53c44a.png",
+    "isRerun": true,
+    "clickable": false
   }
 ]
