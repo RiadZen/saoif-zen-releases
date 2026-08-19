@@ -5767,6 +5767,7 @@ const armorData = {
         id: 401,
         name: "Nox Fermat",
         type: "Shield",
+        weapon_type: "Shield",
         series: "nox",
         stars: 3,
         reqLvl: 121,
@@ -5810,13 +5811,210 @@ const armorData = {
             { name: "Sinister Skeleton Crystal", count: 200 },
             { name: "Spit Spider Protection Stone", count: 2 }
         ],
+        prerequisite: "Completed 「A Knight Stands Even When Fallen 」quest",
+        inheritance: false,
         random_bonuses: [
+            { stat: "Attack", val: 20, stars: 5 },
+            { stat: "Attack", val: 23, stars: 5 },
             { stat: "Attack", val: 25, stars: 5 },
+            { stat: "Defense", val: 40, stars: 5 },
+            { stat: "Defense", val: 45, stars: 5 },
             { stat: "Defense", val: 50, stars: 5 },
+            { stat: "MaxHP", val: 2000, stars: 5 },
+            { stat: "MaxHP", val: 2250, stars: 5 },
             { stat: "MaxHP", val: 2500, stars: 5 }
         ],
         ingots: ["Empty", "Empty", "Empty"],
         image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006204.png"
+    },
+    402: {
+        id: 402,
+        name: "Centurion Shield",
+        type: "Shield",
+        weapon_type: "Shield",
+        stars: 1,
+        reqLvl: 100,
+        level: 20,
+        description: "Shield that only the bravest of warriors can handle",
+        main_stats: {
+            defense: 98,
+            hp: 775
+        },
+        sub_stats: [],
+        rarity_data: {
+            1: {
+                level: 20,
+                defense: 98,
+                hp: 775,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006176.png?format=webp&quality=lossless",
+                cost: 600
+            },
+            2: {
+                level: 40,
+                defense: 130,
+                hp: 1550,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006177.png?format=webp&quality=lossless",
+                cost: 1380
+            },
+            3: {
+                level: 60,
+                defense: 163,
+                hp: 2325,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006178.png?format=webp&quality=lossless",
+                cost: 3175
+            }
+        },
+        production_cost: 288000,
+        recipe: [
+            { name: "32x Roaring Seashell", count: 32 },
+            { name: "8x Striped Leg", count: 8 },
+            { name: "8x Scorpion Shell", count: 8 }
+        ],
+        prerequisite: "Completed 「The Temperature of the Heart」quest",
+        random_bonuses: [
+            { stat: "Attack", val: 5, stars: 3 },
+            { stat: "Attack", val: 6, stars: 3 },
+            { stat: "Attack", val: 7, stars: 4 },
+            { stat: "Attack", val: 8, stars: 4 },
+            { stat: "Attack", val: 9, stars: 5 },
+            { stat: "Attack", val: 10, stars: 5 },
+            { stat: "Defense", val: 10, stars: 3 },
+            { stat: "Defense", val: 11, stars: 3 },
+            { stat: "Defense", val: 12, stars: 3 },
+            { stat: "Defense", val: 14, stars: 4 },
+            { stat: "Defense", val: 15, stars: 4 },
+            { stat: "Defense", val: 16, stars: 4 },
+            { stat: "Defense", val: 18, stars: 5 },
+            { stat: "Defense", val: 19, stars: 5 },
+            { stat: "Defense", val: 20, stars: 5 },
+            { stat: "MaxHP", val: 260, stars: 3 },
+            { stat: "MaxHP", val: 280, stars: 3 },
+            { stat: "MaxHP", val: 300, stars: 3 },
+            { stat: "MaxHP", val: 360, stars: 4 },
+            { stat: "MaxHP", val: 380, stars: 4 },
+            { stat: "MaxHP", val: 400, stars: 4 },
+            { stat: "MaxHP", val: 460, stars: 5 },
+            { stat: "MaxHP", val: 480, stars: 5 },
+            { stat: "MaxHP", val: 500, stars: 5 }
+        ],
+        ingots: ["Empty"],
+        image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006176.png?format=webp&quality=lossless"
+    },
+    403: {
+        id: 403,
+        name: "Fermat",
+        type: "Shield",
+        weapon_type: "Shield",
+        series: "integral",
+        stars: 3,
+        reqLvl: 101,
+        level: 60,
+        description: "Shield made with a generous amount of precious materials.",
+        main_stats: {
+            defense: 200,
+            hp: 2525
+        },
+        sub_stats: [
+            { name: "None", value: "0" },
+            { name: "None", value: "0" },
+            { name: "None", value: "0" }
+        ],
+        rarity_data: {
+            3: {
+                level: 60,
+                defense: 200,
+                hp: 2525,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006201.png",
+                evolution_cost: 500000,
+                recipe: [
+                    { name: "Distinctive Rock", count: 200 },
+                    { name: "Cockatrice Protection Stone", count: 2 }
+                ]
+            },
+            4: {
+                level: 80,
+                defense: 240,
+                hp: 3025,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006202.png",
+                evolution_cost: 750000
+            },
+            5: {
+                level: 100,
+                defense: 280,
+                hp: 3525,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006203.png",
+                evolution_cost: 750000
+            }
+        },
+        production_cost: 300000,
+        recipe: [
+            { name: "Distinctive Rock", count: 200 },
+            { name: "Cockatrice Protection Stone", count: 2 }
+        ],
+        prerequisite: "Completed 「Underground Labyrinth: B1F Trial」quest",
+        inheritance: false,
+        random_bonuses: [
+            { stat: "Attack", val: 15, stars: 5 },
+            { stat: "Attack", val: 18, stars: 5 },
+            { stat: "Attack", val: 20, stars: 5 },
+            { stat: "Defense", val: 30, stars: 5 },
+            { stat: "Defense", val: 35, stars: 5 },
+            { stat: "Defense", val: 40, stars: 5 },
+            { stat: "MaxHP", val: 1500, stars: 5 },
+            { stat: "MaxHP", val: 1750, stars: 5 },
+            { stat: "MaxHP", val: 2000, stars: 5 }
+        ],
+        ingots: ["Empty", "Empty", "Empty"],
+        image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006201.png"
+    },
+    404: {
+        id: 404,
+        name: "Gauss",
+        type: "Shield",
+        weapon_type: "Shield",
+        series: "lux",
+        stars: 3,
+        reqLvl: 141,
+        level: 60,
+        description: "Shield made from unknown materials and techniques",
+        main_stats: {
+            defense: 490,
+            hp: 6525
+        },
+        sub_stats: [
+            { name: "None", value: "0" },
+            { name: "None", value: "0" },
+            { name: "None", value: "0" }
+        ],
+        rarity_data: {
+            3: {
+                level: 60,
+                defense: 490,
+                hp: 6525,
+                image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006211.png",
+                evolution_cost: 1500000,
+                recipe: [
+                    { name: "Deepthorn Rose", count: 200 },
+                    { name: "Martial Artist Protection Stone Piece", count: 2 }
+                ]
+            }
+        },
+        production_cost: 600000,
+        recipe: [
+            { name: "Deepthorn Rose", count: 200 },
+            { name: "Martial Artist Protection Stone Piece", count: 2 }
+        ],
+        prerequisite: "Completed 「The Knight and Swordsman Go Forth」quest",
+        inheritance: false,
+        random_bonuses: [
+            { stat: "Attack", val: 25, stars: 5 },
+            { stat: "Attack", val: 38, stars: 5 },
+            { stat: "Attack", val: 50, stars: 5 },
+            { stat: "Defense", val: 50, stars: 5 },
+            { stat: "MaxHP", val: 2500, stars: 5 }
+        ],
+        ingots: ["Empty", "Empty", "Empty"],
+        image: "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04006211.png"
     },
     303: {
         id: 303,
