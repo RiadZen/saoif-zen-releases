@@ -14,11 +14,102 @@
   },
   {
     "category": "bday",
+    "bdaySlideType": "order",
     "character": "Sinon",
-    "name": "Sinon Birthday Special Order",
-    "description": "Exclusive Sinon Birthday Order with high drop rates for featured ★4 Skill Records! One ★4 Sinon Skill Record is guaranteed on Step 3.",
+    "birthdayDate": "August 21",
+    "name": "Sinon Birthday Special Order (3-Step)",
+    "badge": "3-STEP SPECIAL ORDER",
+    "description": "Step 1 Discounted to 1,500 Arcana Gems • Step 3 guarantees 1 featured ★4 Sinon Skill Record!",
     "releaseDate": "2026-08-21 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/cdab6a88b646581c3b1dc8dd94fd6ec0.png",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/145f54b9f38ff888d4f3df698dbfe5d2.png",
+    "steps": [
+      {"step": "STEP 1", "cost": "1,500 AG", "perk": "Discounted Pull"},
+      {"step": "STEP 2", "cost": "2,000 AG", "perk": "Rate Up"},
+      {"step": "STEP 3", "cost": "2,500 AG", "perk": "★4 Sinon Guaranteed"}
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "order",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Free 1x Daily Birthday Order (9 Days)",
+    "badge": "9-DAY FREE GUARANTEED",
+    "description": "Celebrate Sinon's Birthday with 1 Free Guaranteed ★4 Order every single day for 9 consecutive days!",
+    "releaseDate": "2026-08-21 17:00 (JST)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
+    "highlight": "9 FREE ★4 PULLS TOTAL",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "skills",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "New Skill Records Spotlight",
+    "badge": "NEW SKILLS UNVEILED",
+    "description": "Newly unveiled ★4 Sinon Skill Records featured in the Birthday Celebration Orders.",
+    "releaseDate": "2026-08-21 17:00 (JST)",
+    "image": "",
+    "skills": [
+      {
+        "id": "1820",
+        "name": "[Melody of Nature's Power] Sinon",
+        "rarity": 4,
+        "type": "Skill Record",
+        "weapon": "Bow",
+        "element": "Earth",
+        "image": ""
+      },
+      {
+        "id": "1821",
+        "name": "[Flower Among the Ruins] Sinon",
+        "rarity": 4,
+        "type": "Skill Record",
+        "weapon": "Bow",
+        "element": "Wind",
+        "image": ""
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "events",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Commemorative Events & Gifts",
+    "badge": "BIRTHDAY CAMPAIGN",
+    "description": "250 Free Arcana Gems login bonus, limited Birthday Dungeon, and X / Twitter celebration campaign.",
+    "releaseDate": "2026-08-21 17:00 (JST)",
+    "image": "",
+    "events": [
+      {
+        "type": "login_bonus",
+        "title": "250 Arcana Gems",
+        "subtitle": "Birthday Login Gift",
+        "description": "Log in on August 21 to receive 250 free Arcana Gems in your Present Box.",
+        "image": ""
+      },
+      {
+        "type": "dungeon",
+        "title": "Birthday Dungeon",
+        "subtitle": "Limited Event & Rewards",
+        "description": "Special exploration dungeon featuring exclusive avatar rewards and stamps.",
+        "image": ""
+      },
+      {
+        "type": "social",
+        "title": "Twitter / X Campaign",
+        "subtitle": "Official Illustration & RT",
+        "description": "Follow and repost the celebration tweet for community milestone prizes.",
+        "image": ""
+      }
+    ],
     "isRerun": false,
     "clickable": false
   },
