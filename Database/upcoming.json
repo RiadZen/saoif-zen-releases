@@ -391,6 +391,46 @@
   },
   {
     "category": "anniv",
+    "name": "Core Metal+++ Increased Drop Rate Campaign",
+    "badge": "DROP RATE CAMPAIGN",
+    "description": "Core Metal+++ drop rate increased for All Out Battle [The Skull Reaper] and [Aincrad]! Transform the Rosso Integral Series and higher, or the Underground Labyrinth Shield!",
+    "releaseDate": "2026-08-27 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251224ce2.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Guild Joining Campaign",
+    "badge": "GUILD CAMPAIGN",
+    "description": "Join a guild and get Memoria Niter S! The more guild members that join, the more rewards you get — receive up to 200 Memoria Niter S!",
+    "releaseDate": "2026-08-27 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250827gjc.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Build Up Equipment with Lisbeth",
+    "badge": "EQUIPMENT CAMPAIGN",
+    "description": "Get equipment enhancement and transformation materials in 'Build Up Equipment with Lisbeth'!",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20210915r.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Late Summer Koharu Present",
+    "badge": "LOGIN BONUS",
+    "description": "Late Summer Koharu present login bonus with up to 500 Arcana Gems and 500 Memoria Niter S.",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
     "name": "440 Free Skill Record Orders",
     "badge": "FREE SKILL ORDER // 440 PULLS",
     "description": "Worldwide 8.5th Anniversary Celebration! Receive up to 440 free skill record pulls with daily free 11-orders featuring ★4 Skill Records.",
@@ -401,42 +441,32 @@
   },
   {
     "category": "anniv",
-    "name": "440 Free Avatar Orders",
-    "badge": "FREE AVATAR ORDER // 440 PULLS",
-    "description": "Worldwide 8.5th Anniversary Avatar Summon! Receive up to 440 free avatar pulls across daily 11-orders to customize your character's appearance.",
-    "releaseDate": "2026-10-15 04:00 (JST/GMT+9)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Late Summer Koharu Present & Lisbeth Build Up",
-    "badge": "ANNIVERSARY PRESENT",
-    "description": "Build Up Equipment with Lisbeth event and Late Summer Koharu Present login bonus granting up to 500 Arcana Gems and 500 Memoria Niter S.",
-    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "8x EXP Character Quests & Leafa Dojo",
-    "badge": "GROWTH CAMPAIGN",
-    "description": "Multiple Rounds: 8x Experience Character Quest Campaign and Leafa's Limit Break Dojo for accelerated character progression and skill enhancement.",
-    "releaseDate": "2026-09-03 04:00 (JST/GMT+9)",
-    "image": "",
-    "isRerun": false,
+    "name": "Multiple Rounds: 8x Experience Character Quest Campaign",
+    "badge": "8X EXP CAMPAIGN",
+    "description": "During this campaign, get 8x the experience in multiple rounds Character Quests! This is your chance to easily raise your player level!",
+    "releaseDate": "2026-09-02 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251203cq2.png",
+    "isRerun": true,
     "clickable": false
   },
   {
     "category": "anniv",
     "name": "Leafa's Limit Break Dojo",
     "badge": "LIMIT BREAK DOJO",
-    "description": "Gather large quantities of Memoria for skill record limit breaking and power progression in Leafa's Limit Break Dojo.",
+    "description": "Leafa's Limit Break Dojo is on now! Get tons of Memoria Niter S for limit breaking your Skill Records!",
     "releaseDate": "2026-09-04 04:00 (JST/GMT+9)",
-    "image": "",
-    "isRerun": false,
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230322ri.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Multiple Rounds: 5x Experience Subquest Campaign",
+    "badge": "5X EXP CAMPAIGN",
+    "description": "During this campaign, get 5x the experience in multiple rounds Subquests! This is your chance to easily raise your player level!",
+    "releaseDate": "2026-09-09 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251210sq2.png",
+    "isRerun": true,
     "clickable": false
   },
   {
@@ -450,13 +480,13 @@
     "clickable": false
   },
   {
-    "category": "rerun",
-    "name": "Multiple Rounds: 5x EXP Subquests",
-    "badge": "EXP BOOST CAMPAIGN",
-    "description": "Earn 5x Experience Points on subquest completions across multiple campaign rounds to level up quickly.",
-    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
+    "category": "anniv",
+    "name": "440 Free Avatar Orders",
+    "badge": "FREE AVATAR ORDER // 440 PULLS",
+    "description": "Worldwide 8.5th Anniversary Avatar Summon! Receive up to 440 free avatar pulls across daily 11-orders to customize your character's appearance.",
+    "releaseDate": "2026-10-15 04:00 (JST/GMT+9)",
     "image": "",
-    "isRerun": true,
+    "isRerun": false,
     "clickable": false
   }
 ]
