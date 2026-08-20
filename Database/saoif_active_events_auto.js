@@ -1,24 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "\"Multiple Rounds: 2x Experience Character Quest Campaign\" is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220427cq.png",
-    "startTime": "2026-08-12T19:00:00+00:00",
-    "endTime": "2026-08-18T19:00:00+00:00",
-    "snippet": "During this campaign, get 2x the experience in Multiple Rounds Character Quests! This is your chance to easily raise your player level!  Event Start Accept the Character Quest from the Bulletin Board in the Merchant District.  Participation Requirements Clear the 1F Main Quest through the end  Campa...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5393.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "Reach SSS Rank for a total of 5,000 Arcana Gems! \"Guild Battle Challenge VS Kobold Lord\" is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805gbc.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-18T19:00:00+00:00",
-    "snippet": "The new event \"Guild Battle Challenge VS Kobold Lord\" is here! Take on difficult raid boss dungeons with your entire guild and aim to clear the highest rank!  Get 1,000 Arcana Gems at S Rank, 1,500 at SS Rank, and 2,500 at SSS Rank from the achievements! If you reach SSS Rank, you can get a total of...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5377.html"
-  },
-  {
-    "type": "EVENT",
     "title": "\"Watermelon Panic!\" is back! Get a Swimsuit Avatar!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630su.png",
     "startTime": "2026-06-29T19:00:00+00:00",
