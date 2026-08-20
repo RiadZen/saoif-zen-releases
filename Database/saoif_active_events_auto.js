@@ -108,6 +108,15 @@ const ACTIVE_EVENTS_AUTO = [
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5347.html"
   },
   {
+    "type": "EVENT",
+    "title": "【Raising Dungeon】Get Skill Record enhancement and transformation materials in \"Build Up Skills with Sinon +1\"! For a limited time, you can clear the dungeon twice!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260819si.png",
+    "startTime": "2026-08-20T19:00:00+00:00",
+    "endTime": "2026-08-27T18:59:00+00:00",
+    "snippet": "The Raising Dungeon is here to help boost character growth!  Join Sinon and take on a dungeon filled with Skill Record enhancement and transformation materials! Celebrate Sinon's birthday this year with a limited-edition Sinon Stamp! Clear it twice a day during the event! Gather lots of materials to...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5410.html"
+  },
+  {
     "type": "Campaign",
     "title": "Clear the Underground Labyrinth to get lots of Protection Stones and Skill Releasers! The Underground Labyrinth Bonus Time Campaign is here!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260520pd.png",
