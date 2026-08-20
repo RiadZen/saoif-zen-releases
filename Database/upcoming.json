@@ -56,7 +56,7 @@
     "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
     "highlight": "9 FREE ★4 PULLS TOTAL",
-    "isRerun": true,
+    "isRerun": false,
     "clickable": false
   },
   {
@@ -151,6 +151,21 @@
           "RP campaign held."
         ]
       }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "skills_preview",
+    "character": "Eydis",
+    "name": "Eydis Birthday Skills",
+    "badge": "BIRTHDAY SKILLS PREVIEW",
+    "description": "Skill Records featured in Eydis's birthday order.",
+    "releaseDate": "2026-09-04 00:00 (JST/GMT+9)",
+    "skillImages": [
+      "assets/resources/icons/E1.jpg",
+      "assets/resources/icons/E2.jpg"
     ],
     "isRerun": false,
     "clickable": false
@@ -435,7 +450,7 @@
     "badge": "FREE SKILL ORDER // 440 PULLS",
     "description": "Worldwide 8.5th Anniversary Celebration! Receive up to 440 free skill record pulls with daily free 11-orders featuring ★4 Skill Records.",
     "releaseDate": "2026-09-01 04:00 (JST/GMT+9)",
-    "image": "",
+    "image": "assets/resources/icons/S440.jpg",
     "isRerun": false,
     "clickable": false
   },
@@ -470,23 +485,65 @@
     "clickable": false
   },
   {
-    "category": "rerun",
-    "name": "Search for the Phantom Mushroom (Rerun)",
-    "badge": "RETURNING EVENT",
-    "description": "Limited-time rerun of the classic Search for the Phantom Mushroom event dungeon. Note: rewards do not reset if previously cleared.",
-    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
-    "image": "",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
     "category": "anniv",
     "name": "440 Free Avatar Orders",
     "badge": "FREE AVATAR ORDER // 440 PULLS",
     "description": "Worldwide 8.5th Anniversary Avatar Summon! Receive up to 440 free avatar pulls across daily 11-orders to customize your character's appearance.",
     "releaseDate": "2026-10-15 04:00 (JST/GMT+9)",
-    "image": "",
+    "image": "assets/resources/icons/A440.png",
     "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "skills_preview",
+    "name": "Upcoming Skill Records",
+    "badge": "LIVESTREAM SKILLS PREVIEW",
+    "description": "New Skill Records shown in the livestream.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "skillImages": [
+      "assets/resources/icons/S1.png",
+      "assets/resources/icons/S2.png",
+      "assets/resources/icons/S3.png",
+      "assets/resources/icons/S4.png"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "present",
+    "name": "A late summer greeting from koharu",
+    "badge": "SPECIAL SUMMER GREETING",
+    "description": "Log in during the event period to receive 500 Arcana Gems and 500 Memoria Niter S as a special late summer gift from Koharu!",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
+    "image": "",
+    "rewards": [
+      {
+        "title": "500 Arcana Gems",
+        "desc": "Special login bonus",
+        "icon": "gems",
+        "amount": "500"
+      },
+      {
+        "title": "500 Memoria Niter S",
+        "desc": "Skill evolution material",
+        "icon": "niter",
+        "amount": "500"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "overview",
+    "name": "Search for the Phantom Mushroom ['20 Returning]",
+    "badge": "RETURNING SCENARIO EVENT",
+    "description": "GET EACH BEAR AVATAR AND A WEAPON AVATAR WITH GLOWING SPECIAL EFFECTS! THE SCENARIO EVENT \"SEARCH FOR THE PHANTOM MUSHROOM ['20 RETURNING]\" IS BACK!",
+    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220921ki.png",
+    "isRerun": true,
     "clickable": false
   }
 ]
