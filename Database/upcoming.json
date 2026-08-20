@@ -135,35 +135,35 @@
   },
   {
     "category": "bday",
-    "bdaySlideType": "events",
+    "bdaySlideType": "schedule",
     "character": "Edith",
     "birthdayDate": "September 4",
     "name": "September 4th is Edith's Birthday!",
-    "badge": "BIRTHDAY CAMPAIGN // 9/4",
-    "description": "Celebrate Edith's (Eydis) birthday starting Sept 3! 250 Free Arcana Gems, Special Birthday Order, in-game stamps, birthday illustration panel, X icon gift, and RP campaign.",
+    "badge": "BIRTHDAY TIMELINE // 9/4",
+    "description": "Official birthday schedule and celebration events for Edith (Eydis) starting September 3.",
     "releaseDate": "2026-09-03 12:00 (JST)",
     "image": "",
-    "events": [
+    "schedule": [
       {
-        "type": "social",
-        "title": "X Profile Icon Gift",
-        "subtitle": "▼ 9/3 12:00 (JST)",
-        "description": "Official X (formerly Twitter) commemorative profile icon will be given as a gift.",
-        "image": ""
+        "time": "9/3 12:00",
+        "items": [
+          "X (formerly Twitter) icon will be given as a gift."
+        ]
       },
       {
-        "type": "login_bonus",
-        "title": "Birthday Order & 250 AG",
-        "subtitle": "▼ 9/4 0:00 (JST)",
-        "description": "Log in to receive 250 Arcana Gems • Birthday order held • Birthday illustration panel installed • Distribution of stamps.",
-        "image": ""
+        "time": "9/4 0:00",
+        "items": [
+          "Log in to receive 250 Arcana Gems.",
+          "Birthday order held.",
+          "Install a panel featuring a birthday illustration.",
+          "Distribution of stamps."
+        ]
       },
       {
-        "type": "campaign",
-        "title": "RP Campaign Held",
-        "subtitle": "▼ 9/4 11:00 (JST)",
-        "description": "Official Repost (RP) Campaign held with in-game community celebration rewards.",
-        "image": ""
+        "time": "9/4 11:00",
+        "items": [
+          "RP campaign held."
+        ]
       }
     ],
     "isRerun": false,
