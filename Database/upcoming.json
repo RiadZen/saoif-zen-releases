@@ -128,7 +128,7 @@
     "badge": "BIRTHDAY TIMELINE // 9/4",
     "description": "Celebrate Eydis's birthday! 250 Free Arcana Gems, Eydis panels across Aincrad, special birthday order, and celebration campaigns.",
     "releaseDate": "2026-09-04 00:00 (JST/GMT+9)",
-    "image": "assets/resources/icons/E3",
+    "image": "assets/resources/icons/E3.png",
     "schedule": [
       {
         "time": "9/3 12:00",
@@ -299,7 +299,7 @@
     "badge": "GAMEPLAY VIDEO PREVIEW",
     "description": "Gameplay footage and mechanics preview of the new 70th Floor.",
     "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
-    "videoPath": "assets/resources/videos/floor_70_gameplay.mp4",
+    "videoPath": "assets/resources/icons/VF70.mp4",
     "isRerun": false,
     "clickable": false
   },
