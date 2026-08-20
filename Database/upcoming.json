@@ -7,7 +7,7 @@
     "initialHp": 100,
     "remainingHp": 85,
     "rewardTier": "600 AG + Memoria Niter L x10 (80%+ HP CLEARED)",
-    "releaseDate": "2026-08-20 20:00 (JST)",
+    "releaseDate": "2026-08-20 20:00 (JST/GMT+9)",
     "image": "",
     "isRerun": false,
     "clickable": false
@@ -20,7 +20,7 @@
     "name": "Sinon Birthday Special Order (3-Step)",
     "badge": "3-STEP SPECIAL ORDER",
     "description": "Step 1 Discounted to 1,500 Arcana Gems • Step 3 guarantees 1 featured ★4 Sinon Skill Record!",
-    "releaseDate": "2026-08-21 17:00 (JST)",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/145f54b9f38ff888d4f3df698dbfe5d2.png",
     "skills": [
       {
@@ -53,54 +53,9 @@
     "name": "Free 1x Daily Birthday Order (9 Days)",
     "badge": "9-DAY FREE GUARANTEED",
     "description": "Celebrate Sinon's Birthday with 1 Free Guaranteed ★4 Order every single day for 9 consecutive days!",
-    "releaseDate": "2026-08-21 17:00 (JST)",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
     "highlight": "9 FREE ★4 PULLS TOTAL",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "bday",
-    "bdaySlideType": "dungeon",
-    "character": "Sinon",
-    "birthdayDate": "August 21",
-    "name": "Sinon's Birthday Dungeon",
-    "badge": "LIMITED BIRTHDAY DUNGEON",
-    "description": "Limited commemorative exploration dungeon. Clear stages to obtain exclusive Sinon avatar outfits, celebration stamps, and rewards!",
-    "releaseDate": "2026-08-21 17:00 (JST)",
-    "image": "",
-    "eventPeriod": "2026-08-21 17:00 ~ 2026-08-31 23:59 (JST)",
-    "rewards": [
-      {
-        "title": "Exclusive Avatar Outfit",
-        "desc": "Limited birthday commemoration costume for Sinon & Player",
-        "icon": "outfit"
-      },
-      {
-        "title": "Celebration Stamp & Title",
-        "desc": "Exclusive in-game chat stamp and commemorative title",
-        "icon": "stamp"
-      },
-      {
-        "title": "Arcana Gems & Medals",
-        "desc": "Stage clear Arcana Gems, score milestone rewards, and medals",
-        "icon": "gems"
-      }
-    ],
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "bday",
-    "bdaySlideType": "order",
-    "character": "Sinon",
-    "birthdayDate": "August 21",
-    "name": "Sinon Birthday Special Login Bonus (10 Days)",
-    "badge": "10-DAY LOGIN BONUS // 1,000 AG",
-    "description": "To celebrate Sinon's birthday, receive 100 Arcana Gems every day for 10 days by logging in for a total of up to 1,000 Arcana Gems!",
-    "releaseDate": "2026-08-21 04:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250821lb.png",
-    "highlight": "UP TO 1,000 ARCANA GEMS",
     "isRerun": true,
     "clickable": false
   },
@@ -109,10 +64,10 @@
     "bdaySlideType": "events",
     "character": "Sinon",
     "birthdayDate": "August 21",
-    "name": "Commemorative Gifts & Campaigns",
+    "name": "Sinon Birthday Celebration & Panels",
     "badge": "BIRTHDAY CAMPAIGN",
-    "description": "250 Free Arcana Gems login bonus and X / Twitter celebration campaign.",
-    "releaseDate": "2026-08-21 17:00 (JST)",
+    "description": "Sinon's birthday celebration! 250 Free Arcana Gems login bonus and commemorative character illustration panels installed across Aincrad.",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
     "image": "",
     "events": [
       {
@@ -124,10 +79,41 @@
       },
       {
         "type": "social",
-        "title": "Twitter / X Campaign",
-        "subtitle": "Official Illustration & RT",
-        "description": "Follow and repost the celebration tweet for community milestone prizes.",
+        "title": "Sinon's Panels",
+        "subtitle": "Panels Across Aincrad",
+        "description": "Commemorative Sinon birthday illustration panels installed across town locations in Aincrad.",
         "image": ""
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "dungeon",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Build Up Skills with Sinon +1",
+    "badge": "EVENT DUNGEON",
+    "description": "Special birthday enhancement dungeon! Clear stages with Sinon to gather skill evolution materials, crystals, and power up your skill records.",
+    "releaseDate": "2026-08-21 04:00 (JST/GMT+9)",
+    "image": "",
+    "eventPeriod": "2026-08-21 04:00 ~ 2026-08-31 23:59 (JST/GMT+9)",
+    "rewards": [
+      {
+        "title": "Skill Record Evolution Materials",
+        "desc": "High-tier evolution crystals and skill enhancement items",
+        "icon": "outfit"
+      },
+      {
+        "title": "Celebration Stamps & Titles",
+        "desc": "Commemorative birthday stamps and chat titles",
+        "icon": "stamp"
+      },
+      {
+        "title": "Arcana Gems & Medals",
+        "desc": "Stage clear Arcana Gems and score milestone medals",
+        "icon": "gems"
       }
     ],
     "isRerun": false,
@@ -140,8 +126,8 @@
     "birthdayDate": "September 4",
     "name": "September 4th is Eydis's Birthday!",
     "badge": "BIRTHDAY TIMELINE // 9/4",
-    "description": "Official birthday schedule and celebration events for Eydis starting September 3.",
-    "releaseDate": "2026-09-03 12:00 (JST)",
+    "description": "Celebrate Eydis's birthday! 250 Free Arcana Gems, Eydis panels across Aincrad, special birthday order, and celebration campaigns.",
+    "releaseDate": "2026-09-04 00:00 (JST/GMT+9)",
     "image": "",
     "schedule": [
       {
@@ -154,8 +140,8 @@
         "time": "9/4 0:00",
         "items": [
           "Log in to receive 250 Arcana Gems.",
-          "Birthday order held.",
-          "Install a panel featuring a birthday illustration.",
+          "Eydis's birthday order held (details TBA).",
+          "Install panels featuring birthday illustrations across Aincrad.",
           "Distribution of stamps."
         ]
       },
@@ -172,17 +158,17 @@
   {
     "category": "floor",
     "floorSlideType": "overview",
-    "floorNumber": "100F",
-    "name": "100th Floor Release - Ruby Palace",
+    "floorNumber": "70F",
+    "name": "70th Floor Release & New Scenario",
     "badge": "OVERVIEW",
-    "description": "The monumental 100F is finally here! Experience the grand climax of Aincrad with new labyrinth exploration, field maps, and the next tier of legendary craftable weapons.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "description": "The 70th Floor is officially arriving! Experience the brand new main scenario storyline, explore treacherous volcanic zones, and unleash 5★ Lava Integral weapon evolutions.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
     "image": "",
     "highlights": [
-      "New Field: Crimson Expanse",
-      "New Labyrinth: Palace of the Sovereign",
-      "Sovereign Weapon Series",
-      "New Main Scenario Chapter"
+      "New 70F Main Scenario Chapter",
+      "70F Volcanic Field & Labyrinth",
+      "Lava Integral Series 5★ Evolution",
+      "Core Metal+++ Drop Rate Up"
     ],
     "isRerun": false,
     "clickable": false
@@ -190,24 +176,24 @@
   {
     "category": "floor",
     "floorSlideType": "maps",
-    "floorNumber": "100F",
-    "name": "100F Field & Labyrinth Exploration",
+    "floorNumber": "70F",
+    "name": "70F Field & Labyrinth Exploration",
     "badge": "MAP & GAMEPLAY PREVIEW",
-    "description": "Experience the vast new 100F exploration zones featuring high-density monster spawns, atmospheric ruins, and intricate labyrinth pathways shown on stream.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "description": "Explore the expansive new 70F volcanic terrain featuring dangerous terrain hazards, molten pathways, and intricate labyrinth corridors.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
     "image": "",
     "maps": [
       {
-        "title": "100F Main Field",
-        "subtitle": "Crimson Expanse",
+        "title": "70F Main Field",
+        "subtitle": "Volcanic Molten Expanse",
         "type": "Field Map",
-        "desc": "Expansive open-world exploration with elite mob encounters and rare refinement material drops."
+        "desc": "Expansive volcanic landscape with high-level monsters and new craftable material drops."
       },
       {
-        "title": "Palace of the Sovereign",
-        "subtitle": "100F Labyrinth Dungeon",
+        "title": "70F Labyrinth Dungeon",
+        "subtitle": "Lava Core Labyrinth",
         "type": "Labyrinth Dungeon",
-        "desc": "Multi-tier labyrinth dungeon with intricate corridors, traps, and the gateway to the summit."
+        "desc": "Intricate multi-level labyrinth leading to the 70th floor boss chamber."
       }
     ],
     "isRerun": false,
@@ -216,261 +202,108 @@
   {
     "category": "floor",
     "floorSlideType": "weapons",
-    "floorNumber": "100F",
-    "name": "New Sovereign Weapon Series",
-    "badge": "NEW WEAPON SERIES",
-    "description": "Forge the ultimate weapon tier using rare materials gathered from 100F labyrinth monsters and dungeon clears. Features enhanced base ATK and unique series attributes.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "floorNumber": "70F",
+    "name": "Lava Integral Series 5★ Evolution",
+    "badge": "5★ WEAPON EVOLUTION",
+    "description": "Evolve your Lava Integral weapon series to 5★! Unlock massive stat boosts, enhanced combat power, and maximum refinement potential for 70F challenges.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
     "image": "",
     "weapons": [
-      {"name": "Sovereign Sword", "type": "1H Sword"},
-      {"name": "Sovereign Rapier", "type": "1H Rapier"},
-      {"name": "Sovereign Lance", "type": "2H Spear"},
-      {"name": "Sovereign Dagger", "type": "Dagger"},
-      {"name": "Sovereign Hammer", "type": "1H Club"},
-      {"name": "Sovereign Axe", "type": "2H Axe"},
-      {"name": "Sovereign Bow", "type": "Bow"}
+      {"name": "Lava Integral Sword (5★)", "type": "1H Sword"},
+      {"name": "Lava Integral Rapier (5★)", "type": "1H Rapier"},
+      {"name": "Lava Integral Lance (5★)", "type": "2H Spear"},
+      {"name": "Lava Integral Dagger (5★)", "type": "Dagger"},
+      {"name": "Lava Integral Hammer (5★)", "type": "1H Club"},
+      {"name": "Lava Integral Axe (5★)", "type": "2H Axe"},
+      {"name": "Lava Integral Bow (5★)", "type": "Bow"}
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "overview",
+    "floorNumber": "70F",
+    "name": "Core Metal+++ & Maintenance Campaigns",
+    "badge": "MAINTENANCE CAMPAIGNS",
+    "description": "Core Metal+++ increased drop rate campaign, Guild Joining Campaign (get up to 200 Memoria Niter S if in a 30-member guild within 2 weeks), and new Order featuring Argo, Yuuki, Kirito, and Sachi.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "",
+    "highlights": [
+      "Core Metal+++ Increased Drop Rate",
+      "Guild Joining Campaign (Up to 200 Niter S)",
+      "New Order: Argo, Yuuki, Kirito, Sachi"
     ],
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "name": "330 Free Skill Pulls (Daily Free 11-Orders)",
-    "badge": "FREE SKILL ORDER",
-    "description": "Receive up to 330 free skill pulls with daily free 11-orders featuring ★4 Skill Records throughout the anniversary period.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260723be.png",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "220 Free Avatar Summons",
-    "badge": "FREE AVATAR ORDER",
-    "description": "Summon up to 220 free avatar pulls to unlock exclusive commemorative anniversary cosmetic outfits and accessories.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "name": "440 Free Skill Record Orders",
+    "badge": "FREE SKILL ORDER // 440 PULLS",
+    "description": "Worldwide 8.5th Anniversary Celebration! Receive up to 440 free skill record pulls with daily free 11-orders featuring ★4 Skill Records.",
+    "releaseDate": "2026-09-01 04:00 (JST/GMT+9)",
     "image": "",
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "name": "110 Free Argo Search Pulls",
-    "badge": "FREE ARGO SEARCH",
-    "description": "Special Argo Search gacha providing 110 free pulls for rare enhancement items, awakening materials, and medals.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "name": "440 Free Avatar Orders",
+    "badge": "FREE AVATAR ORDER // 440 PULLS",
+    "description": "Worldwide 8.5th Anniversary Avatar Summon! Receive up to 440 free avatar pulls across daily 11-orders to customize your character's appearance.",
+    "releaseDate": "2026-10-15 04:00 (JST/GMT+9)",
     "image": "",
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "name": "110 Free Lisbeth Ingot Pulls",
-    "badge": "FREE INGOT ORDER",
-    "description": "Lisbeth's special workshop scout offering 110 free pulls for weapon crafting ingots and equipment refinement materials.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
+    "name": "Late Summer Koharu Present & Lisbeth Build Up",
+    "badge": "ANNIVERSARY PRESENT",
+    "description": "Build Up Equipment with Lisbeth event and Late Summer Koharu Present login bonus granting up to 500 Arcana Gems and 500 Memoria Niter S.",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
     "image": "",
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "name": "Midnight Attire Special Order",
-    "badge": "SPECIAL ORDER",
-    "description": "New limited anniversary gacha featuring Kirito, Koharu, Sachi, and Sinon in exclusive black midnight outfits with powerful 4★ skills.",
-    "releaseDate": "2026-09-01 17:00 (JST)",
+    "name": "8x EXP Character Quests & Leafa Dojo",
+    "badge": "GROWTH CAMPAIGN",
+    "description": "Multiple Rounds: 8x Experience Character Quest Campaign and Leafa's Limit Break Dojo for accelerated character progression and skill enhancement.",
+    "releaseDate": "2026-09-03 04:00 (JST/GMT+9)",
     "image": "",
     "isRerun": false,
     "clickable": false
   },
   {
     "category": "anniv",
-    "name": "Kirito Commemorative Dungeon",
-    "badge": "ANNIVERSARY DUNGEON",
-    "description": "Special celebration dungeon offering free anniversary skill records and exclusive combat rewards upon clear.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Core Metal+ Drop Rate Boost Campaign",
-    "badge": "DROP RATE BOOST",
-    "description": "Significantly increased drop rates for Core Metal+ across designated dungeons to accelerate weapon upgrades and evolution.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Yuuki Incense Farming Dungeon",
-    "badge": "FARMING DUNGEON",
-    "description": "High-efficiency event dungeon focused on farming high-tier incense materials for stat progression.",
-    "releaseDate": "2026-08-29 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "The Greedy Cobalt Lord Returns",
-    "badge": "RETURNING EVENT",
-    "description": "Challenge the Greedy Cobalt Lord to earn exclusive midnight avatar cosmetics and anniversary tokens.",
-    "releaseDate": "2026-08-29 17:00 (JST)",
-    "image": "",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "7x Quest Board & 4x Sub-Quest EXP Campaign",
-    "badge": "EXP MULTIPLIER",
-    "description": "Massive level-up boost featuring 7x EXP on Quest Board runs and 4x EXP on all Sub-Quests starting Sept 10.",
-    "releaseDate": "2026-09-10 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Chaos Showdown - All Bosses Open",
-    "badge": "CHAOS SHOWDOWN",
-    "description": "The two-week rotation is completely removed — all Chaos Showdown bosses are available simultaneously for high-tier farming.",
-    "releaseDate": "2026-09-10 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "New Two-Handed Weapon Avatars Release",
-    "badge": "NEW AVATARS",
-    "description": "Brand-new cosmetic weapon avatar series releasing for Two-Handed Axe, Two-Handed Spear, and Bow.",
-    "releaseDate": "2026-09-12 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Daily Dungeons 3x Entry Boost",
-    "badge": "DAILY BOOST",
-    "description": "Daily dungeons allow 3 full runs per day instead of 1, tripling daily upgrade resource yields.",
-    "releaseDate": "2026-09-12 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Sinon Skill Enhancement Dungeon",
-    "badge": "SKILL ENHANCEMENT",
-    "description": "Dedicated dungeon to farm skill enhancement and skill leveling materials for rapid power spikes.",
-    "releaseDate": "2026-09-12 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "anniv",
-    "name": "Special Guild Member Igniter Campaign",
-    "badge": "GUILD CAMPAIGN",
-    "description": "Special cooperative guild event where members can earn up to 200 Small Igniters based on total guild roster count.",
-    "releaseDate": "2026-08-27 17:00 (JST)",
-    "image": "",
-    "isRerun": false,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "Ring Production Campaign",
-    "badge": "RERUN CAMPAIGN",
-    "description": "Features halved production costs and increased rewards for specific boss battles to help players strengthen their equipment.",
-    "releaseDate": "2026-07-29 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230426yubi.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "Summer Fishing Tournament",
-    "badge": "FISHING COMPETITION",
-    "description": "A competitive event where players aim for high scores. Participants are encouraged to aim for over 10,000 points to rank highly. Rewards include exchanging fish for Arcana Gems and Fishing Medals.",
-    "releaseDate": "2026-08-05 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20240807fi.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "Klein's Test of Courage",
-    "badge": "STORY EVENT",
-    "description": "A horror-themed story event where players can obtain a \"Ghost Mask\" and a 4-star Yuuki reward. The event also provides a total of 1,000 Arcana Gems for participation.",
-    "releaseDate": "2026-08-05 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220810k.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "Guild Battle Challenge",
-    "badge": "GUILD RAID EVENT",
-    "description": "Allows guilds to customize boss fight rules. Achieving an SSS Rank can reward up to 5,000 Arcana Gems.",
-    "releaseDate": "2026-08-05 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20240807gbc.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "Summer Watermelon/Maguro Operation",
-    "badge": "SUMMER EVENT",
-    "description": "A returning event featuring Egil and fish-themed weapon avatars. Players can earn up to 500 Arcana Gems.",
-    "releaseDate": "2026-08-05 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
     "name": "Leafa's Limit Break Dojo",
-    "badge": "RAISING DUNGEON",
-    "description": "An enhancement-focused dungeon where players can gather large quantities of Memoria for skill record limit breaking. It also features a \"True Sword Limit Break Memoria Dojo\" for high-level players (recommended total power 250,000).",
-    "releaseDate": "2026-08-07 17:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230125ri.png",
+    "badge": "LIMIT BREAK DOJO",
+    "description": "Gather large quantities of Memoria for skill record limit breaking and power progression in Leafa's Limit Break Dojo.",
+    "releaseDate": "2026-09-04 04:00 (JST/GMT+9)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "name": "Search for the Phantom Mushroom (Rerun)",
+    "badge": "RETURNING EVENT",
+    "description": "Limited-time rerun of the classic Search for the Phantom Mushroom event dungeon. Note: rewards do not reset if previously cleared.",
+    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
+    "image": "",
     "isRerun": true,
     "clickable": false
   },
   {
     "category": "rerun",
-    "name": "Fatal Battle",
-    "badge": "HIGH DIFFICULTY CHALLENGE",
-    "description": "The highest difficulty challenge in SAOIF. It is designed as a peak test of player skill, with adjustments made to ensure it remains a formidable, high-end experience.",
-    "releaseDate": "2026-08-07 12:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20210804f.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "100% Egil Order",
-    "badge": "FREE DAILY 11-PULL",
-    "description": "A daily free 11-pull banner where the lineup consists exclusively of Egil skill records.",
-    "releaseDate": "2026-08-08 04:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/51da6350a2cc9af48da6bef904014bc1.png",
-    "isRerun": true,
-    "clickable": false
-  },
-  {
-    "category": "rerun",
-    "name": "8.5th Anniversary Avatar Campaign",
-    "badge": "FREE 110 AVATAR ORDERS",
-    "description": "To celebrate the global 8.5-year milestone, players will receive a daily free 11-pull avatar order for 10 days, totaling up to 110 free pulls.",
-    "releaseDate": "2026-08-09 04:00 (JST)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/15bb1b4f4e6e76087e9398513f53c44a.png",
+    "name": "Multiple Rounds: 5x EXP Subquests",
+    "badge": "EXP BOOST CAMPAIGN",
+    "description": "Earn 5x Experience Points on subquest completions across multiple campaign rounds to level up quickly.",
+    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
+    "image": "",
     "isRerun": true,
     "clickable": false
   }
