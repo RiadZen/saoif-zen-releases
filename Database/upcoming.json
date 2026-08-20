@@ -159,16 +159,83 @@
     "category": "floor",
     "floorSlideType": "overview",
     "floorNumber": "70F",
-    "name": "70th Floor Release & New Scenario",
-    "badge": "OVERVIEW",
-    "description": "The 70th Floor is officially arriving! Experience the brand new main scenario storyline, explore treacherous volcanic zones, and unleash 5★ Lava Integral weapon evolutions.",
+    "name": "Chapter 2: Aincrad Floor 70",
+    "badge": "NEW SCENARIO & 5★ EVOLUTION",
+    "description": "New Scenario Added! A story revolving around Sachi. Lava Integral Series Evolving Further — ★5 Evolution is now possible, making them even more powerful!",
     "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
-    "image": "",
+    "image": "assets/resources/icons/floor_70_banner_1.png",
     "highlights": [
       "New 70F Main Scenario Chapter",
-      "70F Volcanic Field & Labyrinth",
+      "Story Revolving Around Sachi",
       "Lava Integral Series 5★ Evolution",
-      "Core Metal+++ Drop Rate Up"
+      "New Floor Quests & Boss Encounter"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "overview",
+    "floorNumber": "70F",
+    "name": "Lava Integral Series 3-Stage Evolution!",
+    "badge": "3-STAGE EVOLUTION",
+    "description": "4★ Lava Integral Series + Fungal-Bug Armament Stone x2 + Slash-Armament Stone: Ultra x17 -> 5★ Lava Integral Series!",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_banner_2.png",
+    "highlights": [
+      "Fungal-Bug Armament Stone x2",
+      "Slash-Armament Stone: Ultra x17",
+      "Armament Stones differ per weapon type",
+      "Massive 5★ Stat Enhancement"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "weapons",
+    "floorNumber": "70F",
+    "name": "Lava Integral Series 5★ Evolution",
+    "badge": "5★ WEAPON EVOLUTION",
+    "description": "Evolve your Lava Integral weapon series to 5★! Unlock massive stat boosts, enhanced combat power, and maximum refinement potential for 70F challenges.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "",
+    "weapons": [
+      {
+        "name": "Lava Pheonix (5★)",
+        "type": "1H Sword",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04001244.png"
+      },
+      {
+        "name": "Lava Cherubim (5★)",
+        "type": "1H Rapier",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04002244.png"
+      },
+      {
+        "name": "Lava Ira (5★)",
+        "type": "2H Spear",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04004244.png"
+      },
+      {
+        "name": "Lava Minuet (5★)",
+        "type": "Dagger",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04007244.png"
+      },
+      {
+        "name": "Lava Falcon (5★)",
+        "type": "1H Club",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04003244.png"
+      },
+      {
+        "name": "Lava Hurricane (5★)",
+        "type": "2H Axe",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04005244.png"
+      },
+      {
+        "name": "Lava Sveid (5★)",
+        "type": "Bow",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04008244.png"
+      }
     ],
     "isRerun": false,
     "clickable": false
@@ -211,22 +278,97 @@
   },
   {
     "category": "floor",
-    "floorSlideType": "weapons",
+    "floorSlideType": "video",
     "floorNumber": "70F",
-    "name": "Lava Integral Series 5★ Evolution",
-    "badge": "5★ WEAPON EVOLUTION",
-    "description": "Evolve your Lava Integral weapon series to 5★! Unlock massive stat boosts, enhanced combat power, and maximum refinement potential for 70F challenges.",
+    "name": "70F Gameplay Video Preview",
+    "badge": "GAMEPLAY VIDEO PREVIEW",
+    "description": "Gameplay footage and mechanics preview of the new 70th Floor.",
     "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
-    "image": "",
-    "weapons": [
-      {"name": "Lava Integral Sword (5★)", "type": "1H Sword"},
-      {"name": "Lava Integral Rapier (5★)", "type": "1H Rapier"},
-      {"name": "Lava Integral Lance (5★)", "type": "2H Spear"},
-      {"name": "Lava Integral Dagger (5★)", "type": "Dagger"},
-      {"name": "Lava Integral Hammer (5★)", "type": "1H Club"},
-      {"name": "Lava Integral Axe (5★)", "type": "2H Axe"},
-      {"name": "Lava Integral Bow (5★)", "type": "Bow"}
-    ],
+    "videoPath": "assets/resources/videos/floor_70_gameplay.mp4",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (1/7)",
+    "badge": "SCENARIO STORY // 1/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_1.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (2/7)",
+    "badge": "SCENARIO STORY // 2/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_2.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (3/7)",
+    "badge": "SCENARIO STORY // 3/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_3.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (4/7)",
+    "badge": "SCENARIO STORY // 4/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_4.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (5/7)",
+    "badge": "SCENARIO STORY // 5/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_5.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (6/7)",
+    "badge": "SCENARIO STORY // 6/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_6.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (7/7)",
+    "badge": "SCENARIO STORY // 7/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_7.png",
     "isRerun": false,
     "clickable": false
   },
