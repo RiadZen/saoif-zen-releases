@@ -175,27 +175,37 @@
   },
   {
     "category": "floor",
-    "floorSlideType": "maps",
+    "floorSlideType": "photo",
     "floorNumber": "70F",
-    "name": "70F Field & Labyrinth Exploration",
-    "badge": "MAP & GAMEPLAY PREVIEW",
-    "description": "Explore the expansive new 70F volcanic terrain featuring dangerous terrain hazards, molten pathways, and intricate labyrinth corridors.",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
     "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
-    "image": "",
-    "maps": [
-      {
-        "title": "70F Main Field",
-        "subtitle": "Volcanic Molten Expanse",
-        "type": "Field Map",
-        "desc": "Expansive volcanic landscape with high-level monsters and new craftable material drops."
-      },
-      {
-        "title": "70F Labyrinth Dungeon",
-        "subtitle": "Lava Core Labyrinth",
-        "type": "Labyrinth Dungeon",
-        "desc": "Intricate multi-level labyrinth leading to the 70th floor boss chamber."
-      }
-    ],
+    "image": "assets/resources/icons/floor_70_photo_1.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "photo",
+    "floorNumber": "70F",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_photo_2.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "photo",
+    "floorNumber": "70F",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_photo_3.png",
     "isRerun": false,
     "clickable": false
   },
