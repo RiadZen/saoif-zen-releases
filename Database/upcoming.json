@@ -5,8 +5,8 @@
     "name": "SA King Percent HP Bar",
     "description": "Distribution based on remaining HP at the end of all questions.\n• HP 80% or higher: 600 AG + Memoria Niter L x10\n• HP 50% or more: 600 AG\n• HP 1% ~ 49%: 300 AG\n• HP 0%: 0 AG (well we had fun)",
     "initialHp": 100,
-    "remainingHp": 65,
-    "rewardTier": "600 AG (50%+ HP CLEARED)",
+    "remainingHp": 85,
+    "rewardTier": "600 AG + Memoria Niter L x10 (80%+ HP CLEARED)",
     "releaseDate": "2026-08-20 20:00 (JST)",
     "image": "",
     "isRerun": false,
@@ -127,6 +127,42 @@
         "title": "Twitter / X Campaign",
         "subtitle": "Official Illustration & RT",
         "description": "Follow and repost the celebration tweet for community milestone prizes.",
+        "image": ""
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "events",
+    "character": "Edith",
+    "birthdayDate": "September 4",
+    "name": "September 4th is Edith's Birthday!",
+    "badge": "BIRTHDAY CAMPAIGN // 9/4",
+    "description": "Celebrate Edith's (Eydis) birthday starting Sept 3! 250 Free Arcana Gems, Special Birthday Order, in-game stamps, birthday illustration panel, X icon gift, and RP campaign.",
+    "releaseDate": "2026-09-03 12:00 (JST)",
+    "image": "",
+    "events": [
+      {
+        "type": "social",
+        "title": "X Profile Icon Gift",
+        "subtitle": "▼ 9/3 12:00 (JST)",
+        "description": "Official X (formerly Twitter) commemorative profile icon will be given as a gift.",
+        "image": ""
+      },
+      {
+        "type": "login_bonus",
+        "title": "Birthday Order & 250 AG",
+        "subtitle": "▼ 9/4 0:00 (JST)",
+        "description": "Log in to receive 250 Arcana Gems • Birthday order held • Birthday illustration panel installed • Distribution of stamps.",
+        "image": ""
+      },
+      {
+        "type": "campaign",
+        "title": "RP Campaign Held",
+        "subtitle": "▼ 9/4 11:00 (JST)",
+        "description": "Official Repost (RP) Campaign held with in-game community celebration rewards.",
         "image": ""
       }
     ],
