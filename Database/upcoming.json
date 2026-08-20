@@ -64,25 +64,25 @@
     "bdaySlideType": "events",
     "character": "Sinon",
     "birthdayDate": "August 21",
-    "name": "Sinon Birthday Celebration & Panels",
-    "badge": "BIRTHDAY CAMPAIGN",
-    "description": "Sinon's birthday celebration! 250 Free Arcana Gems login bonus and commemorative character illustration panels installed across Aincrad.",
+    "name": "Sinon Birthday Celebration & Campaigns",
+    "badge": "BIRTHDAY CAMPAIGN // 8/21",
+    "description": "Sinon's birthday celebration! 250 Free Arcana Gems login bonus and official 2,500 AG Twitter/X repost giveaway campaign.",
     "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
     "image": "",
     "events": [
       {
         "type": "login_bonus",
-        "title": "250 Arcana Gems",
-        "subtitle": "Birthday Login Gift",
-        "description": "Log in on August 21 to receive 250 free Arcana Gems in your Present Box.",
-        "image": ""
+        "title": "250 Free Arcana Gems",
+        "subtitle": "Birthday Login Bonus",
+        "description": "Celebrating Sinon's birthday! Log in on August 21 to receive 250 free Arcana Gems in your Present Box.",
+        "image": "assets/resources/icons/sinon_bday_login.jpg"
       },
       {
         "type": "social",
-        "title": "Sinon's Panels",
-        "subtitle": "Panels Across Aincrad",
-        "description": "Commemorative Sinon birthday illustration panels installed across town locations in Aincrad.",
-        "image": ""
+        "title": "2500 AG Repost Campaign",
+        "subtitle": "Follow & Repost Campaign",
+        "description": "Follow & repost on Twitter/X to enter a draw where 2,500 Arcana Gems will be given to 1 lucky winner!",
+        "image": "assets/resources/icons/sinon_bday_repost.jpg"
       }
     ],
     "isRerun": false,
@@ -93,26 +93,26 @@
     "bdaySlideType": "dungeon",
     "character": "Sinon",
     "birthdayDate": "August 21",
-    "name": "Build Up Skills with Sinon +1",
-    "badge": "EVENT DUNGEON",
-    "description": "Special birthday enhancement dungeon! Clear stages with Sinon to gather skill evolution materials, crystals, and power up your skill records.",
+    "name": "Together with Sinon Skill Training +1",
+    "badge": "TRAINING DUNGEON // 8/21",
+    "description": "Collect materials for Skill Enhancement, Evolution, and Awakening! Celebrating Sinon's birthday: Clearable times increased to twice a day!",
     "releaseDate": "2026-08-21 04:00 (JST/GMT+9)",
-    "image": "",
+    "image": "assets/resources/icons/sinon_bday_dungeon.png",
     "eventPeriod": "2026-08-21 04:00 ~ 2026-08-31 23:59 (JST/GMT+9)",
     "rewards": [
       {
-        "title": "Skill Record Evolution Materials",
-        "desc": "High-tier evolution crystals and skill enhancement items",
+        "title": "Skill Training Materials",
+        "desc": "Collect materials for Skill Enhancement, Evolution, and Awakening",
         "icon": "outfit"
       },
       {
-        "title": "Celebration Stamps & Titles",
-        "desc": "Commemorative birthday stamps and chat titles",
+        "title": "Sinon Birthday Stamp",
+        "desc": "Limited-edition Sinon commemorative stamp appears",
         "icon": "stamp"
       },
       {
-        "title": "Arcana Gems & Medals",
-        "desc": "Stage clear Arcana Gems and score milestone medals",
+        "title": "Twice Daily Clears",
+        "desc": "Celebrating Sinon's birthday: clearable times doubled to 2x per day",
         "icon": "gems"
       }
     ],
