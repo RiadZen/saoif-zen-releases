@@ -72327,6 +72327,817 @@ const characterData = {
                 ]
             }
         }
-    }	
+    },
+    "1822": {
+        "name": "[Guardian of the East] Argo",
+        "sub": "Dagger (Slash/Dark) Burst Skill",
+        "type": "full burst",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 48,
+        "break_gauge": 44,
+        "skill_name": "Dark Loiter",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 48] • [Break Gauge 44]",
+        "damage": "2350% damage (2x hit/Single Foe)",
+        "damage_template": "{v}% damage (2x hit/Single Foe)",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6000667.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6100667.png",
+        "buffs": [
+            {
+                "name": "Weak Slash 4/Debuff",
+                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Poison/Status Ailments",
+                "desc": "Make it Poison (Stack 1) for 30 sec.",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 48] • [Break Gauge 88]",
+        "burst_skill_name": "Dark Loiter Burst",
+        "burst_activation": "Dark→Slash→Dark→(Dark)",
+        "burst_activation_template": "Dark→Slash→Dark→(Dark)",
+        "burst_damage": "5700% damage (2x hit/Single Foe)",
+        "burst_damage_template": "{v}% damage (2x hit/Single Foe)",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +1500 against enemies with the blunt element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +1% for every Stack 1.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shadow 4/Buff",
+                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "burst_damage": 4507,
+                "buffs": [
+                    15.10,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1830,
+                "burst_damage": 5060,
+                "buffs": [
+                    23.00,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2350,
+                "burst_damage": 5700,
+                "buffs": [
+                    25.00,
+                    75.00
+                ]
+            }
+        }
+    },
+    "1823": {
+        "name": "[Guardian of the South] Yuuki",
+        "sub": "Ability",
+        "rarity": 5,
+        "cost": 24,
+        "type": "normal",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 53] • [Defense 42] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6000668.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6100668.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Bloody Battle Slash 4",
+                "desc": "Attack +20.20/36.00/40.00% (lvl1/lvl80/lvl100) when attacking with slash element.",
+                "desc_template": "Attack +{v}% when attacking with slash element.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Conversion 4",
+                "desc": "Holy element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -10.00% and dark element's damage to enemies +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Polish 3",
+                "desc": "Attack +103.00/340.00/400.00 (lvl1/lvl80/lvl100) when attacking with slash element.",
+                "desc_template": "Attack +{v} when attacking with slash element.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    20.20,
+                    15.10,
+                    103
+                ]
+            },
+            "80": {
+                "hp": 2150,
+                "atk": 47,
+                "def": 36,
+                "buffs": [
+                    36.00,
+                    23.00,
+                    340
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 53,
+                "def": 42,
+                "buffs": [
+                    40.00,
+                    25.00,
+                    400
+                ]
+            }
+        }
+    },
+    "1824": {
+        "name": "[Guardian of the West] Kirito",
+        "sub": "1H Sword (Slash/Dark) Burst Skill",
+        "type": "burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 46,
+        "break_gauge": 43,
+        "skill_name": "Cross Shade",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 46] • [Break Gauge 43]",
+        "damage": "2100% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6000669.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6100669.png",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Pile/Buff",
+                "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "evo_glow": "#ffd700",
+        "background": "resources/backgrounds/gold.png",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 46] • [Break Gauge 86]",
+        "burst_skill_name": "Cross Shade Burst",
+        "burst_activation": "Dark→Slash→Dark→Dark",
+        "burst_activation_template": "Dark→Slash→Dark→Dark",
+        "burst_damage": "5800% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Dark element's damage rises by the number of Kirito Skill Records in the same set x 9%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While Full Burst state Critical rate +500%.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1901,
+                "burst_damage": 4907,
+                "buffs": [
+                    10.05
+                ]
+            },
+            "80": {
+                "damage": 1980,
+                "burst_damage": 5460,
+                "buffs": [
+                    14.00
+                ]
+            },
+            "100": {
+                "damage": 2100,
+                "burst_damage": 5800,
+                "buffs": [
+                    15.00
+                ]
+            }
+        }
+    },
+    "1825": {
+        "name": "[Guardian of the North] Sachi",
+        "sub": "2H Spear (Thrust/Dark) Connect Skill",
+        "type": "connect",
+        "weapon": "2H Spear",
+        "element1": "Thrust",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 24,
+        "cooldown": 12,
+        "switch_gauge": 66,
+        "break_gauge": 38,
+        "skill_name": "Deadly Disk",
+        "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 66] • [Break Gauge 38]",
+        "damage": "2180% damage (2x hit/All Foes)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/All Foes)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6000670.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6100670.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "buffs": [
+            {
+                "name": "Parry 4/Buff",
+                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45.00/50.00% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
+                "desc_template": "When this skill direct hits, the damage you receive decreases at {v}% (Effect will disappear after 20 sec if not activated).",
+                "type": "normal"
+            }
+        ],
+        "connect": [
+            "Attack +1000 → 3000 → 5000 when using dark skills.",
+            "When equipping 2 or more of Klein's Skill Records in the same set, Dark element damage +50.00 → 100.00 → 150.00%."
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 1981,
+                "buffs": [
+                    25.25
+                ]
+            },
+            "80": {
+                "damage": 2060,
+                "buffs": [
+                    45.00
+                ]
+            },
+            "100": {
+                "damage": 2180,
+                "buffs": [
+                    50.00
+                ]
+            }
+        }
+    },
+    "1826": {
+        "tags": [
+            "Floor/Event"
+        ],
+        "name": "[To the Future We Carved] Sachi",
+        "sub": "Ability",
+        "rarity": 5,
+        "cost": 12,
+        "type": "normal",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 35] • [Defense 26] • [HP 1700]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002062.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102062.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Advance Trooper 3",
+                "desc": "Attack +3.00/240.00/300.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Bleed Res. 3",
+                "desc": "Bleed resistance +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Bleed resistance +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 368,
+                "atk": 13,
+                "def": 10,
+                "buffs": [
+                    3.00,
+                    20.10
+                ]
+            },
+            "80": {
+                "hp": 1418,
+                "atk": 30,
+                "def": 22,
+                "buffs": [
+                    240.00,
+                    28.00
+                ]
+            },
+            "100": {
+                "hp": 1700,
+                "atk": 35,
+                "def": 26,
+                "buffs": [
+                    300.00,
+                    30.00
+                ]
+            }
+        }
+    },
+	    "1827": {
+        "name": "[Blossom in the Moonlight] Asuna",
+        "sub": "1H Rapier (Thrust/Dark) Burst Skill",
+        "type": "burst",
+        "weapon": "1H Rapier",
+        "element1": "Thrust",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 40,
+        "break_gauge": 40,
+        "skill_name": "Hell Comet",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 40]",
+        "damage": "2460% damage (4x hit/Single Foe)",
+        "damage_template": "{v}% damage (4x hit/Single Foe)",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002063.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102063.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "buffs": [
+            {
+                "name": "Dark Element Enhance 4/Buff",
+                "desc": "Dark element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Weakness Attack 3/Buff",
+                "desc": "Critical damage +0.10/8.00/10.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Critical damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 80]",
+        "burst_skill_name": "Hell Comet Burst",
+        "burst_activation": "Dark→Thrust→Dark→Dark",
+        "burst_activation_template": "Dark→Thrust→Dark→Dark",
+        "burst_damage": "6000% damage (4x hit/Single Foe)",
+        "burst_damage_template": "{v}% damage (4x hit/Single Foe)",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +2000 against enemies with the slash element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While debuff to raise your own damage taken is effective, attack power will increase 150%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Critical rate +1000%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While Full Burst state Dark element damage +75%.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1861,
+                "burst_damage": 4807,
+                "buffs": [
+                    5.04,
+                    0.10
+                ]
+            },
+            "80": {
+                "damage": 1940,
+                "burst_damage": 5360,
+                "buffs": [
+                    8.20,
+                    8.00
+                ]
+            },
+            "100": {
+                "damage": 2460,
+                "burst_damage": 6000,
+                "buffs": [
+                    9.00,
+                    10.00
+                ]
+            }
+        }
+    },
+	    "1828": {
+        "name": "[Beyond the Field of Rebirth] Yuuki",
+        "sub": "1H Sword (Slash/Dark) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 100,
+        "break_gauge": 44,
+        "skill_name": "Shadow Tempest",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 100] • [Break Gauge 44]",
+        "damage": "2020% damage (10x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (10x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002064.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102064.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Pile/Buff",
+                "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 100] • [Break Gauge 88]",
+        "burst_skill_name": "Shadow Tempest Burst",
+        "burst_activation": "Dark→Dark→Slash→(Earth)",
+        "burst_activation_template": "Dark→Dark→Slash→(Earth)",
+        "burst_damage": "5600% damage (10x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (10x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Dark element damage increases x 0.5% the number of Curse stacks when the player is inflicted with the Curse status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shadow 4/Buff",
+                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1821,
+                "burst_damage": 4707,
+                "buffs": [
+                    10.05,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1900,
+                "burst_damage": 5260,
+                "buffs": [
+                    14.00,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2020,
+                "burst_damage": 5600,
+                "buffs": [
+                    15.00,
+                    75.00
+                ]
+            }
+        }
+    },
+	    "1829": {
+        "name": "[Rising Silver Radiance] Sachi",
+        "sub": "2H Spear (Thrust/Dark) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "2H Spear",
+        "element1": "Thrust",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 52,
+        "break_gauge": 53,
+        "skill_name": "Converging Neither",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 53]",
+        "damage": "2460% damage (All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002065.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102065.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 46,
+        "buffs": [
+            {
+                "name": "Dark Element Weak 4/Debuff",
+                "desc": "Dark element damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 10 sec.",
+                "desc_template": "Dark element damage to enemies +{v}% for 10 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Force 4/Buff",
+                "desc": "Dark element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 54] • [Break Gauge 106]",
+        "burst_skill_name": "Converging Neither Burst",
+        "burst_activation": "Dark→Thrust→Dark→Dark",
+        "burst_activation_template": "Dark→Thrust→Dark→Dark",
+        "burst_damage": "6000% damage (3x hit/All Foes)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (3x hit/All Foes)[Front/Long/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Dark Shadow Demon 5/Buff",
+                "desc": "Dark element damage +20.45/56.00/65.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc_template": "Dark element damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Attack +2000 against enemies with debuff status.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 3 or more of Sachi's Skill Records in the same set, Damage done to enemies weak to thrusting +100%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shadow 4/Buff",
+                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1861,
+                "burst_damage": 4807,
+                "buffs": [
+                    15.10,
+                    5.10,
+                    20.45,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1940,
+                "burst_damage": 5360,
+                "buffs": [
+                    23.00,
+                    13.00,
+                    56.00,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2460,
+                "burst_damage": 6000,
+                "buffs": [
+                    25.00,
+                    15.00,
+                    65.00,
+                    75.00
+                ]
+            }
+        }
+    },
+	    "1830": {
+        "name": "[Flower in the Blue Moon] Yuna",
+        "sub": "Ability",
+        "rarity": 5,
+        "cost": 20,
+        "type": "chain",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 54] • [Defense 38] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002066.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102066.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Enhance Paralysis Res. 4",
+                "desc": "Paralysis Res. increase 20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Paralysis Res. increase {v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Reinforced Stab 3",
+                "desc": "Adds a buff where thrust elemental weakness damage +1% per 1 Stack (Stack 3) for 30 sec when hitting with Switch. (Invalid when equipped by Partner)",
+                "type": "normal"
+            }
+        ],
+        "chains": [
+            "・Effect during Chain\nSkill's power is added +150.00% when used in switch."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    20.50
+                ]
+            },
+            "80": {
+                "hp": 2210,
+                "atk": 48,
+                "def": 33,
+                "buffs": [
+                    60.00
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 54,
+                "def": 38,
+                "buffs": [
+                    70.00
+                ]
+            }
+        }
+    },
+	
 
 };
