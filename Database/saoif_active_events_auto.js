@@ -1,95 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "Campaign",
-    "title": "\"Multiple Rounds: 2x Experience Subquest Campaign\" On Now!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220706q.png",
-    "startTime": "2026-08-18T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "During this campaign, get 2x the experience in Multiple Rounds Subquests! This is your chance to easily raise your player level!  Campaign Duration After August 19, 2026 (Wed) maintenance - Before August 27, 2026 (Thu) maintenance (JST/UTC+9)  Subquests You can accept requests from people with \"!\" m...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5408.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[8/19 13:00 (JST/UTC+9) UPDATE] New items added to the Trader! The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "[8/19 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Rainbow Tuna\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10050 Superior Ingot7510 Rare Metal Scrap755 Superior Metal Scrap2550 Record Frame L625 Glare Dragon Stone650 Resto...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5409.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] New items added to the Trader!The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
-    "startTime": "2026-07-28T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Blue Nostalgic Lure\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10025 Restorative Potion350 Emergency Crystal95 Cleansing Potion920 Revive Crystal1010 Record Frame L920 Gla...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5395.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[8/13 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "[8/13 13:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the August 13, 2026 (Thu) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a \"Field with some unusable items\" where certain items cannot be used and players cannot revive. The recommended Tota...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5394.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "The Agil Summer Festival 2026 -Tuna Wars!- is on! Get a ★4 Agil Skill Record and a fish-themed Weapon Avatar!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805ag.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "Fight alongside Agil and defeat the monsters on the beach!  Rewards Get up to 500 \"Arcana Gems\", up to 500 \"Memoria Niter S\", up to 20 \"Medals of Combat Arts\", up to 100 \"Awakening Stars\", and up to 20 each of the \"Great Jewels\". 300 Arcana Gems come from dungeon clears, and the rest from the Trader...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5378.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "Fishing Ranking Event, \"2026 Midsummer Fishing Competition\" is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805fe.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "Fishing Ranking Event \"2026 Midsummer Fishing Competition\" is on now. In the \"2026 Midsummer Fishing Competition\", you fight for the best rank based on your catch scores.  The Bubbly Bonito and Lace Wraith, selected from user submissions, appear on this Event Map! Catch them to get a high score!  Bu...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5376.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[8/5 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty!The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
-    "startTime": "2026-07-28T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "[8/5 13:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Exile\" and items were added during the August 5, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Exile\" added This is a \"Field with some unusable items\" where certain items cannot be used and players cannot revive. The recommended Total ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5380.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "\"Klein's Test of Courage Operation\" is back!  Get ghost avatars!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260805k.png",
-    "startTime": "2026-08-04T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "The Scenario Event \"Klein's Test of Courage Operation\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Klein's Test of Courage Op...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5383.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "The scenario event \"Operation: Summer Memories\" is on now! Get the ★4 Sasha Skill Record, limited-edition stamps, and more!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260724se.png",
-    "startTime": "2026-07-28T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "Scenario Event \"Operation: Summer Memories\" is on now!  Sasha organized a trip to give the orphanage children a chance to experience summer vacation. Together with the children, everyone relives the joys of summer by fishing, catching bugs, and playing hide-and-seek, just like the summers they once ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5357.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "The scenario event Heat the Beach! Summer Swimsuit Spectacular is back! Get a ★4 Silica Skill Record and limited-edition chat stamps!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250724se.png",
-    "startTime": "2026-07-22T19:00:00+00:00",
-    "endTime": "2026-08-26T19:00:00+00:00",
-    "snippet": "Scenario Event \"Heat the Beach!: Ultimate Swimsuit Episode\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  The heroines take on ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5347.html"
-  },
-  {
     "type": "EVENT",
     "title": "【Raising Dungeon】Get Skill Record enhancement and transformation materials in \"Build Up Skills with Sinon +1\"! For a limited time, you can clear the dungeon twice!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260819si.png",
@@ -115,6 +25,15 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-09-01T19:00:00+00:00",
     "snippet": "The Scenario Event \"Will of Steel to Catch the King\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Will of Steel to Catch the K...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5331.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[Worldwide 8.5 Year Anniversary] Get equipment enhancement and transformation materials in \"Build Up Equipment with Lisbeth\"!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260828ls.png",
+    "startTime": "2026-08-27T19:00:00+00:00",
+    "endTime": "2026-09-03T18:59:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Join Lisbeth and take on a dungeon filled with tons of equipment enhancement and transformation materials! Gather lots of materials to power up your equipment.  Rewards You...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5424.html"
   },
   {
     "type": "Campaign",
