@@ -1,23 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "EVENT",
-    "title": "\"Watermelon Panic!\" is back! Get a Swimsuit Avatar!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630su.png",
-    "startTime": "2026-06-29T19:00:00+00:00",
-    "endTime": "2026-08-25T19:00:00+00:00",
-    "snippet": "The Scenario Event \"Watermelon Panic!\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Watermelon Panic! A beautiful beach by the...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5302.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "\"Bit scary?! Cave Exploration\" is back! Get [Summer Clothes] Lisbeth!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630cho.png",
-    "startTime": "2026-06-29T19:00:00+00:00",
-    "endTime": "2026-08-25T19:00:00+00:00",
-    "snippet": "The Scenario Event \"Bit scary?! Cave Exploration\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Bit scary?! Cave Exploration Wa...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5303.html"
-  },
-  {
     "type": "Campaign",
     "title": "\"Multiple Rounds: 2x Experience Subquest Campaign\" On Now!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220706q.png",
@@ -133,6 +115,24 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-09-01T19:00:00+00:00",
     "snippet": "The Scenario Event \"Will of Steel to Catch the King\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Will of Steel to Catch the K...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5331.html"
+  },
+  {
+    "type": "Campaign",
+    "title": "[Worldwide 8.5 Year Anniversary] The Core Metal+++ Increased Drop Rate Campaign is here! Now is your chance to transform the Rosso Integral Series and higher!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260827ce.png",
+    "startTime": "2026-08-26T19:00:00+00:00",
+    "endTime": "2026-09-08T19:00:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! For a limited time, drop rates have been increased for Core Metal+++, used as a production material for the Stone+++ needed to transform the Rosso Integral Series and higher! Core Metal+++ drop rate increased for All Out Battle [The ...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5421.html"
+  },
+  {
+    "type": "Campaign",
+    "title": "[Worldwide 8.5 Year Anniversary] The Guild Joining Campaign is on now! Get Memoria Niter S by joining a guild!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260827gjc.png",
+    "startTime": "2026-08-26T19:00:00+00:00",
+    "endTime": "2026-09-08T19:00:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Support a guild! Join a guild and earn a Joining Bonus together with everyone! The \"Guild Joining Campaign\" is on now!  It's a great opportunity to join a guild or recruit new members.  Campaign Duration After August 27, 2026 (Thu) m...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5422.html"
   },
   {
     "type": "EVENT",
