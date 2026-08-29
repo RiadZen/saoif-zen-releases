@@ -45501,6 +45501,84 @@ const characterData = {
         "full_burst": [],
         "rarity": 4
     },
+	    "1365": {
+        "name": "[Shining New Year Smile] Yuna",
+        "sub": "1H Club (Blunt/Earth) Awakening Skill",
+        "type": "awakening",
+        "weapon": "1H Club",
+        "element1": "Blunt",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 28,
+        "cooldown": 15,
+        "switch_gauge": 46,
+        "break_gauge": 43,
+        "skill_name": "Refuge Crops",
+        "stats": "[SP Cost 28] • [CD 15.0] • [Switch Gauge 46] • [Break Gauge 43]",
+        "damage": "1380% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "cost": 42,
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001490.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101490.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "tags": [],
+        "buffs": [
+            {
+                "name": "PT Enhance Blunt 4/Buff",
+                "desc": "Damage done to enemies weak to blunt +20.10/28.00/30.00% (lvl1/lvl80/lvl100) for your party for 20 sec.",
+                "desc_template": "Damage done to enemies weak to blunt +{v}% for your party for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Blunt 3/Buff",
+                "desc": "Damage done to enemies weak to blunt +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 1181,
+                "buffs": [
+                    20.10,
+                    15.10
+                ]
+            },
+            "80": {
+                "damage": 1260,
+                "buffs": [
+                    28.00,
+                    23.00
+                ]
+            },
+            "100": {
+                "damage": 1380,
+                "buffs": [
+                    30.00,
+                    25.00
+                ]
+            }
+        },
+        "awakening": [
+            "Fury [When Rush Activates] Own max HP 20.00% recovers."
+        ],
+        "awakening_template": [
+            "Fury [When Rush Activates] Own max HP {v}% recovers."
+        ],
+        "awakening_lv_data": {
+            "1": 4,
+            "5": 20
+        }
+    },
+	
     "1364": {
         "name": "[Celebrating the New Year] Sinon",
         "sub": "Bow (Thrust/Water) Awakening Skill",
