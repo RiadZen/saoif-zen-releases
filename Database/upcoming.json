@@ -1,0 +1,539 @@
+[
+  {
+    "category": "community",
+    "challengeType": "hp_bar",
+    "name": "SA King Percent HP Bar",
+    "description": "Live poll prediction challenge with livestream viewers to retain HP and unlock community rewards.",
+    "initialHp": 100,
+    "remainingHp": 85,
+    "rewardTier": "600 AG + Memoria Niter L x10 (80%+ HP CLEARED)",
+    "releaseDate": "2026-08-20 20:00 (JST/GMT+9)",
+    "image": "",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "order",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Sinon Birthday Special Order (3-Step)",
+    "badge": "3-STEP SPECIAL ORDER",
+    "description": "Step 1 Discounted to 1,500 Arcana Gems • Step 3 guarantees 1 featured ★4 Sinon Skill Record!",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/group_gacha/145f54b9f38ff888d4f3df698dbfe5d2.png",
+    "skills": [
+      {
+        "id": "1820",
+        "name": "[Melody of Nature's Power] Sinon",
+        "rarity": 4,
+        "type": "Skill Record",
+        "weapon": "Bow",
+        "element": "Earth",
+        "image": ""
+      },
+      {
+        "id": "1821",
+        "name": "[Flower Among the Ruins] Sinon",
+        "rarity": 4,
+        "type": "Skill Record",
+        "weapon": "Bow",
+        "element": "Wind",
+        "image": ""
+      }
+    ],
+    "isRerun": false,
+    "clickable": true
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "order",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Free 1x Daily Birthday Order (9 Days)",
+    "badge": "9-DAY FREE GUARANTEED",
+    "description": "Celebrate Sinon's Birthday with 1 Free Guaranteed ★4 Order every single day for 9 consecutive days!",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/721d87af1d8cc602f59523e3462fad7d.png",
+    "highlight": "9 FREE ★4 PULLS TOTAL",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "events",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Sinon Birthday Celebration & Campaigns",
+    "badge": "BIRTHDAY CAMPAIGN // 8/21",
+    "description": "Sinon's birthday celebration! 250 Free Arcana Gems login bonus and official 2,500 AG Twitter/X repost giveaway campaign.",
+    "releaseDate": "2026-08-21 00:00 (JST/GMT+9)",
+    "image": "",
+    "events": [
+      {
+        "type": "login_bonus",
+        "title": "250 Free Arcana Gems",
+        "subtitle": "Birthday Login Bonus",
+        "description": "Celebrating Sinon's birthday! Log in on August 21 to receive 250 free Arcana Gems in your Present Box.",
+        "image": "assets/resources/icons/sinon_bday_login.jpg"
+      },
+      {
+        "type": "social",
+        "title": "2500 AG Repost Campaign",
+        "subtitle": "Follow & Repost Campaign",
+        "description": "Follow & repost on Twitter/X to enter a draw where 2,500 Arcana Gems will be given to 1 lucky winner!",
+        "image": "assets/resources/icons/sinon_bday_repost.jpg"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "dungeon",
+    "character": "Sinon",
+    "birthdayDate": "August 21",
+    "name": "Together with Sinon Skill Training +1",
+    "badge": "TRAINING DUNGEON // 8/21",
+    "description": "Collect materials for Skill Enhancement, Evolution, and Awakening! Celebrating Sinon's birthday: Clearable times increased to twice a day!",
+    "releaseDate": "2026-08-21 04:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/sinon_bday_dungeon.png",
+    "eventPeriod": "2026-08-21 04:00 ~ 2026-08-31 23:59 (JST/GMT+9)",
+    "rewards": [
+      {
+        "title": "Skill Training Materials",
+        "desc": "Collect materials for Skill Enhancement, Evolution, and Awakening",
+        "icon": "outfit"
+      },
+      {
+        "title": "Sinon Birthday Stamp",
+        "desc": "Limited-edition Sinon commemorative stamp appears",
+        "icon": "stamp"
+      },
+      {
+        "title": "Twice Daily Clears",
+        "desc": "Celebrating Sinon's birthday: clearable times doubled to 2x per day",
+        "icon": "gems"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "schedule",
+    "character": "Eydis",
+    "birthdayDate": "September 4",
+    "name": "September 4th is Eydis's Birthday!",
+    "badge": "BIRTHDAY TIMELINE // 9/4",
+    "description": "Celebrate Eydis's birthday! 250 Free Arcana Gems, Eydis panels across Aincrad, special birthday order, and celebration campaigns.",
+    "releaseDate": "2026-09-04 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/E3.png",
+    "schedule": [
+      {
+        "time": "9/3 12:00",
+        "items": [
+          "X (formerly Twitter) icon will be given as a gift."
+        ]
+      },
+      {
+        "time": "9/4 0:00",
+        "items": [
+          "Log in to receive 250 Arcana Gems.",
+          "Eydis's birthday order held (details TBA).",
+          "Install panels featuring birthday illustrations across Aincrad.",
+          "Distribution of stamps."
+        ]
+      },
+      {
+        "time": "9/4 11:00",
+        "items": [
+          "RP campaign held."
+        ]
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "bday",
+    "bdaySlideType": "skills_preview",
+    "character": "Eydis",
+    "name": "Eydis Birthday Skills",
+    "badge": "BIRTHDAY SKILLS PREVIEW",
+    "description": "Skill Records featured in Eydis's birthday order.",
+    "releaseDate": "2026-09-04 00:00 (JST/GMT+9)",
+    "skillImages": [
+      "assets/resources/icons/E1.jpg",
+      "assets/resources/icons/E2.jpg"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "overview",
+    "floorNumber": "70F",
+    "name": "Chapter 2: Aincrad Floor 70",
+    "badge": "NEW SCENARIO & 5★ EVOLUTION",
+    "description": "New Scenario Added! A story revolving around Sachi. Lava Integral Series Evolving Further — ★5 Evolution is now possible, making them even more powerful!",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_banner_1.png",
+    "highlights": [
+      "New 70F Main Scenario Chapter",
+      "Story Revolving Around Sachi",
+      "Lava Integral Series 5★ Evolution",
+      "New Floor Quests & Boss Encounter"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "overview",
+    "floorNumber": "70F",
+    "name": "Lava Integral Series 3-Stage Evolution!",
+    "badge": "3-STAGE EVOLUTION",
+    "description": "4★ Lava Integral Series + Fungal-Bug Armament Stone x2 + Slash-Armament Stone: Ultra x17 -> 5★ Lava Integral Series!",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_banner_2.png",
+    "highlights": [
+      "Fungal-Bug Armament Stone x2",
+      "Slash-Armament Stone: Ultra x17",
+      "Armament Stones differ per weapon type",
+      "Massive 5★ Stat Enhancement"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "weapons",
+    "floorNumber": "70F",
+    "name": "Lava Integral Series 5★ Evolution",
+    "badge": "5★ WEAPON EVOLUTION",
+    "description": "Evolve your Lava Integral weapon series to 5★! Unlock massive stat boosts, enhanced combat power, and maximum refinement potential for 70F challenges.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "",
+    "weapons": [
+      {
+        "name": "Lava Pheonix (5★)",
+        "type": "1H Sword",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04001244.png"
+      },
+      {
+        "name": "Lava Cherubim (5★)",
+        "type": "1H Rapier",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04002244.png"
+      },
+      {
+        "name": "Lava Ira (5★)",
+        "type": "2H Spear",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04004244.png"
+      },
+      {
+        "name": "Lava Minuet (5★)",
+        "type": "Dagger",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04007244.png"
+      },
+      {
+        "name": "Lava Falcon (5★)",
+        "type": "1H Club",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04003244.png"
+      },
+      {
+        "name": "Lava Hurricane (5★)",
+        "type": "2H Axe",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04005244.png"
+      },
+      {
+        "name": "Lava Sveid (5★)",
+        "type": "Bow",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/item_04008244.png"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "photo",
+    "floorNumber": "70F",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_photo_1.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "photo",
+    "floorNumber": "70F",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_photo_2.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "photo",
+    "floorNumber": "70F",
+    "name": "Photos of the New Floor",
+    "badge": "PHOTOS OF THE NEW FLOOR",
+    "description": "Photos of the new 70th floor in-game environment.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_photo_3.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "video",
+    "floorNumber": "70F",
+    "name": "70F Gameplay Video Preview",
+    "badge": "GAMEPLAY VIDEO PREVIEW",
+    "description": "Gameplay footage and mechanics preview of the new 70th Floor.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "videoPath": "assets/resources/icons/VF70.mp4",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (1/7)",
+    "badge": "SCENARIO STORY // 1/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_1.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (2/7)",
+    "badge": "SCENARIO STORY // 2/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_2.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (3/7)",
+    "badge": "SCENARIO STORY // 3/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_3.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (4/7)",
+    "badge": "SCENARIO STORY // 4/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_4.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (5/7)",
+    "badge": "SCENARIO STORY // 5/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_5.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (6/7)",
+    "badge": "SCENARIO STORY // 6/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_6.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "scenario",
+    "floorNumber": "70F",
+    "name": "70F Scenario Story (7/7)",
+    "badge": "SCENARIO STORY // 7/7",
+    "description": "Story revolving around Sachi in Chapter 2: Aincrad Floor 70.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/floor_70_scenario_7.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "floor",
+    "floorSlideType": "overview",
+    "floorNumber": "70F",
+    "name": "Core Metal+++ & Maintenance Campaigns",
+    "badge": "MAINTENANCE CAMPAIGNS",
+    "description": "Core Metal+++ increased drop rate campaign, Guild Joining Campaign (get up to 200 Memoria Niter S if in a 30-member guild within 2 weeks), and new Order featuring Argo, Yuuki, Kirito, and Sachi.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "image": "",
+    "highlights": [
+      "Core Metal+++ Increased Drop Rate",
+      "Guild Joining Campaign (Up to 200 Niter S)",
+      "New Order: Argo, Yuuki, Kirito, Sachi"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Core Metal+++ Increased Drop Rate Campaign",
+    "badge": "DROP RATE CAMPAIGN",
+    "description": "Core Metal+++ drop rate increased for All Out Battle [The Skull Reaper] and [Aincrad]! Transform the Rosso Integral Series and higher, or the Underground Labyrinth Shield!",
+    "releaseDate": "2026-08-27 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251224ce2.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Guild Joining Campaign",
+    "badge": "GUILD CAMPAIGN",
+    "description": "Join a guild and get Memoria Niter S! The more guild members that join, the more rewards you get — receive up to 200 Memoria Niter S!",
+    "releaseDate": "2026-08-27 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20250827gjc.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Build Up Equipment with Lisbeth",
+    "badge": "EQUIPMENT CAMPAIGN",
+    "description": "Get equipment enhancement and transformation materials in 'Build Up Equipment with Lisbeth'!",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20210915r.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "440 Free Skill Record Orders",
+    "badge": "FREE SKILL ORDER // 440 PULLS",
+    "description": "Worldwide 8.5th Anniversary Celebration! Receive up to 440 free skill record pulls with daily free 11-orders featuring ★4 Skill Records.",
+    "releaseDate": "2026-09-01 04:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/S440.jpg",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Multiple Rounds: 8x Experience Character Quest Campaign",
+    "badge": "8X EXP CAMPAIGN",
+    "description": "During this campaign, get 8x the experience in multiple rounds Character Quests! This is your chance to easily raise your player level!",
+    "releaseDate": "2026-09-02 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251203cq2.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Leafa's Limit Break Dojo",
+    "badge": "LIMIT BREAK DOJO",
+    "description": "Leafa's Limit Break Dojo is on now! Get tons of Memoria Niter S for limit breaking your Skill Records!",
+    "releaseDate": "2026-09-04 04:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230322ri.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "Multiple Rounds: 5x Experience Subquest Campaign",
+    "badge": "5X EXP CAMPAIGN",
+    "description": "During this campaign, get 5x the experience in multiple rounds Subquests! This is your chance to easily raise your player level!",
+    "releaseDate": "2026-09-09 17:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20251210sq2.png",
+    "isRerun": true,
+    "clickable": false
+  },
+  {
+    "category": "anniv",
+    "name": "440 Free Avatar Orders",
+    "badge": "FREE AVATAR ORDER // 440 PULLS",
+    "description": "Worldwide 8.5th Anniversary Avatar Summon! Receive up to 440 free avatar pulls across daily 11-orders to customize your character's appearance.",
+    "releaseDate": "2026-10-15 04:00 (JST/GMT+9)",
+    "image": "assets/resources/icons/A440.png",
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "skills_preview",
+    "name": "Upcoming Skill Records",
+    "badge": "LIVESTREAM SKILLS PREVIEW",
+    "description": "New Skill Records shown in the livestream.",
+    "releaseDate": "2026-08-28 00:00 (JST/GMT+9)",
+    "skillImages": [
+      "assets/resources/icons/S1.png",
+      "assets/resources/icons/S2.png",
+      "assets/resources/icons/S3.png",
+      "assets/resources/icons/S4.png"
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "present",
+    "name": "A late summer greeting from koharu",
+    "badge": "SPECIAL SUMMER GREETING",
+    "description": "Log in during the event period to receive 500 Arcana Gems and 500 Memoria Niter S as a special late summer gift from Koharu!",
+    "releaseDate": "2026-08-28 04:00 (JST/GMT+9)",
+    "image": "",
+    "rewards": [
+      {
+        "title": "500 Arcana Gems",
+        "desc": "Special login bonus",
+        "icon": "gems",
+        "amount": "500"
+      },
+      {
+        "title": "500 Memoria Niter S",
+        "desc": "Skill evolution material",
+        "icon": "niter",
+        "amount": "500"
+      }
+    ],
+    "isRerun": false,
+    "clickable": false
+  },
+  {
+    "category": "rerun",
+    "eventSlideType": "overview",
+    "name": "Search for the Phantom Mushroom ['20 Returning]",
+    "badge": "RETURNING SCENARIO EVENT",
+    "description": "GET EACH BEAR AVATAR AND A WEAPON AVATAR WITH GLOWING SPECIAL EFFECTS! THE SCENARIO EVENT \"SEARCH FOR THE PHANTOM MUSHROOM ['20 RETURNING]\" IS BACK!",
+    "releaseDate": "2026-09-10 04:00 (JST/GMT+9)",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20220921ki.png",
+    "isRerun": true,
+    "clickable": false
+  }
+]
