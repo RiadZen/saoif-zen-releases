@@ -67726,7 +67726,7 @@ const characterData = {
         "type": "burst",
         "weapon": "1H Club",
         "element1": "Blunt",
-        "element2": "Earth",
+        "element2": "None",
         "category": "Skill",
         "sp_cost": 15,
         "cooldown": 15,
