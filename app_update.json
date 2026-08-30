@@ -1,6 +1,7 @@
 {
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "downloadUrl": "https://raw.githubusercontent.com/RiadZen/saoif-zen-releases/main/SAOIF%20ZEN.msi",
-  "releaseNotes": "• Initial Launch (v1.0.0)\n• Added Skills & Armor Databases\n• Added Build Planner & Stats Calculator\n• Live Intel & Event Trackers\n• Gacha Viewer & RC Tracker",
+  "releaseNotes": "• Bug Fixes & Improvements\n• Database & Sync Fixes: Resolved local caching and sync issues where outdated event data could persist after database refreshes.\n• ⚠️ Download Notice: If you experience any issues downloading the new update directly from inside the app, please check the **guide video** description where you will find the direct installer download link.",
   "mandatory": false
 }
+
