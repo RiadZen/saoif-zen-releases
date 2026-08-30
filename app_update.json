@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.0.1",
-  "downloadUrl": "https://raw.githubusercontent.com/RiadZen/saoif-zen-releases/main/SAOIF%20ZEN.msi",
+  "downloadUrl": "https://github.com/RiadZen/saoif-zen-releases/releases/download/v1.0.1/SAOIF%20ZEN%201.0.1.msi",
   "releaseNotes": "• Bug Fixes & Improvements\n• Database & Sync Fixes: Resolved local caching and sync issues where outdated event data could persist after database refreshes.\n• ⚠️ Download Notice: If you experience any issues downloading the new update directly from inside the app, please check the **guide video** description where you will find the direct installer download link.",
   "mandatory": false
 }
