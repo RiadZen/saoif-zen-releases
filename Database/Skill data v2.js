@@ -45501,7 +45501,57 @@ const characterData = {
         "full_burst": [],
         "rarity": 4
     },
-	    "1365": {
+    "1364": {
+        "name": "[Celebrating the New Year] Sinon",
+        "sub": "Bow (Thrust/Water) Awakening Skill",
+        "type": "awakening",
+        "weapon": "Bow",
+        "element1": "Thrust",
+        "element2": "Water",
+        "category": "Skill",
+        "sp_cost": 28,
+        "cooldown": 14,
+        "switch_gauge": 27,
+        "break_gauge": 22,
+        "skill_name": "Weight Squall",
+        "stats": "[SP Cost 28] • [CD 14.0] • [Switch Gauge 27] • [Break Gauge 22]",
+        "damage": "",
+        "color": "#ffffff",
+        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/21eadc0a01e106142dc5d11f347bd87f.png",
+        "buffs": [
+            {
+                "name": "Charging []",
+                "desc": "1690% damage (5x hit/All Foes)[Center/Arc/Wide]",
+                "type": "normal"
+            },
+            {
+                "name": "Uncharged []",
+                "desc": "1060% damage (3x hit/All Foes)[Center/Arc/Mid]",
+                "type": "normal"
+            },
+            {
+                "name": "Weak Thrust 3",
+                "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Aqua Pile",
+                "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Weak Thrust 3",
+                "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
+                "type": "normal"
+            }
+        ],
+        "awakening": [
+            "Soaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
+        ],
+        "rarity": 4,
+        "tags": []
+    },
+        "1365": {
         "name": "[Shining New Year Smile] Yuna",
         "sub": "1H Club (Blunt/Earth) Awakening Skill",
         "type": "awakening",
@@ -45578,58 +45628,7 @@ const characterData = {
             "5": 20
         }
     },
-	
-    "1364": {
-        "name": "[Celebrating the New Year] Sinon",
-        "sub": "Bow (Thrust/Water) Awakening Skill",
-        "type": "awakening",
-        "weapon": "Bow",
-        "element1": "Thrust",
-        "element2": "Water",
-        "category": "Skill",
-        "sp_cost": 28,
-        "cooldown": 14,
-        "switch_gauge": 27,
-        "break_gauge": 22,
-        "skill_name": "Weight Squall",
-        "stats": "[SP Cost 28] • [CD 14.0] • [Switch Gauge 27] • [Break Gauge 22]",
-        "damage": "",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/21eadc0a01e106142dc5d11f347bd87f.png",
-        "buffs": [
-            {
-                "name": "Charging []",
-                "desc": "1690% damage (5x hit/All Foes)[Center/Arc/Wide]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged []",
-                "desc": "1060% damage (3x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
-                "name": "Weak Thrust 3",
-                "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
-                "type": "normal"
-            },
-            {
-                "name": "Aqua Pile",
-                "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
-                "type": "normal"
-            },
-            {
-                "name": "Weak Thrust 3",
-                "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
-                "type": "normal"
-            }
-        ],
-        "awakening": [
-            "Soaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
-        ],
-        "rarity": 4,
-        "tags": []
-    },
-    "1366": {
+	"1366": {
         "name": "[Judgement of the Abyss] Sinon",
         "sub": "Bow (Thrust/Water) Awakening Skill",
         "type": "awakening",
@@ -73216,6 +73215,150 @@ const characterData = {
             }
         }
     },
-	
+    "1831": {
+        "name": "[Dark Sword Unleashed] Eydis",
+        "sub": "1H Sword (Slash/Dark) Connect Skill",
+        "type": "connect",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "cost": 52,
+        "sp_cost": 24,
+        "cooldown": 12,
+        "switch_gauge": 42,
+        "break_gauge": 38,
+        "skill_name": "Dark Slay",
+        "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 42] • [Break Gauge 38]",
+        "damage": "2620% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002067.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102067.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "buffs": [
+            {
+                "name": "Parry 4/Buff",
+                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45.00/50.00% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
+                "desc_template": "When this skill direct hits, the damage you receive decreases at {v}% (Effect will disappear after 20 sec if not activated).",
+                "type": "normal"
+            }
+        ],
+        "connect": [
+            "Attack +1000 → 3000 → 5000 when using dark skills.",
+            "When equipping 2 or more of Alice's Skill Records in the same set, Dark element damage +50.00 → 100.00 → 150.00%."
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2021,
+                "buffs": [
+                    25.25
+                ]
+            },
+            "80": {
+                "damage": 2100,
+                "buffs": [
+                    45.00
+                ]
+            },
+            "100": {
+                "damage": 2620,
+                "buffs": [
+                    50.00
+                ]
+            }
+        }
+    },
+    "1832": {
+        "name": "[A Playful Holiday] Eydis",
+        "sub": "Ability Link Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 52] • [Defense 44] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002068.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102068.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Power Rise 3",
+                "desc": "Attack +107.00/660.00/800.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Conversion 5",
+                "desc": "Holy element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Doting 4",
+                "desc": "When equipping 2 or more of Alice's Skill Records in the same set, Attack +25%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% (LLv 100).",
+            "LLv250: Dark element damage +20.00% (LLv 250).",
+            "LLv350: Damage done to enemies weak to slashing +20.00% (LLv 350)."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 18,
+                "def": 13,
+                "buffs": [
+                    107.00,
+                    20.10
+                ]
+            },
+            "80": {
+                "hp": 2150,
+                "atk": 46,
+                "def": 38,
+                "buffs": [
+                    660.00,
+                    28.00
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 52,
+                "def": 44,
+                "buffs": [
+                    800.00,
+                    30.00
+                ]
+            }
+        }
+    },
 
 };
