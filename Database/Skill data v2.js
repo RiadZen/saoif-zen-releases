@@ -73216,6 +73216,9 @@ const characterData = {
         }
     },
     "1831": {
+		        "tags": [
+            "Bday"
+        ],
         "name": "[Dark Sword Unleashed] Eydis",
         "sub": "1H Sword (Slash/Dark) Connect Skill",
         "type": "connect",
@@ -73238,7 +73241,7 @@ const characterData = {
         "background": "resources/backgrounds/gold.png",
         "evo_glow": "#ffd700",
         "color": "#ffffff",
-        "rarity": 5,
+        "rarity": 4,
         "rarity_steps": {
             "1": 4,
             "70": 5
@@ -73277,9 +73280,12 @@ const characterData = {
         }
     },
     "1832": {
+		        "tags": [
+            "Bday"
+        ],
         "name": "[A Playful Holiday] Eydis",
         "sub": "Ability Link Skill",
-        "rarity": 5,
+        "rarity": 4,
         "cost": 22,
         "type": "link",
         "weapon": "None",
