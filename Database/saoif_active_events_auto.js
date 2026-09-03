@@ -1,23 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "Campaign",
-    "title": "Clear the Underground Labyrinth to get lots of Protection Stones and Skill Releasers! The Underground Labyrinth Bonus Time Campaign is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260520pd.png",
-    "startTime": "2026-08-18T19:00:00+00:00",
-    "endTime": "2026-09-01T19:00:00+00:00",
-    "snippet": "The \"Underground Labyrinth Bonus Time Campaign\" is here! During the campaign period, the chances to obtain Protection Stones and Skill Releasers will be increased! Don't let this chance pass you by!  Protection Stone Increased Drop Rate Campaign For a limited time, every floor of the Underground Lab...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5406.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "\"Will of Steel to Catch the King\" is back! ★4 Alice swimsuit Skill Records are back!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260715tu.png",
-    "startTime": "2026-07-14T19:00:00+00:00",
-    "endTime": "2026-09-01T19:00:00+00:00",
-    "snippet": "The Scenario Event \"Will of Steel to Catch the King\" is back!  This event will carry over the following progress from the previous run: ・Quest progression and rewards ・Total Score and Score Rewards ・Challenge rewards ・Amount traded ・Achievements and achievement progress  Will of Steel to Catch the K...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5331.html"
-  },
-  {
     "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] Get equipment enhancement and transformation materials in \"Build Up Equipment with Lisbeth\"!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260828ls.png",
