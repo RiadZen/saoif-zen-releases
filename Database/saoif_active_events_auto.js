@@ -1,14 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] Get equipment enhancement and transformation materials in \"Build Up Equipment with Lisbeth\"!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260828ls.png",
-    "startTime": "2026-08-27T19:00:00+00:00",
-    "endTime": "2026-09-03T18:59:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Join Lisbeth and take on a dungeon filled with tons of equipment enhancement and transformation materials! Gather lots of materials to power up your equipment.  Rewards You...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5424.html"
-  },
-  {
     "type": "Campaign",
     "title": "[Worldwide 8.5 Year Anniversary] \"Multiple Rounds: 8x Experience Character Quest Campaign\" is here!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902cq2.png",
