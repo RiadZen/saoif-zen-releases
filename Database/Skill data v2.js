@@ -73366,5 +73366,374 @@ const characterData = {
             }
         }
     },
+		    "1833": {
+        "name": "[Hero's Strike] Kirito",
+        "sub": "Ability Link Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 58] • [Defense 36] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002040.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102040.png",
+        "background": "resources/backgrounds/link.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Bloody Battle Thrust 3",
+                "desc": "Attack +15.20/31.00/35.00% (lvl1/lvl80/lvl100) when attacking with thrust element.",
+                "desc_template": "Attack +{v}% when attacking with thrust element.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Conversion 4",
+                "desc": "Holy element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -10.00% and dark element's damage to enemies +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% (LLv 100).",
+            "LLv250: Dark element damage +20.00% (LLv 250).",
+            "LLv350: Damage done to enemies weak to thrusting +20.00%."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 20,
+                "def": 13,
+                "buffs": [
+                    15.20,
+                    15.10
+                ]
+            },
+            "80": {
+                "hp": 2020,
+                "atk": 50,
+                "def": 31,
+                "buffs": [
+                    31.00,
+                    23.00
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 58,
+                "def": 36,
+                "buffs": [
+                    35.00,
+                    25.00
+                ]
+            }
+        }
+    },
+	    "1834": {
+        "name": "[Prayerful Blade of Light] Asuna",
+        "sub": "1H Rapier (Thrust/Dark) Link Skill",
+        "type": "link",
+        "weapon": "1H Rapier",
+        "element1": "Thrust",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 14,
+        "switch_gauge": 40,
+        "break_gauge": 40,
+        "skill_name": "Shadow Hornet",
+        "stats": "[SP Cost 18] • [CD 14.0] • [Switch Gauge 40] • [Break Gauge 40]",
+        "damage": "2800% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002041.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102041.png",
+        "background": "resources/backgrounds/link.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "buffs": [
+            {
+                "name": "Dark Force 4/Buff",
+                "desc": "Dark element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 2/Buff",
+                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Thrust Boost 3/Buff",
+                "desc": "Adds a buff where thrust elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec while Accele Skill is activated.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Dark element damage +50.00% (LLv 1).",
+            "LLv50: Dark element damage +50.00% (LLv 50).",
+            "LLv100: Attack +100.00% (LLv 100).",
+            "LLv250: Damage done to enemies weak to thrusting +50.00% (LLv 250).",
+            "LLv500: Critical rate +500.00% (LLv 500)."
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2201,
+                "buffs": [
+                    5.10,
+                    10.10
+                ]
+            },
+            "80": {
+                "damage": 2280,
+                "buffs": [
+                    13.00,
+                    18.00
+                ]
+            },
+            "100": {
+                "damage": 2800,
+                "buffs": [
+                    15.00,
+                    20.00
+                ]
+            }
+        }
+    },
+	    "1835": {
+        "name": "[World-Shaking Roar] Agil",
+        "sub": "2H Axe (Blunt/Fire) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "2H Axe",
+        "element1": "Blunt",
+        "element2": "Fire",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 84,
+        "break_gauge": 72,
+        "skill_name": "Surging Fire",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 84] • [Break Gauge 72]",
+        "damage": "2100% damage (3x hit/Single Foe)[Front/Long/Wide]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Long/Wide]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002042.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102042.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "buffs": [
+            {
+                "name": "Enhance Attack 4/Buff",
+                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Attack +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Fire Element Enhance 4/Buff",
+                "desc": "Fire element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 84] • [Break Gauge 144]",
+        "burst_skill_name": "Surging Fire Burst",
+        "burst_activation": "Fire→Blunt→Fire→(Fire)",
+        "burst_activation_template": "Fire→Blunt→Fire→(Fire)",
+        "burst_damage": "5800% damage (3x hit/Single Foe)[Front/Long/Wide]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Front/Long/Wide]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "When enemy's HP is 50% or up, attack will increase 250%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Fire element damage increases x 0.5% the number of burn stacks when the player is inflicted with the burn status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 2 or more of Leafa's Skill Records in the same set, Damage done to enemies weak to blunt +100%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Frame 4/Buff",
+                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1901,
+                "burst_damage": 4907,
+                "buffs": [
+                    5.10,
+                    5.04,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1980,
+                "burst_damage": 5460,
+                "buffs": [
+                    13.00,
+                    8.20,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2100,
+                "burst_damage": 5800,
+                "buffs": [
+                    15.00,
+                    9.00,
+                    75.00
+                ]
+            }
+        }
+    },
+    "1836": {
+        "name": "[Mystery-Weaving Blessing] Lisbeth",
+        "sub": "1H Club (Blunt/Wind) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "1H Club",
+        "element1": "Blunt",
+        "element2": "Wind",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 48,
+        "break_gauge": 51,
+        "skill_name": "Wind Disruption",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 48] • [Break Gauge 51]",
+        "damage": "2350% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002043.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102043.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "buffs": [
+            {
+                "name": "Wind Element Enhance 4/Buff",
+                "desc": "Wind element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Wind element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Small Mark/Debuff",
+                "desc": "The next attack the enemy receives will induce 1.5x damage.(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 48] • [Break Gauge 102]",
+        "burst_skill_name": "Wind Disruption Burst",
+        "burst_activation": "Wind→Wind→Blunt→(Earth)",
+        "burst_activation_template": "Wind→Wind→Blunt→(Earth)",
+        "burst_damage": "5700% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +150% against enemies with debuff status (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark).",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Wind element damage increases x 0.5% the number of bleed stacks when the player is inflicted with the bleed status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to blunt +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Wind 4/Buff",
+                "desc": "While Full Burst state Wind element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Wind element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "burst_damage": 4507,
+                "buffs": [
+                    5.04,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1830,
+                "burst_damage": 5060,
+                "buffs": [
+                    8.20,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2350,
+                "burst_damage": 5700,
+                "buffs": [
+                    9.00,
+                    75.00
+                ]
+            }
+        }
+    },
+	
+
 
 };
