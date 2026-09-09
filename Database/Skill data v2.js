@@ -73588,7 +73588,7 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "Ruinous Frame 4/Buff",
+                "name": "Ruinous Flame 4/Buff",
                 "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
                 "type": "normal"
