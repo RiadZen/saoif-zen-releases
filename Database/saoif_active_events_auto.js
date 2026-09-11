@@ -1,32 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Multiple Rounds: 8x Experience Character Quest Campaign\" is here!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902cq2.png",
-    "startTime": "2026-09-01T19:00:00+00:00",
-    "endTime": "2026-09-08T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! During this campaign, get 8x the experience in Multiple Rounds Character Quests! This is your chance to easily raise your player level!  Event Start Accept the Character Quest from the Bulletin Board in the Merchant District.  Partic...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5434.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] The Core Metal+++ Increased Drop Rate Campaign is here! Now is your chance to transform the Rosso Integral Series and higher!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260827ce.png",
-    "startTime": "2026-08-26T19:00:00+00:00",
-    "endTime": "2026-09-08T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! For a limited time, drop rates have been increased for Core Metal+++, used as a production material for the Stone+++ needed to transform the Rosso Integral Series and higher! Core Metal+++ drop rate increased for All Out Battle [The ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5421.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] The Guild Joining Campaign is on now! Get Memoria Niter S by joining a guild!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260827gjc.png",
-    "startTime": "2026-08-26T19:00:00+00:00",
-    "endTime": "2026-09-08T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Support a guild! Join a guild and earn a Joining Bonus together with everyone! The \"Guild Joining Campaign\" is on now!  It's a great opportunity to join a guild or recruit new members.  Campaign Duration After August 27, 2026 (Thu) m...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5422.html"
-  },
-  {
     "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] \"Leafa's Limit Break Dojo\" on now! Get heaps of Memoria Niter S for limit breaking your Skill Records!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260904re.png",
@@ -52,6 +25,15 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-09-15T19:00:00+00:00",
     "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Use limited-time Guild Skills in the Guild Support Campaign. It's a great opportunity to join a guild or recruit new members.  Limited-Time Guild Skills For a limited-time, use Guild Skills that add Production's Additional Bonus Up o...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5433.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[Worldwide 8.5 Year Anniversary] Clears +2! Get items to increase drop rates and boost EXP from the \"Great Enhancement Event  VS Yuuki +2\" on now!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260911yu.png",
+    "startTime": "2026-09-10T19:00:00+00:00",
+    "endTime": "2026-09-17T18:59:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Take down Yuuki and get useful items for battle! Clear it up to three times a day! The extremely difficult Serious Match, where you can fight Yuuki going all out, is also o...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5446.html"
   },
   {
     "type": "EVENT",
