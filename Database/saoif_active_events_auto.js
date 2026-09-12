@@ -1,14 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Leafa's Limit Break Dojo\" on now! Get heaps of Memoria Niter S for limit breaking your Skill Records!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260904re.png",
-    "startTime": "2026-09-03T19:00:00+00:00",
-    "endTime": "2026-09-10T18:59:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Challenge Leafa at the \"Memoria Dojo\" and get heaps of \"Memoria Niter S\", the material for limit breaking Skill Records! The \"Leafa's Limit Break Dojo\" will begin.   You ca...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5436.html"
-  },
-  {
     "type": "Campaign",
     "title": "[Worldwide 8.5 Year Anniversary] \"Multiple Rounds: 5x Experience Subquest Campaign\" On Now!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260909sq2.png",
