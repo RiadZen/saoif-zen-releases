@@ -73216,7 +73216,7 @@ const characterData = {
         }
     },
     "1831": {
-		        "tags": [
+		    "tags": [
             "Bday"
         ],
         "name": "[Dark Sword Unleashed] Eydis",
@@ -73280,7 +73280,7 @@ const characterData = {
         }
     },
     "1832": {
-		        "tags": [
+		    "tags": [
             "Bday"
         ],
         "name": "[A Playful Holiday] Eydis",
@@ -73366,7 +73366,7 @@ const characterData = {
             }
         }
     },
-		    "1833": {
+	    "1833": {
         "name": "[Hero's Strike] Kirito",
         "sub": "Ability Link Skill",
         "rarity": 5,
@@ -73733,7 +73733,393 @@ const characterData = {
             }
         }
     },
-	
-
+    "1837": {
+        "name": "[Jet-Black Mediator] Kirito",
+        "sub": "Ability Accele Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "accele",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 55] • [Defense 32] • [HP 2875]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002003.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102003.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Super Enhance Heal",
+                "desc": "Effect of healing items and field objects +20.80/84.00/100.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Effect of healing items and field objects +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Duet 2",
+                "desc": "Switch gauge amount +5.05/9.00/10.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Switch gauge amount +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Hold the Front 4",
+                "desc": "Recovers a max of 1.04/4.20/5.00% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
+                "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
+                "type": "normal"
+            },
+            {
+                "name": "Break the Dam 3",
+                "desc": "Break gauge amount +10.20/26.00/30.00% (lvl1/lvl80/lvl100) at enemies while Accele Skill is activated.",
+                "desc_template": "Break gauge amount +{v}% at enemies while Accele Skill is activated.",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
+        ],
+        "ability_effect_template": "Extra effect time {v} sec.Limit Break extends Accele Skill effect time.",
+        "lv_data": {
+            "1": {
+                "hp": 512,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    20.80,
+                    5.05,
+                    1.04,
+                    10.20
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2400,
+                "atk": 47,
+                "def": 27,
+                "buffs": [
+                    84.00,
+                    9.00,
+                    4.20,
+                    26.00
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2875,
+                "atk": 55,
+                "def": 32,
+                "buffs": [
+                    100.00,
+                    10.00,
+                    5.00,
+                    30.00
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
+    },
+"1838": {
+        "name": "[Black Sheep in Pure White] Leafa",
+        "sub": "1H Sword (Slash/Earth) Link Skill",
+        "type": "link",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 14,
+        "switch_gauge": 56,
+        "break_gauge": 26,
+        "skill_name": "Indiscreet Earth",
+        "stats": "[SP Cost 18] • [CD 14.0] • [Switch Gauge 56] • [Break Gauge 26]",
+        "damage": "2500% damage (8x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (8x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002004.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102004.png",
+        "background": "resources/backgrounds/link.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 52,
+        "buffs": [
+            {
+                "name": "Earth Force 4/Buff",
+                "desc": "Earth element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Earth element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Slash 2/Buff",
+                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec while Accele Skill is activated.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Earth element damage +50.00% (LLv 1).",
+            "LLv50: Earth element damage +50.00% (LLv 50).",
+            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
+            "LLv250: Damage done to enemies weak to slashing +50.00% (LLv 250).",
+            "LLv500: Your own attack increases by defense x 1 (LLv 500)."
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2301,
+                "buffs": [
+                    5.10,
+                    10.10
+                ]
+            },
+            "80": {
+                "damage": 2380,
+                "buffs": [
+                    13.00,
+                    18.00
+                ]
+            },
+            "100": {
+                "damage": 2500,
+                "buffs": [
+                    15.00,
+                    20.00
+                ]
+            }
+        }
+    },
+    "1839": {
+        "name": "[Pisces in a Sea of Stars] Koharu",
+        "sub": "Dagger (Slash/Earth) Burst Skill",
+        "type": "burst",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 54,
+        "break_gauge": 44,
+        "skill_name": "Earth Fang",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 54] • [Break Gauge 44]",
+        "damage": "2420% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002005.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102005.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 48,
+        "buffs": [
+            {
+                "name": "Weak Slash 4/Debuff",
+                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Bleed/Status Ailments",
+                "desc": "Inflict Bleed (Stack 1) for 30 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 54] • [Break Gauge 88]",
+        "burst_skill_name": "Earth Fang Burst",
+        "burst_activation": "Earth→Earth→Slash→Earth",
+        "burst_activation_template": "Earth→Earth→Slash→Earth",
+        "burst_damage": "5900% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +1500 against enemies with the blunt element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +1% for every Stack 1.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While Full Burst state Earth element damage +75%.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1821,
+                "burst_damage": 4707,
+                "buffs": [
+                    15.10
+                ]
+            },
+            "80": {
+                "damage": 1900,
+                "burst_damage": 5260,
+                "buffs": [
+                    23.00
+                ]
+            },
+            "100": {
+                "damage": 2420,
+                "burst_damage": 5900,
+                "buffs": [
+                    25.00
+                ]
+            }
+        }
+    },
+    "1840": {
+        "name": "[Adorable Lion's Roar] Sinon",
+        "sub": "Bow (Thrust/Fire) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "Bow",
+        "element1": "Thrust",
+        "element2": "Fire",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 34,
+        "break_gauge": 42,
+        "skill_name": "Heat Blast-Shot",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 34] • [Break Gauge 42]",
+        "damage": "1990% damage (Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002006.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102006.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 52,
+        "buffs": [
+            {
+                "name": "Flame Force 4/Buff",
+                "desc": "Fire element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 2/Buff",
+                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 34] • [Break Gauge 84]",
+        "burst_skill_name": "Heat Blast-Shot Burst",
+        "burst_activation": "Fire→Fire→Thrust→(Earth)",
+        "burst_activation_template": "Fire→Fire→Thrust→(Earth)",
+        "burst_damage": "5500% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "The lower your own HP, attack increases.(max 200%)",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Fire element damage increases x 0.5% the number of burn stacks when the player is inflicted with the burn status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to thrusting +100%, when equipping no Alice Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Flame 4/Buff",
+                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1791,
+                "burst_damage": 4607,
+                "buffs": [
+                    5.10,
+                    10.10,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1870,
+                "burst_damage": 5160,
+                "buffs": [
+                    13.00,
+                    18.00,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 1990,
+                "burst_damage": 5500,
+                "buffs": [
+                    15.00,
+                    20.00,
+                    75.00
+                ]
+            }
+        }
+    },
 
 };
