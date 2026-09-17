@@ -1,23 +1,5 @@
 const ACTIVE_EVENTS_AUTO = [
   {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Multiple Rounds: 5x Experience Subquest Campaign\" On Now!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260909sq2.png",
-    "startTime": "2026-09-08T19:00:00+00:00",
-    "endTime": "2026-09-15T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! During this campaign, get 5x the experience in Multiple Rounds Subquests! This is your chance to easily raise your player level!  Campaign Duration After September 9, 2026 (Wed) maintenance - Before September 16, 2026 (Wed) maintenan...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5443.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Guild Support Campaign\" is coming! You can use limited-time Guild Skills!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902gc.png",
-    "startTime": "2026-09-01T19:00:00+00:00",
-    "endTime": "2026-09-15T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Use limited-time Guild Skills in the Guild Support Campaign. It's a great opportunity to join a guild or recruit new members.  Limited-Time Guild Skills For a limited-time, use Guild Skills that add Production's Additional Bonus Up o...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5433.html"
-  },
-  {
     "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] Clears +2! Get items to increase drop rates and boost EXP from the \"Great Enhancement Event  VS Yuuki +2\" on now!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260911yu.png",
