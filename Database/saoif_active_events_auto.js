@@ -10,6 +10,15 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "[Worldwide 8.5 Year Anniversary] Get Skill Record enhancement and transformation materials in \"Build Up Skills with Sinon\" ",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918se.png",
+    "startTime": "2026-09-17T19:00:00+00:00",
+    "endTime": "2026-09-24T18:59:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Join Sinon and take on a dungeon filled with Skill Record enhancement and transformation materials! Gather lots of materials to power up your Skill Record.  Rewards You can...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5462.html"
+  },
+  {
+    "type": "EVENT",
     "title": "[9/16 14:00 (JST/UTC+9) UPDATE] New items added to the Trader! The \"Lightning Horse Hunt\" is on! Get fantastic items! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902lh.png",
     "startTime": "2026-09-01T19:00:00+00:00",
@@ -61,6 +70,15 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-09-28T19:00:00+00:00",
     "snippet": "To celebrate the upcoming launch of the newest game of the Sword Art Online Game Series, we will be holding a special event in SAOIF!  Echoes of Survival is an event that recreates the unforgiving Death Game Mode to be implemented in Echoes of Aincrad. Defeat will not be an option. Entering a Near-D...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5288.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "[Worldwide 8.5 Year Anniversary] \"Daily Dungeon +2\" is here! Clear it up to 3 times a day!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918dd.png",
+    "startTime": "2026-09-17T19:00:00+00:00",
+    "endTime": "2026-10-01T18:59:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Clear the Daily Dungeons an additional two times! Daily Dungeon +2 is underway! Clear the dungeon up to three times a day!  \"Daily Dungeons\" are a special type of solo dungeon that you can only clear once per day. There are ten varie...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5463.html"
   },
   {
     "type": "EVENT",
