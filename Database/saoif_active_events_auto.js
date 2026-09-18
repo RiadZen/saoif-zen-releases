@@ -1,15 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] Clears +2! Get items to increase drop rates and boost EXP from the \"Great Enhancement Event  VS Yuuki +2\" on now!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260911yu.png",
-    "startTime": "2026-09-10T19:00:00+00:00",
-    "endTime": "2026-09-17T18:59:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Take down Yuuki and get useful items for battle! Clear it up to three times a day! The extremely difficult Serious Match, where you can fight Yuuki going all out, is also o...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5446.html"
-  },
-  {
-    "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] Get Skill Record enhancement and transformation materials in \"Build Up Skills with Sinon\" ",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918se.png",
     "startTime": "2026-09-17T19:00:00+00:00",
