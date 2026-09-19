@@ -9665,7 +9665,7 @@ const characterData = {
             },
             {
                 "name": "Blooming Flower 4",
-                "desc": "When attacking with 2 or more Skill Records of ",
+                "desc": "When attacking with 2 or more Skill Records of Leafa equipped within the same set, deal additional damage of 300.",
                 "type": "normal"
             },
             {

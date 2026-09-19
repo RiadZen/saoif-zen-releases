@@ -82,6 +82,15 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "[Worldwide 8.5 Year Anniversary] Memoria All Out Battle: Asura the Executioner is here! Get up to 1,000 Memoria Niter S!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260920ase.png",
+    "startTime": "2026-09-19T15:00:00+00:00",
+    "endTime": "2026-10-14T19:00:00+00:00",
+    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Memoria All Out Battle: Asura the Executioner is here! The Memoria All Out Battle is a large-scale raid in which all players work together to defeat a raid boss with a massive amount of HP. By successfully defeating the raid boss, As...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5464.html"
+  },
+  {
+    "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] \"Dinosaur Assault\" is here! Earn Arcana Gems, Awakening Stars, Medals of Combat Arts, Exp Crystals, and more!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916da.png",
     "startTime": "2026-09-15T19:00:00+00:00",
