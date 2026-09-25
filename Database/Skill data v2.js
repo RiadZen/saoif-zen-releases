@@ -74121,5 +74121,311 @@ const characterData = {
             }
         }
     },
+	    "1841": {
+			    "tags": [
+            "Bday"
+        ],
+        "name": "[Sword of Bonds] Asuna",
+        "sub": "1H Rapier (Thrust/None) Burst Skill",
+        "type": "full burst",
+        "weapon": "1H Rapier",
+        "element1": "Thrust",
+        "element2": "None",
+        "category": "Skill",
+        "sp_cost": 35,
+        "cooldown": 18,
+        "switch_gauge": 66,
+        "break_gauge": 49,
+        "skill_name": "Mother's Rosary",
+        "stats": "[SP Cost 35] • [CD 18.0] • [Switch Gauge 66] • [Break Gauge 49]",
+        "damage": "2290% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002069.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102069.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 42,
+        "buffs": [
+            {
+                "name": "Dyna Pile/Buff",
+                "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Peak Descent 3/Buff/Debuff",
+                "desc": "Own critical rate and critical damage rises 2% per stack for 20 sec (Stack 3). Triggers a debuff that raises the damage you take by 0.5% per stack (Stack 9).",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 36.0] • [Switch Gauge 66] • [Break Gauge 98]",
+        "burst_skill_name": "Mother's Rosary Burst",
+        "burst_activation": "Holy→Thrust→Thrust→(Dark)",
+        "burst_activation_template": "Holy→Thrust→Thrust→(Dark)",
+        "burst_damage": "5510% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +2000 against enemies with the slash element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While debuff to raise your own damage taken is effective, attack power will increase 150%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Critical rate +1000%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Non-elemental damage +100%, when equipping 2 or more of Yuuki's Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Mechanics 4/Buff",
+                "desc": "While Full Burst state Non-elemental damage +10.40/42.00/50.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Non-elemental damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP35)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1691,
+                "burst_damage": 4317,
+                "buffs": [
+                    10.40
+                ]
+            },
+            "80": {
+                "damage": 1770,
+                "burst_damage": 4870,
+                "buffs": [
+                    42.00
+                ]
+            },
+            "100": {
+                "damage": 2290,
+                "burst_damage": 5510,
+                "buffs": [
+                    50.00
+                ]
+            }
+        }
+    },
+    "1842": {
+		    "tags": [
+            "Bday"
+        ],
+        "name": "[Joyful Kitchen] Asuna",
+        "sub": "Ability Link Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 55] • [Defense 30] • [HP 2500]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002070.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102070.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Power Rise 4",
+                "desc": "Attack +108.00/740.00/900.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Attack 4",
+                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Flame Conversion 5",
+                "desc": "Water element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and fire element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Water element's damage to enemies -15.00% and fire element's damage to enemies +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% (LLv 100).",
+            "LLv250: Fire element damage +20.00% (LLv 250).",
+            "LLv350: Damage done to enemies weak to thrusting +20.00% (LLv 350)."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 475,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    108,
+                    5.10,
+                    20.10
+                ]
+            },
+            "80": {
+                "hp": 2100,
+                "atk": 49,
+                "def": 26,
+                "buffs": [
+                    740,
+                    13.00,
+                    28.00
+                ]
+            },
+            "100": {
+                "hp": 2500,
+                "atk": 55,
+                "def": 30,
+                "buffs": [
+                    900,
+                    15.00,
+                    30.00
+                ]
+            }
+        }
+    },
+	    "5843": {
+        "name": "[Blade Illuminating the Dark] Kirito",
+        "sub": "1H Sword (Slash/Fire) Burst Skill",
+        "type": "burst / full burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Fire",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 52,
+        "break_gauge": 40,
+        "skill_name": "Vertical Fire",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 40]",
+        "damage": "2400% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002082.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102082.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 50,
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Fire Element Enhance 4/Buff",
+                "desc": "Fire element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 52] • [Break Gauge 80]",
+        "burst_skill_name": "Vertical Fire Burst",
+        "burst_activation": "Fire→Slash→Fire→(Dark)",
+        "burst_activation_template": "Fire→Slash→Fire→(Dark)",
+        "burst_damage": "5800% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Fire element damage increases x 0.5% the number of burn stacks when the player is inflicted with the burn status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 2 or more of Leafa's Skill Records in the same set, Damage done to enemies weak to slashing +100%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Flame 4/Buff",
+                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "",
+                "desc": "Can activate without using SP.(Able to activate when above SP30)",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1801,
+                "burst_damage": 4607,
+                "buffs": [
+                    10.05,
+                    5.04,
+                    25.50
+                ]
+            },
+            "80": {
+                "damage": 1880,
+                "burst_damage": 5160,
+                "buffs": [
+                    14.00,
+                    8.20,
+                    65.00
+                ]
+            },
+            "100": {
+                "damage": 2400,
+                "burst_damage": 5800,
+                "buffs": [
+                    15.00,
+                    9.00,
+                    75.00
+                ]
+            }
+        }
+    },
+	
 
 };
