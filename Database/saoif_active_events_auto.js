@@ -1,60 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "[9/16 14:00 (JST/UTC+9) UPDATE] New items added to the Trader! The \"Lightning Horse Hunt\" is on! Get fantastic items! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902lh.png",
-    "startTime": "2026-09-01T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "[9/16 14:00 (JST/UTC+9) UPDATE] Items have been added to the Trader. Exchange \"Red Lightning Plate\" for the added items.  Added Items Tradable Item ListAmount NeededTrade Limit Memoria Niter S10040 Record Frame L650 Glare Dragon Stone625 Recovery Potion325 Life Potion95 First Aid Crystal310 Purifica...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5460.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "[Worldwide 8.5 Year Anniversary] The \"Boss Ingot Increased Drop Rate Campaign\" is here! Increased drop rate for Metal Scraps needed to produce Boss Ingots!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916ingot.png",
-    "startTime": "2026-09-15T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Boss Ingot Increased Drop Rate Campaign is on now!  The drop rate for Metal Scraps needed to produce Boss Ingots is increased for a limited time! Work with your party and collect Metal Scraps!  Main Boss Ingots       In the dunge...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5459.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Silica's Heapin' 50M EXP Event\" on now!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916gp2.png",
-    "startTime": "2026-09-15T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! You can earn tons of EXP in the special quest on now!  Accept the quest, move to the designated map, and clear it by defeating the monsters to claim your rewards. Plus, the difficulty increases as you progress through the quest.  Rew...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5458.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "[9/9 14:00 (JST/UTC+9) UPDATE] Added high-difficulty \"Abyss\" and rewards!The \"Lightning Horse Hunt\" is on! Get fantastic items! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!<",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902lh.png",
-    "startTime": "2026-09-01T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "[9/9 14:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Abyss\" and items were added during the September 9, 2026 (Wed) maintenance.  High-difficulty dungeon, \"Abyss\" added This is a Crystal-Disabled Area where Revive Crystals cannot be used. The recommended Total Power is 600,000. You can comple...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5444.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "The \"Lightning Horse Hunt\" is on! Get fantastic items! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902lh.png",
-    "startTime": "2026-09-01T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "Defeat the Lightning Horse and get rewards!  Rewards  Get up to 500 \"Arcana Gems\", up to 200 \"Awakening Stars\", up to 20 \"Medals of Combat Arts\", and up to 500 \"Memoria Niter S\" from the event. This time you can get enhancement and evolution materials for Skill Records, including all kinds of Great ...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5435.html"
-  },
-  {
-    "type": "EVENT",
-    "title": "Venture into a Death Game Mode with Echoes of Survival: Echoes of Aincrad Opening Celebration!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260624es.png",
-    "startTime": "2026-06-23T19:00:00+00:00",
-    "endTime": "2026-09-28T19:00:00+00:00",
-    "snippet": "To celebrate the upcoming launch of the newest game of the Sword Art Online Game Series, we will be holding a special event in SAOIF!  Echoes of Survival is an event that recreates the unforgiving Death Game Mode to be implemented in Echoes of Aincrad. Defeat will not be an option. Entering a Near-D...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5288.html"
-  },
-  {
-    "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] \"Daily Dungeon +2\" is here! Clear it up to 3 times a day!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918dd.png",
     "startTime": "2026-09-17T19:00:00+00:00",
