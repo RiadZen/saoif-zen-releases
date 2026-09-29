@@ -60223,8 +60223,8 @@ const characterData = {
         ],
         "links": [
             "When Activated: Holy element damage +50%",
-            "LLv100：The lower your own HP, attack increases",
-            "(max 200%)"
+            "LLv100：The lower your own HP, attack increases (max 200%)",
+            
         ],
         "rarity": 4
     },
@@ -60294,7 +60294,8 @@ const characterData = {
             }
         ],
         "links": [
-            "Effect duration is extended. The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills. When Activated: Attack +500 when using Link Sword Skills. LLv100：Attack against burned enemies increases 15%."
+            " When Activated: Attack +500 when using Link Sword Skills. ",
+			"LLv100：Attack against burned enemies increases 15%."
         ],
         "is_ex": true
     },
@@ -60624,9 +60625,6 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
             "When Activated: Water element damage +50%.",
             "LLv100：Your own attack increases by defense x 1.",
             ""
@@ -60741,8 +60739,6 @@ const characterData = {
             "70": 5
         },
         "links": [
-            "Effect duration is extended.",
-            "The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills.",
             "When Activated: Attack +500 when using Link Sword Skills.",
             "LLv100: Skill Power is added +100%."
         ],
@@ -60951,8 +60947,6 @@ const characterData = {
             }
         ],
         "links": [
-            "Effect duration is extended.",
-            "The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills.",
             "When Activated: Attack +500 when using Link Sword Skills.",
             "LLv100: Skill Power is added +100%."
         ],
@@ -61114,12 +61108,9 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
             "When Activated: Earth element damage +50%.",
-            "LLv100：Attack +100% against debuffed enemies.",
-            ""
+            "LLv100：Attack +100% against debuffed enemies."
+            
         ],
         "rarity": 4
     },
@@ -61183,9 +61174,6 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
             "When Activated: Earth element damage +50%.",
             "LLv100：Attack +100% against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark)."
         ],
@@ -61255,9 +61243,6 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
             "When Activated: Wind element damage +50%.",
             "LLv100：Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1."
         ],
@@ -61661,11 +61646,9 @@ const characterData = {
             }
         ],
         "links": [
-            "Effect duration is extended.",
-            "The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills.",
             "When Activated: Attack +500 when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100%.",
-            ""
+            "LLv100: Skill Power is added +100%."
+            
         ]
     },
     "1691": {
@@ -62044,11 +62027,8 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Dark element damage +50.00% (LLv 1).",
-            "LLv100：Attack +100.00% (LLv 100) against debuffed enemies."
+            "When Activated: Dark element damage +50.00% .",
+            "LLv100：Attack +100.00%  against debuffed enemies."
         ],
         "rarity": 4
     },
@@ -62196,7 +62176,8 @@ const characterData = {
         ],
         "rarity": 4,
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. <br>*Counts as a Link Skill only when using a compatible weapon type.<br> When Activated: Holy element damage +50%. <br> LLv100：While debuff to raise your own damage taken is effective, attack power will increase 100%."
+            "LLv1： When Activated: Holy element damage +50%.",
+			"LLv100：While debuff to raise your own damage taken is effective, attack power will increase 100%."
         ]
     },
     "1698": {
@@ -62264,7 +62245,8 @@ const characterData = {
         ],
         "rarity": 4,
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.  When Activated: Dark element damage +50%. LLv100：Attack +100% against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark)."
+            "When Activated: Dark element damage +50%. ",
+			"LLv100：Attack +100% against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark)."
         ]
     },
     "1699": {
@@ -62593,9 +62575,6 @@ const characterData = {
         ],
         "rarity": 4,
         "links": [
-            "Link Level increases by attacking during Link State.",
-            "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
             "When Activated: Holy element damage +50%.",
             "LLv100：The lower your own HP, attack increases.(max 200%)."
         ]
@@ -62965,8 +62944,8 @@ const characterData = {
             "70": 5
         },
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Holy element damage +50.00% (LLv 1).",
+            
+            "When Activated: Holy element damage +50.00% .",
             "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00%.",
             "LLv250: Damage done to enemies weak to thrusting +50.00%."
         ]
@@ -63046,8 +63025,8 @@ const characterData = {
         ],
         "rarity": 4,
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
             "LLv100: Skill Power is added +100.00%.",
             "LLv250: Holy element damage +20.00%."
         ]
@@ -63346,10 +63325,10 @@ const characterData = {
             "70": 5
         },
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Earth element damage +50.00% (LLv 1).",
-            "LLv100: Attack +100.00% (LLv 100) against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark).",
-            "LLv250: Damage done to enemies weak to blunt +50.00% (LLv 250)."
+            
+            "When Activated: Earth element damage +50.00% .",
+            "LLv100: Attack +100.00%  against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark).",
+            "LLv250: Damage done to enemies weak to blunt +50.00% ."
         ]
     },
     "1713": {
@@ -63420,10 +63399,10 @@ const characterData = {
         ],
         "rarity": 4,
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Wind element damage +20.00% (LLv 250)"
+            
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Wind element damage +20.00% "
         ]
     },
     "1714": {
@@ -63754,10 +63733,10 @@ const characterData = {
             }
         ],
         "links": [
-            "Link Level increases by attacking during Link State. Skill Power increases by Link Level x 4%. *Counts as a Link Skill only when using a compatible weapon type.",
-            "When Activated: Fire element damage +50.00% (LLv 1).",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
-            "LLv250: Damage done to enemies weak to slashing +50.00% (LLv 250)."
+            
+            "When Activated: Fire element damage +50.00% .",
+            "LLv100: Your own attack increases by defense x 1 .",
+            "LLv250: Damage done to enemies weak to slashing +50.00% ."
         ],
         "rarity": 4,
         "rarity_steps": {
@@ -64553,9 +64532,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Wind element damage +50.00% (LLv 1).",
-            "LLv100: Attack increases in proportion with your remaining HP x 200.00% (LLv 100).",
-            "LLv250: Damage done to enemies weak to blunt +50.00% (LLv 250)."
+            "When Activated: Wind element damage +50.00% .",
+            "LLv100: Attack increases in proportion with your remaining HP x 200.00% .",
+            "LLv250: Damage done to enemies weak to blunt +50.00% ."
         ],
         "rarity": 4
     },
@@ -64637,9 +64616,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Fire element damage +20.00% (LLv 250)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Fire element damage +20.00% ."
         ],
         "rarity": 5
     },
@@ -64722,9 +64701,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Earth element damage +20.00% (LLv 250)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Earth element damage +20.00% ."
         ],
         "rarity": 5
     },
@@ -65434,9 +65413,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Wind element damage +20.00% (LLv 250)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Wind element damage +20.00% ."
         ],
         "rarity": 4,
         "rarity_steps": {
@@ -66254,7 +66233,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Bleed Aim 5",
-                "desc": "Chance of bleed UP.",
+                "desc": "● Chance of bleed UP.",
                 "type": "normal"
             },
             {
@@ -66271,9 +66250,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Dark element damage +20.00% (LLv 250)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Dark element damage +20.00% ."
         ],
         "lv_data": {
             "1": {
@@ -66425,8 +66404,8 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 4/Buff",
-                "desc": "Skill's power is added +100.00% when used in switch.",
-                "desc_template": "Skill's power is added +{v}% when used in switch.",
+                "desc": "● Skill's power is added +100.00% when used in switch.",
+                "desc_template": "● Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
             {
@@ -66547,9 +66526,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Holy element damage +50.00% (LLv 1)",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100)",
-            "LLv250: Damage done to enemies weak to slashing +50.00% (LLv 250)"
+            "When Activated: Holy element damage +50.00% ",
+            "LLv100: Your own attack increases by defense x 1 ",
+            "LLv250: Damage done to enemies weak to slashing +50.00% "
         ],
         "lv_data": {
             "1": {
@@ -66626,9 +66605,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Fire element damage +50.00% (LLv 1).",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% (LLv 100).",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% (LLv 250)."
+            "When Activated: Fire element damage +50.00% .",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% .",
+            "LLv250: Damage done to enemies weak to thrusting +50.00% ."
         ],
         "lv_data": {
             "1": {
@@ -66947,8 +66926,8 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "Enhance Stun Res. 1",
-                "desc": "Stun resistance +10.00%",
+                "name": "• Enhance Stun Res. 1",
+                "desc": "• Stun resistance +10.00%",
                 "desc_template": "Stun resistance +{v}%",
                 "type": "normal"
             }
@@ -67036,9 +67015,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: water element damage +20.00% (LLv 250).",
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: water element damage +20.00% .",
             ""
         ],
         "lv_data": {
@@ -67354,7 +67333,7 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
             "LLv100: Skill Power is added +100.00%",
             "LLv250: water element damage +20.00%"
         ],
@@ -68164,7 +68143,7 @@ const characterData = {
         "links": [
             "Link Level increases by attacking during Link State.",
             "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
+            
             "When Activated: Water element damage +50%.",
             "LLv50: Water element damage +50%.",
             "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100%.",
@@ -68546,10 +68525,10 @@ const characterData = {
         "tags": [],
         "evo_glow": "#ffd700",
         "links": [
-            "When Activated: Wind element damage +50% (LLv 1).",
-            "LLv50: Wind element damage +50% (LLv 50).",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
-            "LLv250: Damage done to enemies weak to slashing +50% (LLv 250).",
+            "When Activated: Wind element damage +50% .",
+            "LLv50: Wind element damage +50% .",
+            "LLv100: Your own attack increases by defense x 1 .",
+            "LLv250: Damage done to enemies weak to slashing +50% .",
             ""
         ],
         "lv_data": {
@@ -68998,7 +68977,7 @@ const characterData = {
         "links": [
             "Link Level increases by attacking during Link State.",
             "Skill Power increases by Link Level x 4%.",
-            "*Counts as a Link Skill only when using a compatible weapon type.",
+            
             "When Activated: Earth element damage +50%.",
             "LLv50: Earth element damage +50%.",
             "LLv100: Attack increases in proportion with your remaining HP x 200%.",
@@ -69162,8 +69141,8 @@ const characterData = {
             },
             {
                 "name": "Enhance Antidote 4",
-                "desc": "Poison damage -50%.",
-                "desc_template": "Poison damage -{v}%.",
+                "desc": "• Poison damage -50%.",
+                "desc_template": "• Poison damage -{v}%.",
                 "type": "normal"
             },
             {
@@ -69180,8 +69159,8 @@ const characterData = {
         ],
         "links": [
             "When Activated: Attack +500 when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100% (LLv 100).",
-            "LLv250: Earth element damage +20% (LLv 250).",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Earth element damage +20% .",
             ""
         ],
         "lv_data": {
@@ -69422,10 +69401,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Dark element damage +50% (LLv 1).",
-            "LLv50: Dark element damage +50% (LLv 50).",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
-            "LLv250: Damage done to enemies weak to slashing +50% (LLv 250).",
+            "When Activated: Dark element damage +50% .",
+            "LLv50: Dark element damage +50% .",
+            "LLv100: Your own attack increases by defense x 1 .",
+            "LLv250: Damage done to enemies weak to slashing +50% .",
             ""
         ],
         "lv_data": {
@@ -69487,8 +69466,8 @@ const characterData = {
         ],
         "links": [
             "When Activated: Attack +500 when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100% (LLv 100).",
-            "LLv250: Dark element damage +20% (LLv 250).",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Dark element damage +20% .",
             ""
         ],
         "lv_data": {
@@ -69704,8 +69683,8 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 2",
-                "desc": "Attack +2.00/160.00/200.00 (lvl1/lvl80/lvl100).",
-                "desc_template": "Attack +{v}.",
+                "desc": "• Attack +2.00/160.00/200.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "• Attack +{v}.",
                 "type": "normal"
             },
             {
@@ -69914,9 +69893,9 @@ const characterData = {
         "links": [
             "Effect duration is extended.",
             "The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills.",
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Holy element damage +20.00% (LLv 250)"
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Holy element damage +20.00% "
         ],
         "lv_data": {
             "1": {
@@ -70530,8 +70509,8 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Stun Res. 4",
-                "desc": "Stun resistance +20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Stun resistance +{v}%.",
+                "desc": "• Stun resistance +20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "• Stun resistance +{v}%.",
                 "type": "normal"
             },
             {
@@ -70637,10 +70616,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Water element damage +50.00% (LLv 1).",
-            "LLv50: Water element damage +50.00% (LLv 50).",
-            "LLv100: Attack increases in proportion with your remaining HP x 200.00% (LLv 100).",
-            "LLv250: Damage done to enemies weak to blunt +50.00% (LLv 250).",
+            "When Activated: Water element damage +50.00% .",
+            "LLv50: Water element damage +50.00% .",
+            "LLv100: Attack increases in proportion with your remaining HP x 200.00% .",
+            "LLv250: Damage done to enemies weak to blunt +50.00% .",
             ""
         ],
         "lv_data": {
@@ -70716,10 +70695,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Fire element damage +50.00% (LLv 1).",
-            "LLv50: Fire element damage +50.00% (LLv 50).",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
-            "LLv250: Damage done to enemies weak to slashing +50.00% (LLv 250).",
+            "When Activated: Fire element damage +50.00% .",
+            "LLv50: Fire element damage +50.00% .",
+            "LLv100: Your own attack increases by defense x 1 .",
+            "LLv250: Damage done to enemies weak to slashing +50.00% .",
             ""
         ],
         "lv_data": {
@@ -70790,10 +70769,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Dark element damage +50.00% (LLv 1).",
-            "LLv50: Dark element damage +50.00% (LLv 50).",
-            "LLv100: Attack +100.00% (LLv 100) against debuffed enemies.",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% (LLv 250).",
+            "When Activated: Dark element damage +50.00% .",
+            "LLv50: Dark element damage +50.00% .",
+            "LLv100: Attack +100.00%  against debuffed enemies.",
+            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
             ""
         ],
         "lv_data": {
@@ -71724,10 +71703,10 @@ const characterData = {
             "70": 5
         },
         "links": [
-            "When Activated: Wind element damage +50.00% (LLv 1).",
-            "LLv50: Wind element damage +50.00% (LLv 50).",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% (LLv 100).",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% (LLv 250).",
+            "When Activated: Wind element damage +50.00% .",
+            "LLv50: Wind element damage +50.00% .",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% .",
+            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
             ""
         ],
         "lv_data": {
@@ -72078,7 +72057,7 @@ const characterData = {
             "70": 5
         },
         "cost": 50,
-        "link_desc": "When Activated: Holy element damage +50.00% (LLv 1).\nLLv50: Holy element damage +50.00% (LLv 50).\nLLv100: Attack increases in proportion with your remaining HP x 200.00% (LLv 100).\nLLv250: Damage done to enemies weak to blunt +50.00% (LLv 250).",
+        "link_desc": "When Activated: Holy element damage +50.00% .\nLLv50: Holy element damage +50.00% .\nLLv100: Attack increases in proportion with your remaining HP x 200.00% .\nLLv250: Damage done to enemies weak to blunt +50.00% .",
         "lv_data": {
             "1": {
                 "damage": 2621,
@@ -72368,9 +72347,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Wind element damage +20.00% (LLv 250)"
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Wind element damage +20.00% "
         ],
         "lv_data": {
             "1": {
@@ -72791,8 +72770,8 @@ const characterData = {
             },
             {
                 "name": "Enhance Bleed Res. 3",
-                "desc": "Bleed resistance +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Bleed resistance +{v}%.",
+                "desc": "● Bleed resistance +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "● Bleed resistance +{v}%.",
                 "type": "normal"
             }
         ],
@@ -73175,8 +73154,8 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Paralysis Res. 4",
-                "desc": "Paralysis Res. increase 20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Paralysis Res. increase {v}%.",
+                "desc": "• Paralysis Res. increase 20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "• Paralysis Res. increase {v}%.",
                 "type": "normal"
             },
             {
@@ -73331,10 +73310,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Dark element damage +20.00% (LLv 250).",
-            "LLv350: Damage done to enemies weak to slashing +20.00% (LLv 350)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Dark element damage +20.00% .",
+            "LLv350: Damage done to enemies weak to slashing +20.00% ."
         ],
         "lv_data": {
             "1": {
@@ -73410,9 +73389,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Dark element damage +20.00% (LLv 250).",
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Dark element damage +20.00% .",
             "LLv350: Damage done to enemies weak to thrusting +20.00%."
         ],
         "lv_data": {
@@ -73493,11 +73472,11 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Dark element damage +50.00% (LLv 1).",
-            "LLv50: Dark element damage +50.00% (LLv 50).",
-            "LLv100: Attack +100.00% (LLv 100).",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% (LLv 250).",
-            "LLv500: Critical rate +500.00% (LLv 500)."
+            "When Activated: Dark element damage +50.00% .",
+            "LLv50: Dark element damage +50.00% .",
+            "LLv100: Attack +100.00% .",
+            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
+            "LLv500: Critical rate +500.00% ."
         ],
         "lv_data": {
             "1": {
@@ -73885,11 +73864,11 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Earth element damage +50.00% (LLv 1).",
-            "LLv50: Earth element damage +50.00% (LLv 50).",
-            "LLv100: Your own attack increases by defense x 1 (LLv 100).",
-            "LLv250: Damage done to enemies weak to slashing +50.00% (LLv 250).",
-            "LLv500: Your own attack increases by defense x 1 (LLv 500)."
+            "When Activated: Earth element damage +50.00% .",
+            "LLv50: Earth element damage +50.00% .",
+            "LLv100: Your own attack increases by defense x 1 .",
+            "LLv250: Damage done to enemies weak to slashing +50.00% .",
+            "LLv500: Your own attack increases by defense x 1 ."
         ],
         "lv_data": {
             "1": {
@@ -74143,7 +74122,7 @@ const characterData = {
         "max_lv": 100,
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002069.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102069.png",
-        "background": "resources/backgrounds/gold.png",
+        "background": "",
         "evo_glow": "#ffd700",
         "color": "#ffffff",
         "rarity": 5,
@@ -74281,10 +74260,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 (LLv 1) when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% (LLv 100).",
-            "LLv250: Fire element damage +20.00% (LLv 250).",
-            "LLv350: Damage done to enemies weak to thrusting +20.00% (LLv 350)."
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Fire element damage +20.00% .",
+            "LLv350: Damage done to enemies weak to thrusting +20.00% ."
         ],
         "lv_data": {
             "1": {
@@ -74319,7 +74298,265 @@ const characterData = {
             }
         }
     },
-	    "5843": {
+		    "1843": {
+			"tags": [
+            "Floor/Event"
+        ],
+        "name": "[Shameful] Diavel",
+        "sub": "Ability",
+        "rarity": 5,
+        "cost": 12,
+        "type": "normal",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 22] • [Defense 46] • [HP 2125]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002079.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102079.png",
+        "background": "resources/backgrounds/gold.png",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Advance Trooper 2",
+                "desc": "• Attack +2.00/160.00/200.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "• Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Antidote 4",
+                "desc": "• Poison damage -10.40/42.00/50.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "• Poison damage -{v}%.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 437,
+                "atk": 10,
+                "def": 14,
+                "buffs": [
+                    2.00,
+                    10.40
+                ]
+            },
+            "80": {
+                "hp": 1750,
+                "atk": 19,
+                "def": 38,
+                "buffs": [
+                    160.00,
+                    42.00
+                ]
+            },
+            "100": {
+                "hp": 2125,
+                "atk": 22,
+                "def": 46,
+                "buffs": [
+                    200.00,
+                    50.00
+                ]
+            }
+        }
+    },
+    "1844": {
+		    "tags": [
+            "Bday"
+        ],
+        "name": "[Hands Connecting Hearts] Silica",
+        "sub": "Dagger (Slash/Fire) Link Skill",
+        "type": "link",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Fire",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 34,
+        "break_gauge": 32,
+        "skill_name": "Fire Slip",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 34] • [Break Gauge 32]",
+        "damage": "2340% damage (2x hit/Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002080.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102080.png",
+        "background": "resources/backgrounds/link.png",
+        "evo_glow": "#ffd700",
+        "color": "#ffffff",
+        "rarity": 5,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "cost": 52,
+        "buffs": [
+            {
+                "name": "Flame Force 4/Buff",
+                "desc": "Fire element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Slash 2/Buff",
+                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec while Accele Skill is activated.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Fire element damage +50.00% .",
+            "LLv50: Fire element damage +50.00%.",
+            "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50%  for every Stack 1.",
+            "LLv250: Damage done to enemies weak to slashing +50.00% .",
+            "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50%  for every Stack 1."
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2141,
+                "buffs": [
+                    5.10,
+                    10.10
+                ]
+            },
+            "80": {
+                "damage": 2220,
+                "buffs": [
+                    13.00,
+                    18.00
+                ]
+            },
+            "100": {
+                "damage": 2340,
+                "buffs": [
+                    15.00,
+                    20.00
+                ]
+            }
+        }
+    },
+    "1845": {
+		    "tags": [
+            "Bday"
+        ],
+        "name": "[Daring Assault] Silica",
+        "sub": "Ability Accele Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "accele",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 52] • [Defense 34] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002081.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102081.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Peak 3",
+                "desc": "Attack +10.30/34.00/40.00% (lvl1/lvl80/lvl100) when HP is above 80%.",
+                "desc_template": "Attack +{v}% when HP is above 80%.",
+                "type": "normal"
+            },
+            {
+                "name": "Duet 3",
+                "desc": "Switch gauge amount +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Switch gauge amount +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Accelerated Healing 4",
+                "desc": "Recovers a max of 1.03/3.40/4.00% (lvl1/lvl80/lvl100) HP per 3 sec while Accele Skill is activated.",
+                "desc_template": "Recovers a max of {v}% HP per 3 sec while Accele Skill is activated.",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
+        ],
+        "ability_effect_template": "Extra effect time {v} sec.Limit Break extends Accele Skill effect time.",
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 18,
+                "def": 12,
+                "buffs": [
+                    10.30,
+                    5.10,
+                    1.03
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2150,
+                "atk": 46,
+                "def": 29,
+                "buffs": [
+                    34.00,
+                    13.00,
+                    3.40
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 52,
+                "def": 34,
+                "buffs": [
+                    40.00,
+                    15.00,
+                    4.00
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
+    },
+    "1846": {
+		"tags": [
+            "Bday"
+        ],
         "name": "[Blade Illuminating the Dark] Kirito",
         "sub": "1H Sword (Slash/Fire) Burst Skill",
         "type": "burst / full burst",
@@ -74337,8 +74574,8 @@ const characterData = {
         "damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
         "max_lv": 100,
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002082.png",
-        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102082.png",
-        "background": "resources/backgrounds/gold.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102082.png",        
+		"background": "",
         "evo_glow": "#ffd700",
         "color": "#ffffff",
         "rarity": 5,
@@ -74426,6 +74663,93 @@ const characterData = {
             }
         }
     },
+	    "1847": {
+			    "tags": [
+            "Bday"
+        ],
+        "name": "[Crystal Clear Breeze] Kirito",
+        "sub": "Ability Link Skill",
+        "rarity": 5,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 58] • [Defense 36] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "damage_template": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002083.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102083.png",
+        "background": "",
+        "evo_glow": "#ffd700",
+        "buffs": [
+            {
+                "name": "Vital Assention 3",
+                "desc": "Defense +103.00/340.00/400.00 (lvl1/lvl80/lvl100).",
+                "desc_template": "Defense +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Light Magic 4",
+                "desc": "DEF increase with own level ×0.17. (max 34%)",
+                "type": "normal"
+            },
+            {
+                "name": "Flame Boost 5",
+                "desc": "Elemental damage other than fire dealt to enemies -50.00/50.00/50.00% (lvl1/lvl80/lvl100)(Non-elemental included), and fire element's damage to enemies +25.20/41.00/45.00% (lvl1/lvl80/lvl100).",
+                "desc_template": "Elemental damage other than fire dealt to enemies -50.00%(Non-elemental included), and fire element's damage to enemies +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100.00% .",
+            "LLv250: Fire element damage +20.00% ."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 20,
+                "def": 13,
+                "buffs": [
+                    103.00,
+                    25.20
+                ]
+            },
+            "80": {
+                "hp": 2020,
+                "atk": 50,
+                "def": 31,
+                "buffs": [
+                    340.00,
+                    41.00
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 58,
+                "def": 36,
+                "buffs": [
+                    400.00,
+                    45.00
+                ]
+            }
+        }
+    },
+
 	
 
 };
