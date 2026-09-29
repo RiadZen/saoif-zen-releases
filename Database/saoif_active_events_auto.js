@@ -1,15 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] Get Skill Record enhancement and transformation materials in \"Build Up Skills with Sinon\" ",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918se.png",
-    "startTime": "2026-09-17T19:00:00+00:00",
-    "endTime": "2026-09-24T18:59:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! The Raising Dungeon is here to help boost character growth!  Join Sinon and take on a dungeon filled with Skill Record enhancement and transformation materials! Gather lots of materials to power up your Skill Record.  Rewards You can...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5462.html"
-  },
-  {
-    "type": "EVENT",
     "title": "[9/16 14:00 (JST/UTC+9) UPDATE] New items added to the Trader! The \"Lightning Horse Hunt\" is on! Get fantastic items! You can get tons of Memoria Niter to Limit Break Skill Records, as well as transformation and enhancement materials!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260902lh.png",
     "startTime": "2026-09-01T19:00:00+00:00",
@@ -82,6 +73,15 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "[9/29 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty! \"Dinosaur Assault\" is here! Earn Arcana Gems, Awakening Stars, Medals of Combat Arts, Exp Crystals, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916da.png",
+    "startTime": "2026-09-15T19:00:00+00:00",
+    "endTime": "2026-10-14T19:00:00+00:00",
+    "snippet": "[9/29 13:00 (JST/UTC+9) UPDATE] The high-difficulty dungeon \"Expert\" and items were added during the September 29, 2026 (Tue) maintenance.  High-difficulty dungeon, \"Expert\" added This is a \"Field with some unusable items\" where certain items cannot be used and players cannot revive. The recommended...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5480.html"
+  },
+  {
+    "type": "EVENT",
     "title": "[Worldwide 8.5 Year Anniversary] Memoria All Out Battle: Asura the Executioner is here! Get up to 1,000 Memoria Niter S!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260920ase.png",
     "startTime": "2026-09-19T15:00:00+00:00",
@@ -97,5 +97,14 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-10-14T19:00:00+00:00",
     "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary!  Hordes of monsters attack in the \"Dinosaur Assault\"! After a certain amount of time passes, the boss monster will appear. Drive off hordes of monsters and earn tons of EXP!  Rewards In addition to tons of EXP and the \"Exp Crystals\" ...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5457.html"
+  },
+  {
+    "type": "Campaign",
+    "title": "The \"Labyrinth Strategy Campaign\" is on now!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260630mk.png",
+    "startTime": "2026-09-28T19:00:00+00:00",
+    "endTime": "2026-10-20T19:00:00+00:00",
+    "snippet": "Collect the Bronze Floor Coins dropped by monsters on 13F and onward of the Labyrinth, then exchange what you've collected for tons of items!  Rewards There are a variety of items at the Trader, including Awakening Stars, Medals of Combat Arts, and up to 50 \"Memoria Niter S\".  Trade \"Bronze Floor Co...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5479.html"
   }
 ];
