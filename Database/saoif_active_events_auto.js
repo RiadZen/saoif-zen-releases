@@ -1,15 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "[Worldwide 8.5 Year Anniversary] \"Daily Dungeon +2\" is here! Clear it up to 3 times a day!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260918dd.png",
-    "startTime": "2026-09-17T19:00:00+00:00",
-    "endTime": "2026-10-01T18:59:00+00:00",
-    "snippet": "Sword Art Online Integral Factor's Worldwide 8.5 Year Anniversary! Clear the Daily Dungeons an additional two times! Daily Dungeon +2 is underway! Clear the dungeon up to three times a day!  \"Daily Dungeons\" are a special type of solo dungeon that you can only clear once per day. There are ten varie...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5463.html"
-  },
-  {
-    "type": "EVENT",
     "title": "\"Search for the Phantom Mushroom\" is back! Get each Bear Avatar and a Weapon Avatar with glowing special effects!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260909ki.png",
     "startTime": "2026-09-08T19:00:00+00:00",
