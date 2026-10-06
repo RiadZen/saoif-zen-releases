@@ -5,8 +5,8 @@
  */
 
 const COOKING_DATA = {
-  "version": "1.1.0",
-  "updatedAt": "2026-09-29",
+  "version": "1.2.0",
+  "updatedAt": "2026-10-04",
   "iconBaseUrl": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/items/",
   "expTable": [
     {
@@ -7779,12 +7779,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Adrenalinity Dino)",
-          "Floor 69 Map 1 (Thirsthroat Tadpole)",
-          "Floor 77 Mobs",
-          "Floor 85 Mobs"
+          "Floor 17 Map 1 [Ch.2] (Adrenalinity Dino · x1)",
+          "Floor 23 Map 2 [Ch.2] (Apparition Mink · x1)",
+          "Floor 24 Map 1 [Ch.2] (Euxenite Boar · x1)"
         ],
-        "notes": "Dropped by Adrenalinity Dino on Floor 17 (Map 1)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 17 Map 1, Floor 23 Map 2, Floor 24 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_slicedmeat_w01.png"
     },
@@ -7796,11 +7795,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Adrenalinity Dino - Rare)",
-          "Floor 24 Map 1 (Euxenite Boar)",
-          "Floor 92 (Speculum Lion)"
+          "Floor 17 Map 1 [Ch.2] (Adrenalinity Dino · x1)",
+          "Floor 23 Map 2 [Ch.2] (Apparition Mink · x1)",
+          "Floor 24 Map 1 [Ch.2] (Euxenite Boar · x1)",
+          "Floor 92 [Ch.2] (Speculum Lion · x1)"
         ],
-        "notes": "Rare drop from Adrenalinity Dino on Floor 17 (Map 1), Floor 24 Map 1 (Euxenite Boar)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 17 Map 1, Floor 23 Map 2, Floor 24 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_bellymeat_w01.png"
     },
@@ -7812,15 +7812,15 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 56 Mobs",
-          "Floor 56 (Cave Kapiyva)",
-          "Floor 63 (Whitish Billy Goat)",
-          "Floor 79 Map 1 (Junkyard Wolf)",
-          "Floor 92 (Speculum Lion)",
-          "Floor 91 Mobs",
-          "Floor 94 (Lycan Cogitat)"
+          "Floor 91 Map 1 [Ch.1] (Crystal Cerat · x1)",
+          "Floor 91 Map 2/Dungeon [Ch.1] (Blazing Mustang · x1)",
+          "Floor 94 Dungeon [Ch.1] (Lycan Cogitat · x1)",
+          "Floor 56 Dungeon [Ch.2] (Cave Kapiyva · x1)",
+          "Floor 63 Dungeon [Ch.2] (Whitish Billy Goat · x1)",
+          "Floor 79 Map 1 [Ch.2] (Junkyard Wolf · x1)",
+          "Floor 92 [Ch.2] (Speculum Lion · x1)"
         ],
-        "notes": "Dropped by monsters in Floor 56"
+        "notes": "Dropped across Chapter 1 (3 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_blockmeat_w01.png"
     },
@@ -7832,11 +7832,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 24 Map 1 (Euxenite Boar)",
-          "Floor 33 Map 2 (Wildland Wolf)",
-          "Floor 81 (Viridian Unicorn)"
+          "Floor 81 Map 2/Dungeon [Ch.1] (Viridian Unicorn · x1)",
+          "Floor 33 Map 2 [Ch.2] (Wildland Wolf · x1)",
+          "Floor 65 Map 1 [Ch.2] (Butterscotch Meiolania · x1)"
         ],
-        "notes": "Dropped on Floor 24 Map 1 (Euxenite Boar)"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_steakmeat_w01.png"
     },
@@ -7848,13 +7848,15 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 16 Map 1 (Dozer Crab)",
-          "Floor 69 Map 1 (Tadpole)",
-          "Floor 24 Map 1 (Lakeside Beak)",
-          "Floor 77 Mobs",
-          "Floor 85 Mobs"
+          "Floor 77 Dungeon [Ch.1] (Sulfur Gargoyle · x1)",
+          "Floor 85 Map 1 [Ch.1] (Flaming Taotie · x1)",
+          "Floor 16 Map 1 [Ch.2] (Dozer Crab · x1)",
+          "Floor 24 Map 1 [Ch.2] (Lakeside Beak · x1)",
+          "Floor 44 Map 1 [Ch.2] (Aquamarine Carbuncle · x1)",
+          "Floor 65 Map 1 [Ch.2] (Candy Apple Egg · x1)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Tadpole · x1)"
         ],
-        "notes": "Dropped by Dozer Crab on Floor 16 (Map 1) and Tadpole on Floor 69 (Map 1), Floor 24 Map 1 (Lakeside Beak)"
+        "notes": "Dropped across Chapter 1 (2 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_slicedmeat_w01.png"
     },
@@ -7866,21 +7868,25 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 56 (Cave Kapiyva)",
-          "Floor 63 (Whitish Billy Goat)",
-          "Floor 20 (Browny Squirrel)",
-          "Floor 20 (Silverly Squirrel)",
-          "Floor 40 (Nasty Shrewman)",
-          "Floor 74 (Lizardman Lord)",
-          "Floor 79 Map 1 (Junkyard Wolf)",
-          "Floor 8 (Rough Yeti)",
-          "Floor 14 (Cracked Skin)",
-          "Floor 25 Mobs",
-          "Floor 85 (Frilled Frog)",
-          "Floor 91 (Wrongous Mink)",
-          "Floor 94 (Squirrel Cogitat)"
+          "Floor 8 Map 1 [Ch.1] (Penguin Knight · x2)",
+          "Floor 8 Map 1-2 [Ch.1] (Rough Yeti · x2)",
+          "Floor 14 Map 2 [Ch.1] (Gentle Meiolana · x2)",
+          "Floor 20 Map 1/Dungeon [Ch.1] (Browny Squirrel · x2)",
+          "Floor 20 Map 2/Dungeon [Ch.1] (Silverly Squirrel · x2)",
+          "Floor 25 Map 1 [Ch.1] (Welded Gill · x2)",
+          "Floor 40 Map 1/Dungeon [Ch.1] (Nasty Shrewman · x2)",
+          "Floor 74 Map 1-2 [Ch.1] (Lizardman Lord · x2)",
+          "Floor 85 Map 1 [Ch.1] (Flaming Taotie · x2)",
+          "Floor 91 Map 1 [Ch.1] (Wrongous Mink · x2)",
+          "Floor 91 Map 2/Dungeon [Ch.1] (Blazing Mustang · x2)",
+          "Floor 94 Dungeon [Ch.1] (Lycan Cogitat · x2)",
+          "Floor 14 Map 1 [Ch.1] (Gentle Meiolania · x2)",
+          "Floor 91 Map 1 [Ch.1] (Crystal Cerat · x2)",
+          "Floor 56 Dungeon [Ch.2] (Cave Kapiyva · x2)",
+          "Floor 63 Dungeon [Ch.2] (Whitish Billy Goat · x2)",
+          "Floor 79 Map 1 [Ch.2] (Junkyard Wolf · x2)"
         ],
-        "notes": "Source discovery in progress"
+        "notes": "Dropped across Chapter 1 (12 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_mincedmeat_w01.png"
     },
@@ -7892,12 +7898,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 92",
-          "Floor 44 Map 1 (Aquamarine Carbuncle)",
-          "Floor 51 Map 1 (Magichromed Kapiyva)",
-          "Floor 92 (Speculum Lion)"
+          "Floor 16 Map 2 [Ch.2] (Ruffed Frog · x1)",
+          "Floor 51 Map 1 [Ch.2] (Magichromed Kapiyva · x1)",
+          "Floor 92 [Ch.2] (Speculum Lion · x1)"
         ],
-        "notes": "Dropped on Floor 92"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 2, Floor 51 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_breastmeat_01.png"
     },
@@ -7909,7 +7914,7 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [],
-        "notes": "Source discovery in progress"
+        "notes": "Drop location not yet discovered"
       },
       "iconFile": "ui_icon_item_ingredients_filletmeat_01.png"
     },
@@ -7921,11 +7926,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 33 Map 2 (Heath Beak)",
-          "Floor 96 (Backpacker Swallow)",
-          "Floor 99 (Agile Swallow)"
+          "Floor 99 Dungeon [Ch.1] (Agile Swallow · x1)",
+          "Floor 31 Map 1 [Ch.2] (Cliff Swallow · x1)",
+          "Floor 96 [Ch.2] (Backpacker Swallow · x1)",
+          "Floor 33 Map 2/Dungeon [Ch.2] (Heath Beak · x1)"
         ],
-        "notes": "Source discovery in progress"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_thighmeat_01.png"
     },
@@ -7937,7 +7943,7 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [],
-        "notes": "Source discovery in progress"
+        "notes": "Drop location not yet discovered"
       },
       "iconFile": "ui_icon_item_ingredients_wholechicken_01.png"
     },
@@ -7949,16 +7955,16 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 65 Map 2 (White Blonde Lycan)",
-          "Floor 24 Map 2 (Lizardman Centuria)",
-          "Floor 33 Map 1 (Naked Mustang)",
-          "Floor 33 Map 2 (Moor Macaque)",
-          "Floor 44 Map 1 (Aquamarine Carbuncle)",
-          "Floor 75 (Slinky Mink)",
-          "Floor 75 (Army Lycan)",
-          "Floor 85 Mobs"
+          "Floor 75 Map 1 [Ch.1] (Slinky Mink · x1)",
+          "Floor 75 Map 2/Dungeon [Ch.1] (Army Lycan · x1)",
+          "Floor 85 Map 1-2/Dungeon [Ch.1] (Frilled Frog · x1)",
+          "Floor 24 Map 2 [Ch.2] (Lizardman Centuria · x1)",
+          "Floor 33 Map 1 [Ch.2] (Naked Mustang · x1)",
+          "Floor 33 Map 2 [Ch.2] (Moor Macaque · x1)",
+          "Floor 44 Map 1 [Ch.2] (Aquamarine Carbuncle · x1)",
+          "Floor 65 Map 1 [Ch.2] (White Blonde Lycan · x1)"
         ],
-        "notes": "Dropped by White Blonde Lycan on Floor 65 (Map 2), Floor 24 Map 2 (Lizardman Centuria), Floor 33 Map 1 (Naked Mustang)"
+        "notes": "Dropped across Chapter 1 (3 floors) and Chapter 2 (5 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_thighmeat_01.png"
     },
@@ -7970,13 +7976,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 8 Mobs",
-          "Floor 33 Map 1 (Naked Mustang)",
-          "Floor 33 Map 2 (Moor Macaque)",
-          "Floor 58 (Wired Tadpole)",
-          "Floor 58 (Whetstone Racoon Man)"
+          "Floor 33 Map 2 [Ch.2] (Moor Macaque · x1)",
+          "Floor 58 [Ch.2] (Wired Tadpole · x1)",
+          "Floor 33 Map 1 [Ch.2] (Naked Mustang · x1)"
         ],
-        "notes": "Dropped by monsters in Floor 8, Floor 33 Map 1 (Naked Mustang)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 33 Map 2, Floor 58)"
       },
       "iconFile": "ui_icon_item_ingredients_slicedmeat_r01.png"
     },
@@ -7988,23 +7992,23 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 48 Mobs",
-          "Floor 26 (Chamberlain Dog)",
-          "Floor 51 Map 2 (Enchanted Boar)",
-          "Floor 20 (Stubborn Orc)",
-          "Floor 35 (Golden Billy Goat)",
-          "Floor 35 (Great Ape's Bottle)",
-          "Floor 35 (Scholar's Cloister)",
-          "Floor 35 (Drunk Ape)",
-          "Floor 40 (Humpty Lesser Demon)",
-          "Floor 48 (Rhyolite Boar)",
-          "Floor 50 (Grassy Rhino)",
-          "Floor 55 (Valor Yeti)",
-          "Floor 27 (Flowering Quartz)",
-          "Floor 87 (Mounting Macaque)",
-          "Floor 91 (Ogre Gladiator)"
+          "Floor 20 Map 1/Dungeon [Ch.1] (Granite Boar · x2)",
+          "Floor 27 Map 1/Dungeon [Ch.1] (Coke Shell · x2)",
+          "Floor 35 Map 1 [Ch.1] (Golden Billy Goat · x2)",
+          "Floor 35 Map 2 [Ch.1] (Strange Egg · x2)",
+          "Floor 35 Map 2/Dungeon [Ch.1] (Drunk Ape · x2)",
+          "Floor 40 Map 1 [Ch.1] (Humpty Lesser Demon · x2)",
+          "Floor 48 Dungeon [Ch.1] (Rhyolite Boar · x2)",
+          "Floor 50 Map 1 [Ch.1] (Grassy Rhino · x2)",
+          "Floor 55 Dungeon [Ch.1] (Valor Yeti · x2)",
+          "Floor 85 Map 1 [Ch.1] (Uncanny Orc · x2)",
+          "Floor 87 Dungeon [Ch.1] (Hot Spring Kapiyva · x2)",
+          "Floor 91 Map 2/Dungeon [Ch.1] (Ogre Gladiator · x2)",
+          "Floor 20 Map 2/Dungeon [Ch.1] (Stubborn Orc · x2)",
+          "Floor 26 Dungeon [Ch.2] (Chamberlain Dog · x2)",
+          "Floor 51 Map 2/Dungeon [Ch.2] (Enchanted Boar · x2)"
         ],
-        "notes": "Dropped by monsters in Floor 48, Floor 26 (Chamberlain Dog)"
+        "notes": "Dropped across Chapter 1 (12 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_steakmeat_r01.png"
     },
@@ -8016,23 +8020,23 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 8",
-          "Floor 17",
-          "Floor 48",
-          "Floor 26 (Chamberlain Dog)",
-          "Floor 72 (Citadeland Orc)",
-          "Floor 72 (Citadeland Wolf)",
-          "Floor 13 (Sniffy Dino)",
-          "Floor 14 (Knavish Meiolania)",
-          "Floor 35 (Amber Carbuncle)",
-          "Floor 48 (Docile Kapiyva)",
-          "Floor 50 (Quartz Rhino)",
-          "Floor 81 (Intelligent Swallow)",
-          "Floor 85 (Uncanny Orc)",
-          "Floor 87 (Achroite Carbuncle)",
-          "Floor 91 (Crystal Cerat)"
+          "Floor 13 Map 2/Dungeon [Ch.1] (Sniffy Dino · x2)",
+          "Floor 14 Map 1 [Ch.1] (Knavish Meiolania · x2)",
+          "Floor 35 Map 1 [Ch.1] (Amber Carbuncle · x2)",
+          "Floor 48 Dungeon [Ch.1] (Docile Kapiyva · x2)",
+          "Floor 50 Map 1 [Ch.1] (Bash Raptor · x2)",
+          "Floor 50 Map 2/Dungeon [Ch.1] (Quartz Rhino · x2)",
+          "Floor 61 Map 1 [Ch.1] (Clamor Beak · x2)",
+          "Floor 81 Map 1 [Ch.1] (Intelligent Swallow · x2)",
+          "Floor 85 Map 1 [Ch.1] (Uncanny Orc · x2)",
+          "Floor 87 Dungeon [Ch.1] (Hot Spring Kapiyva · x2)",
+          "Floor 91 Map 2/Dungeon [Ch.1] (Ogre Gladiator · x2)",
+          "Floor 17 Map 2/Dungeon [Ch.2] (Ground Pterosaur · x2)",
+          "Floor 26 Dungeon [Ch.2] (Chamberlain Dog · x2)",
+          "Floor 72 [Ch.2] (Citadeland Orc · x2)",
+          "Floor 72 [Ch.2] (Citadeland Wolf · x2)"
         ],
-        "notes": "Found in Floor 8, Floor 17, and Floor 48, Floor 26 (Chamberlain Dog)"
+        "notes": "Dropped across Chapter 1 (11 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_blockmeat_r01.png"
     },
@@ -8044,56 +8048,60 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 1 (Frenzy Boar, Dire Wolf)",
-          "Floor 1 (Slate Boar - Dungeon)",
-          "Floor 2 (Trembling Cow, Onrushing Cow)",
-          "Floor 3 (Magma Boar)",
-          "Floor 17 Map 2 (Ground Pterosaur, Adrenalinity Rhino)",
-          "Floor 48",
-          "Floor 69 Map 1 (Shrewman, Shell)",
-          "Floor 69 Map 2 (Worm)",
-          "Floor 51 Map 2 (Magichromed Unicorn)",
-          "Floor 69 Map 1 (Thirsthroat Shrewman)",
-          "Floor 69 Map 1 (Thirsthroat Shell)",
-          "Floor 69 Map 2 (Thirsthroat Worm)",
-          "Floor 72 (Citadeland Orc)",
-          "Floor 72 (Citadeland Wolf)",
-          "Floor 1 (Frenzy Boar)",
-          "Floor 1 (Dire Wolf)",
-          "Floor 1 (Slate Boar)",
-          "Floor 2 (Onrushing Cow)",
-          "Floor 2 (Trembling Cow)",
-          "Floor 5 (Sly Shrewman)",
-          "Floor 7 (Blueness Kapiyva)",
-          "Floor 7 (Violet Billy Goat)",
-          "Floor 8 (Wild Yeti)",
-          "Floor 9 (Mystic Moth)",
-          "Floor 10 (White Mane)",
-          "Floor 10 (Orc's Iron Sphere)",
-          "Floor 10 (Black Guardian Dog)",
-          "Floor 11 (Jagged Worm)",
-          "Floor 12 (Merman Jack)",
-          "Floor 20 (Stubborn Orc)",
-          "Floor 35 (Amber Carbuncle)",
-          "Floor 35 (Golden Billy Goat)",
-          "Floor 35 (Great Ape's Bottle)",
-          "Floor 35 (Scholar's Cloister)",
-          "Floor 35 (Drunk Ape)",
-          "Floor 40 (Humpty Lesser Demon)",
-          "Floor 48 (Docile Kapiyva)",
-          "Floor 48 (Rhyolite Boar)",
-          "Floor 50 (Grassy Rhino)",
-          "Floor 50 (Quartz Rhino)",
-          "Floor 55 (Valor Yeti)",
-          "Floor 75 (Bionic Gladiator)",
-          "Floor 75 (Nut Eater)",
-          "Floor 83 Map 2 (Marinized Gladiator)",
-          "Floor 13 Mobs",
-          "Floor 27 (Flowering Quartz)",
-          "Floor 61 Mobs",
-          "Floor 81 (Ink Boar)"
+          "Floor 1 [Ch.1] (Frenzy Boar · x3)",
+          "Floor 1 dungeon [Ch.1] (Slate Boar · x3)",
+          "Floor 1 [Ch.1] (Dire Wolf · x3)",
+          "Floor 2 Map 1 [Ch.1] (Trembling Cow · x3)",
+          "Floor 2 Map 1-2 [Ch.1] (Onrushing Cow · x3)",
+          "Floor 3 Map 1 [Ch.1] (Magma Boar · x3)",
+          "Floor 5 Map 1-2 [Ch.1] (Crumble Orc · x3)",
+          "Floor 5 dungeon [Ch.1] (Sly Shrewman · x3)",
+          "Floor 7 Map 1-2 [Ch.1] (Big Horn Billy Goat · x3)",
+          "Floor 7 Map 1 [Ch.1] (Ground Shell · x3)",
+          "Floor 7 Map 2 [Ch.1] (Blueness Kapiyva · x3)",
+          "Floor 7 dungeon [Ch.1] (Violet Billy Goat · x3)",
+          "Floor 8 dungeon [Ch.1] (Wild Yeti · x3)",
+          "Floor 9 Map 2 [Ch.1] (Riddle Egg · x3)",
+          "Floor 10 Map 1-2 [Ch.1] (White Guardian Dog · x3)",
+          "Floor 10 Map 1 [Ch.1] (Rustic Orc · x3)",
+          "Floor 10 dungeon [Ch.1] (Black Guardian Dog · x3)",
+          "Floor 11 Map 1-2 [Ch.1] (Jagged Worm · x3)",
+          "Floor 12 dungeon [Ch.1] (Merman Jack · x3)",
+          "Floor 13 Map 1 [Ch.1] (Enigma Egg · x3)",
+          "Floor 20 Map 2/Dungeon [Ch.1] (Stubborn Orc · x3)",
+          "Floor 27 Map 1/Dungeon [Ch.1] (Coke Shell · x3)",
+          "Floor 35 Map 1 [Ch.1] (Amber Carbuncle · x3)",
+          "Floor 35 Map 1 [Ch.1] (Golden Billy Goat · x3)",
+          "Floor 35 Map 2 [Ch.1] (Drunk Ape · x3)",
+          "Floor 35 Map 2 [Ch.1] (Strange Egg · x3)",
+          "Floor 40 Map 1 [Ch.1] (Humpty Lesser Demon · x3)",
+          "Floor 48 Dungeon [Ch.1] (Rhyolite Boar · x3)",
+          "Floor 48 Dungeon [Ch.1] (Docile Kapiyva · x3)",
+          "Floor 50 Map 1 [Ch.1] (Grassy Rhino · x3)",
+          "Floor 50 Map 1 [Ch.1] (Bash Raptor · x3)",
+          "Floor 50 Map 2/Dungeon [Ch.1] (Quartz Rhino · x3)",
+          "Floor 55 Dungeon [Ch.1] (Valor Yeti · x3)",
+          "Floor 61 Map 1 [Ch.1] (Clamor Beak · x3)",
+          "Floor 75 Map 2/Dungeon [Ch.1] (Bionic Gladiator · x3)",
+          "Floor 75 Map 2/Dungeon [Ch.1] (Nut Eater · x3)",
+          "Floor 81 Map 1 [Ch.1] (Ink Boar · x3)",
+          "Floor 17 Map 2 [Ch.2] (Adrenalinity Rhino · x3)",
+          "Floor 17 Map 2 [Ch.2] (Ground Pterosaur · x3)",
+          "Floor 19 Map 1 [Ch.2] (Looming Mustang · x3)",
+          "Floor 19 Map 2 [Ch.2] (Oriohorma Egg · x3)",
+          "Floor 19 Map 2 [Ch.2] (Contracted Mummy · x3)",
+          "Floor 19 Map 2 [Ch.2] (Swamp Cow · x3)",
+          "Floor 23 Map 1 [Ch.2] (Apparition Orc · x3)",
+          "Floor 51 Map 2/Dungeon [Ch.2] (Magichromed Unicorn · x3)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Shrewman · x3)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Shell · x3)",
+          "Floor 69 Map 2/Dungeon [Ch.2] (Thirsthroat Worm · x3)",
+          "Floor 69 Map 2/Dungeon [Ch.2] (Adamassadderian Amazon · x3)",
+          "Floor 72 [Ch.2] (Citadeland Orc · x3)",
+          "Floor 72 [Ch.2] (Citadeland Wolf · x3)",
+          "Floor 83 Map 2 [Ch.2] (Marinized Gladiator · x3)"
         ],
-        "notes": "Dropped by boars, wolves, cows across Floors 1-3, Rhino & Pterosaur on Floor 17 Map 2, Floor 48, and Floor 69"
+        "notes": "Dropped across Chapter 1 (31 floors) and Chapter 2 (9 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_mincedmeat_r01.png"
     },
@@ -8105,14 +8113,16 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 2 (Adrenalinity Rhino)",
-          "Floor 83 Map 1 (Bayside Wolf)",
-          "Floor 26 (Chamberlain Tortoise)",
-          "Floor 83 Map 2 (Marinized Gladiator)",
-          "Floor 81 Mobs",
-          "Floor 94 (Dino Cogitat)"
+          "Floor 81 Map 1 [Ch.1] (Ink Boar · x1)",
+          "Floor 94 Dungeon [Ch.1] (Dino Cogitat · x1)",
+          "Floor 87 Dungeon [Ch.1] (Hot Spring Kapiyva · x1)",
+          "Floor 17 Map 2/Dungeon [Ch.2] (Adrenalinity Rhino · x1)",
+          "Floor 26 Dungeon [Ch.2] (Chamberlain Tortoise · x1)",
+          "Floor 83 Map 1 [Ch.2] (Bayside Wolf · x1)",
+          "Floor 17 Map 2/Dungeon [Ch.2] (Adrenalinity Meiolania · x1)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Marinized Gladiator · x1)"
         ],
-        "notes": "Dropped by Adrenalinity Rhino on Floor 17 (Map 2) and Bayside Wolf on Floor 83 (Map 1), Floor 26 (Chamberlain Tortoise)"
+        "notes": "Dropped across Chapter 1 (2 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_bellymeat_r01.png"
     },
@@ -8124,13 +8134,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 16 Map 1 (Venasaxum Orc)",
-          "Floor 83 Map 1 (Bayside Wolf)",
-          "Floor 51 Map 1 (Magichromed Kapiyva)",
-          "Floor 51 Map 2 (Enchanted Boar)",
-          "Floor 81 (Durunian Wolf)"
+          "Floor 81 Map 2/Dungeon [Ch.1] (Durunian Wolf · x1)",
+          "Floor 16 Map 1 [Ch.2] (Venasaxum Orc · x1)",
+          "Floor 51 Map 1 [Ch.2] (Magichromed Kapiyva · x1)",
+          "Floor 83 Map 1 [Ch.2] (Bayside Wolf · x1)",
+          "Floor 51 Map 2/Dungeon [Ch.2] (Enchanted Boar · x1)"
         ],
-        "notes": "Dropped by Venasaxum Orc on Floor 16 (Map 1) and Bayside Wolf on Floor 83 (Map 1)"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_slicedmeat_r01.png"
     },
@@ -8142,12 +8152,14 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 24 Map 2 (Lizardman Centuria)",
-          "Floor 33 Map 1 (Wilderness Zapper)",
-          "Floor 33 Map 2 (Moor Macaque)",
-          "Floor 51 Map 2 (Magichromed Unicorn)"
+          "Floor 19 Map 1 [Ch.2] (Looming Mustang · x1)",
+          "Floor 24 Map 2 [Ch.2] (Lizardman Centuria · x1)",
+          "Floor 33 Map 2 [Ch.2] (Moor Macaque · x1)",
+          "Floor 51 Map 2/Dungeon [Ch.2] (Magichromed Unicorn · x1)",
+          "Floor 19 Map 2/Dungeon [Ch.2] (Contracted Mummy · x1)",
+          "Floor 33 Map 1 [Ch.2] (Naked Mustang · x1)"
         ],
-        "notes": "Dropped on Floor 24 Map 2 (Lizardman Centuria), Floor 33 Map 1 (Wilderness Zapper)"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_liver_01.png"
     },
@@ -8159,49 +8171,67 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 1 (Kobold Henchman)",
-          "Floor 2 (Trembling Ox, Glaring Shrewman, Horror Bat)",
-          "Floor 3 (Malicious Shrewman)",
-          "Floor 4 (Kobold Soldier, Mauve Bat)",
-          "Floor 6 (Pointed Beak)",
-          "Floor 33 Map 2 (Heath Beak)",
-          "Floor 33 Map 2 (Wildland Wolf)",
-          "Floor 51 Map 1 (Magichromed Butterfly)",
-          "Floor 51 Map 1 (Magichromed Wasp)",
-          "Floor 2 (Trembling Ox)",
-          "Floor 2 (Glaring Shrewman)",
-          "Floor 2 (Horror Bat)",
-          "Floor 4 (Mauve Bat)",
-          "Floor 7 (Biting Kapiyva)",
-          "Floor 8 (Icy Ax's Blade)",
-          "Floor 11 (Jagged Worm)",
-          "Floor 11 (Globe's Crimson Sissors)",
-          "Floor 27 (Pale Bat)",
-          "Floor 27 (Miner's Ice Axe)",
-          "Floor 40 (Willow Bat)",
-          "Floor 40 (Kobold Jailer)",
-          "Floor 40 (Previous Knight)",
-          "Floor 74 (Lizardman Lord)",
-          "Floor 74 (Demonic Servant)",
-          "Floor 75 (Slinky Mink)",
-          "Floor 75 (Army Lycan)",
-          "Floor 81 (Intelligent Swallow)",
-          "Floor 81 (Durunian Wolf)",
-          "Floor 81 (Viridian Unicorn)",
-          "Floor 79 Map 1 (Mechanoid Jiangshi)",
-          "Floor 79 Map 2 (Kobold Mechanoid)",
-          "Floor 79 Map 2 (Junk Slime)",
-          "Floor 96 (Backpacker Swallow)",
-          "Floor 5 (Bloodied Cloth)",
-          "Floor 10 (Fragment of Spectral Blade)",
-          "Floor 12 (Wild Lifeline)",
-          "Floor 25 (Icy Armor Fragment)",
-          "Floor 77 (Sulfur Gargoyle)",
-          "Floor 91 (Sentry Knight)",
-          "Floor 94 (Lycan Cogitat)",
-          "Floor 99 (Agile Swallow)"
+          "Floor 1 [Ch.1] (Kobold Henchmen · x3)",
+          "Floor 2 Map 2 [Ch.1] (Trembling Ox · x3)",
+          "Floor 2 Map 2/Dungeon [Ch.1] (Glaring Shrewman · x3)",
+          "Floor 2 dungeon [Ch.1] (Horror Bat · x3)",
+          "Floor 3 Map 2 [Ch.1] (Malicious Shrewman · x3)",
+          "Floor 4 Map 1 [Ch.1] (Kobold Soldier · x3)",
+          "Floor 4 Map 2 [Ch.1] (Mauve Bat · x3)",
+          "Floor 5 Map 1/Dungeon [Ch.1] (Moldy Mummy · x3)",
+          "Floor 5 Map 2 [Ch.1] (Humid Mummy · x3)",
+          "Floor 6 Map 1-2 [Ch.1] (Pointed Beak · x3)",
+          "Floor 7 Map 1 [Ch.1] (Biting Kapiyva · x3)",
+          "Floor 8 Map 1-2 [Ch.1] (Rough Yeti · x3)",
+          "Floor 8 Map 2 [Ch.1] (Penguin Ax · x3)",
+          "Floor 10 Map 1 [Ch.1] (Orochi Foot Soldier · x3)",
+          "Floor 10 Map 2 [Ch.1] (Orochi Infantry · x3)",
+          "Floor 11 Map 1 [Ch.1] (Globe Tail · x3)",
+          "Floor 11 Map 2 [Ch.1] (Globe Tail Crimson · x3)",
+          "Floor 11 Map 2 [Ch.1] (Spirit Lamia Lancer · x3)",
+          "Floor 12 Map 1 [Ch.1] (Offensive Beak · x3)",
+          "Floor 25 Map 1/Dungeon [Ch.1] (Wonder Grimoire · x3)",
+          "Floor 25 Map 2/Dungeon [Ch.1] (Frost Knight · x3)",
+          "Floor 25 Map 2 [Ch.1] (Curious Grimoire · x3)",
+          "Floor 27 Map 1 [Ch.1] (Vanilla Dwarf Laborer · x3)",
+          "Floor 27 Map 1/Dungeon [Ch.1] (Pale Bat · x3)",
+          "Floor 27 Map 2/Dungeon [Ch.1] (Kobold Zombie Worker · x3)",
+          "Floor 27 Map 2 [Ch.1] (Dark Dwarf Miner · x3)",
+          "Floor 40 Map 1 [Ch.1] (Willow Bat · x3)",
+          "Floor 40 Map 2/Dungeon [Ch.1] (Kobold Jailer · x3)",
+          "Floor 40 Map 2/Dungeon [Ch.1] (Previous Knight · x3)",
+          "Floor 74 Map 1-2 [Ch.1] (Lizardman Lord · x3)",
+          "Floor 74 Map 1-2 [Ch.1] (Demonic Servant · x3)",
+          "Floor 75 Map 1 [Ch.1] (Slinky Mink · x3)",
+          "Floor 75 Map 2/Dungeon [Ch.1] (Army Lycan · x3)",
+          "Floor 77 Dungeon [Ch.1] (Sulfur Gargoyle · x3)",
+          "Floor 81 Map 1 [Ch.1] (Intelligent Swallow · x3)",
+          "Floor 81 Map 2/Dungeon [Ch.1] (Durunian Wolf · x3)",
+          "Floor 81 Map 2/Dungeon [Ch.1] (Viridian Unicorn · x3)",
+          "Floor 91 Map 1 [Ch.1] (Sentry Knight · x3)",
+          "Floor 91 Map 1 [Ch.1] (Wrongous Mink · x3)",
+          "Floor 94 [Ch.1] (Dino Cogitat · x3)",
+          "Floor 99 [Ch.1] (Elusive Grimoire · x3)",
+          "Floor 99 [Ch.1] (Agile Swallow · x3)",
+          "Floor 99 [Ch.1] (Musty Worm · x3)",
+          "Floor 1 Map 1 [Ch.1] (Kobold Henchman · x3)",
+          "Floor 19 Map 1 [Ch.2] (Contracted Knight · x3)",
+          "Floor 19 Map 1 [Ch.2] (Toxic Mantis · x3)",
+          "Floor 23 Map 1 [Ch.2] (Apparition Ashigaru · x3)",
+          "Floor 23 Map 2 [Ch.2] (Apparition Nobushi · x3)",
+          "Floor 31 Map 1 [Ch.2] (Cliff Swallow · x3)",
+          "Floor 33 Map 2 [Ch.2] (Heath Beack · x3)",
+          "Floor 51 Map 1 [Ch.2] (Magichromed Butterfly · x3)",
+          "Floor 51 Map 1 [Ch.2] (Magichromed Wasp · x3)",
+          "Floor 51 Map 2/Dungeon [Ch.2] (Mass-produced Colossus · x3)",
+          "Floor 79 Map 1 [Ch.2] (Mechanoid Jiangshi · x3)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Junk Slime · x3)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Kobold Mechanoid · x3)",
+          "Floor 96 [Ch.2] (Backpack Swallow · x3)",
+          "Floor 33 Map 2/Dungeon [Ch.2] (Heath Beak · x3)",
+          "Floor 96 Dungeon [Ch.2] (Backpacker Swallow · x3)"
         ],
-        "notes": "Dropped by Kobolds, Oxen, Bats, Shrewmen, and Pointed Beaks across Floors 1 through 6"
+        "notes": "Dropped across Chapter 1 (37 floors) and Chapter 2 (10 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_porkbone_01.png"
     },
@@ -8213,12 +8243,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 83 Map 1 (Merman Pirate)",
-          "Floor 58 (Wired Tadpole)",
-          "Floor 58 (Whetstone Racoon Man)",
-          "Floor 83 Map 2 (Merman Rogue)"
+          "Floor 16 Map 2 [Ch.2] (Ruffed Frog · x1)",
+          "Floor 58 [Ch.2] (Whetstone Racoon Man · x1)",
+          "Floor 83 Map 1 [Ch.2] (Merman Pirate · x1)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Sergeant · x1)"
         ],
-        "notes": "Dropped by Merman Pirate on Floor 83 (Map 1)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 2, Floor 58, Floor 83 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_redfishfillet_01.png"
     },
@@ -8230,36 +8260,38 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 2 (Keenfin Tadpole - Dungeon)",
-          "Floor 4 (Scuttle Crab, Dorsalfin Tadpole, Fussy Crab)",
-          "Floor 6 (Predator Fish, Quaint Toad)",
-          "Floor 8 (Penguin)",
-          "Floor 69 Map 1 (Tadpole)",
-          "Floor 83 Map 1 (Craggy Clam)",
-          "Floor 42 (Hardened Gill)",
-          "Floor 42 (Airy Guy Spirit)",
-          "Floor 69 Map 1 (Thirsthroat Tadpole)",
-          "Floor 2 (Keenfin Tadpole)",
-          "Floor 4 (Fussy Crab)",
-          "Floor 6 (Toad's Cartilage)",
-          "Floor 6 (Predator Fish)",
-          "Floor 6 (Scream Fish)",
-          "Floor 6 (Boiling Crab)",
-          "Floor 8 (Icy Ax's Blade)",
-          "Floor 12 (Merman Knight)",
-          "Floor 13 (Lava Crab)",
-          "Floor 14 (Furious Fish)",
-          "Floor 61 (Ultisol Gil)",
-          "Floor 61 (Penguin Ax Berserker)",
-          "Floor 68 (Stout Crab)",
-          "Floor 68 (Luscious Clam)",
-          "Floor 79 Map 2 (Mechanoid Crab)",
-          "Floor 83 Map 2 (Merman Rogue)",
-          "Floor 25 (Welded Gill)",
-          "Floor 85 (Frilled Frog)",
-          "Floor 91 Mobs"
+          "Floor 2 dungeon [Ch.1] (Keenfin Tadpole · x3)",
+          "Floor 4 Map 1-2 [Ch.1] (Dorsalfin Tadpole · x3)",
+          "Floor 4 Map 1 [Ch.1] (Scuttle Crab · x3)",
+          "Floor 6 Map 1 [Ch.1] (Quaint Toad · x3)",
+          "Floor 6 Map 1 [Ch.1] (Predator Fish · x3)",
+          "Floor 6 Map 2 [Ch.1] (Scream Fish · x3)",
+          "Floor 6 dungeon [Ch.1] (Boiling Crab · x3)",
+          "Floor 6 dungeon [Ch.1] (Poisonous Toad · x3)",
+          "Floor 7 dungeon [Ch.1] (Sharkfin Tadpole · x3)",
+          "Floor 8 Map 1-2 [Ch.1] (Penguin Knight · x3)",
+          "Floor 12 Map 1-2 [Ch.1] (Merman Knight · x3)",
+          "Floor 13 Map 2/Dungeon [Ch.1] (Lava Crab · x3)",
+          "Floor 14 Map 2 [Ch.1] (Furious Fish · x3)",
+          "Floor 25 Map 1 [Ch.1] (Welded Gill · x3)",
+          "Floor 61 Map 1 [Ch.1] (Crimped Gill · x3)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Penguin Ax Berserker · x3)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Ultisol Gill · x3)",
+          "Floor 68 Dungeon [Ch.1] (Luscious Clam · x3)",
+          "Floor 68 Dungeon [Ch.1] (Stout Crab · x3)",
+          "Floor 85 Map 1-2/Dungeon [Ch.1] (Frilled Frog · x3)",
+          "Floor 91 Map 2 [Ch.1] (Tingly Fairy · x3)",
+          "Floor 4 Dungeon [Ch.1] (Fussy Crab · x3)",
+          "Floor 31 Map 1 [Ch.2] (Solidfin Tadpole · x3)",
+          "Floor 31 Map 1 [Ch.2] (Dull Shell · x3)",
+          "Floor 42 Dungeon [Ch.2] (Airy Guy Spirit · x3)",
+          "Floor 42 Dungeon [Ch.2] (Hardened Gill · x3)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Tadpole · x3)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Mechanoid Crab · x3)",
+          "Floor 83 Map 1 [Ch.2] (Craggy Clam · x3)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Rogue · x3)"
         ],
-        "notes": "Dropped by Tadpoles, Crabs, Toads, Fish, and Penguins across Floors 2, 4, 6, 8, 69, and 83"
+        "notes": "Dropped across Chapter 1 (17 floors) and Chapter 2 (6 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_whitefishfillet_01.png"
     },
@@ -8271,13 +8303,14 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 42",
-          "Floor 42 (Airy Guy Spirit)",
-          "Floor 83 Map 2 (Merman Rogue)",
-          "Floor 83 Map 2 (Merman Sergeant)",
-          "Floor 91 Mobs"
+          "Floor 91 Map 2/Dungeon [Ch.1] (Tingly Fairy · x1)",
+          "Floor 31 Map 1 [Ch.2] (Dull Shell · x1)",
+          "Floor 42 Dungeon [Ch.2] (Airy Guy Spirit · x1)",
+          "Floor 65 Map 2 [Ch.2] (Scrap Slime · x1)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Sergeant · x1)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Rogue · x1)"
         ],
-        "notes": "Found in Floor 42"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8289,25 +8322,23 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 12",
-          "Floor 17 Map 2 (Adrenalinity Meiolania)",
-          "Floor 42",
-          "Floor 69 Map 1 (Shell)",
-          "Floor 83 Map 1 (Merman Pirate, Craggy Clam)",
-          "Floor 26 (Chamberlain Tortoise)",
-          "Floor 42 (Hardened Gill)",
-          "Floor 42 (Airy Guy Spirit)",
-          "Floor 69 Map 1 (Thirsthroat Shell)",
-          "Floor 11 (Brandishing Worm)",
-          "Floor 12 (Mimic's Tongue)",
-          "Floor 12 (Merman Jack)",
-          "Floor 79 Map 2 (Mechanoid Crab)",
-          "Floor 83 Map 1 (Merman Pirate)",
-          "Floor 83 Map 2 (Merman Sergeant)",
-          "Floor 68 Mobs",
-          "Floor 91 Mobs"
+          "Floor 11 dungeon [Ch.1] (Wilderness Shell · x2)",
+          "Floor 12 Map 1/Dungeon [Ch.1] (Fairy Shell · x2)",
+          "Floor 12 Map 2 [Ch.1] (Strong Mimic · x2)",
+          "Floor 68 Dungeon [Ch.1] (Stout Crab · x2)",
+          "Floor 91 Map 2/Dungeon [Ch.1] (Tingly Fairy · x2)",
+          "Floor 17 Map 2/Dungeon [Ch.2] (Adrenalinity Meiolania · x2)",
+          "Floor 26 Dungeon [Ch.2] (Chamberlain Tortoise · x2)",
+          "Floor 31 Map 1 [Ch.2] (Dull Shell · x2)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Shell · x2)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Mechanoid Crab · x2)",
+          "Floor 83 Map 1 [Ch.2] (Craggy Clam · x2)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Rogue · x2)",
+          "Floor 83 Map 2/Dungeon [Ch.2] (Merman Sergeant · x2)",
+          "Floor 42 Dungeon [Ch.2] (Hardened Gill · x2)",
+          "Floor 83 Map 1 [Ch.2] (Merman Pirate · x2)"
         ],
-        "notes": "Found on Floor 12, Floor 17 Map 2 (Adrenalinity Meiolania), Floor 42, Floor 69 Map 1 (Shell), and Floor 83 Map 1 (Merman Pirate, Craggy Clam), Floor 26 (Chamberlain Tortoise)"
+        "notes": "Dropped across Chapter 1 (5 floors) and Chapter 2 (7 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8319,20 +8350,21 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 16 Map 1 (Dozer Crab)",
-          "Floor 65 Map 2 (White Blonde Lycan)",
-          "Floor 83 Map 1 (Craggy Clam)",
-          "Floor 24 Map 1 (Lakeside Beak)",
-          "Floor 42 (Hardened Gill)",
-          "Floor 58 (Wired Tadpole)",
-          "Floor 58 (Whetstone Racoon Man)",
-          "Floor 79 Map 2 (Mechanoid Crab)",
-          "Floor 83 Map 1 (Merman Pirate)",
-          "Floor 20 Mobs",
-          "Floor 61 Mobs",
-          "Floor 85 (Frilled Frog)"
+          "Floor 20 Map 1 [Ch.1] (Longicorp Wasp · x2)",
+          "Floor 61 Map 1 [Ch.1] (Crimped Gill · x2)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Utilsol Gill · x2)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Penguin Ax Berserker · x2)",
+          "Floor 85 Map 1-2/Dungeon [Ch.1] (Frilled Frog · x2)",
+          "Floor 16 Map 1 [Ch.2] (Dozer Crab · x2)",
+          "Floor 24 Map 1 [Ch.2] (Lakeside Beak · x2)",
+          "Floor 42 Dungeon [Ch.2] (Hardened Gill · x2)",
+          "Floor 58 [Ch.2] (Wired Tadpole · x2)",
+          "Floor 65 Map 2 [Ch.2] (Scrap Slime · x2)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Mechanoid Crab · x2)",
+          "Floor 83 Map 1 [Ch.2] (Craggy Clam · x2)",
+          "Floor 83 Map 1 [Ch.2] (Merman Pirate · x2)"
         ],
-        "notes": "Dropped by Dozer Crab on Floor 16 (Map 1), White Blonde Lycan on Floor 65 (Map 2), and Craggy Clam on Floor 83 (Map 1), Floor 24 Map 1 (Lakeside Beak)"
+        "notes": "Dropped across Chapter 1 (4 floors) and Chapter 2 (7 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8372,20 +8404,21 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 11 Map 1 (Wicked Vines)",
-          "Floor 14 (Arcane Mush)",
-          "Floor 31 (Stag Beetle)",
-          "Vegetable Monsters",
-          "Floor 56 (Titanite Hercules Beetle)",
-          "Floor 35 (Carbon Hercules Beetle)",
-          "Floor 35 (Steel Hercules Beetle)",
-          "Floor 47 (Huge Flytrap)",
-          "Floor 47 (Garish Gerbera)",
-          "Floor 9 (Poisonous Honey Bag)",
-          "Floor 20 (Killer Mantis Sickle)",
-          "Floor 94 Mobs"
+          "Floor 9 Map 2 [Ch.1] (Yellow Covetous Flower · x2)",
+          "Floor 11 Map 1 [Ch.1] (Wicked Vine · x2)",
+          "Floor 14 Map 1 [Ch.1] (Astray Mush · x2)",
+          "Floor 20 Map 1-2 [Ch.1] (Killer Mantis · x2)",
+          "Floor 35 Map 1 [Ch.1] (Carbon Hercules Beetle · x2)",
+          "Floor 35 Map 2 [Ch.1] (Steel Hercules Beetle · x2)",
+          "Floor 47 Map 1 [Ch.1] (Grinning Vine · x2)",
+          "Floor 47 Map 2/Dungeon [Ch.1] (Garish Gerbera · x2)",
+          "Floor 47 Map 2/Dungeon [Ch.1] (Huge Flytrap · x2)",
+          "Floor 94 Dungeon [Ch.1] (Squirrel Cogitat · x2)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Spiky Shrewman · x2)",
+          "Floor 56 Dungeon [Ch.2] (Titanite Hercules Beetle · x2)",
+          "Floor 38 Dungeon [Ch.2] (Vampkin Hopper · x2)"
         ],
-        "notes": "Dropped by Wicked Vines (F11-1), Arcane Mush (F14), Stag Beetle (F31) & vegetable-type monsters"
+        "notes": "Dropped across Chapter 1 (9 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_onion_01.png"
     },
@@ -8397,11 +8430,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 24 Map 1 (Lacustris Sickle)",
-          "Floor 24 Map 2 (Pollen Treant)",
-          "Floor 70 Map 1 (Anthocyanin Mantis)"
+          "Floor 23 Map 1 [Ch.2] (Apparition Mush · x1)",
+          "Floor 24 Map 1 [Ch.2] (Lacustris Sickle · x1)",
+          "Floor 24 Map 2 [Ch.2] (Pollen Treant · x1)"
         ],
-        "notes": "Dropped on Floor 24 Map 1 (Lacustris Sickle), Floor 24 Map 2 (Pollen Treant)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 23 Map 1, Floor 24 Map 1, Floor 24 Map 2)"
       },
       "iconFile": "ui_icon_item_ingredients_greenonion_01.png"
     },
@@ -8413,16 +8446,17 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 31 (Ogrian Soldier)",
-          "Floor 70 (Mycelium Mycorrhizian)",
-          "Vegetable Monsters",
-          "Floor 70 Map 1 (Chlorophyll Wasp)",
-          "Floor 47 (Azure Butterfly)",
-          "Floor 9 (Big Scythe)",
-          "Floor 20 (Longicorn Wasp)",
-          "Floor 61 Mobs"
+          "Floor 9 Map 1 [Ch.1] (Red Covetous Flower · x2)",
+          "Floor 20 Map 1 [Ch.1] (Longicorn Wasp · x2)",
+          "Floor 47 Map 1 [Ch.1] (Charcoal Worm · x2)",
+          "Floor 47 Map 1 [Ch.1] (Vivid Butterfly · x2)",
+          "Floor 47 Map 2/Dungeon [Ch.1] (Azure Butterfly · x2)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Poisonous Tail · x2)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Ogrian Soldier · x2)",
+          "Floor 70 Map 1 [Ch.2] (Chlorophyll Wasp · x2)",
+          "Floor 70 Map 2 [Ch.2] (Mycelium Mycorrhizian · x2)"
         ],
-        "notes": "Dropped by Ogrian Soldier on Floor 31, Mycelium Mycorrhizian on Floor 70, and vegetable-type monsters"
+        "notes": "Dropped across Chapter 1 (5 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_carrot_01.png"
     },
@@ -8447,10 +8481,10 @@ const COOKING_DATA = {
       "isCrafted": false,
       "sources": {
         "merchants": [
-          "Floor 2+ Merchants (300 Col)"
+          "Floor 2+ Merchants (200 Col)"
         ],
         "mobs": [],
-        "notes": "Sold by merchants on Floor 2 and all higher floors for 300 Col"
+        "notes": "Sold by merchants on Floor 2 and all higher floors for 200 Col"
       },
       "iconFile": "ui_icon_item_ingredients_greenpepper_01.png"
     },
@@ -8462,11 +8496,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 16",
-          "Floor 24 Map 1 (Lacustris Sickle)",
-          "Floor 79 Map 2 (Junk Slime)"
+          "Floor 16 Map 2 [Ch.2] (Wither Gerbera · x1)",
+          "Floor 23 Map 1 [Ch.2] (Apparition Mush · x1)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Junk Slime · x1)"
         ],
-        "notes": "Found in Floor 16, Floor 24 Map 1 (Lacustris Sickle)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 2, Floor 23 Map 1, Floor 79 Map 2)"
       },
       "iconFile": "ui_icon_item_ingredients_eggplant_01.png"
     },
@@ -8478,15 +8512,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Adrenalinity Mantis)",
-          "Floor 38 (Vampkin Hopper)",
-          "Floor 69 Map 2 (Worm)",
-          "Floor 69 Map 2 (Thirsthroat Worm)",
-          "Floor 70 Map 1 (Chlorophyll Wasp)",
-          "Floor 75 (Nut Eater)",
-          "Floor 79 Map 1 (Aramid Worm)"
+          "Floor 75 Map 2/Dungeon [Ch.1] (Nut Eater · x1)",
+          "Floor 17 Map 1 [Ch.2] (Adrenalinity Mantis · x1)",
+          "Floor 38 Dungeon [Ch.2] (Vampkin Hopper · x1)",
+          "Floor 38 Dungeon [Ch.2] (Vampkin Walker · x1)",
+          "Floor 79 Map 1 [Ch.2] (Aramid Worm · x1)"
         ],
-        "notes": "Dropped by Adrenalinity Mantis on Floor 17 (Map 1), Vampkin Hopper on Floor 38, and Worm on Floor 69 (Map 2)"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_pumpkin_01.png"
     },
@@ -8498,12 +8530,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Eruptide Elder Mush)",
-          "Floor 70 Map 1 (Antian Infantry)",
-          "Floor 61 (Scorching Wasp)",
-          "Floor 7 (Poisonous Spore)"
+          "Floor 7 Map 2/Dungeon [Ch.1] (Killer Mush · x2)",
+          "Floor 61 Map 1 [Ch.1] (Scorching Wasp · x2)",
+          "Floor 17 Map 1 [Ch.2] (Adrenalinity Mantis · x2)",
+          "Floor 17 Map 1 [Ch.2] (Eruptide Elder Mush · x2)",
+          "Floor 70 Map 1 [Ch.2] (Antian Infantry · x2)"
         ],
-        "notes": "Dropped by Eruptide Elder Mush on Floor 17 (Map 1)"
+        "notes": "Dropped across Chapter 1 (2 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_cabbage_01.png"
     },
@@ -8515,13 +8548,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 31 (Stag Beetle, Shrewman)",
-          "Floor 56",
-          "Floor 56 (Titanite Hercules Beetle)",
-          "Floor 70 Map 1 (Chlorophyll Wasp)",
-          "Floor 94 Mobs"
+          "Floor 94 Dungeon [Ch.1] (Squirrel Cogitat · x1)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Spiky Shrewman · x1)",
+          "Floor 56 Dungeon [Ch.2] (Titanite Hercules Beetle · x1)"
         ],
-        "notes": "Dropped by Stag Beetle & Shrewman on Floor 31, and monsters on Floor 56"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_chinesecabbage_01.png"
     },
@@ -8533,12 +8564,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Eruptide Elder Mush)",
-          "Floor 56 Mobs",
-          "Floor 56 (Titanite Hercules Beetle)",
-          "Floor 94 Mobs"
+          "Floor 94 Dungeon [Ch.1] (Squirrel Cogitat · x1)",
+          "Floor 17 Map 1 [Ch.2] (Eruptide Elder Mush · x1)",
+          "Floor 38 Dungeon [Ch.2] (Vampkin Hopper · x1)",
+          "Floor 56 Dungeon [Ch.2] (Titanite Hercules Beetle · x1)",
+          "Floor 92 [Ch.2] (Hemoglobin Moth · x1)"
         ],
-        "notes": "Dropped by Eruptide Elder Mush on Floor 17 (Map 1) and monsters in Floor 56"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_spinach_01.png"
     },
@@ -8550,12 +8582,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 31 Map 2 (Stag Beetle)",
-          "Floor 70 (Mycelium Mycorrhizian)",
-          "Floor 63 (Cold Shrewman)",
-          "Floor 79 Map 1 (Aramid Worm)"
+          "Floor 99 Dungeon [Ch.1] (Musty Worm · x1)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Hematite Stag Beetle · x1)",
+          "Floor 63 Dungeon [Ch.2] (Cold Shrewman · x1)",
+          "Floor 70 Map 2 [Ch.2] (Mycelium Mycorrhizian · x1)",
+          "Floor 79 Map 1 [Ch.2] (Aramid Worm · x1)"
         ],
-        "notes": "Dropped by Stag Beetle on Floor 31 (Map 2) and Mycelium Mycorrhizian on Floor 70"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_lettuce_01.png"
     },
@@ -8581,9 +8614,13 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 70 Map 1 (Antian Infantry)"
+          "Floor 16 Map 2 [Ch.2] (Infrared Shrewman · x1)",
+          "Floor 16 Map 2 [Ch.2] (Withered Gerbera · x1)",
+          "Floor 19 Map 1 [Ch.2] (Toxic Mantis · x1)",
+          "Floor 70 Map 1 [Ch.2] (Antian Infantry · x1)",
+          "Floor 96 Dungeon [Ch.2] (Lemon Nepenthes · x1)"
         ],
-        "notes": "Source discovery in progress"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 2, Floor 19 Map 1, Floor 70 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_asparagus_01.png"
     },
@@ -8595,10 +8632,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 65 Map 1 (Melon Nepenthes)",
-          "Floor 96 (Lemon Nepenthes)"
+          "Floor 16 Map 2 [Ch.2] (Wither Gerbera · x1)",
+          "Floor 65 [Ch.2] (Melon Nepenthes · x1)",
+          "Floor 96 Dungeon [Ch.2] (Lemon Nepenthes · x1)",
+          "Floor 19 Map 1 [Ch.2] (Toxic Mantis · x1)"
         ],
-        "notes": "Dropped by Melon Nepenthes on Floor 65 (Map 1)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 2, Floor 65, Floor 96 Dungeon)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8610,10 +8649,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 31 2nd Map (Ogrian Soldier)",
-          "Floor 24 Map 1 (Lacustris Sickle)"
+          "Floor 23 Map 1 [Ch.2] (Apparition Mush · x1)",
+          "Floor 24 Map 1 [Ch.2] (Lacustris Sickle · x1)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Ogrian Soldier · x1)",
+          "Floor 70 Map 1 [Ch.2] (Anthocyanin Mantis · x1)"
         ],
-        "notes": "Dropped by Ogrian Soldier on Floor 31 (2nd Map), Floor 24 Map 1 (Lacustris Sickle)"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (4 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_beansprouts_01.png"
     },
@@ -8639,12 +8680,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 24",
-          "Floor 42",
-          "Floor 33 Map 1 (Tumble Vine)",
-          "Floor 92 (Hemoglobin Moth)"
+          "Floor 24 Map 2 [Ch.2] (Arboris Wasp · x1)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Ogrian Soldier · x1)",
+          "Floor 33 Map 1 [Ch.2] (Tumble Vine · x1)",
+          "Floor 92 [Ch.2] (Hemoglobin Moth · x1)"
         ],
-        "notes": "Found in Floor 24 and Floor 42, Floor 33 Map 1 (Tumble Vine)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 24 Map 2, Floor 31 Map 2/Dungeon, Floor 33 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_cucumber_01.png"
     },
@@ -8656,10 +8697,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 70 Map 1 (Antian Infantry)",
-          "Floor 92 (Hemoglobin Moth)"
+          "Floor 16 Map 2 [Ch.2] (Infrared Shrewman · x1)",
+          "Floor 33 Map 1 [Ch.2] (Tumble Vine · x1)",
+          "Floor 92 [Ch.2] (Hemoglobin Moth · x1)"
         ],
-        "notes": "Source discovery in progress"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (3 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_bambooshoots_01.png"
     },
@@ -8671,12 +8713,11 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 63 (Cold Shrewman)",
-          "Floor 91 Mobs",
-          "Floor 31 (Stag Beetle)",
-          "Floor 33 Map 1 (Tumble Vine)"
+          "Floor 91 Map 1 [Ch.1] (Wrongous Mink · x1)",
+          "Floor 31 Map 2/Dungeon [Ch.2] (Hematite Stag Beetle · x1)",
+          "Floor 63 Dungeon [Ch.2] (Cold Shrewman · x1)"
         ],
-        "notes": "Dropped by Stag Beetle on Floor 31, Floor 33 Map 1 (Tumble Vine), Cold Shrewman on Floor 63, and Floor 91"
+        "notes": "Dropped across Chapter 1 (1 floors) and Chapter 2 (2 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_japaneseradish_01.png"
     },
@@ -8688,10 +8729,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 65 Map 1 (Melon Nepenthes)",
-          "Floor 24 Map 2 (Pollen Treant)"
+          "Floor 24 Map 2 [Ch.2] (Pollen Treant · x1)",
+          "Floor 65 Map 1 [Ch.2] (Melon Nepenthes · x1)",
+          "Floor 70 Map 2 [Ch.2] (Mycelium Mycorrhizian · x1)",
+          "Floor 89 Map 1 [Ch.2] (Apple Nepenthes · x1)"
         ],
-        "notes": "Dropped by Melon Nepenthes on Floor 65 (Map 1), Floor 24 Map 2 (Pollen Treant)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 24 Map 2, Floor 65 Map 1, Floor 70 Map 2)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8703,10 +8746,12 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 70 Map 2 (Anrian Manipulus)",
-          "Floor 24 Map 2 (Arboris Wasp)"
+          "Floor 16 Map 1 [Ch.2] (Water Vein Sickle · x1)",
+          "Floor 24 Map 2 [Ch.2] (Lizardman Centuria · x1)",
+          "Floor 65 Map 2 [Ch.2] (White Blonde Lycan · x1)",
+          "Floor 65 Map 2 [Ch.2] (Dracoag Flunky · x1)"
         ],
-        "notes": "Dropped by Anrian Manipulus on Floor 70 (Map 2), Floor 24 Map 2 (Arboris Wasp)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 1, Floor 24 Map 2, Floor 65 Map 2)"
       },
       "iconFile": "ui_icon_item_ingredients_garlic_01.png"
     },
@@ -8718,9 +8763,10 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 24 Map 2 (Arboris Wasp)"
+          "Floor 16 Map 1 [Ch.2] (Water Vein Sickle · x1)",
+          "Floor 24 Map 2 [Ch.2] (Arboris Wasp · x1)"
         ],
-        "notes": "Dropped on Floor 24 Map 2 (Arboris Wasp)"
+        "notes": "Exclusively dropped in Chapter 2 (Floor 16 Map 1, Floor 24 Map 2)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
     },
@@ -8744,17 +8790,13 @@ const COOKING_DATA = {
       "type": "Fruit",
       "isCrafted": false,
       "sources": {
-        "merchants": [
-          "Floor Merchants"
-        ],
+        "merchants": [],
         "mobs": [
-          "Floor 17 Map 1 (Adrenalinity Mantis)",
-          "Floor 69 Map 1 (Shrewman)",
-          "Floor 89 Map 1 (Apple Nepenthes)",
-          "Floor 69 Map 1 (Thirsthroat Shrewman) [rare]",
-          "Floor 65 (Melon Nepenthes' Cucumis Melo)"
+          "Floor 17 Map 1 [Ch.2] (Adrenalinity Mantis · x1)",
+          "Floor 89 Map 1 [Ch.2] (Apple Nepenthes · x1)",
+          "Floor 69 Map 1 [Ch.2] (Thirsthroat Shrewman · x1)"
         ],
-        "notes": "Available from Floor Merchants & dropped by Adrenalinity Mantis on Floor 17 (Map 1), Shrewman on Floor 69 (Map 1), and Apple Nepenthes on Floor 89 (Map 1)"
+        "notes": "Exclusively dropped in Chapter 2 by Adrenalinity Mantis (Floor 17 Map 1) and Apple Nepenthes (Floor 89 Map 1)"
       },
       "iconFile": "ui_icon_item_ingredients_roundfruit_01.png"
     },
@@ -9006,18 +9048,110 @@ const COOKING_DATA = {
       "sources": {
         "merchants": [],
         "mobs": [
-          "Floor 20 Mobs",
-          "Floor 25 Mobs",
-          "Floor 40 Mobs",
-          "Floor 47 Mobs",
-          "Floor 61 Mobs",
-          "Floor 75 Mobs",
-          "Floor 91 Mobs",
-          "Floor 99 Mobs"
+          "Floor 20 Map 1/Dungeon [Ch.1] (Browny Squirrel · x1)",
+          "Floor 20 Map 1-2 [Ch.1] (Killer Mantis · x1)",
+          "Floor 25 Map 1/Dungeon [Ch.1] (Wonder Grimoire · x1)",
+          "Floor 25 Map 2 [Ch.1] (Curious Grimoire · x1)",
+          "Floor 35 Map 1 [Ch.1] (Carbon Hercules Beetle · x1)",
+          "Floor 40 Map 1 [Ch.1] (Nasty Shrewman · x1)",
+          "Floor 47 Map 1 [Ch.1] (Grinning Vine · x1)",
+          "Floor 47 Map 2/Dungeon [Ch.1] (Garish Gerbera · x1)",
+          "Floor 47 Map 2/Dungeon [Ch.1] (Huge Flytrap · x1)",
+          "Floor 61 Map 1 [Ch.1] (Scorching Wasp · x1)",
+          "Floor 61 Map 2/Dungeon [Ch.1] (Poisonous Tail · x1)",
+          "Floor 75 Map 1 [Ch.1] (Scary Mantis · x1)",
+          "Floor 91 Map 1 [Ch.1] (Sentry Knight · x1)",
+          "Floor 99 [Ch.1] (Elusive Grimoire · x1)",
+          "Floor 23 Map 1 [Ch.2] (Apparition Ashigaru · x1)",
+          "Floor 23 Map 2 [Ch.2] (Apparition Nobushi · x1)",
+          "Floor 24 Map 2 [Ch.2] (Pollen Treant · x1)",
+          "Floor 38 Dungeon [Ch.2] (Vampkin Walker · x1)",
+          "Floor 79 Map 2/Dungeon [Ch.2] (Kobold Mechanoid · x1)",
+          "Floor 89 Map 1 [Ch.2] (Libro Animato Grimoire · x1)"
         ],
-        "notes": "Source discovery in progress"
+        "notes": "Dropped across Chapter 1 (13 floors) and Chapter 2 (5 floors)"
       },
       "iconFile": "ui_icon_item_ingredients_grainsack_01.png"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "My First Homemade Dish",
+      "req": "Cook 1 time",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Kitchen Regular",
+      "req": "Cook 10 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Cooking Lover",
+      "req": "Cook 50 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Veteran Cook",
+      "req": "Cook 100 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Master of the Kitchen",
+      "req": "Cook 500 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "One Who Graced a Thousand Tables",
+      "req": "Cook 1,000 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Ultimate Cooking Mania",
+      "req": "Cook 10,000 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Master of Gastronomy",
+      "req": "Cook 100,000 times",
+      "reward": "10 Arcana Gems",
+      "category": "count"
+    },
+    {
+      "title": "Apprentice Cook",
+      "req": "Reach Cooking Level 5",
+      "reward": "10 Arcana Gems",
+      "category": "level"
+    },
+    {
+      "title": "Novice Chef",
+      "req": "Reach Cooking Level 10",
+      "reward": "10 Arcana Gems",
+      "category": "level"
+    },
+    {
+      "title": "Skillful Cook",
+      "req": "Reach Cooking Level 25",
+      "reward": "10 Arcana Gems",
+      "category": "level"
+    },
+    {
+      "title": "Expert Chef",
+      "req": "Reach Cooking Level 50",
+      "reward": "10 Arcana Gems",
+      "category": "level"
+    },
+    {
+      "title": "Legendary Cook",
+      "req": "Reach Cooking Level 100",
+      "reward": "10 Arcana Gems",
+      "category": "level"
     }
   ]
 };
