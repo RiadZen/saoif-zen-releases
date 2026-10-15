@@ -10,6 +10,15 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "[10/7 13:00 (JST/UTC+9) UPDATE] Added rewards! \"Dinosaur Assault\" is here! Earn Arcana Gems, Awakening Stars, Medals of Combat Arts, Exp Crystals, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916da.png",
+    "startTime": "2026-09-15T19:00:00+00:00",
+    "endTime": "2026-10-14T19:00:00+00:00",
+    "snippet": "[10/7 13:00 (JST/UTC+9) UPDATE] Trader reward items were added during the October 7, 2026 (Wed) maintenance.  Items Added Trader reward items were added. Exchange \"Orange Dinosaur Plate\" for the added items.  Trade \"Orange Dinosaur Plate\" for additional items.  Tradable Item ListAmount NeededTrade L...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5494.html"
+  },
+  {
+    "type": "EVENT",
     "title": "[9/29 13:00 (JST/UTC+9) UPDATE] Added rewards and high difficulty! \"Dinosaur Assault\" is here! Earn Arcana Gems, Awakening Stars, Medals of Combat Arts, Exp Crystals, and more!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20260916da.png",
     "startTime": "2026-09-15T19:00:00+00:00",
@@ -43,5 +52,14 @@ const ACTIVE_EVENTS_AUTO = [
     "endTime": "2026-10-20T19:00:00+00:00",
     "snippet": "Collect the Bronze Floor Coins dropped by monsters on 13F and onward of the Labyrinth, then exchange what you've collected for tons of items!  Rewards There are a variety of items at the Trader, including Awakening Stars, Medals of Combat Arts, and up to 50 \"Memoria Niter S\".  Trade \"Bronze Floor Co...",
     "news_url": "https://saoif.nayu.fun/shop_information/detail/5479.html"
+  },
+  {
+    "type": "EVENT",
+    "title": "The Hunting Event \"Mad Beast Hunt\" is here! Get tons of Memoria Niter S, weapon enhancement materials, and more!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20261007mb.png",
+    "startTime": "2026-10-06T19:00:00+00:00",
+    "endTime": "2026-10-27T19:00:00+00:00",
+    "snippet": "The Hunting Event \"Mad Beast Hunt\" is here! Defeat the Mad Beast and get rewards!  Rewards Get up to 500 \"Arcana Gems\", up to 100 \"Awakening Stars\", up to 20 \"Medals of Combat Arts\", and up to 500 \"Memoria Niter S\" from the event. This time you can also get plenty of weapon crafting materials such a...",
+    "news_url": "https://saoif.nayu.fun/shop_information/detail/5493.html"
   }
 ];

@@ -74749,7 +74749,387 @@ const characterData = {
             }
         }
     },
-
+    "1848": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Eternal Aurora Swordsman] Kirito",
+        "sub": "1H Sword (Slash/Holy) Full Burst Skill",
+        "type": "full burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Holy",
+        "category": "Skill",
+        "cost": 50,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 50,
+        "break_gauge": 36,
+        "skill_name": "Lightning Rush",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 50] • [Break Gauge 36]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 50] • [Break Gauge 36]",
+        "damage": "2020% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002097.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102097.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +15.00% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Shine Pile/Buff",
+                "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 50] • [Break Gauge 72]",
+        "burst_skill_name": "Lightning Rush Burst",
+        "burst_activation": "Holy→Holy→Slash→Fire",
+        "burst_activation_template": "Holy→Holy→Slash→Fire",
+        "burst_damage": "5600% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Holy element's damage rises by the number of Kirito Skill Records in the same set x 9%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Yuuki Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shine 4/Buff",
+                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1821,
+                "buffs": [
+                    10.05,
+                    25.5
+                ],
+                "burst_damage": 4707
+            },
+            "80": {
+                "damage": 1900,
+                "buffs": [
+                    14,
+                    65
+                ],
+                "burst_damage": 5260
+            },
+            "100": {
+                "damage": 2020,
+                "buffs": [
+                    15,
+                    75
+                ],
+                "burst_damage": 5600
+            }
+        }
+    },
+    "1849": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Lively Integrity Knight] Alice",
+        "sub": "2H Axe (Blunt/Earth) Full Burst Skill",
+        "type": "full burst",
+        "weapon": "2H Axe",
+        "element1": "Blunt",
+        "element2": "Earth",
+        "category": "Skill",
+        "cost": 46,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 56,
+        "break_gauge": 56,
+        "skill_name": "Rock Smite",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 56] • [Break Gauge 56]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 56] • [Break Gauge 56]",
+        "damage": "2460% damage (Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002098.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102098.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Enhance Attack 4/Buff",
+                "desc": "Attack +15.00% for 20 sec.",
+                "desc_template": "Attack +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Earth Element Enhance 4/Buff",
+                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc_template": "Earth element damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 56] • [Break Gauge 112]",
+        "burst_skill_name": "Rock Smite Burst",
+        "burst_activation": "Earth→Earth→Blunt→Earth",
+        "burst_activation_template": "Earth→Earth→Blunt→Earth",
+        "burst_damage": "6000% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "When enemy's HP is 50% or up, attack will increase 250%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 2 or more of Eugeo's Skill Records in the same set, Damage done to enemies weak to blunt +100%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Earth 4/Buff",
+                "desc": "While Full Burst state Earth element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1861,
+                "buffs": [
+                    5.1,
+                    5.04,
+                    25.5
+                ],
+                "burst_damage": 4807
+            },
+            "80": {
+                "damage": 1940,
+                "buffs": [
+                    13,
+                    8.2,
+                    65
+                ],
+                "burst_damage": 5360
+            },
+            "100": {
+                "damage": 2460,
+                "buffs": [
+                    15,
+                    9,
+                    75
+                ],
+                "burst_damage": 6000
+            }
+        }
+    },
+    "1850": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Knowledge-Seeking Scholar] Eugeo",
+        "sub": "Ability",
+        "type": "accele",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 22,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Power Rise/Hidden Blessing/Halo",
+        "stats": "[Attack 53] • [Defense 30] • [HP 2650]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002099.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102099.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Power Rise 5",
+                "desc": "Attack +1200.00.",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Hidden Blessing 3",
+                "desc": "Attack +15.00%, and non-natural elemental damage -100.00%.",
+                "desc_template": "Attack +{v}%, and non-natural elemental damage -100.00%.",
+                "type": "normal"
+            },
+            {
+                "name": "Halo 3",
+                "desc": "Defense -30% and during the buff effect for increased max HP the hit rate -30%",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Purifying Flame 2",
+                "desc": "Deals +10.00% Fire element's damage to enemy.",
+                "desc_template": "Deals +{v}% Fire element's damage to enemy.",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "In effect 37.5 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Sword Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    210,
+                    5.1,
+                    3.07
+                ]
+            },
+            "80": {
+                "hp": 2300,
+                "atk": 47,
+                "def": 27,
+                "buffs": [
+                    1000,
+                    13,
+                    8.6
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 53,
+                "def": 30,
+                "buffs": [
+                    1200,
+                    15,
+                    10
+                ]
+            }
+        }
+    },
+    "1851": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Princess & Little Companions] Silica",
+        "sub": "Dagger (Slash/Fire) Link Skill",
+        "type": "link",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Fire",
+        "category": "Skill",
+        "cost": 52,
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 34,
+        "break_gauge": 32,
+        "skill_name": "Flame Pervasion",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 34] • [Break Gauge 32]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 34] • [Break Gauge 32]",
+        "damage": "2340% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002100.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102100.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Weak Slash 4/Debuff",
+                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Weak Defense 3/Debuff",
+                "desc": "Enemy defense -30.00% for 10 sec.",
+                "desc_template": "Enemy defense -{v}% for 10 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Fire element damage +50.00%",
+            "LLv50: Fire element damage +50.00%",
+            "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1",
+            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2141,
+                "buffs": [
+                    15.1,
+                    20.1
+                ]
+            },
+            "80": {
+                "damage": 2220,
+                "buffs": [
+                    23,
+                    28
+                ]
+            },
+            "100": {
+                "damage": 2340,
+                "buffs": [
+                    25,
+                    30
+                ]
+            }
+        }
+    },
 	
 
 };
