@@ -74749,7 +74749,7 @@ const characterData = {
             }
         }
     },
-    "1848": {
+	    "1848": {
         "collab": "Tales",
         "tags": [
             "Collab"
@@ -74796,8 +74796,8 @@ const characterData = {
         ],
         "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 50] • [Break Gauge 72]",
         "burst_skill_name": "Lightning Rush Burst",
-        "burst_activation": "Holy→Holy→Slash→Fire",
-        "burst_activation_template": "Holy→Holy→Slash→Fire",
+        "burst_activation": "Holy→Holy→Slash→(Fire)",
+        "burst_activation_template": "Holy→Holy→Slash→(Fire)",
         "burst_damage": "5600% damage (5x hit/Single Foe)[Front/Arc/Mid]",
         "burst_damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
@@ -74899,8 +74899,8 @@ const characterData = {
         ],
         "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 56] • [Break Gauge 112]",
         "burst_skill_name": "Rock Smite Burst",
-        "burst_activation": "Earth→Earth→Blunt→Earth",
-        "burst_activation_template": "Earth→Earth→Blunt→Earth",
+        "burst_activation": "Earth→Earth→Blunt→(Earth)",
+        "burst_activation_template": "Earth→Earth→Blunt→(Earth)",
         "burst_damage": "6000% damage (Single Foe)[Front/Arc/Mid]",
         "burst_damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
@@ -75131,5 +75131,539 @@ const characterData = {
         }
     },
 	
+	    "1852": {
+        "tags": [],
+        "name": "[Silver Ring of Bonds] Kirito",
+        "sub": "Ability",
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 22,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Five Sharp Weapons/Enhance Thrust/Black Swordsman",
+        "stats": "[Attack 56] • [Defense 32] • [HP 2725]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002086.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102086.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Five Sharp Weapons 3",
+                "desc": "Attack +800.00 when attacking with thrust element.",
+                "desc_template": "Attack +{v} when attacking with thrust element.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 4",
+                "desc": "Damage done to enemies weak to thrusting +24.00%.",
+                "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Black Swordsman 3",
+                "desc": "When equipping 2 or more of Kirito's Skill Records in the same set, Attack +20.00%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100.00%",
+            "LLv250: Dark element damage +20.00%",
+            "LLv350: Damage done to enemies weak to thrusting +20.00%"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 525,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    107,
+                    18.06
+                ]
+            },
+            "80": {
+                "hp": 2360,
+                "atk": 49,
+                "def": 28,
+                "buffs": [
+                    660,
+                    22.8
+                ]
+            },
+            "100": {
+                "hp": 2725,
+                "atk": 56,
+                "def": 32,
+                "buffs": [
+                    800,
+                    24
+                ]
+            }
+        }
+    },
+    "1853": {
+        "tags": [],
+        "name": "[Blessing Light by the Lake] Asuna",
+        "sub": "1H Rapier (Thrust/Dark) Link Skill",
+        "type": "link",
+        "weapon": "1H Rapier",
+        "element1": "Thrust",
+        "element2": "Dark",
+        "category": "Skill",
+        "cost": 50,
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 30,
+        "break_gauge": 24,
+        "skill_name": "Shadow Brush",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 30] • [Break Gauge 24]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 30] • [Break Gauge 24]",
+        "damage": "2800% damage (3x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002087.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102087.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Dark Force 4/Buff",
+                "desc": "Dark element damage +15.00% for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 2/Buff",
+                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Thrust Boost 3/Buff",
+                "desc": "Adds a buff where thrust elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Dark element damage +50.00%",
+            "LLv50: Dark element damage +50.00%",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00%",
+            "LLv250: Damage done to enemies weak to thrusting +50.00%",
+            "LLv500: Critical rate +500.00%"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2201,
+                "buffs": [
+                    5.1,
+                    10.1
+                ]
+            },
+            "80": {
+                "damage": 2280,
+                "buffs": [
+                    13,
+                    18
+                ]
+            },
+            "100": {
+                "damage": 2800,
+                "buffs": [
+                    15,
+                    20
+                ]
+            }
+        }
+    },
+    "1854": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Noble Flower of Thorns] Asuna",
+        "sub": "1H Rapier (Thrust/Fire) Full Burst Skill",
+        "type": "full burst",
+        "weapon": "1H Rapier",
+        "element1": "Thrust",
+        "element2": "Fire",
+        "category": "Skill",
+        "cost": 50,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 40,
+        "break_gauge": 40,
+        "skill_name": "Flame Comet",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 40]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 40]",
+        "damage": "2020% damage (4x hit/Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (4x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002101.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102101.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Fire Element Enhance 4/Buff",
+                "desc": "Fire element damage +9.00% for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Weakness Attack 3/Buff",
+                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc_template": "Critical damage +{v}% for 15 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 80]",
+        "burst_skill_name": "Flame Comet Burst",
+        "burst_activation": "Fire→Fire→Thrust→(Fire)",
+        "burst_activation_template": "Fire→Fire→Thrust→(Fire)",
+        "burst_damage": "5600% damage (4x hit/Single Foe)[Motion Range]",
+        "burst_damage_template": "{v}% damage (4x hit/Single Foe)[Motion Range]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Attack +2000 against enemies with the slash element.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While debuff to raise your own damage taken is effective, attack power will increase 150%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Critical rate +1000%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Flame 4/Buff",
+                "desc": "While Full Burst state Fire element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1821,
+                "buffs": [
+                    5.04,
+                    0.1,
+                    25.5
+                ],
+                "burst_damage": 4707
+            },
+            "80": {
+                "damage": 1900,
+                "buffs": [
+                    8.2,
+                    8,
+                    65
+                ],
+                "burst_damage": 5260
+            },
+            "100": {
+                "damage": 2020,
+                "buffs": [
+                    9,
+                    10,
+                    75
+                ],
+                "burst_damage": 5600
+            }
+        }
+    },
+    "1855": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Knight of Blazing Flame] Alice",
+        "sub": "Ability",
+        "type": "awakening",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 22,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Power Rise/Dark Conversion/Bond of Unity",
+        "stats": "[Attack 50] • [Defense 42] • [HP 2425]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002102.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102102.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Power Rise 3",
+                "desc": "Attack +800.00.",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Conversion 5",
+                "desc": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +30.00%.",
+                "desc_template": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bond of Unity",
+                "desc": "Effect changes depending on the Skill Records in the same set.<br>・When equipping 1 or more of Kirito's Skill Records: Attack +25.00%.<br>・When equipping 1 or more of Yuuki's Skill Records: Max HP +10.00%.<br>・When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +200.00% when used in switch.<br>・When equipping 1 or more of Asuna's Skill Records: Critical damage +30.00%.<br>・When equipping 1 or more of Leafa's Skill Records: Recovers a max of 1.00% HP per 3 sec.",
+                "type": "normal"
+            }
+        ],
+        "awakening": [
+            "Blazing Spirit [When Rush Activates] Recover all status ailments."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 17,
+                "def": 13,
+                "buffs": [
+                    107,
+                    20.1
+                ]
+            },
+            "80": {
+                "hp": 2100,
+                "atk": 44,
+                "def": 37,
+                "buffs": [
+                    660,
+                    28
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 50,
+                "def": 42,
+                "buffs": [
+                    800,
+                    30
+                ]
+            }
+        }
+    },
+    "1856": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Crimson Hyperresonant Sword] Leafa",
+        "sub": "1H Sword (Slash/Dark) Full Burst Skill",
+        "type": "full burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "cost": 50,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 88,
+        "break_gauge": 29,
+        "skill_name": "Dark Punishment",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 88] • [Break Gauge 29]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 88] • [Break Gauge 29]",
+        "damage": "2400% damage (8x hit/All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (8x hit/All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002103.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102103.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +15.00% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Dark Pile/Buff",
+                "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 88] • [Break Gauge 58]",
+        "burst_skill_name": "Dark Punishment Burst",
+        "burst_activation": "Dark→Slash→Dark→(Earth)",
+        "burst_activation_template": "Dark→Slash→Dark→(Earth)",
+        "burst_damage": "5800% damage (8x hit/All Foes)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (8x hit/All Foes)[Front/Long/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Dark element damage increases x 0.5% the number of Curse stacks when the player is inflicted with the Curse status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 2 or more of Kirito's Skill Records in the same set, Damage done to enemies weak to slashing +100%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shadow 4/Buff",
+                "desc": "While Full Burst state Dark element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1801,
+                "buffs": [
+                    10.05,
+                    25.5
+                ],
+                "burst_damage": 4607
+            },
+            "80": {
+                "damage": 1880,
+                "buffs": [
+                    14,
+                    65
+                ],
+                "burst_damage": 5160
+            },
+            "100": {
+                "damage": 2400,
+                "buffs": [
+                    15,
+                    75
+                ],
+                "burst_damage": 5800
+            }
+        }
+    },
+    "1857": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Flashing Heavenly Oracle] Klein",
+        "sub": "Ability",
+        "type": "ability",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 24,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Bloody Battle Thrust/Flame Conversion/Steel Fang",
+        "stats": "[Attack 56] • [Defense 34] • [HP 2650]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002104.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102104.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Bloody Battle Thrust 4",
+                "desc": "Attack +40.00% when attacking with thrust element.",
+                "desc_template": "Attack +{v}% when attacking with thrust element.",
+                "type": "normal"
+            },
+            {
+                "name": "Flame Conversion 4",
+                "desc": "Water element's damage to enemies -10.00% and fire element's damage to enemies +25.00%.",
+                "desc_template": "Water element's damage to enemies -10.00% and fire element's damage to enemies +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Steel Fang 3",
+                "desc": "Attack +500.00 when attacking with thrust element.",
+                "desc_template": "Attack +{v} when attacking with thrust element.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    20.2,
+                    15.1,
+                    104
+                ]
+            },
+            "80": {
+                "hp": 2300,
+                "atk": 49,
+                "def": 30,
+                "buffs": [
+                    36,
+                    23,
+                    420
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 56,
+                "def": 34,
+                "buffs": [
+                    40,
+                    25,
+                    500
+                ]
+            }
+        }
+    },
 
 };
