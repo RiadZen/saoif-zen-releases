@@ -75323,7 +75323,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002101.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102101.png",
-        "background": "",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Fire Element Enhance 4/Buff",
@@ -75427,7 +75427,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002102.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102102.png",
-        "background": "",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Power Rise 3",
@@ -75511,7 +75511,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002103.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102103.png",
-        "background": "",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
@@ -75611,7 +75611,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002104.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102104.png",
-        "background": "",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 4",
