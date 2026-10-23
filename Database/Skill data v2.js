@@ -75131,7 +75131,7 @@ const characterData = {
         }
     },
 	
-	    "1852": {
+	    "1853": {
         "tags": [],
         "name": "[Silver Ring of Bonds] Kirito",
         "sub": "Ability",
@@ -75213,7 +75213,7 @@ const characterData = {
             }
         }
     },
-    "1853": {
+    "1852": {
         "tags": [],
         "name": "[Blessing Light by the Lake] Asuna",
         "sub": "1H Rapier (Thrust/Dark) Link Skill",
