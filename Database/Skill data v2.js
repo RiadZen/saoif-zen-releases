@@ -75549,8 +75549,8 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +75.00% for 20 sec.",
-                "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
+                "desc": "While Accele state Dark element damage +75.00% for 20 sec.",
+                "desc_template": "Accele Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
