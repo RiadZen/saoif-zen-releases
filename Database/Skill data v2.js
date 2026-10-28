@@ -75949,8 +75949,8 @@ const characterData = {
         ],
         "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 43] • [Break Gauge 86]",
         "burst_skill_name": "Lightning Shot Burst",
-        "burst_activation": "Holy→Holy→Thrust→(Earth)",
-        "burst_activation_template": "Holy→Holy→Thrust→(Earth)",
+        "burst_activation": "Holy→Holy→Thrust→(Water)",
+        "burst_activation_template": "Holy→Holy→Thrust→(Water)",
         "burst_damage": "5700% damage (Single Foe)[Front/Long/Mid]",
         "burst_damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
         "burst_buffs": [
