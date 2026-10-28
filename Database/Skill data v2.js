@@ -75550,7 +75550,7 @@ const characterData = {
             {
                 "name": "Ruinous Shadow 4/Buff",
                 "desc": "While Accele state Dark element damage +75.00% for 20 sec.",
-                "desc_template": "Accele Burst state Dark element damage +{v}% for 20 sec.",
+                "desc_template": "While Accele state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
@@ -75665,5 +75665,571 @@ const characterData = {
             }
         }
     },
+	    "1860": {
+        "tags": [],
+        "name": "[Witch of the Dark Night] Sanya",
+        "sub": "Ability",
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 22,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Shattered to Pieces/Enhance Slash/Silver Witch",
+        "stats": "[Attack 51] • [Defense 42] • [HP 2725]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002085.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102085.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Shattered to Pieces 3",
+                "desc": "Attack +800.00 when attacking with slash element.",
+                "desc_template": "Attack +{v} when attacking with slash element.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Slash 4",
+                "desc": "Damage done to enemies weak to slashing +24.00%.",
+                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Silver Witch 4",
+                "desc": "When equipping 2 or more of Sanya's Skill Records in the same set, Attack +20%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100.00%",
+            "LLv250: Earth element damage +20.00%",
+            "LLv350: Damage done to enemies weak to slashing +20.00%"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 497,
+                "atk": 18,
+                "def": 13,
+                "buffs": [
+                    107,
+                    18.06
+                ]
+            },
+            "80": {
+                "hp": 2360,
+                "atk": 45,
+                "def": 37,
+                "buffs": [
+                    660,
+                    22.8
+                ]
+            },
+            "100": {
+                "hp": 2725,
+                "atk": 51,
+                "def": 42,
+                "buffs": [
+                    800,
+                    24
+                ]
+            }
+        }
+    },
+    "1858": {
+        "tags": [],
+        "name": "[Flash of Strategy] Argo",
+        "sub": "Ability",
+        "type": "ability",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 12,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Enhance Thrust/Ice Indemnity",
+        "stats": "[Attack 35] • [Defense 24] • [HP 1975]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002092.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102092.png",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Enhance Thrust 3",
+                "desc": "Damage done to enemies weak to thrusting +15.00%.",
+                "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Ice Indemnity 2",
+                "desc": "When you are frostbitten, water element damage +35.00%.",
+                "desc_template": "When you are frostbitten, water element damage +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 422,
+                "atk": 13,
+                "def": 11,
+                "buffs": [
+                    5.1,
+                    5.3
+                ]
+            },
+            "80": {
+                "hp": 1720,
+                "atk": 31,
+                "def": 21,
+                "buffs": [
+                    13,
+                    29
+                ]
+            },
+            "100": {
+                "hp": 1975,
+                "atk": 35,
+                "def": 24,
+                "buffs": [
+                    15,
+                    35
+                ]
+            }
+        }
+    },
+    "1861": {
+        "tags": [],
+        "name": "[Autumn Path Encounters] Yuuki",
+        "sub": "Ability",
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "cost": 22,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Power Rise/Enhance Attack/Earth Conversion",
+        "stats": "[Attack 50] • [Defense 38] • [HP 2575]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002105.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102105.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Power Rise 4",
+                "desc": "Attack +900.00.",
+                "desc_template": "Attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Attack 4",
+                "desc": "Attack +15.00%.",
+                "desc_template": "Attack +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Earth Conversion 5",
+                "desc": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +30.00%.",
+                "desc_template": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500.00 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100.00%",
+            "LLv250: Earth element damage +20.00%",
+            "LLv350: Damage done to enemies weak to slashing +20.00%"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 17,
+                "def": 13,
+                "buffs": [
+                    108,
+                    5.1,
+                    20.1
+                ]
+            },
+            "80": {
+                "hp": 2230,
+                "atk": 44,
+                "def": 33,
+                "buffs": [
+                    740,
+                    13,
+                    28
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 50,
+                "def": 38,
+                "buffs": [
+                    900,
+                    15,
+                    30
+                ]
+            }
+        }
+    },
+    "1862": {
+        "tags": [],
+        "name": "[Forest & Birdsong] Sinon",
+        "sub": "Bow (Thrust/Holy) Full Burst Skill",
+        "type": "full burst",
+        "weapon": "Bow",
+        "element1": "Thrust",
+        "element2": "Holy",
+        "category": "Skill",
+        "cost": 50,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 43,
+        "break_gauge": 43,
+        "skill_name": "Lightning Shot",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 43] • [Break Gauge 43]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 43] • [Break Gauge 43]",
+        "damage": "2350% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002106.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102106.png",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Shine Force 4/Buff",
+                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc_template": "Holy element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 2/Buff",
+                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 43] • [Break Gauge 86]",
+        "burst_skill_name": "Lightning Shot Burst",
+        "burst_activation": "Holy→Holy→Thrust→(Earth)",
+        "burst_activation_template": "Holy→Holy→Thrust→(Earth)",
+        "burst_damage": "5700% damage (Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "The lower your own HP, attack increases.(max 200%)",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Holy element damage increases x 0.5% the number of Debility stacks when the player is inflicted with the Debility status ailment.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to thrusting +100%, when equipping no Yuuki Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Ruinous Shine 4/Buff",
+                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "buffs": [
+                    5.1,
+                    10.1,
+                    25.5
+                ],
+                "burst_damage": 4507
+            },
+            "80": {
+                "damage": 1830,
+                "buffs": [
+                    13,
+                    18,
+                    65
+                ],
+                "burst_damage": 5060
+            },
+            "100": {
+                "damage": 2350,
+                "buffs": [
+                    15,
+                    20,
+                    75
+                ],
+                "burst_damage": 5700
+            }
+        }
+    },
+    "1863": {
+        "tags": [],
+        "name": "[Golden Warmth] Lisbeth",
+        "sub": "1H Club (None) Burst Skill",
+        "type": "burst",
+        "weapon": "1H Club",
+        "element1": "None",
+        "element2": "None",
+        "category": "Skill",
+        "cost": 30,
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Uncivil",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 0] • [Break Gauge 0]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 0] • [Break Gauge 0]",
+        "damage": "0% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002107.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102107.png",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Bolt Breaker 4/Buff (PT)",
+                "desc": "Break gauge amount +20.00% for you and your party for 10 sec.",
+                "desc_template": "Break gauge amount +{v}% for you and your party for 10 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 0] • [Break Gauge 0]",
+        "burst_skill_name": "Uncivil Burst",
+        "burst_activation": "Dark→Dark→Blunt→Fire",
+        "burst_activation_template": "Dark→Dark→Blunt→Fire",
+        "burst_damage": "",
+        "burst_buffs": [
+            {
+                "name": "The Proud Crowd 4/Buff (PT)",
+                "desc": "Own and Party's attack +1.25% per stack (Stack50) during 20 sec. Effect will be removed with damage.",
+                "type": "normal"
+            }
+        ],
+        "lv_data": {
+            "1": {
+                "buffs": [
+                    10.1
+                ]
+            },
+            "80": {
+                "buffs": [
+                    18
+                ]
+            },
+            "100": {
+                "buffs": [
+                    20
+                ]
+            }
+        }
+    },
+    "1864": {
+        "tags": [],
+        "name": "[Warm Dappled Sunlight] Yui",
+        "sub": "Dagger (Slash/Earth) Link Skill",
+        "type": "link",
+        "weapon": "Dagger",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "cost": 52,
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 34,
+        "break_gauge": 32,
+        "skill_name": "Rock Slip",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 34] • [Break Gauge 32]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 34] • [Break Gauge 32]",
+        "damage": "2640% damage (2x hit/Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002108.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102108.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Weak Slash 4/Debuff",
+                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Weak Defense 3/Debuff",
+                "desc": "Enemy defense -30.00% for 10 sec.",
+                "desc_template": "Enemy defense -{v}% for 10 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Earth element damage +50.00%",
+            "LLv50: Earth element damage +50.00%",
+            "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1",
+            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2041,
+                "buffs": [
+                    15.1,
+                    20.1
+                ]
+            },
+            "80": {
+                "damage": 2120,
+                "buffs": [
+                    23,
+                    28
+                ]
+            },
+            "100": {
+                "damage": 2640,
+                "buffs": [
+                    25,
+                    30
+                ]
+            }
+        }
+    },
+	    "1859": {
+        "tags": [],
+        "name": "[Descending Slash] Sanya",
+        "sub": "1H Sword (Slash/Earth) Link Skill",
+        "type": "link",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Earth",
+        "category": "Skill",
+        "cost": 52,
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 54,
+        "break_gauge": 35,
+        "skill_name": "Rock Turbulence",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 54] • [Break Gauge 35]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 54] • [Break Gauge 35]",
+        "damage": "2500% damage (6x hit/Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (6x hit/Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002084.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102084.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Earth Force 4/Buff",
+                "desc": "Earth element damage +15.00% for 15 sec.",
+                "desc_template": "Earth element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Slash 2/Buff",
+                "desc": "Damage done to enemies weak to Slash +20.00% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Earth element damage +50.00%",
+            "LLv50: Earth element damage +50.00%",
+            "LLv100: Your own attack increases by defense x 1",
+            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv500: Your own attack increases by defense x 1"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2301,
+                "buffs": [
+                    5.1,
+                    10.1
+                ]
+            },
+            "80": {
+                "damage": 2380,
+                "buffs": [
+                    13,
+                    18
+                ]
+            },
+            "100": {
+                "damage": 2500,
+                "buffs": [
+                    15,
+                    20
+                ]
+            }
+        }
+    }
 
 };
