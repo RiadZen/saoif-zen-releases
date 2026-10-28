@@ -75691,7 +75691,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002085.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102085.png",
-        "background": "resources/backgrounds/link.png",
+        "background": "",
         "buffs": [
             {
                 "name": "Shattered to Pieces 3",
@@ -75844,7 +75844,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002105.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102105.png",
-        "background": "resources/backgrounds/link.png",
+        "background": "",
         "buffs": [
             {
                 "name": "Power Rise 4",
@@ -75932,7 +75932,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002106.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102106.png",
-        "background": "resources/backgrounds/gold.png",
+        "background": "",
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
@@ -76024,7 +76024,7 @@ const characterData = {
         "skill_name": "Uncivil",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 0] • [Break Gauge 0]",
         "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 0] • [Break Gauge 0]",
-        "damage": "0% damage (Single Foe)[Front/Long/Mid]",
+        "damage": "",
         "max_lv": 100,
         "rarity": 4,
         "rarity_steps": {
@@ -76034,7 +76034,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002107.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102107.png",
-        "background": "resources/backgrounds/gold.png",
+        "background": "",
         "buffs": [
             {
                 "name": "Bolt Breaker 4/Buff (PT)",
@@ -76101,7 +76101,7 @@ const characterData = {
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002108.png",
         "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102108.png",
-        "background": "resources/backgrounds/link.png",
+        "background": "",
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
@@ -76230,6 +76230,6 @@ const characterData = {
                 ]
             }
         }
-    }
+    },
 
 };
