@@ -1,33 +1,6 @@
 const ACTIVE_EVENTS_AUTO = [
   {
     "type": "EVENT",
-    "title": "The Hunting Event \"Mad Beast Hunt\" is here! Get tons of Memoria Niter S, weapon enhancement materials, and more!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20261007mb.png",
-    "startTime": "2026-10-07T08:00:00+00:00",
-    "endTime": "2026-10-28T05:00:00+00:00",
-    "snippet": "The Hunting Event \"Mad Beast Hunt\" is here! Defeat the Mad Beast and get rewards!  Rewards Get up to 500 \"Arcana Gems\", up to 100 \"Awakening Stars\", up to 20 \"Medals of Combat Arts\", and up to 500 \"Memoria Niter S\" from the event. This time you can also get plenty of weapon crafting materials such a...",
-    "news_url": "https://saoif.nayu.fun/shop_information/detail/5493.html"
-  },
-  {
-    "type": "Campaign",
-    "title": "The \"Ring Production Campaign\" is here! Production costs halved and battle rewards increased!",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230426yubi.png",
-    "startTime": "2026-10-15T08:00:00+00:00",
-    "endTime": "2026-10-28T05:00:00+00:00",
-    "snippet": "The \"Ring Production Campaign\" is here! Production costs halved and battle rewards increased! Campaign 2026-10-15 17:00:00 （JST/GMT+9） \"Ring Production Campaign\" is here.",
-    "news_url": "https://en.saoif.com/shop_information/detail/?information_id=5507"
-  },
-  {
-    "type": "NOTICES",
-    "title": "Notice for maintenance(10/28)",
-    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20200629hi.png",
-    "startTime": "2026-10-28T04:00:00+00:00",
-    "endTime": "2026-10-28T08:00:00+00:00",
-    "snippet": "Notice for maintenance(10/28) NOTICES 2026-10-27 18:00:00 （JST/GMT+9） Notice for those users logging on to \"Sword Art Online Integral Factor\".",
-    "news_url": "https://en.saoif.com/shop_information/detail/?information_id=5528"
-  },
-  {
-    "type": "EVENT",
     "title": "【Raising Dungeon】\"Happy Dungeon with Sanya\" is here! Get the Sanya stamp and Arcana Gems!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20261023sn.png",
     "startTime": "2026-10-22T19:00:00+00:00",
@@ -37,12 +10,30 @@ const ACTIVE_EVENTS_AUTO = [
   },
   {
     "type": "EVENT",
+    "title": "October 29 is Sanya's birthday! Tons of events and Orders! You've gotta check out this announcement!",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20261029Sanya.png",
+    "startTime": "2026-10-22T19:00:00+00:00",
+    "endTime": "2026-10-29T18:59:00+00:00",
+    "snippet": "October 29 is Sanya's birthday! Tons of events and Orders! You've gotta check out this announcement! EVENT 2026-10-29 00:00:00 （JST/GMT+9） October 29 is Sanya's birthday!",
+    "news_url": "https://en.saoif.com/shop_information/detail/?information_id=5539"
+  },
+  {
+    "type": "EVENT",
     "title": "【Raising Dungeon】Get Mito's avatar and Medals of Combat Arts! The \"Intensive Training Event VS Mito\" is here!",
     "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20241017mt.png",
     "startTime": "2026-10-21T19:00:00+00:00",
     "endTime": "2026-11-05T18:59:00+00:00",
     "snippet": "【Raising Dungeon】Get Mito's avatar and Medals of Combat Arts! The \"Intensive Training Event VS Mito\" is here! EVENT 2026-10-22 04:00:00 （JST/GMT+9） The Raising Dungeon is here to help boost character growth!",
     "news_url": "https://en.saoif.com/shop_information/detail/?information_id=5525"
+  },
+  {
+    "type": "EVENT",
+    "title": "【Raising Dungeon】Get items to increase drop rates and boost EXP from the \"Great Enhancement Event  VS Yuuki\" on now!<",
+    "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/other/20230131yu.png",
+    "startTime": "2026-10-29T19:00:00+00:00",
+    "endTime": "2026-11-05T18:59:00+00:00",
+    "snippet": "【Raising Dungeon】Get items to increase drop rates and boost EXP from the \"Great Enhancement Event  VS Yuuki\" on now!< EVENT 2026-10-30 04:00:00 （JST/GMT+9） The Raising Dungeon is here to help boost character growth!",
+    "news_url": "https://en.saoif.com/shop_information/detail/?information_id=5538"
   },
   {
     "type": "EVENT",

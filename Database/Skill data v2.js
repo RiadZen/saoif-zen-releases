@@ -75666,7 +75666,7 @@ const characterData = {
         }
     },
 	    "1860": {
-        "tags": [],
+        "tags": ["Bday"],
         "name": "[Witch of the Dark Night] Sanya",
         "sub": "Ability",
         "type": "link",
@@ -76153,7 +76153,7 @@ const characterData = {
         }
     },
 	    "1859": {
-        "tags": [],
+        "tags": ["Bday"],
         "name": "[Descending Slash] Sanya",
         "sub": "1H Sword (Slash/Earth) Link Skill",
         "type": "link",
