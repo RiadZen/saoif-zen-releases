@@ -4893,18 +4893,16 @@ const characterData = {
         "skill_name": "Vigor Wind",
         "stats": "[SP Cost 24] • [CD 14.0] • [Switch Gauge 19] • [Break Gauge 12]",
         "damage": "",
+        "charging_damage": "730% damage (All Foes)[Front/Cone/Wide]",
+        "uncharged_damage": "480% damage (All Foes)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/pickup/f6b325e356b830a3986c1a93ae34816f.png",
         "buffs": [
             {
-                "name": "Charging [Precise Attack 4/Buff]",
-                "desc": "730% damage (All Foes)[Front/Cone/Wide] <br> Critical rate +15% for 10 sec.",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged",
-                "desc": "480% damage (All Foes)[Front/Long/Mid]",
-                "type": "normal"
+                "name": "Precise Attack 4/Buff",
+                "desc": "Critical rate +15% for 10 sec.",
+                "type": "normal",
+                "mode": "charging"
             }
         ],
         "rarity": 4
@@ -6126,28 +6124,22 @@ const characterData = {
         "skill_name": "Candy Squall",
         "stats": "[SP Cost 26] • [CD 12.0] • [Switch Gauge 34] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "850% damage (All Foes)[Center/Arc/Mid]",
+        "uncharged_damage": "650% damage (All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/976159680e853b472bdc336438d24e92.png",
         "buffs": [
             {
-                "name": "Charging",
-                "desc": "850% damage (All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
-                "name": "Charging [Bonus Attack 4]",
+                "name": "Bonus Attack 4",
                 "desc": "Additional damage according to own Attack for 10 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged",
-                "desc": "650% damage (All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged [Bonus Attack 4]",
+                "name": "Bonus Attack 4",
                 "desc": "Additional damage according to own Attack for 10 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "rarity": 4
@@ -6624,18 +6616,16 @@ const characterData = {
         "skill_name": "Vigor Flame",
         "stats": "[SP Cost 24] • [CD 14.0] • [Switch Gauge 19 (Uncharged) / 51 (Charged)] • [Break Gauge 12 (Uncharged) / 32 (Charged)]",
         "damage": "",
+        "charging_damage": "730% damage (All Foes)[Front/Cone/Wide]",
+        "uncharged_damage": "480% damage (All Foes)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/pickup/71f1e329ab8c645c60182192f4dfbdfd.png",
         "buffs": [
             {
-                "name": "Charging",
-                "desc": "730% damage (All Foes)[Front/Cone/Wide]<br>▲▲ When this skill direct hits, reduces all skill's cool times by 2 sec.",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged",
-                "desc": "480% damage (All Foes)[Front/Long/Mid]",
-                "type": "normal"
+                "name": "Effect",
+                "desc": "▲▲ When this skill direct hits, reduces all skill's cool times by 2 sec.",
+                "type": "normal",
+                "mode": "charging"
             }
         ],
         "rarity": 4
@@ -8615,19 +8605,12 @@ const characterData = {
         "skill_name": "Stone Squall",
         "stats": "[SP Cost 26] • [CD 12.0] • [Switch Gauge 75] • [Break Gauge 20]",
         "damage": "",
+        "charging_damage": "830% damage (5x hit/All Foes)[Center/Arc/Mid]",
+        "uncharged_damage": "650% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/en/img/gacha/pickup/9e28ac18249d85e57cc12c92ba0e52f8.png",
         "buffs": [
-            {
-                "name": "Charging",
-                "desc": "830% damage (5x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged",
-                "desc": "650% damage (3x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            }
+
         ],
         "rarity": 4
     },
@@ -11013,18 +10996,22 @@ const characterData = {
         "skill_name": "Vigor Geyser",
         "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 19] • [Break Gauge 12]",
         "damage": "",
+        "charging_damage": "1020% damage (All Foes)[Front/Cone/Wide]",
+        "uncharged_damage": "610% damage (All Foes)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/abccd6818b0702ba12b4e7cea34c75cd.png",
         "buffs": [
             {
-                "name": "Charging [Bonus]",
-                "desc": "1020%damage (All Foes)[Front/Cone/Wide]<br>▲ Damage +25% to the enemies that have a buff effect.<br> All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
-                "type": "normal"
+                "name": "Bonus",
+                "desc": "▲ Damage +25% to the enemies that have a buff effect.<br>All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged [Bonus]",
-                "desc": "610% damage (All Foes)[Front/Long/Mid]<br> All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
-                "type": "normal"
+                "name": "Bonus",
+                "desc": "All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "rarity": 4
@@ -14919,23 +14906,28 @@ const characterData = {
         "skill_name": "Vigor Earth",
         "stats": "[SP Cost 24] • [CD 20.0] • [Switch Gauge 19] • [Break Gauge 12]",
         "damage": "",
+        "charging_damage": "1420% damage (All Foes)[Front/Cone/Wide]",
+        "uncharged_damage": "630% damage (All Foes)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20230130sinon.png",
         "buffs": [
             {
-                "name": "Charging [Evasion 3] ",
-                "desc": "1420%damage (All Foes)[Front/Cone/Wide]<br>Evasion rate +11% for 10 sec.",
-                "type": "normal"
+                "name": "Evasion 3",
+                "desc": "Evasion rate +11% for 10 sec.",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Bonus] ",
+                "name": "Bonus",
                 "desc": "▲ Additional damage according to number of HITs.",
-                "type": "normal"
-            },			
+                "type": "normal",
+                "mode": "charging"
+            },
             {
-                "name": "Uncharged [Evasion 3]",
-                "desc": "630% damage (All Foes)[Front/Long/Mid]<br>[Evasion 3/Buff] Evasion rate +11% for 10 sec. <br>(This will not activate with focus attack)<br>",
-                "type": "normal"
+                "name": "Evasion 3/Buff",
+                "desc": "Evasion rate +11% for 10 sec.<br>(This will not activate with focus attack)",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "rarity": 4
@@ -16483,13 +16475,13 @@ const characterData = {
             },
             {
                 "name": "Holy Light Demon 3/Buff",
-                "desc": "Holy element damage +45.00% for 8 sec.",
+                "desc": "Holy element damage +45% for 8 sec.",
                 "desc_template": "Holy element damage +{v}% for 8 sec.",
                 "type": "normal"
             }
         ],
         "awakening": [
-            "Fury [When Rush Activates] Own max HP 20.00% recovers."
+            "Fury [When Rush Activates] Own max HP 20% recovers."
         ],
         "awakening_template": [
             "Fury [When Rush Activates] Own max HP {v}% recovers."
@@ -17828,7 +17820,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Weak Blunt 4",
-                "desc": "Blunt element's weakness damage +25.00% for 8 sec.",
+                "desc": "Blunt element's weakness damage +25% for 8 sec.",
                 "type": "normal"
             }
         ],
@@ -22619,23 +22611,28 @@ const characterData = {
         "skill_name": "Stardust Squall",
         "stats": "[SP Cost 24] • [CD 11.0] • [Switch Gauge 27] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "1330% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "810% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/8345c02a8dc743fab3fd3469d782e4b1.png",
         "buffs": [
             {
-                "name": "Charging [Destack]",
-                "desc": "1330% damage (5x hit/All Foes)[Center/Arc/Wide]<br>▲ All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
-                "type": "normal"
+                "name": "Destack",
+                "desc": "▲ All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Bonus]",
+                "name": "Bonus",
                 "desc": "Damage +50% towards the monsters not targetted to the player.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged [Destack]",
-                "desc": "810% damage (3x hit/All Foes)[Center/Arc/Mid]<br>▲ All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
-                "type": "normal"
+                "name": "Destack",
+                "desc": "▲ All the Stack Buff effected to the enemy will -2 in numbers of Stacks (Will not be below 1).",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "rarity": 4,
@@ -22795,33 +22792,40 @@ const characterData = {
         "skill_name": "Vigor Shine",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 51] • [Break Gauge 12]",
         "damage": "",
+        "charging_damage": "1430% damage (Single Foe)[Front/Long/Mid]",
+        "uncharged_damage": "890% damage (Single Foe)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/7dacb8d33d842cac1e719ecfda86be1f.png",
         "buffs": [
             {
-                "name": "Charging [Mod Slot Effect]",
-                "desc": "1430% damage (Single Foe)[Front/Long/Mid]<br>▲▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
-                "type": "normal"
+                "name": "Mod Slot Effect",
+                "desc": "▲▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Bonus]",
+                "name": "Bonus",
                 "desc": "When equipping 1 or more of Kirito's Skill Records in the same set, Attack +500.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Bonus]",
+                "name": "Bonus",
                 "desc": "Attack +30% to the enemies that have a buff effect.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged [Mod Slot Effect]",
-                "desc": "890% damage (Single Foe)[Front/Long/Mid]<br>▲▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
-                "type": "normal"
+                "name": "Mod Slot Effect",
+                "desc": "▲▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
+                "type": "normal",
+                "mode": "uncharged"
             },
             {
-                "name": "Uncharged [Bonus]",
+                "name": "Bonus",
                 "desc": "When equipping 1 or more of Kirito's Skill Records in the same set, Attack +500.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "mod": [],
@@ -23793,7 +23797,7 @@ const characterData = {
             }
         ],
         "awakening": [
-            "Soaring Flash [During Rush] Attack +5.00%."
+            "Soaring Flash [During Rush] Attack +5%."
         ],
         "awakening_template": [
             "Soaring Flash [During Rush] Attack +{v}%."
@@ -31158,7 +31162,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 4/Buff",
-                "desc": "Skill's power is added +100.00% when used in switch.",
+                "desc": "Skill's power is added +100% when used in switch.",
                 "desc_template": "Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
@@ -34249,33 +34253,34 @@ const characterData = {
         "skill_name": "Burning Squall",
         "stats": "[SP Cost 26] • [CD 12.0] • [Switch Gauge 33] • [Break Gauge 17]",
         "damage": "",
+        "charging_damage": "1460% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "910% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/a8d5c2dad9e9901a790616c2a7ea4607.png",
         "buffs": [
             {
-                "name": "Charging [Note]",
-                "desc": "1460% damage (5x hit/All Foes)[Center/Arc/Wide]<br>*Longer charge time than usual",
-                "type": "normal"
+                "name": "Note",
+                "desc": "*Longer charge time than usual",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged []",
-                "desc": "910% damage (3x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
-                "name": "Charging [Adversity 3]",
+                "name": "Adversity 3",
                 "desc": "The lower your own HP, critical damage increases for 15 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Adversity 4]",
+                "name": "Adversity 4",
                 "desc": "The lower your own HP, critical damage increases for 15 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
-			"name": "Uncharged [Adversity 3]",
+                "name": "Adversity 3",
                 "desc": "The lower your own HP, critical damage increases for 15 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "awakening": [
@@ -34676,33 +34681,46 @@ const characterData = {
         "skill_name": "Vigor Shadow",
         "stats": "[SP Cost 28] • [CD 14.0] • [Switch Gauge 51] • [Break Gauge 32]",
         "damage": "",
+        "charging_damage": "1560% damage (All Foes)[Front/Cone/Wide]",
+        "uncharged_damage": "970% damage (All Foes)[Front/Long/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/6e3caac59fdac89dc3aa0fc8c9dc3430.png",
         "buffs": [
             {
-                "name": "Charging []",
-                "desc": "1560% damage (All Foes)[Front/Cone/Wide]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged []",
-                "desc": "970% damage (All Foes)[Front/Long/Mid]",
-                "type": "normal"
-            },
-            {
                 "name": "Hunter's Eye 4",
                 "desc": "The lower you HP, critical rate increases for 15 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Adversity 4",
                 "desc": "The lower your own HP, critical damage increases for 15 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Risk Taker 4",
                 "desc": "The lower your own HP, attack increases for 20 sec. (Stack 3)",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
+            },
+            {
+                "name": "Hunter's Eye 4",
+                "desc": "The lower you HP, critical rate increases for 15 sec.",
+                "type": "normal",
+                "mode": "uncharged"
+            },
+            {
+                "name": "Adversity 4",
+                "desc": "The lower your own HP, critical damage increases for 15 sec.",
+                "type": "normal",
+                "mode": "uncharged"
+            },
+            {
+                "name": "Risk Taker 4",
+                "desc": "The lower your own HP, attack increases for 20 sec. (Stack 3)",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "awakening": [
@@ -36530,23 +36548,28 @@ const characterData = {
         "skill_name": "Photon Squall",
         "stats": "[SP Cost 26] • [CD 12.0] • [Switch Gauge 27] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "1270% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "870% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/bc2f48c6d9b74f2080c9f496635dca5c.png",
         "buffs": [
             {
-                "name": "Charging [Mod Slot Effect]",
-                "desc": "1270% damage (5x hit/All Foes)[Center/Arc/Wide]<br>▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
-                "type": "normal"
+                "name": "Mod Slot Effect",
+                "desc": "▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Charging [Shine Pile]",
-                "desc": "[Shine Pile/Buff] Holy element damage +1% per stack (Stack3) during 20 sec.",
-                "type": "normal"
+                "name": "Shine Pile/Buff",
+                "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged [Mod Slot Effect]",
-                "desc": "870% damage (3x hit/All Foes)[Center/Arc/Mid]<br>▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
-                "type": "normal"
+                "name": "Mod Slot Effect",
+                "desc": "▲ The lower your own HP, damage increases against monsters not targeting you. (max 100%)",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "rarity": 4,
@@ -38528,13 +38551,13 @@ const characterData = {
             },
             {
                 "name": "Earth Dragon Demon 3/Buff",
-                "desc": "Earth element damage +45.00% for 8 sec.",
+                "desc": "Earth element damage +45% for 8 sec.",
                 "desc_template": "Earth element damage +{v}% for 8 sec.",
                 "type": "normal"
             }
         ],
         "awakening": [
-            "Fury [When Rush Activates] Own max HP 20.00% recovers."
+            "Fury [When Rush Activates] Own max HP 20% recovers."
         ],
         "awakening_template": [
             "Fury [When Rush Activates] Own max HP {v}% recovers."
@@ -38612,7 +38635,7 @@ const characterData = {
             },
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00%.",
+                "desc": "Attack +15%.",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             }
@@ -41372,10 +41395,7 @@ const characterData = {
         "is_ex": true
     },
     "1254": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Aiming for the Top] Kirito",
         "sub": "1H Sword (Slash/Dark) MOD Skill",
         "type": "mod",
@@ -41410,10 +41430,7 @@ const characterData = {
         "rarity": 4
     },
     "1255": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Shining Smile] Asuna",
         "sub": "1H Rapier (Thrust/Fire) Connect Skill",
         "type": "connect",
@@ -41443,10 +41460,7 @@ const characterData = {
         "rarity": 4
     },
     "1256": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Crimson Double-Edged Blade] Layla",
         "sub": "Ability",
         "type": "normal",
@@ -41482,10 +41496,7 @@ const characterData = {
         ]
     },
     "1257": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Reviving Ambition] Medina",
         "sub": "Ability",
         "type": "awakening",
@@ -41972,10 +41983,7 @@ const characterData = {
         "rarity": 4
     },
     "1271": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[The Road We Walk Together] Kirito",
         "sub": "1H Sword (Slash/Wind) Connect Skill",
         "type": "connect",
@@ -42006,10 +42014,7 @@ const characterData = {
         "rarity": 4
     },
     "1272": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Color Scheme Heroine] Koharu",
         "sub": "1H Club (Blunt/Water) Accele Skill",
         "type": "accele",
@@ -42044,10 +42049,7 @@ const characterData = {
         "rarity": 4
     },
     "1273": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Obey Me!] Layla",
         "sub": "Dagger (Slash/Wind) MOD Skill",
         "type": "mod",
@@ -42077,10 +42079,7 @@ const characterData = {
         "rarity": 4
     },
     "1274": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Rain & Rainbows] Seven",
         "sub": "2H Spear (Thrust/Wind) Connect Skill",
         "type": "connect",
@@ -42111,10 +42110,7 @@ const characterData = {
         "rarity": 4
     },
     "1275": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Master Gunner] Zeliska",
         "sub": "Bow (Thrust/Wind) Awakening Skill",
         "type": "awakening",
@@ -42129,38 +42125,34 @@ const characterData = {
         "skill_name": "Air Squall",
         "stats": "[SP Cost 28] • [CD 14.0] • [Switch Gauge 27] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "1600% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "1000% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/01e0ef356ea665ba2bfe2994bbf749f7.png",
         "buffs": [
             {
-                "name": "Charging []",
-                "desc": "1600% damage (5x hit/All Foes)[Center/Arc/Wide]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged []",
-                "desc": "1000% damage (3x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
                 "name": "Wind Pile",
                 "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Enhance Thrust 3",
                 "desc": "Damage done to enemies weak to thrust +25% for 20 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Evasion 3",
                 "desc": "Evasion rate +11% for 10 sec. (This will not activate with focus attack)",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             },
             {
                 "name": "Enhance Thrust 3",
                 "desc": "Damage done to enemies weak to thrust +25% for 20 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "awakening": [
@@ -42169,10 +42161,7 @@ const characterData = {
         "rarity": 4
     },
     "1276": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Towards the Ideal Form] Premiere",
         "sub": "1H Rapier (Thrust/Fire) Accele Skill",
         "type": "accele",
@@ -42207,10 +42196,7 @@ const characterData = {
         "rarity": 4
     },
     "1277": {
-        "collab": "Future",
-        "tags": [
-            "Collab"
-        ],
+        "tags": ["limited"],
         "name": "[Bearing the Mission] Dorothy",
         "sub": "2H Axe (Blunt/Holy) Accele Skill",
         "type": "accele",
@@ -45516,33 +45502,28 @@ const characterData = {
         "skill_name": "Weight Squall",
         "stats": "[SP Cost 28] • [CD 14.0] • [Switch Gauge 27] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "1690% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "1060% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/21eadc0a01e106142dc5d11f347bd87f.png",
         "buffs": [
             {
-                "name": "Charging []",
-                "desc": "1690% damage (5x hit/All Foes)[Center/Arc/Wide]",
-                "type": "normal"
-            },
-            {
-                "name": "Uncharged []",
-                "desc": "1060% damage (3x hit/All Foes)[Center/Arc/Mid]",
-                "type": "normal"
-            },
-            {
                 "name": "Weak Thrust 3",
                 "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Aqua Pile",
                 "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "charging"
             },
             {
                 "name": "Weak Thrust 3",
                 "desc": "Damage done to enemies weak to thrusting +20% for 8 sec.",
-                "type": "normal"
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "awakening": [
@@ -45583,13 +45564,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "PT Enhance Blunt 4/Buff",
-                "desc": "Damage done to enemies weak to blunt +20.10/28.00/30.00% (lvl1/lvl80/lvl100) for your party for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +20.10/28/30% (lvl1/lvl80/lvl100) for your party for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for your party for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 3/Buff",
-                "desc": "Damage done to enemies weak to blunt +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +15.10/23/25% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -45605,20 +45586,20 @@ const characterData = {
             "80": {
                 "damage": 1260,
                 "buffs": [
-                    28.00,
-                    23.00
+                    28,
+                    23
                 ]
             },
             "100": {
                 "damage": 1380,
                 "buffs": [
-                    30.00,
-                    25.00
+                    30,
+                    25
                 ]
             }
         },
         "awakening": [
-            "Fury [When Rush Activates] Own max HP 20.00% recovers."
+            "Fury [When Rush Activates] Own max HP 20% recovers."
         ],
         "awakening_template": [
             "Fury [When Rush Activates] Own max HP {v}% recovers."
@@ -45643,18 +45624,22 @@ const characterData = {
         "skill_name": "Ice Squall",
         "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 27] • [Break Gauge 22]",
         "damage": "",
+        "charging_damage": "1740% damage (5x hit/All Foes)[Center/Arc/Wide]",
+        "uncharged_damage": "1090% damage (3x hit/All Foes)[Center/Arc/Mid]",
         "color": "#ffffff",
         "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/f4ea9a2748b6dde16c19d75e38102612.png",
         "buffs": [
             {
-                "name": "Charging [Small Mark]",
-                "desc": "1740% damage (5x hit/All Foes)[Center/Arc/Wide]<br>The next attack the enemy receives will induce 1.5x damage.<br>(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
-                "type": "normal"
+                "name": "Small Mark",
+                "desc": "The next attack the enemy receives will induce 1.5x damage.<br>(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "type": "normal",
+                "mode": "charging"
             },
             {
-                "name": "Uncharged [Blaze 4]",
-                "desc": "1090% damage (3x hit/All Foes)[Center/Arc/Mid]<br>Attack +20 per stack (Stack3) during 20 sec.",
-                "type": "normal"
+                "name": "Blaze 4",
+                "desc": "Attack +20 per stack (Stack3) during 20 sec.",
+                "type": "normal",
+                "mode": "uncharged"
             }
         ],
         "awakening": [
@@ -46665,13 +46650,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Slash 3",
-                "desc": "Damage done to enemies weak to slashing +15.00%.",
+                "desc": "Damage done to enemies weak to slashing +15%.",
                 "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Shadow Indemnity 2",
-                "desc": "When you are cursed, dark element damage +35.00%.",
+                "desc": "When you are cursed, dark element damage +35%.",
                 "desc_template": "When you are cursed, dark element damage +{v}%.",
                 "type": "normal"
             }
@@ -46918,13 +46903,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bleed Counter 3/Buff",
-                "desc": "When the player is Status Ailments (Bleed), Attack +1000.00.",
+                "desc": "When the player is Status Ailments (Bleed), Attack +1000.",
                 "desc_template": "When the player is Status Ailments (Bleed), Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Clotting 2/Buff",
-                "desc": "Bleed damage -10.00%.",
+                "desc": "Bleed damage -10%.",
                 "desc_template": "Bleed damage -{v}%.",
                 "type": "normal"
             },
@@ -46992,13 +46977,13 @@ const characterData = {
             },
             {
                 "name": "Dark Shadow Demon 3/Buff",
-                "desc": "Dark element damage +45.00% for 8 sec.",
+                "desc": "Dark element damage +45% for 8 sec.",
                 "desc_template": "Dark element damage +{v}% for 8 sec.",
                 "type": "normal"
             }
         ],
         "awakening": [
-            "Fury [When Rush Activates] Own max HP 20.00% recovers."
+            "Fury [When Rush Activates] Own max HP 20% recovers."
         ],
         "awakening_template": [
             "Fury [When Rush Activates] Own max HP {v}% recovers."
@@ -48149,13 +48134,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Blunt 3",
-                "desc": "Damage done to enemies weak to blunt +15.00%.",
+                "desc": "Damage done to enemies weak to blunt +15%.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Ice Indemnity 2",
-                "desc": "When you are frostbitten, water element damage +35.00%.",
+                "desc": "When you are frostbitten, water element damage +35%.",
                 "desc_template": "When you are frostbitten, water element damage +{v}%.",
                 "type": "normal"
             }
@@ -48911,12 +48896,13 @@ const characterData = {
         "rarity": 4
     },
     "1449": {
-        "collab": "Memory Defrag World",
         "tags": [
-            "Collab"
+            "limited"
         ],
         "name": "[Heir to the Sword] Asuna",
         "sub": "1H Rapier (Thrust/Fire) Connect Skill",
+        "rarity": 4,
+        "cost": 40,
         "type": "connect",
         "weapon": "1H Rapier",
         "element1": "Thrust",
@@ -48929,29 +48915,59 @@ const characterData = {
         "skill_name": "Flame Riposte",
         "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 33] • [Break Gauge 33]",
         "damage": "1540% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/cd68e6a21ddc892e21dcf23f332d0a54.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001594.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101594.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Parry4",
-                "desc": "When this skill direct hits, the damage you receive decreases at 50%(Effect will disappear after 20 sec if not activated).",
+                "name": "Parry 4/Buff",
+                "desc": "When this skill direct hits, the damage you receive decreases at 50% (Effect will disappear after 20 sec if not activated).",
+                "desc_template": "When this skill direct hits, the damage you receive decreases at {v}% (Effect will disappear after 20 sec if not activated).",
                 "type": "normal"
             }
         ],
         "connect": [
-            "Reduces all skill's cool times by 3 → 6 → 9 sec when hitting with skills",
-            "Reduces all skill's cool times by 2 → 4 → 6 sec when hitting with fire skills"
+            "Reduces all skill's cool times by 3 → 6 → 9 sec when hitting with skills.",
+            "Reduces all skill's cool times by 2 → 4 → 6 sec when hitting with fire skills."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1341,
+                "buffs": [
+                    25.25
+                ]
+            },
+            "80": {
+                "damage": 1420,
+                "buffs": [
+                    45
+                ]
+            },
+            "100": {
+                "damage": 1540,
+                "buffs": [
+                    50
+                ]
+            }
+        }
     },
     "1450": {
-        "collab": "Memory Defrag World",
+        "collab": "",
         "tags": [
-            "Collab"
+            "limited"
         ],
         "name": "[Together For Eternity] Yuuki",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -48960,20 +48976,30 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Steel Fang/Prosper/Flame Accumulation",
+        "skill_name": "Ability",
         "stats": "[Attack 58] • [Defense 42] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/f831c77d030f8fb4c4586df31bf19957.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001595.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101595.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Steel Fang 4",
                 "desc": "Attack +500 when attacking with thrust element.",
+                "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Prosper 4",
                 "desc": "Attack +20% when HP is above 50%.",
+                "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             },
             {
@@ -48981,15 +49007,45 @@ const characterData = {
                 "desc": "Fire element's damage rises by the number of Asuna Skill Records in the same set x 10%.",
                 "type": "normal"
             }
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 20,
+                "def": 13,
+                "buffs": [
+                    104,
+                    10.1
+                ]
+            },
+            "80": {
+                "hp": 2152,
+                "atk": 50,
+                "def": 36,
+                "buffs": [
+                    420,
+                    18
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 58,
+                "def": 42,
+                "buffs": [
+                    500,
+                    20
+                ]
+            }
+        }
     },
     "1451": {
-        "collab": "Memory Defrag World",
         "tags": [
-            "Collab"
+            "limited"
         ],
         "name": "[Strength to Accept the Past] Kirito",
-        "sub": "1H Sword (Slash/Wind) Awakening Skill",
+        "sub": "1H Sword (Slash/Wind) Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "awakening",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -49002,29 +49058,67 @@ const characterData = {
         "skill_name": "Storm V Arc",
         "stats": "[SP Cost 28] • [CD 12.0] • [Switch Gauge 26] • [Break Gauge 34]",
         "damage": "1510% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e322ae33529ce5b387a886988df8dbb8.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001596.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101596.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Weak Defense 5",
+                "name": "Weak Defense 5/Debuff",
                 "desc": "Enemy defense -100% for 5 sec.",
+                "desc_template": "Enemy defense -{v}% for 5 sec.",
                 "type": "normal"
             },
             {
-                "name": "Gale Demon 3",
+                "name": "Gale Demon 3/Buff",
                 "desc": "Wind element damage +45% for 8 sec.",
+                "desc_template": "Wind element damage +{v}% for 8 sec.",
                 "type": "normal"
             }
         ],
         "awakening": [
-            "Soaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
+            "Recollection Skill\nSoaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
         ],
-        "rarity": 4
+        "awakening_template": [
+            "Recollection Skill\nSoaring Flash[During Rush]\n Attack +{v}%.\n(Maximum Awakening Skill)"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 1311,
+                "buffs": [
+                    50.5,
+                    15.3
+                ]
+            },
+            "80": {
+                "damage": 1390,
+                "buffs": [
+                    90,
+                    39
+                ]
+            },
+            "100": {
+                "damage": 1510,
+                "buffs": [
+                    100,
+                    45
+                ]
+            }
+        },
+        "awakening_lv_data": {
+            "1": 1,
+            "5": 5
+        }
     },
     "1452": {
-        "collab": "Memory Defrag World",
         "tags": [
-            "Collab"
+            "limited"
         ],
         "name": "[Strength to Change Oneself] Sinon",
         "sub": "Bow (Thrust/Fire) Full Burst Skill",
@@ -52140,8 +52234,10 @@ const characterData = {
     },
     "1529": {
         "name": "[With Great Power] Koharu",
-        "sub": "Dagger (Slash/Dark) Chain Skill",
-        "type": "chain",
+        "sub": "Dagger (Slash/Dark) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "Dagger",
         "element1": "Slash",
         "element2": "Dark",
@@ -52153,31 +52249,49 @@ const characterData = {
         "skill_name": "Spinning Shadow Dive",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 110] • [Break Gauge 37]",
         "damage": "2170% damage (5x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (5x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/44398f07ab20d0fce64c2c6e91c84d24.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001678.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101678.png",
         "buffs": [
             {
-                "name": "Poison",
+                "name": "Poison/Status Ailments",
                 "desc": "Make it Poison (Stack 3) for 30 sec.",
                 "type": "normal"
             },
             {
-                "name": "Blaze 4",
-                "desc": "Attack +20 per stack (Stack3) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Blaze 4/Buff",
+                "desc": "Attack +20 per stack (Stack3) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Dark damage +50% when using dark skills",
-            "Attack +1500 against enemies with poison",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Dark damage +50.00% when using dark skills.",
+            "Attack +1500.00 against enemies with poison."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1971
+            },
+            "80": {
+                "damage": 2050
+            },
+            "100": {
+                "damage": 2170
+            }
+        }
     },
     "1530": {
         "name": "[Teahouse Darling] Yuuki",
         "sub": "1H Sword (Slash/Water) MOD Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "mod",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -52190,8 +52304,15 @@ const characterData = {
         "skill_name": "Hydro Shear",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 45] • [Break Gauge 39]",
         "damage": "1660% damage (3x hit/Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/c2ba7a5678cf1bcda5916ffd20cda15b.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001679.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101679.png",
         "buffs": [
             {
                 "name": "Mod Slot Effect",
@@ -52202,12 +52323,24 @@ const characterData = {
         "mod": [
             "Bonus: When equipping 4 or more of Yuuki's Skill Records in the same set, Attack +1200."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1461
+            },
+            "80": {
+                "damage": 1540
+            },
+            "100": {
+                "damage": 1660
+            }
+        }
     },
     "1531": {
         "name": "[Inscribed Classified Info] Argo",
         "sub": "Ability",
-        "type": "full burst",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -52216,30 +52349,70 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Aqua Boost",
+        "skill_name": "Ability",
         "stats": "[Attack 55] • [Defense 38] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/7823e5c57ebf8e9c4382e5581c356de3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001680.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101680.png",
         "buffs": [
             {
                 "name": "Advance Trooper 5",
                 "desc": "Attack +500.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Aqua Boost 4",
                 "desc": "Elemental damage other than water dealt to enemies -50%, and water element's damage to enemies +40%.",
+                "desc_template": "Elemental damage other than water dealt to enemies -50%, and water element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state <br>(+10 sec per 1 equipment)<br>Chain Type: Increases burst skill damage used in Full Burst state <br>(+5% per 1 equipment)<br>Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
-        ]
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    104,
+                    20.2
+                ]
+            },
+            "80": {
+                "hp": 2152,
+                "atk": 48,
+                "def": 33,
+                "buffs": [
+                    420,
+                    36
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 55,
+                "def": 38,
+                "buffs": [
+                    500,
+                    40
+                ]
+            }
+        }
     },
     "1532": {
         "name": "[Sweeping Fantasy View] Sinon",
         "sub": "Bow (Thrust/Water) Full Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "full burst",
         "weapon": "Bow",
         "element1": "Thrust",
@@ -52252,24 +52425,35 @@ const characterData = {
         "skill_name": "Aqua Impact",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 36] • [Break Gauge 31]",
         "damage": "1550% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/85872f604ce9ee9cce97e8e9614b2f0e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001681.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101681.png",
         "buffs": [
             {
-                "name": "Water Element Enhance4",
+                "name": "Water Element Enhance 4/Buff",
                 "desc": "Water element damage +9% for 15 sec.",
+                "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Enhance Thrust 1",
+                "name": "Enhance Thrust 1/Buff",
                 "desc": "Damage done to enemies weak to thrust +15% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 36.0] • [Break Gauge 62.0]",
         "burst_skill_name": "Aqua Impact Burst",
         "burst_activation": "Water→Water→Thrust→(Wind)",
+        "burst_activation_template": "Water→Water→Thrust→(Wind)",
         "burst_damage": "4260% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -52278,16 +52462,43 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Water element damage increases x 0.5% the number of frostbite stacks when the player is inflicted with the frostbite status ailment.<br>",
+                "desc": "Water element damage increases x 0.5% the number of frostbite stacks when the player is inflicted with the frostbite status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1351,
+                "buffs": [
+                    5.04,
+                    5.1
+                ],
+                "burst_damage": 3367
+            },
+            "80": {
+                "damage": 1430,
+                "buffs": [
+                    8.2,
+                    13
+                ],
+                "burst_damage": 3920
+            },
+            "100": {
+                "damage": 1550,
+                "buffs": [
+                    9,
+                    15
+                ],
+                "burst_damage": 4260
+            }
+        }
     },
     "1533": {
         "name": "[Late Autumn Feasting] Agil",
         "sub": "2H Axe (Blunt/Holy) Accele Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "accele",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -52300,33 +52511,55 @@ const characterData = {
         "skill_name": "Lightning Revolver",
         "stats": "[SP Cost 26] • [CD 16.0] • [Switch Gauge 78] • [Break Gauge 30]",
         "damage": "2030% damage (3x hit/Single Foe)[Center/Long/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Center/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e7a069695a53adef7fbb9dce0501a413.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001682.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101682.png",
         "buffs": [
             {
-                "name": "Shine Pile",
+                "name": "Shine Pile/Buff",
                 "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Shine Pile",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Shine Pile/Buff",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             },
             {
-                "name": "[While Accele Skill is activated] Anticlimax 4",
+                "name": "[While Accele Skill is activated] Anticlimax 4/Buff",
                 "desc": "The greater your remaining HP ratio, attack increases (Stack 9) for 20 sec.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "In effect 30 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills!During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+            "Effect time: 30 sec\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1831
+            },
+            "80": {
+                "damage": 1910
+            },
+            "100": {
+                "damage": 2030
+            }
+        }
     },
     "1534": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[No Guarantees Afterwards] Strea",
         "sub": "1H Sword (Slash/Holy) Connect Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "connect",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -52339,28 +52572,47 @@ const characterData = {
         "skill_name": "Lightning Scar",
         "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 33] • [Break Gauge 33]",
         "damage": "1630% damage (Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e0d5d0fb967911230d6840ea22a19f3e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001683.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101683.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Jar of Ice 4",
+                "name": "Jar of Ice 4/Buff",
                 "desc": "Defense +10 per stack (Stack 3) during 20 sec.",
                 "type": "normal"
             }
         ],
         "connect": [
-            "Raises 5 → 10 → 15 stacks for buffs that increase defense that are on yourself when hitting with skills"
+            "Raises 5 → 10 → 15 stacks for buffs that increase defense that are on yourself when hitting with skills."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1431
+            },
+            "80": {
+                "damage": 1510
+            },
+            "100": {
+                "damage": 1630
+            }
+        }
     },
     "1535": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Grateful Embrace] Strea",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -52369,11 +52621,18 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Cybermind/Enhance Slash/Inflict Burn",
+        "skill_name": "Ability",
         "stats": "[Attack 57] • [Defense 42] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/819502b35502110bf8a81c2c25670f8a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001684.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101684.png",
         "buffs": [
             {
                 "name": "Cybermind 2",
@@ -52383,6 +52642,7 @@ const characterData = {
             {
                 "name": "Enhance Slash 3",
                 "desc": "Damage done to enemies weak to slashing +15%.",
+                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
@@ -52390,11 +52650,42 @@ const characterData = {
                 "desc": "When the target is hit using the Switch, inflict Burn (Stack 5) for 30 sec. (Invalid when equipped by Partner)",
                 "type": "normal"
             }
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    5.1
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 49,
+                "def": 36,
+                "buffs": [
+                    13
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 57,
+                "def": 42,
+                "buffs": [
+                    15
+                ]
+            }
+        }
     },
     "1536": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Heart-Skipping Moment] Klein",
         "sub": "2H Spear (Thrust/Dark) Accele Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "accele",
         "weapon": "2H Spear",
         "element1": "Thrust",
@@ -52407,37 +52698,56 @@ const characterData = {
         "skill_name": "Shadow Wheel",
         "stats": "[SP Cost 26] • [CD 16.0] • [Switch Gauge 51] • [Break Gauge 42]",
         "damage": "2020% damage (3x hit/All Foes)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/All Foes)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/210c00bc1c0460813439217850f8b978.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001685.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101685.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "When the target is hit using the Switch, dark element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Slash Destruction Mark",
-                "desc": "For slash element enemies, the next attack the enemy receives will induce 2.5x damage. <br>(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)*More than regular increase in switch gauge.",
+                "name": "Slash Destruction Mark/Debuff",
+                "desc": "For slash element enemies, the next attack the enemy receives will induce 2.5x damage. (Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.) *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "In effect 30 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills!During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+            "Effect time: 30 sec\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1821
+            },
+            "80": {
+                "damage": 1900
+            },
+            "100": {
+                "damage": 2020
+            }
+        }
     },
     "1537": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Blazing Blade Spirit] Klein",
-        "sub": "Ability",
+        "sub": "Ability Accele Skill",
+        "rarity": 4,
+        "cost": 22,
         "type": "accele",
         "weapon": "None",
         "element1": "None",
@@ -52447,41 +52757,99 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Enhance HP/Prosper/Hold the Front/Pierce",
+        "skill_name": "Ability",
         "stats": "[Attack 55] • [Defense 42] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/225d1de21c9c17b48e6c0b2b55d27a51.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001686.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101686.png",
         "buffs": [
             {
                 "name": "Enhance HP 4",
                 "desc": "Max HP +15%.",
+                "desc_template": "Max HP +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Prosper 4",
                 "desc": "Attack +20% when HP is above 50%.",
+                "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
                 "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
+                "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Pierce 4",
                 "desc": "Damage done to enemies weak to thrusting +25%.",
+                "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "Extra effect time7.5sec.Limit Break extends Accele Skill effect time.* Maximum Breakthrough"
-        ]
+            "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
+        ],
+        "ability_effect_template": "Extra effect time {v} sec.Limit Break extends Accele Skill effect time.",
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    5.1,
+                    10.1,
+                    1.04,
+                    5.2
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2029,
+                "atk": 48,
+                "def": 36,
+                "buffs": [
+                    13,
+                    18,
+                    4.2,
+                    21
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 55,
+                "def": 42,
+                "buffs": [
+                    15,
+                    20,
+                    5,
+                    25
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
     },
     "1538": {
         "name": "[The Axe's Shockwave] Agil",
-        "sub": "2H Axe (Blunt/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "2H Axe (Blunt/Earth) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "2H Axe",
         "element1": "Blunt",
         "element2": "Earth",
@@ -52493,27 +52861,46 @@ const characterData = {
         "skill_name": "Rock Ravage",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 116] • [Break Gauge 54]",
         "damage": "2790% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/49db41e5c98f087352e2f55def0a194d.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001687.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101687.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Enhanced Vitality 4",
-                "desc": "Max HP +0.2% per stack (Stack 3) for 20 sec.*More than regular increase in switch gauge.",
+                "name": "Enhanced Vitality 4/Buff",
+                "desc": "Max HP +0.2% per stack (Stack 3) for 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Earth damage +50% when using earth skills",
-            "Attack +1500 while increased max HP buffs are in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Earth damage +50.00% when using earth skills.",
+            "Attack +1500.00 while increased max HP buffs are in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2191
+            },
+            "80": {
+                "damage": 2270
+            },
+            "100": {
+                "damage": 2790
+            }
+        }
     },
     "1539": {
         "name": "[The Spear's Assault] Sachi",
-        "sub": "2H Spear (Thrust/Wind) Chain Skill",
-        "type": "chain",
+        "sub": "2H Spear (Thrust/Wind) Skill",
+        "rarity": 4,
+        "cost": 42,
+        "type": "normal / chain",
         "weapon": "2H Spear",
         "element1": "Thrust",
         "element2": "Wind",
@@ -52525,27 +52912,46 @@ const characterData = {
         "skill_name": "Wind Charge",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 92] • [Break Gauge 47]",
         "damage": "2660% damage (All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/f9bec5b074ed91722d8e6cef6008ceff.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001688.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101688.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Armor Decay 4",
-                "desc": "Enemy's defense -0.5% per stack (Stack 3) for 20 sec.*More than regular increase in switch gauge.",
+                "name": "Armor Decay 4/Debuff",
+                "desc": "Enemy's defense -0.5% per stack (Stack 3) for 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills",
-            "Attack +1500 against debuffed enemies",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Wind damage +50.00% when using wind skills.",
+            "Attack +1500.00 against debuffed enemies."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2061
+            },
+            "80": {
+                "damage": 2140
+            },
+            "100": {
+                "damage": 2660
+            }
+        }
     },
     "1540": {
         "name": "[Crushing Blow] Lisbeth",
-        "sub": "1H Club (Blunt/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "1H Club (Blunt/Earth) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Club",
         "element1": "Blunt",
         "element2": "Earth",
@@ -52557,27 +52963,46 @@ const characterData = {
         "skill_name": "Refuge Rock",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 92] • [Break Gauge 43]",
         "damage": "2060% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/fd701d238aee5bb7a32b9895259ce0ab.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001689.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101689.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Death Mark",
-                "desc": "Increases damage to enemy by x1.1 for 12 sec.*More than regular increase in switch gauge.",
+                "name": "Death Mark/Debuff",
+                "desc": "Increases damage to enemy by x1.1 for 12 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Earth damage +50% when using earth skills",
-            "Attack +1500 against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark)",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Earth damage +50.00% when using earth skills.",
+            "Attack +1500.00 against enemies with the debuff."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1861
+            },
+            "80": {
+                "damage": 1940
+            },
+            "100": {
+                "damage": 2060
+            }
+        }
     },
     "1541": {
         "name": "[Sharpened Bow] Sinon",
-        "sub": "Bow (Thrust/Holy) Chain Skill",
-        "type": "chain",
+        "sub": "Bow (Thrust/Holy) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "Bow",
         "element1": "Thrust",
         "element2": "Holy",
@@ -52589,27 +53014,46 @@ const characterData = {
         "skill_name": "Holy Impact",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 72] • [Break Gauge 31]",
         "damage": "2490% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/8855913b53dbf3046c2643bfe654d37e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001690.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101690.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Risk Taker 4",
-                "desc": "The lower your own HP, attack increases for 20 sec. (Stack 3)*More than regular increase in switch gauge.",
+                "name": "Risk Taker 4/Buff",
+                "desc": "The lower your own HP, attack increases for 20 sec. (Stack 3) *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Holy damage +50% when using holy skills",
-            "Attack +1000 while increased attack buffs are in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Holy damage +50.00% when using holy skills.",
+            "Attack +1000.00 while increased attack buffs are in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1891
+            },
+            "80": {
+                "damage": 1970
+            },
+            "100": {
+                "damage": 2490
+            }
+        }
     },
     "1542": {
         "name": "[Soaring Beyond] Silica",
         "sub": "Ability",
-        "type": "chain",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability / chain",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -52618,34 +53062,89 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Combination",
+        "skill_name": "Ability",
         "stats": "[Attack 59] • [Defense 32] • [HP 2875]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/287fb7ebbd1afd794c34bd7a2955285a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001691.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101691.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Advance Trooper 5",
                 "desc": "Attack +500.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Combination 5",
                 "desc": "Skill's power is added +150% when used in switch.",
+                "desc_template": "Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during ChainAttack +8.5%."
-        ]
+            "・Effect during Chain",
+            "Attack +10%."
+        ],
+        "chains_template": [
+            "・Effect during Chain",
+            "Attack +{v}%."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 512,
+                "atk": 20,
+                "def": 12,
+                "buffs": [
+                    104,
+                    51
+                ],
+                "chains": [
+                    5.05
+                ]
+            },
+            "80": {
+                "hp": 2398,
+                "atk": 51,
+                "def": 28,
+                "buffs": [
+                    420,
+                    130
+                ],
+                "chains": [
+                    9
+                ]
+            },
+            "100": {
+                "hp": 2875,
+                "atk": 59,
+                "def": 32,
+                "buffs": [
+                    500,
+                    150
+                ],
+                "chains": [
+                    10
+                ]
+            }
+        }
     },
     "1543": {
         "tags": [
             "Floor/Event"
         ],
         "name": "[Leader Through Peril] Griselda",
-        "sub": "1H Sword (Slash/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "1H Sword (Slash/Earth) Skill",
+        "rarity": 4,
+        "cost": 22,
+        "type": "normal / chain",
         "weapon": "1H Sword",
         "element1": "Slash",
         "element2": "Earth",
@@ -52657,25 +53156,54 @@ const characterData = {
         "skill_name": "Sand Wave",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 42] • [Break Gauge 43]",
         "damage": "980% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20241129cs9.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001692.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101692.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Attack +200 while increased defense buffs are in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Attack +200.00 while increased defense buffs are in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 781,
+                "buffs": [
+                    10.05
+                ]
+            },
+            "80": {
+                "damage": 860,
+                "buffs": [
+                    14
+                ]
+            },
+            "100": {
+                "damage": 980,
+                "buffs": [
+                    15
+                ]
+            }
+        }
     },
     "1544": {
         "name": "[Battle of Life and Death] Kirito",
         "sub": "1H Sword (Slash) Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -52688,24 +53216,34 @@ const characterData = {
         "skill_name": "Starburst Stream",
         "stats": "[SP Cost 35] • [CD 20.0] • [Switch Gauge 80] • [Break Gauge 62]",
         "damage": "2290% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/bd7b2a5ea76eb4b2cfc9236f0e0e2bd8.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001693.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101693.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dyna Pile",
+                "name": "Dyna Pile/Buff",
                 "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 40.0] • [Switch Gauge 80.0] • [Break Gauge 124.0]",
         "burst_skill_name": "Starburst Stream",
-        "burst_activation": "Holy→Fire→Wind→Slash",
+        "burst_activation": "Holy→Fire→Wind→(Slash)",
+        "burst_activation_template": "Holy→Fire→Wind→(Slash)",
         "burst_damage": "5510% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (16x hit/Single Foe)[Front/Long/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -52724,21 +53262,40 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "When HP is under 25%, Critical damage +100%.<br>",
-                "type": "normal"
-            },
-            {
-                "name": "",
-                "desc": "Can activate without using SP.(Able to activate when above SP35)",
+                "desc": "When HP is under 25%, Critical damage +100%.",
                 "type": "normal"
             }
         ],
         "burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1691,
+                "buffs": [
+                    10.05
+                ],
+                "burst_damage": 4317
+            },
+            "80": {
+                "damage": 1770,
+                "buffs": [
+                    14
+                ],
+                "burst_damage": 4870
+            },
+            "100": {
+                "damage": 2290,
+                "buffs": [
+                    15
+                ],
+                "burst_damage": 5510
+            }
+        }
     },
     "1545": {
         "name": "[Pride of the Creator] Heathcliff",
-        "sub": "Ability",
+        "sub": "Ability Accele Skill",
+        "rarity": 4,
+        "cost": 22,
         "type": "accele",
         "weapon": "None",
         "element1": "None",
@@ -52748,15 +53305,23 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Power Rise/Holy Sword Offensive/Blockade/Forbidden Gate/Remarkable Reaction",
+        "skill_name": "Ability",
         "stats": "[Attack 41] • [Defense 60] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/eaf93ffe8704775233a19a8c5363e548.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001694.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101694.png",
         "buffs": [
             {
                 "name": "Power Rise 4",
                 "desc": "Attack +900.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
@@ -52765,7 +53330,7 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "Blockade1",
+                "name": "Blockade 1",
                 "desc": "All elemental damage decreases by 100% x the number of Asuna Skill Records in the same set (Non-elemental included).",
                 "type": "normal"
             },
@@ -52777,17 +53342,62 @@ const characterData = {
             {
                 "name": "[While Accele Skill is activated] Remarkable Reaction",
                 "desc": "Evasion rate +16%. *It will not be activated with focus attack.",
+                "desc_template": "Evasion rate +{v}%. *It will not be activated with focus attack.",
                 "type": "normal"
             }
         ],
+        "accele": [
+
+        ],
         "ability_effect": [
             "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
-        ]
+        ],
+        "ability_effect_template": "Extra effect time {v} sec.Limit Break extends Accele Skill effect time.",
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 15,
+                "def": 15,
+                "buffs": [
+                    108,
+                    0.16
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2029,
+                "atk": 36,
+                "def": 51,
+                "buffs": [
+                    740,
+                    12.8
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 41,
+                "def": 60,
+                "buffs": [
+                    900,
+                    16
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
     },
     "1546": {
         "name": "[Snow Globe of Memories] Yui",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -52796,33 +53406,77 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Bloody Battle Thrust/Dark Conversion/Valiant",
+        "skill_name": "Ability",
         "stats": "[Attack 48] • [Defense 46] • [HP 2800]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/612c1c6187348f6c9cb7b8120e801fb3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001695.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101695.png",
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 4",
                 "desc": "Attack +40% when attacking with thrust element.",
+                "desc_template": "Attack +{v}% when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 4",
                 "desc": "Holy element's damage to enemies -10% and dark element's damage to enemies +25%.",
+                "desc_template": "Holy element's damage to enemies -10% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Valiant 3",
                 "desc": "When equipping 3 or more of Yui's Skill Records in the same set, Attack +300",
+                "desc_template": "When equipping 3 or more of Yui's Skill Records in the same set, Attack +{v}",
                 "type": "normal"
             }
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 505,
+                "atk": 17,
+                "def": 14,
+                "buffs": [
+                    20.2,
+                    15.1,
+                    3
+                ]
+            },
+            "80": {
+                "hp": 2336,
+                "atk": 42,
+                "def": 40,
+                "buffs": [
+                    36,
+                    23,
+                    240
+                ]
+            },
+            "100": {
+                "hp": 2800,
+                "atk": 48,
+                "def": 46,
+                "buffs": [
+                    40,
+                    25,
+                    300
+                ]
+            }
+        }
     },
     "1547": {
         "name": "[Wrapped In Happiness] Asuna",
-        "sub": "1H Rapier (Thrust/Dark) Chain Skill",
-        "type": "chain",
+        "sub": "1H Rapier (Thrust/Dark) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "1H Rapier",
         "element1": "Thrust",
         "element2": "Dark",
@@ -52834,32 +53488,50 @@ const characterData = {
         "skill_name": "Night Linear",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 40] • [Break Gauge 20]",
         "damage": "2550% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/3db4fea2807b51b47c4c18ac6d898d55.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001696.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101696.png",
         "buffs": [
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "When the target is hit using the Switch, dark element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Dark damage +50% when using dark skills",
-            "Attack +1000 while the buff to raise Dark element damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Dark damage +50.00% when using dark skills.",
+            "Attack +1000.00 while the buff to raise Dark element damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1951
+            },
+            "80": {
+                "damage": 2030
+            },
+            "100": {
+                "damage": 2550
+            }
+        }
     },
     "1548": {
         "name": "[Ring the Sacred Bell] Alice",
-        "sub": "1H Sword (Slash/Fire) Chain Skill",
-        "type": "chain",
+        "sub": "1H Sword (Slash/Fire) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "1H Sword",
         "element1": "Slash",
         "element2": "Fire",
@@ -52871,31 +53543,49 @@ const characterData = {
         "skill_name": "Ardent Ripper",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 72] • [Break Gauge 37]",
         "damage": "2550% damage (Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/96365001e56b66a6b219e9b001f8b32e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001697.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101697.png",
         "buffs": [
             {
-                "name": "Flame Pile",
+                "name": "Flame Pile/Buff",
                 "desc": "Fire element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Flame Pile",
+                "name": "Flame Pile/Buff",
                 "desc": "When the target is hit using the Switch, Fire element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Fire damage +50% when using fire skills",
-            "Attack +1000 while the buff to raise fire damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Fire damage +50.00% when using fire skills.",
+            "Attack +1000.00 while the buff to raise fire damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1951
+            },
+            "80": {
+                "damage": 2030
+            },
+            "100": {
+                "damage": 2550
+            }
+        }
     },
     "1549": {
         "name": "[Boldly and Head-On] Sinon",
         "sub": "Bow (Thrust/Dark) Full Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "full burst",
         "weapon": "Bow",
         "element1": "Thrust",
@@ -52908,24 +53598,35 @@ const characterData = {
         "skill_name": "Night Blast-Shot",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 34] • [Break Gauge 35]",
         "damage": "1550% damage (Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/de11c7bd6625d91a6a95208d1332ca2d.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001698.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101698.png",
         "buffs": [
             {
-                "name": "Dark Element Enhance4",
+                "name": "Dark Element Enhance 4/Buff",
                 "desc": "Dark element damage +9% for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Enhance Thrust 1",
+                "name": "Enhance Thrust 1/Buff",
                 "desc": "Damage done to enemies weak to thrust +15% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 34.0] • [Break Gauge 70.0]",
         "burst_skill_name": "Night Blast-Shot Burst",
         "burst_activation": "Dark→Dark→Thrust→(Fire)",
+        "burst_activation_template": "Dark→Dark→Thrust→(Fire)",
         "burst_damage": "4260% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -52934,73 +53635,185 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Critical damage +100% towards enemies on break.<br>",
+                "desc": "Critical damage +100% towards enemies on break.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1351,
+                "buffs": [
+                    5.04,
+                    5.1
+                ],
+                "burst_damage": 3367
+            },
+            "80": {
+                "damage": 1430,
+                "buffs": [
+                    8.2,
+                    13
+                ],
+                "burst_damage": 3920
+            },
+            "100": {
+                "damage": 1550,
+                "buffs": [
+                    9,
+                    15
+                ],
+                "burst_damage": 4260
+            }
+        }
     },
     "1550": {
+        "tags": [
+            "Floor/Event"
+        ],
         "name": "[Christmas Wish] Koharu",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 10,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Enhance Antidote",
+        "skill_name": "Ability",
         "stats": "[Attack 36] • [Defense 22] • [HP 1975]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20241211xe3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001699.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101699.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Enhance Antidote 4",
-                "desc": "● Poison damage -50%."
+                "desc": "● Poison damage -50%.",
+                "desc_template": "● Poison damage -{v}%.",
+                "type": "normal"
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 422,
+                "atk": 14,
+                "def": 11,
+                "buffs": [
+                    10.4
+                ]
+            },
+            "80": {
+                "hp": 1661,
+                "atk": 32,
+                "def": 20,
+                "buffs": [
+                    42
+                ]
+            },
+            "100": {
+                "hp": 1975,
+                "atk": 36,
+                "def": 22,
+                "buffs": [
+                    50
+                ]
+            }
+        }
     },
     "1551": {
+        "tags": [
+            "Floor/Event"
+        ],
         "name": "[New Fresh Look] Nautilus",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 12,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Enhance Sleep Res.",
+        "skill_name": "Ability",
         "stats": "[Attack 25] • [Defense 36] • [HP 2075]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20241225be3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001700.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101700.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Advance Trooper 2",
                 "desc": "● Attack +200.",
+                "desc_template": "● Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Sleep Res. 3",
                 "desc": "● Sleep resistance +30%.",
+                "desc_template": "● Sleep resistance +{v}%.",
                 "type": "normal"
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 409,
+                "atk": 10,
+                "def": 11,
+                "buffs": [
+                    2,
+                    20.1
+                ]
+            },
+            "80": {
+                "hp": 1738,
+                "atk": 22,
+                "def": 31,
+                "buffs": [
+                    160,
+                    28
+                ]
+            },
+            "100": {
+                "hp": 2075,
+                "atk": 25,
+                "def": 36,
+                "buffs": [
+                    200,
+                    30
+                ]
+            }
+        }
     },
     "1552": {
         "name": "[New Year's Victory] Yuuki",
         "sub": "Ability",
-        "type": "full burst",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -53009,30 +53822,70 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Dark Boost",
+        "skill_name": "Ability",
         "stats": "[Attack 57] • [Defense 38] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/fdc5b1536eec681748ee3c86f49a2c8a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001714.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101714.png",
         "buffs": [
             {
                 "name": "Advance Trooper 5",
                 "desc": "Attack +500.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Dark Boost 4",
                 "desc": "Elemental damage other than dark dealt to enemies -50%, and dark element's damage to enemies +40%.",
+                "desc_template": "Elemental damage other than dark dealt to enemies -50%, and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state <br>(+10 sec per 1 equipment)<br>Chain Type: Increases burst skill damage used in Full Burst state <br>(+5% per 1 equipment)<br>Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
-        ]
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    104,
+                    20.2
+                ]
+            },
+            "80": {
+                "hp": 2029,
+                "atk": 49,
+                "def": 33,
+                "buffs": [
+                    420,
+                    36
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 57,
+                "def": 38,
+                "buffs": [
+                    500,
+                    40
+                ]
+            }
+        }
     },
     "1553": {
         "name": "[Sound of Divine Spirits] Sanya",
         "sub": "1H Sword (Slash/Dark) Full Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "full burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -53045,24 +53898,35 @@ const characterData = {
         "skill_name": "Ink Rush",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 50] • [Break Gauge 36]",
         "damage": "2030% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/dfe8d7d1b2ea1bf508269de44c9a599d.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001715.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101715.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Element Enhance4",
+                "name": "Dark Element Enhance 4/Buff",
                 "desc": "Dark element damage +9% for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 50.0] • [Break Gauge 72.0]",
         "burst_skill_name": "Ink Rush Burst",
         "burst_activation": "Dark→Slash→Dark→(Earth)",
+        "burst_activation_template": "Dark→Slash→Dark→(Earth)",
         "burst_damage": "4800% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -53071,17 +53935,44 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Critical damage +150% towards enemies on break.<br>",
+                "desc": "Critical damage +150% towards enemies on break.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1431,
+                "buffs": [
+                    10.05,
+                    5.04
+                ],
+                "burst_damage": 3607
+            },
+            "80": {
+                "damage": 1510,
+                "buffs": [
+                    14,
+                    8.2
+                ],
+                "burst_damage": 4160
+            },
+            "100": {
+                "damage": 2030,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 4800
+            }
+        }
     },
     "1554": {
         "name": "[Peaceful New Year] Leafa",
-        "sub": "2H Axe (Blunt/Water) Chain Skill",
-        "type": "chain",
+        "sub": "2H Axe (Blunt/Water) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "2H Axe",
         "element1": "Blunt",
         "element2": "Water",
@@ -53093,32 +53984,50 @@ const characterData = {
         "skill_name": "Rumbling Ice",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 94] • [Break Gauge 47]",
         "damage": "2790% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/8b588a9bfdf4fa4f044b6812a72fcceb.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001716.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101716.png",
         "buffs": [
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "When the target is hit using the Switch, water element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Water damage +50% when using water skills",
-            "Attack +1000 while the buff to raise water damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Water damage +50.00% when using water skills.",
+            "Attack +1000.00 while the buff to raise water damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2191
+            },
+            "80": {
+                "damage": 2270
+            },
+            "100": {
+                "damage": 2790
+            }
+        }
     },
     "1555": {
         "name": "[New Year's Resolution] Koharu",
-        "sub": "1H Club (Blunt/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "1H Club (Blunt/Earth) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Club",
         "element1": "Blunt",
         "element2": "Earth",
@@ -53130,27 +54039,43 @@ const characterData = {
         "skill_name": "Petal Gong",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 68] • [Break Gauge 35]",
         "damage": "2060% damage (Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/8b8765853c99a5faf9461322f4b27a8a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001717.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101717.png",
         "buffs": [
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "Earth element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "When the target is hit using the Switch, Earth element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Earth damage +50% when using earth skills",
-            "Attack +1000 while the buff to raise earth damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Earth damage +50.00% when using earth skills.",
+            "Attack +1000.00 while the buff to raise earth damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1861
+            },
+            "80": {
+                "damage": 1940
+            },
+            "100": {
+                "damage": 2060
+            }
+        }
     },
     "1556": {
         "tags": [
@@ -53158,24 +54083,45 @@ const characterData = {
         ],
         "name": "[Indomitable Strength] Sachi",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 12,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 36] • [Defense 28] • [HP 1750]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
         "max_lv": 100,
         "rarity_steps": {
             "1": 4,
             "70": 5
         },
-        "sp_cost": 0,
-        "cooldown": 0,
-        "switch_gauge": 0,
-        "break_gauge": 0,
-        "skill_name": "Enhance Slash/Earth's Indemnity",
-        "stats": "[Attack 36] • [Defense 28] • [HP 1750]",
-        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
-        "damage": "",
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001723.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101723.png",
+        "evo_glow": "#1E90FF",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Enhance Slash 3",
+                "desc": "Damage done to enemies weak to slashing +15%.",
+                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Earth's Indemnity 2",
+                "desc": "When you are poisoned, earth element damage +35%.",
+                "desc_template": "When you are poisoned, earth element damage +{v}%.",
+                "type": "normal"
+            }
+        ],
         "lv_data": {
             "1": {
                 "hp": 400,
@@ -53188,8 +54134,8 @@ const characterData = {
             },
             "80": {
                 "hp": 1477,
-                "atk": 31,
-                "def": 24,
+                "atk": 32,
+                "def": 25,
                 "buffs": [
                     13,
                     29
@@ -53204,31 +54150,14 @@ const characterData = {
                     35
                 ]
             }
-        },
-        "color": "#ffffff",
-        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001723.png?format=webp&quality=lossless&width=860&height=860",
-        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101723.png?format=webp&quality=lossless&width=860&height=860",
-        "background": "resources/backgrounds/gold.png",
-        "evo_glow": "#1E90FF",
-        "buffs": [
-            {
-                "name": "Enhance Slash 3",
-                "desc": "Damage done to enemies weak to slashing +15.00%.",
-                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
-                "type": "normal"
-            },
-            {
-                "name": "Earth's Indemnity 2",
-                "desc": "When you are poisoned, earth element damage +35.00%.",
-                "desc_template": "When you are poisoned, earth element damage +{v}%.",
-                "type": "normal"
-            }
-        ]
+        }
     },
     "1557": {
         "name": "[Wholehearted] Koharu",
         "sub": "Ability",
-        "type": "full burst",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -53237,31 +54166,71 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Shine Boost",
+        "skill_name": "Ability",
         "stats": "[Attack 58] • [Defense 30] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d88e4b5d2406cd308c78d7b9ba223ab0.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001728.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101728.png",
         "buffs": [
             {
                 "name": "Advance Trooper 5",
                 "desc": "Attack +500.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Shine Boost 4",
                 "desc": "Elemental damage other than holy dealt to enemies -50%, and holy element's damage to enemies +40%.",
+                "desc_template": "Elemental damage other than holy dealt to enemies -50%, and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state <br>(+10 sec per 1 equipment)<br>Chain Type: Increases burst skill damage used in Full Burst state <br>(+5% per 1 equipment)<br>Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
-        ]
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 20,
+                "def": 12,
+                "buffs": [
+                    104,
+                    20.2
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 50,
+                "def": 26,
+                "buffs": [
+                    420,
+                    36
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 58,
+                "def": 30,
+                "buffs": [
+                    500,
+                    40
+                ]
+            }
+        }
     },
     "1558": {
         "name": "[Sweet Heart] Alice",
-        "sub": "1H Sword (Slash/Holy) Chain Skill",
-        "type": "chain",
+        "sub": "1H Sword (Slash/Holy) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Sword",
         "element1": "Slash",
         "element2": "Holy",
@@ -53273,32 +54242,50 @@ const characterData = {
         "skill_name": "Holy Wave",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 84] • [Break Gauge 43]",
         "damage": "2250% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/55961cf05f4c185db88786e73ff708bd.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001729.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101729.png",
         "buffs": [
             {
-                "name": "Shine Pile",
+                "name": "Shine Pile/Buff",
                 "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Shine Pile",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Shine Pile/Buff",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Holy damage +50% when using Holy skills",
-            "Attack +1000 while the buff to raise Holy damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Holy damage +50.00% when using holy skills.",
+            "Attack +1000.00 while the buff to raise Holy damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2051
+            },
+            "80": {
+                "damage": 2130
+            },
+            "100": {
+                "damage": 2250
+            }
+        }
     },
     "1559": {
         "name": "[Sweet Happiness] Asuna",
-        "sub": "1H Rapier (Thrust/Water) Chain Skill",
-        "type": "chain",
+        "sub": "1H Rapier (Thrust/Water) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "1H Rapier",
         "element1": "Thrust",
         "element2": "Water",
@@ -53310,31 +54297,49 @@ const characterData = {
         "skill_name": "Aqua Pulsar",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 80] • [Break Gauge 40]",
         "damage": "2550% damage (Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/25d5aab65dbd92f96ed2e83fd0252bc9.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001730.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101730.png",
         "buffs": [
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "When the target is hit using the Switch, water element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Water damage +50% when using water skills",
-            "Attack +1000 while the buff to raise water damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Water damage +50.00% when using water skills.",
+            "Attack +1000.00 while the buff to raise water damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1951
+            },
+            "80": {
+                "damage": 2030
+            },
+            "100": {
+                "damage": 2550
+            }
+        }
     },
     "1560": {
         "name": "[Shape of Affection] Yui",
         "sub": "2H Axe (Blunt/Fire) Full Burst Skill",
+        "rarity": 4,
+        "cost": 38,
         "type": "full burst",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -53347,24 +54352,35 @@ const characterData = {
         "skill_name": "Fire Split",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 36] • [Break Gauge 37]",
         "damage": "1680% damage (Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d07c97b91f1dee1e887b64362847295e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001731.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101731.png",
         "buffs": [
             {
-                "name": "Enhance Attack 4",
+                "name": "Enhance Attack 4/Buff",
                 "desc": "Attack +15% for 20 sec.",
+                "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Fire Element Enhance4",
+                "name": "Fire Element Enhance 4/Buff",
                 "desc": "Fire element damage +9% for 15 sec.",
+                "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 36.0] • [Break Gauge 74.0]",
         "burst_skill_name": "Fire Split Burst",
         "burst_activation": "Fire→Fire→Blunt→(Fire)",
+        "burst_activation_template": "Fire→Fire→Blunt→(Fire)",
         "burst_damage": "4620% damage (Single Foe)[Front/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -53373,16 +54389,46 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Fire element damage increases x 0.5% the number of burn stacks when the player is inflicted with the burn status ailment.<br>",
+                "desc": "Fire element damage increases x 0.5% the number of burn stacks when the player is inflicted with the burn status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1481,
+                "buffs": [
+                    5.1,
+                    5.04
+                ],
+                "burst_damage": 3727
+            },
+            "80": {
+                "damage": 1560,
+                "buffs": [
+                    13,
+                    8.2
+                ],
+                "burst_damage": 4280
+            },
+            "100": {
+                "damage": 1680,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 4620
+            }
+        }
     },
     "1561": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Power Beyond Peril] Sachi",
         "sub": "2H Spear (Thrust/Dark) Full Burst Skill",
+        "rarity": 4,
+        "cost": 38,
         "type": "full burst",
         "weapon": "2H Spear",
         "element1": "Thrust",
@@ -53395,46 +54441,89 @@ const characterData = {
         "skill_name": "Shadow Assault",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 65] • [Break Gauge 47]",
         "damage": "1680% damage (5x hit/All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (5x hit/All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/38365b9ff6239aab528a94420cefaa4b.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001732.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101732.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Dark Element Weak 4",
+                "name": "Dark Element Weak 4/Debuff",
                 "desc": "Dark element damage to enemies +25% for 10 sec.",
+                "desc_template": "Dark element damage to enemies +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Force 4",
+                "name": "Dark Force 4/Buff",
                 "desc": "Dark element damage +15% for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 15.0] • [Switch Gauge 65.0] • [Break Gauge 94.0]",
         "burst_skill_name": "Shadow Assault Burst",
         "burst_activation": "Dark→Thrust→Dark→(Dark)",
+        "burst_activation_template": "Dark→Thrust→Dark→(Dark)",
         "burst_damage": "4620% damage (5x hit/All Foes)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (5x hit/All Foes)[Front/Long/Mid]",
         "burst_buffs": [
             {
-                "name": "Dark Shadow Demon 5",
+                "name": "Dark Shadow Demon 5/Buff",
                 "desc": "Dark element damage +65% for 8 sec.",
+                "desc_template": "Dark element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
                 "name": "Bonus",
-                "desc": "Attack +2000 against enemies with debuff status.<br>",
+                "desc": "Attack +2000 against enemies with debuff status.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1481,
+                "buffs": [
+                    15.1,
+                    5.1,
+                    20.45
+                ],
+                "burst_damage": 3727
+            },
+            "80": {
+                "damage": 1560,
+                "buffs": [
+                    23,
+                    13,
+                    56
+                ],
+                "burst_damage": 4280
+            },
+            "100": {
+                "damage": 1680,
+                "buffs": [
+                    25,
+                    15,
+                    65
+                ],
+                "burst_damage": 4620
+            }
+        }
     },
     "1562": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Freshly Baked Charm] Sachi",
-        "sub": "2H Spear (Thrust/Wind) Chain Skill",
-        "type": "chain",
+        "sub": "2H Spear (Thrust/Wind) Skill",
+        "rarity": 4,
+        "cost": 42,
+        "type": "normal / chain",
         "weapon": "2H Spear",
         "element1": "Thrust",
         "element2": "Wind",
@@ -53446,34 +54535,52 @@ const characterData = {
         "skill_name": "Storm Shaft",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 54] • [Break Gauge 27]",
         "damage": "2660% damage (All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d2172b98ed51207260f05420da39b736.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001733.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101733.png",
         "buffs": [
             {
-                "name": "Wind Pile",
+                "name": "Wind Pile/Buff",
                 "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Pile",
-                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Wind Pile/Buff",
+                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills",
-            "Attack +1000 while the buff to raise wind damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Wind damage +50.00% when using wind skills.",
+            "Attack +1000.00 while the buff to raise wind damage is in effect."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 2061
+            },
+            "80": {
+                "damage": 2140
+            },
+            "100": {
+                "damage": 2660
+            }
+        }
     },
     "1563": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Time for a Challenge] Koharu",
         "sub": "Dagger (Slash) Full Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "full burst",
         "weapon": "Dagger",
         "element1": "Slash",
@@ -53486,16 +54593,25 @@ const characterData = {
         "skill_name": "Rapid Scratch",
         "stats": "[SP Cost 35] • [CD 18.0] • [Switch Gauge 88] • [Break Gauge 44]",
         "damage": "2200% damage (8x hit/Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (8x hit/Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/2e3780e2a7ff064a8f3b2b1afb445359.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001734.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101734.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Weak Slash 4",
+                "name": "Weak Slash 4/Debuff",
                 "desc": "Slash element's weakness damage +25% for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dyna Pile",
+                "name": "Dyna Pile/Buff",
                 "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
                 "type": "normal"
             }
@@ -53503,7 +54619,9 @@ const characterData = {
         "burst_stats": "[SP Cost 0.0] • [CD 36.0] • [Switch Gauge 88.0] • [Break Gauge 88.0]",
         "burst_skill_name": "Rapid Scratch Burst",
         "burst_activation": "Earth→Slash→Slash→(Wind)",
+        "burst_activation_template": "Earth→Slash→Slash→(Wind)",
         "burst_damage": "5260% damage (8x hit/Single Foe)[Center/Arc/Mid]",
+        "burst_damage_template": "{v}% damage (8x hit/Single Foe)[Center/Arc/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -53519,23 +54637,42 @@ const characterData = {
                 "name": "Bonus",
                 "desc": "Non-elemental damage +100%, when equipping 2 or more of Silica's Skill Records in the same set.",
                 "type": "normal"
-            },
-            {
-                "name": "",
-                "desc": "Can activate without using SP.(Able to activate when above SP35)",
-                "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1601,
+                "buffs": [
+                    15.1
+                ],
+                "burst_damage": 4067
+            },
+            "80": {
+                "damage": 1680,
+                "buffs": [
+                    23
+                ],
+                "burst_damage": 4620
+            },
+            "100": {
+                "damage": 2200,
+                "buffs": [
+                    25
+                ],
+                "burst_damage": 5260
+            }
+        }
     },
     "1564": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Angel-Like Partner] Koharu",
-        "sub": "Dagger (Slash/Dark) Chain Skill",
-        "type": "chain",
+        "sub": "Dagger (Slash/Dark) Skill",
+        "rarity": 4,
+        "cost": 48,
+        "type": "normal / chain",
         "weapon": "Dagger",
         "element1": "Slash",
         "element2": "Dark",
@@ -53547,35 +54684,50 @@ const characterData = {
         "skill_name": "Shadow Converge",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 46] • [Break Gauge 24]",
         "damage": "2170% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/897b364c74619e215d0df30056aa71ba.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001735.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101735.png",
         "buffs": [
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "When the target is hit using the Switch, dark element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Dark damage +50% when using dark skills",
-            "Attack +1000 while the buff to raise Dark element damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Dark damage +50.00% when using dark skills.",
+            "Attack +1000.00 while the buff to raise Dark element damage is in effect."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1971
+            },
+            "80": {
+                "damage": 2050
+            },
+            "100": {
+                "damage": 2170
+            }
+        }
     },
     "1565": {
         "name": "[Relentless Advance] Kirito",
-        "sub": "1H Sword (Slash/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "1H Sword (Slash/Earth) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Sword",
         "element1": "Slash",
         "element2": "Earth",
@@ -53587,32 +54739,51 @@ const characterData = {
         "skill_name": "Rock Bite",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 72] • [Break Gauge 30]",
         "damage": "2250% damage (3x hit/Single Foe)[Front/Arc/Mid]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/2286d91e8e7ab2afc868da5d28e94f29.png",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#00fbff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001736.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101736.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "Earth element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "When the target is hit using the Switch, Earth element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Earth damage +50% when using earth skills",
-            "Attack +1000 while the buff to raise earth damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Earth damage +50.00% when using earth skills.",
+            "Attack +1000.00 while the buff to raise earth damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2051
+            },
+            "80": {
+                "damage": 2130
+            },
+            "100": {
+                "damage": 2250
+            }
+        }
     },
     "1566": {
         "name": "[Smooth Cover Fire] Sinon",
-        "sub": "Bow (Thrust/Wind) Chain Skill",
-        "type": "chain",
+        "sub": "Bow (Thrust/Wind) Skill",
+        "rarity": 4,
+        "cost": 48,
+        "type": "normal / chain",
         "weapon": "Bow",
         "element1": "Thrust",
         "element2": "Wind",
@@ -53624,31 +54795,50 @@ const characterData = {
         "skill_name": "Gale Plasma",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 80] • [Break Gauge 40]",
         "damage": "2190% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d1e671b49cf0e246932f30bd5abdde2f.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001737.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101737.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Wind Pile",
+                "name": "Wind Pile/Buff",
                 "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Pile",
+                "name": "Wind Pile/Buff",
                 "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills",
-            "Attack +1000 while the buff to raise wind damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Wind damage +50.00% when using wind skills.",
+            "Attack +1000.00 while the buff to raise wind damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1991
+            },
+            "80": {
+                "damage": 2070
+            },
+            "100": {
+                "damage": 2190
+            }
+        }
     },
     "1567": {
         "name": "[Inspiring Song] Yuna",
         "sub": "1H Club (Blunt/Water) Burst Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "burst",
         "weapon": "1H Club",
         "element1": "Blunt",
@@ -53661,24 +54851,35 @@ const characterData = {
         "skill_name": "Water Asterisk",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 57] • [Break Gauge 48]",
         "damage": "1610% damage (3x hit/Single Foe)[Motion Range]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/0725291cb2ecb500cd4a1fff04faf15a.png",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ff0066",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001738.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101738.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Aqua Force 5",
+                "name": "Aqua Force 5/Buff (PT)",
                 "desc": "Water element damage +20% for you and your party for 5 sec.",
+                "desc_template": "Water element damage +{v}% for you and your party for 5 sec.",
                 "type": "normal"
             },
             {
-                "name": "Small Mark",
-                "desc": "The next attack the enemy receives will induce 1.5x damage.<br>(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "name": "Small Mark/Debuff",
+                "desc": "The next attack the enemy receives will induce 1.5x damage.(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 57.0] • [Break Gauge 96.0]",
         "burst_skill_name": "Water Asterisk Burst",
-        "burst_activation": "Water→Water→Blunt→Water",
+        "burst_activation": "Water→Water→Blunt→(Water)",
+        "burst_activation_template": "Water→Water→Blunt→(Water)",
         "burst_damage": "4430% damage (3x hit/Single Foe)[Motion Range]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Motion Range]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -53687,17 +54888,41 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Water element damage increases x 0.5% the number of frostbite stacks when the player is inflicted with the frostbite status ailment.<br>",
+                "desc": "Water element damage increases x 0.5% the number of frostbite stacks when the player is inflicted with the frostbite status ailment.",
                 "type": "normal"
             }
         ],
         "burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1411,
+                "buffs": [
+                    10.1
+                ],
+                "burst_damage": 3537
+            },
+            "80": {
+                "damage": 1490,
+                "buffs": [
+                    18
+                ],
+                "burst_damage": 4090
+            },
+            "100": {
+                "damage": 1610,
+                "buffs": [
+                    20
+                ],
+                "burst_damage": 4430
+            }
+        }
     },
     "1568": {
         "name": "[Strayer Into Evil] Eiji",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -53706,11 +54931,19 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Blind Faith/Engrave",
+        "skill_name": "Ability",
         "stats": "[Attack 46] • [Defense 58] • [HP 2875]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/8f5196b3d4106aeed0e1b87dc36cb025.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001739.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101739.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Blind Faith",
@@ -53719,10 +54952,22 @@ const characterData = {
             },
             {
                 "name": "Engrave",
-                "desc": "When equipping no Kirito Skill Records in the same set and hitting with switch, adds debuff (Mark).(Invalid when equipped by Partner)The next attack the enemy receives will induce double damage.<br>(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
+                "desc": "When equipping no Kirito Skill Records in the same set and hitting with switch, adds debuff (Mark).(Invalid when equipped by Partner)The next attack the enemy receives will induce double damage.(Applies to other party member's attacks. Effect will disappear after 10 sec if not activated.)",
                 "type": "normal"
             }
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 512,
+                "atk": 16,
+                "def": 15
+            },
+            "100": {
+                "hp": 2875,
+                "atk": 46,
+                "def": 58
+            }
+        }
     },
     "1569": {
         "tags": [
@@ -53730,24 +54975,51 @@ const characterData = {
         ],
         "name": "[Time to Show Your Worth] Silica",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 12,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 34] • [Defense 34] • [HP 1675]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
         "max_lv": 100,
         "rarity_steps": {
             "1": 4,
             "70": 5
         },
-        "sp_cost": 0,
-        "cooldown": 0,
-        "switch_gauge": 0,
-        "break_gauge": 0,
-        "skill_name": "Gale Blade/Enhance Clotting/Retribution",
-        "stats": "[Attack 34] • [Defense 34] • [HP 1675]",
-        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
-        "damage": "",
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001740.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101740.png",
+        "evo_glow": "#DC143C",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Gale Blade 3",
+                "desc": "Deals +15% Wind element's damage to enemy.",
+                "desc_template": "Deals +{v}% Wind element's damage to enemy.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Clotting 4",
+                "desc": "● Bleed damage -50%.",
+                "desc_template": "● Bleed damage -{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Retribution 3",
+                "desc": "Adds Bloodshed effect on yourself for 30 sec when you hit using Switch (Stack 50). 2.2% +(number of stacks x 0.2%) damage and 4.4% +(number of stacks x 0.4%) evasion rate decrease.",
+                "type": "normal"
+            }
+        ],
         "lv_data": {
             "1": {
                 "hp": 392,
@@ -53776,36 +55048,14 @@ const characterData = {
                     50
                 ]
             }
-        },
-        "color": "#ffffff",
-        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001740.png?format=webp&quality=lossless&width=860&height=860",
-        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101740.png?format=webp&quality=lossless&width=860&height=860",
-        "background": "resources/backgrounds/gold.png",
-        "evo_glow": "#DC143C",
-        "buffs": [
-            {
-                "name": "Gale Blade 3",
-                "desc": "Deals +15.00% Wind element's damage to enemy.",
-                "desc_template": "Deals +{v}% Wind element's damage to enemy.",
-                "type": "normal"
-            },
-            {
-                "name": "Enhance Clotting 4",
-                "desc": "● Bleed damage -50.00%.",
-                "desc_template": "● Bleed damage -{v}%.",
-                "type": "normal"
-            },
-            {
-                "name": "Retribution 3",
-                "desc": "● Adds Bloodshed effect on yourself for 30 sec when you hit using Switch (Stack 50). 2.2% +(number of stacks x 0.2%) damage and 4.4% +(number of stacks x 0.4%) evasion rate decrease.",
-                "type": "normal"
-            }
-        ]
+        }
     },
     "1570": {
         "name": "[Special Arrangement] Silica",
-        "sub": "Dagger (Slash/Earth) Chain Skill",
-        "type": "chain",
+        "sub": "Dagger (Slash/Earth) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "Dagger",
         "element1": "Slash",
         "element2": "Earth",
@@ -53817,31 +55067,49 @@ const characterData = {
         "skill_name": "Sand Spin",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 96] • [Break Gauge 33]",
         "damage": "2470% damage (6x hit/Single Foe)[Center/Arc/Mid]",
+        "damage_template": "{v}% damage (6x hit/Single Foe)[Center/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/a52b99c04ceaaa85c7a76692ac792035.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001745.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101745.png",
         "buffs": [
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "Earth element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Earth Pile",
+                "name": "Earth Pile/Buff",
                 "desc": "When the target is hit using the Switch, Earth element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Earth damage +50% when using earth skills",
-            "Attack +1000 while the buff to raise earth damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Earth damage +50.00% when using earth skills.",
+            "Attack +1000.00 while the buff to raise earth damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1871
+            },
+            "80": {
+                "damage": 1950
+            },
+            "100": {
+                "damage": 2470
+            }
+        }
     },
     "1571": {
         "name": "[House Specialty Cake] Kirito",
         "sub": "1H Sword (Slash/Earth) Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -53854,24 +55122,35 @@ const characterData = {
         "skill_name": "Earth V Square",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 40]",
         "damage": "1850% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/3bd41914e013f9a0a62b6932bfdec238.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001746.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101746.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Earth Element Enhance4",
+                "name": "Earth Element Enhance 4/Buff",
                 "desc": "Earth element damage +9% for 15 sec.",
+                "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 52.0] • [Break Gauge 80.0]",
         "burst_skill_name": "Earth V Square Burst",
-        "burst_activation": "Earth→Slash→Earth→Earth",
+        "burst_activation": "Earth→Slash→Earth→(Earth)",
+        "burst_activation_template": "Earth→Slash→Earth→(Earth)",
         "burst_damage": "5100% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -53880,16 +55159,43 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.<br>",
+                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.",
                 "type": "normal"
             }
         ],
         "burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1651,
+                "buffs": [
+                    10.05,
+                    5.04
+                ],
+                "burst_damage": 4207
+            },
+            "80": {
+                "damage": 1730,
+                "buffs": [
+                    14,
+                    8.2
+                ],
+                "burst_damage": 4760
+            },
+            "100": {
+                "damage": 1850,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 5100
+            }
+        }
     },
     "1572": {
         "name": "[Harmony of Roses] Eugeo",
         "sub": "2H Axe (Blunt/Fire) Accele Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "accele",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -53902,38 +55208,57 @@ const characterData = {
         "skill_name": "Heat Double Down",
         "stats": "[SP Cost 26] • [CD 16.0] • [Switch Gauge 104] • [Break Gauge 48]",
         "damage": "2080% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e466fc13e35de3744b9880360996e6e9.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001747.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101747.png",
         "buffs": [
             {
-                "name": "Anticlimax 4",
+                "name": "Anticlimax 4/Buff",
                 "desc": "The greater your remaining HP ratio, attack increases (Stack 3) for 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Burn",
+                "name": "Burn/Status Ailments",
                 "desc": "When equipping 4 or more of Agil's Skill Records in the same set, Burn (Stack 10) will affect the player for 30 sec.",
                 "type": "normal"
             },
             {
-                "name": "Anticlimax 4",
-                "desc": "When the target is hit using the Switch, the greater your remaining HP ratio, attack increases (Stack 9) for 20 sec.*More than regular increase in switch gauge.",
+                "name": "Anticlimax 4/Buff",
+                "desc": "When the target is hit using the Switch, the greater your remaining HP ratio, attack increases (Stack 9) for 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             },
             {
-                "name": "[While Accele Skill is activated] Flame Pile",
+                "name": "[While Accele Skill is activated] Flame Pile/Buff",
                 "desc": "Fire element damage +1% per stack (Stack9) during 30 sec.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "In effect 30 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills!During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+            "Effect time: 30 sec\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption. Banner Decorated World Order"
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1881
+            },
+            "80": {
+                "damage": 1960
+            },
+            "100": {
+                "damage": 2080
+            }
+        }
     },
     "1573": {
         "name": "[White Baking] Sinon",
-        "sub": "Ability",
+        "sub": "Ability Accele Skill",
+        "rarity": 4,
+        "cost": 22,
         "type": "accele",
         "weapon": "None",
         "element1": "None",
@@ -53943,15 +55268,23 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Ground Dance/Marksmanship/Encircle Break/Bisect",
+        "skill_name": "Ability",
         "stats": "[Attack 54] • [Defense 36] • [HP 2725]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/cf9a50aa397839693a055f929752241b.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001748.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101748.png",
         "buffs": [
             {
                 "name": "Ground Dance 4",
                 "desc": "Deals +20% Earth element's damage to enemy.",
+                "desc_template": "Deals +{v}% Earth element's damage to enemy.",
                 "type": "normal"
             },
             {
@@ -53962,21 +55295,74 @@ const characterData = {
             {
                 "name": "Encircle Break 3",
                 "desc": "Increase in break gauge to enemy by +27.5%.",
+                "desc_template": "Increase in break gauge to enemy by +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Bisect 4",
                 "desc": "Damage done to enemies weak to slashing +25%.",
+                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             }
         ],
+        "accele": [
+            "Banner",
+            "Decorated World Order"
+        ],
         "ability_effect": [
             "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
-        ]
+        ],
+        "ability_effect_template": "Extra effect time {v} sec.Limit Break extends Accele Skill effect time.",
+        "lv_data": {
+            "1": {
+                "hp": 497,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    10.1,
+                    2.75,
+                    5.2
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2275,
+                "atk": 47,
+                "def": 31,
+                "buffs": [
+                    18,
+                    22.5,
+                    21
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2725,
+                "atk": 54,
+                "def": 36,
+                "buffs": [
+                    20,
+                    27.5,
+                    25
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
     },
     "1574": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Warrior's Aura] Agil",
         "sub": "2H Axe (Blunt/Wind) Full Burst Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "full burst",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -53989,24 +55375,36 @@ const characterData = {
         "skill_name": "Wind Scrap",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 63] • [Break Gauge 51]",
         "damage": "1680% damage (3x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/701697fd3169d8ecba1b9c7b5acf0795.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001749.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101749.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Enhance Attack 4",
+                "name": "Enhance Attack 4/Buff",
                 "desc": "Attack +15% for 20 sec.",
+                "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Element Enhance4",
+                "name": "Wind Element Enhance 4/Buff",
                 "desc": "Wind element damage +9% for 15 sec.",
+                "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 63.0] • [Break Gauge 102.0]",
         "burst_skill_name": "Wind Scrap Burst",
         "burst_activation": "Wind→Wind→Blunt→(Wind)",
+        "burst_activation_template": "Wind→Wind→Blunt→(Wind)",
         "burst_damage": "4620% damage (3x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (3x hit/Single Foe)[Front/Cone/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -54015,21 +55413,47 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Wind element damage increases x 0.5% the number of bleed stacks when the player is inflicted with the bleed status ailment.<br>",
+                "desc": "Wind element damage increases x 0.5% the number of bleed stacks when the player is inflicted with the bleed status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1481,
+                "buffs": [
+                    5.1,
+                    5.04
+                ],
+                "burst_damage": 3727
+            },
+            "80": {
+                "damage": 1560,
+                "buffs": [
+                    13,
+                    8.2
+                ],
+                "burst_damage": 4280
+            },
+            "100": {
+                "damage": 1680,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 4620
+            }
+        }
     },
     "1575": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Iron Tempest] Agil",
         "sub": "Ability",
-        "type": "normal",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -54038,11 +55462,18 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Striking Surge/Merchant Elite/Prosper",
+        "skill_name": "Ability",
         "stats": "[Attack 50] • [Defense 42] • [HP 2800]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/f55ea317aa806d46f2fb26a026da11f5.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001750.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101750.png",
         "buffs": [
             {
                 "name": "Striking Surge 2",
@@ -54057,15 +55488,46 @@ const characterData = {
             {
                 "name": "Prosper 4",
                 "desc": "Attack +20% when HP is above 50%.",
+                "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             }
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 505,
+                "atk": 17,
+                "def": 13,
+                "buffs": [
+                    10.1
+                ]
+            },
+            "80": {
+                "hp": 2336,
+                "atk": 43,
+                "def": 36,
+                "buffs": [
+                    18
+                ]
+            },
+            "100": {
+                "hp": 2800,
+                "atk": 50,
+                "def": 42,
+                "buffs": [
+                    20
+                ]
+            }
+        }
     },
     "1576": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Jackpot Fever] Philia",
-        "sub": "Dagger (Slash/Holy) Chain Skill",
-        "type": "chain",
+        "sub": "Dagger (Slash/Holy) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "Dagger",
         "element1": "Slash",
         "element2": "Holy",
@@ -54079,16 +55541,9 @@ const characterData = {
         "damage": "2470% damage (5x hit/Single Foe)[Front/Long/Mid]",
         "damage_template": "{v}% damage (5x hit/Single Foe)[Front/Long/Mid]",
         "max_lv": 100,
-        "lv_data": {
-            "1": {
-                "damage": 1871
-            },
-            "80": {
-                "damage": 1950
-            },
-            "100": {
-                "damage": 2470
-            }
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
         },
         "color": "#ffffff",
         "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001751.png",
@@ -54103,30 +55558,36 @@ const characterData = {
             },
             {
                 "name": "Shine Pile/Buff",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Holy damage +50% when using Holy skills",
-            "Attack +1000 while the buff to raise Holy damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Holy damage +50.00% when using holy skills.",
+            "Attack +1000.00 while the buff to raise Holy damage is in effect."
         ],
-        "rarity": 4,
-        "rarity_steps": {
-            "1": 4,
-            "70": 5
-        },
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1871
+            },
+            "80": {
+                "damage": 1950
+            },
+            "100": {
+                "damage": 2470
+            }
+        }
     },
     "1577": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Epic Getaway] Philia",
         "sub": "Ability",
-        "type": "full burst",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -54135,10 +55596,43 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Super Enhance Heal/Battle with Ease/Dagger Support",
+        "skill_name": "Ability",
         "stats": "[Attack 53] • [Defense 44] • [HP 2875]",
         "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
         "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001752.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101752.png",
+        "evo_glow": "",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Super Enhance Heal",
+                "desc": "Effect of healing items and field objects +100%.",
+                "desc_template": "Effect of healing items and field objects +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Battle with Ease 4",
+                "desc": "Attack +25% while the buff that gradually recovers HP depending on the Skill Record is in effect.",
+                "desc_template": "Attack +{v}% while the buff that gradually recovers HP depending on the Skill Record is in effect.",
+                "type": "normal"
+            },
+            {
+                "name": "Dagger Support 2",
+                "desc": "Switch gauge amount +15%, when using daggers.",
+                "desc_template": "Switch gauge amount +{v}%, when using daggers.",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
         "lv_data": {
             "1": {
                 "hp": 512,
@@ -54170,40 +55664,14 @@ const characterData = {
                     15
                 ]
             }
-        },
-        "color": "#ffffff",
-        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001752.png",
-        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101752.png",
-        "evo_glow": "",
-        "background": "",
-        "buffs": [
-            {
-                "name": "Super Enhance Heal/Buff",
-                "desc": "Effect of healing items and field objects +100.00%.",
-                "desc_template": "Effect of healing items and field objects +{v}%.",
-                "type": "normal"
-            },
-            {
-                "name": "Battle with Ease 4/Buff",
-                "desc": "Attack +25.00% while the buff that gradually recovers HP depending on the Skill Record is in effect.",
-                "desc_template": "Attack +{v}% while the buff that gradually recovers HP depending on the Skill Record is in effect.",
-                "type": "normal"
-            },
-            {
-                "name": "Dagger Support 2/Buff",
-                "desc": "Switch gauge amount +15.00%, when using daggers.",
-                "desc_template": "Switch gauge amount +{v}%, when using daggers.",
-                "type": "normal"
-            }
-        ],
-        "ability_effect": [
-            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state <br>(+10 sec per 1 equipment)<br>Chain Type: Increases burst skill damage used in Full Burst state <br>(+5% per 1 equipment)<br>Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
-        ]
+        }
     },
     "1578": {
         "name": "[A Rice & Noodle Harmony] Asuna",
-        "sub": "1H Rapier (Thrust/Wind) Chain Skill",
-        "type": "chain",
+        "sub": "1H Rapier (Thrust/Wind) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Rapier",
         "element1": "Thrust",
         "element2": "Wind",
@@ -54215,67 +55683,130 @@ const characterData = {
         "skill_name": "Wind Hornet",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 80] • [Break Gauge 40]",
         "damage": "2250% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d4cc75493769331ffc0b62d9af9b80b3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001761.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101761.png",
         "buffs": [
             {
-                "name": "Wind Pile",
+                "name": "Wind Pile/Buff",
                 "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Pile",
-                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Wind Pile/Buff",
+                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills",
-            "Attack +1000 while the buff to raise wind damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Wind damage +50.00% when using wind skills.",
+            "Attack +1000.00 while the buff to raise wind damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2051
+            },
+            "80": {
+                "damage": 2130
+            },
+            "100": {
+                "damage": 2250
+            }
+        }
     },
     "1579": {
         "name": "[Gourmet Overload] Alice",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 24,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Combination/Veteran Sword Technique/Light Dance",
+        "skill_name": "Ability",
         "stats": "[Attack 53] • [Defense 36] • [HP 2425]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e539799636e35d169a9bc6acf52089e6.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001762.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101762.png",
         "buffs": [
+            {
+                "name": "Combination 4",
+                "desc": "● Skill's power is added +100% when used in switch.",
+                "desc_template": "● Skill's power is added +{v}% when used in switch.",
+                "type": "normal"
+            },
             {
                 "name": "Veteran Sword Technique 4",
                 "desc": "Attack power increase with own level×0.17%. (max 34%)",
+                "desc_template": "Attack power increase with own level×{v}%. (max 34%)",
                 "type": "normal"
             },
             {
                 "name": "Light Dance 4",
                 "desc": "Deals +20% Holy element's damage to enemy.",
+                "desc_template": "Deals +{v}% Holy element's damage to enemy.",
                 "type": "normal"
-            },
-            {
-                "name": "Combination 4",
-                "desc": "● Skill's power is added +100% when used in switch."
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 467,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    50.5,
+                    0.17,
+                    10.1
+                ]
+            },
+            "80": {
+                "hp": 2029,
+                "atk": 46,
+                "def": 31,
+                "buffs": [
+                    90,
+                    0.17,
+                    18
+                ]
+            },
+            "100": {
+                "hp": 2425,
+                "atk": 53,
+                "def": 36,
+                "buffs": [
+                    100,
+                    0.17,
+                    20
+                ]
+            }
+        }
     },
     "1580": {
         "name": "[Elegant Ryotei] Eugeo",
-        "sub": "2H Axe (Blunt/Fire) Chain Skill",
-        "type": "chain",
+        "sub": "2H Axe (Blunt/Fire) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "2H Axe",
         "element1": "Blunt",
         "element2": "Fire",
@@ -54287,31 +55818,49 @@ const characterData = {
         "skill_name": "Heat Revolution",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 78] • [Break Gauge 30]",
         "damage": "2490% damage (3x hit/Single Foe)[Center/Long/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Center/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/d5916e7623cf95aa164a003c9cc6546d.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001763.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101763.png",
         "buffs": [
             {
-                "name": "Flame Pile",
+                "name": "Flame Pile/Buff",
                 "desc": "Fire element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Flame Pile",
+                "name": "Flame Pile/Buff",
                 "desc": "When the target is hit using the Switch, Fire element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Fire damage +50% when using fire skills",
-            "Attack +1000 while the buff to raise fire damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Fire damage +50.00% when using fire skills.",
+            "Attack +1000.00 while the buff to raise fire damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 2291
+            },
+            "80": {
+                "damage": 2370
+            },
+            "100": {
+                "damage": 2490
+            }
+        }
     },
     "1581": {
         "name": "[Batter on the Grill] Silica",
         "sub": "Dagger (Slash/Holy) Accele Skill",
+        "rarity": 4,
+        "cost": 46,
         "type": "accele",
         "weapon": "Dagger",
         "element1": "Slash",
@@ -54324,57 +55873,85 @@ const characterData = {
         "skill_name": "Holy Descent",
         "stats": "[SP Cost 26] • [CD 16.0] • [Switch Gauge 60] • [Break Gauge 29]",
         "damage": "2160% damage (2x hit/Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/41de5245f2a762252b84cad000aef0fd.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001764.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101764.png",
         "buffs": [
             {
-                "name": "Shine Pile",
+                "name": "Shine Pile/Buff",
                 "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Shine Pile",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Shine Pile/Buff",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             },
             {
-                "name": "[While Accele Skill is activated] Burn",
+                "name": "[While Accele Skill is activated] Burn/Status Ailments",
                 "desc": "It will Burn (Stack 18) at a specific rate for 30 sec.",
                 "type": "normal"
             },
             {
-                "name": "Frostbite",
+                "name": "[While Accele Skill is activated] Frostbite/Status Ailments",
                 "desc": "It will Frostbite (Stack 18) at specific rate for 30 sec.",
                 "type": "normal"
             },
             {
-                "name": "Bleed",
+                "name": "[While Accele Skill is activated] Bleed/Status Ailments",
                 "desc": "It will Bleed (Stack 18) at specific rate for 30 sec.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "In effect 30 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills!During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+            "Effect time: 30 sec\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption. Banner Best Local Specialties Order"
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1561
+            },
+            "80": {
+                "damage": 1640
+            },
+            "100": {
+                "damage": 2160
+            }
+        }
     },
     "1582": {
         "name": "[Clockwork Pixie] Yui",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 12,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Spirit Unity/Enhance Sleep Res.",
+        "skill_name": "Ability",
         "stats": "[Attack 35] • [Defense 36] • [HP 1325]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20250401ae3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001765.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101765.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Spirit Unity 3",
@@ -54384,14 +55961,45 @@ const characterData = {
             {
                 "name": "Enhance Sleep Res. 2",
                 "desc": "● Sleep resistance +20%.",
+                "desc_template": "● Sleep resistance +{v}%.",
                 "type": "normal"
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 326,
+                "atk": 13,
+                "def": 11,
+                "buffs": [
+                    10.1
+                ]
+            },
+            "80": {
+                "hp": 1123,
+                "atk": 31,
+                "def": 31,
+                "buffs": [
+                    18
+                ]
+            },
+            "100": {
+                "hp": 1325,
+                "atk": 35,
+                "def": 36,
+                "buffs": [
+                    20
+                ]
+            }
+        }
     },
     "1583": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Noble Will] Alice",
         "sub": "1H Sword (Slash/Earth) Connect Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "connect",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -54404,27 +56012,46 @@ const characterData = {
         "skill_name": "Sand Whirlpool",
         "stats": "[SP Cost 24] • [CD 12.0] • [Switch Gauge 66] • [Break Gauge 43]",
         "damage": "1690% damage (6x hit/Single Foe)[Front/Long/Mid]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/3440e370dbd5013559d980d166abc0e8.png",
+        "damage_template": "{v}% damage (6x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffc800",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001766.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101766.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Jar of Ice 4",
+                "name": "Jar of Ice 4/Buff",
                 "desc": "Defense +10 per stack (Stack 3) during 20 sec.",
                 "type": "normal"
             }
         ],
         "connect": [
-            "Raises 5 → 10 → 15 stacks for buffs that increase defense that are on yourself when hitting with skills"
+            "Raises 5 → 10 → 15 stacks for buffs that increase defense that are on yourself when hitting with skills."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1491
+            },
+            "80": {
+                "damage": 1570
+            },
+            "100": {
+                "damage": 1690
+            }
+        }
     },
     "1584": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Unleashed Power] Alice",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 24,
         "type": "full burst",
         "weapon": "None",
         "element1": "None",
@@ -54434,30 +56061,73 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Bloody Battle Slash/Earth Conversion",
+        "skill_name": "Ability",
         "stats": "[Attack 58] • [Defense 34] • [HP 2500]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/9759d0e01de750b378031bad6815d675.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001767.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101767.png",
         "buffs": [
             {
                 "name": "Bloody Battle Slash 3",
                 "desc": "Attack +35% when attacking with slash element.",
+                "desc_template": "Attack +{v}% when attacking with slash element.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 4",
                 "desc": "Wind element's damage to enemies -10% and earth element's damage to enemies +25%.",
+				"desc_template": "Wind element's damage to enemies -10% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
             "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state <br>(+10 sec per 1 equipment)<br>Chain Type: Increases burst skill damage used in Full Burst state <br>(+5% per 1 equipment)<br>Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
-        ]
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 475,
+                "atk": 20,
+                "def": 12,
+                "buffs": [
+                    15.2,
+					15.1
+                ]
+            },
+            "80": {
+                "hp": 2091,
+                "atk": 50,
+                "def": 30,
+                "buffs": [
+                    31,
+					23
+                ]
+            },
+            "100": {
+                "hp": 2500,
+                "atk": 58,
+                "def": 34,
+                "buffs": [
+                    35,
+					25
+                ]
+            }
+        }
     },
     "1585": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Relentless Effort] Eugeo",
         "sub": "1H Sword (Slash) Full Burst Skill",
+        "rarity": 4,
+        "cost": 46,
         "type": "full burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -54470,16 +56140,25 @@ const characterData = {
         "skill_name": "Resonate Nature",
         "stats": "[SP Cost 35] • [CD 18.0] • [Switch Gauge 87] • [Break Gauge 45]",
         "damage": "2290% damage (3x hit/All Foes)[Center/Arc/Wide]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/817396f12c266a63b9ce218e4845b309.png",
+        "damage_template": "{v}% damage (3x hit/All Foes)[Center/Arc/Wide]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#1e00ff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001768.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101768.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dyna Pile",
+                "name": "Dyna Pile/Buff",
                 "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
                 "type": "normal"
             }
@@ -54487,7 +56166,9 @@ const characterData = {
         "burst_stats": "[SP Cost 0.0] • [CD 36.0] • [Switch Gauge 87.0] • [Break Gauge 90.0]",
         "burst_skill_name": "Resonate Nature Burst",
         "burst_activation": "Earth→Slash→Slash→(Water)",
+        "burst_activation_template": "Earth→Slash→Slash→(Water)",
         "burst_damage": "5510% damage (3x hit/All Foes)[Center/Arc/Wide]",
+        "burst_damage_template": "{v}% damage (3x hit/All Foes)[Center/Arc/Wide]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -54498,46 +56179,74 @@ const characterData = {
                 "name": "Bonus",
                 "desc": "Non-elemental damage +100%, when equipping 2 or more of Alice's Skill Records in the same set.",
                 "type": "normal"
-            },
-            {
-                "name": "",
-                "desc": "Can activate without using SP.(Able to activate when above SP35)",
-                "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1691,
+                "buffs": [
+                    10.05
+                ],
+                "burst_damage": 4317
+            },
+            "80": {
+                "damage": 1770,
+                "buffs": [
+                    14
+                ],
+                "burst_damage": 4870
+            },
+            "100": {
+                "damage": 2290,
+                "buffs": [
+                    15
+                ],
+                "burst_damage": 5510
+            }
+        }
     },
     "1586": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Flame Breaker Blade] Eugeo",
-        "sub": "Ability",
+        "sub": "Ability Accele Skill",
+        "rarity": 4,
+        "cost": 22,
         "type": "accele",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Earth Suction/Enhance Antidote/Everyone Is Different/Ground Pulse",
+        "skill_name": "Ability",
         "stats": "[Attack 62] • [Defense 34] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/9aabaa93342fc3a38c580c2084927c49.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001769.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101769.png",
         "buffs": [
             {
                 "name": "Earth Suction 4",
                 "desc": "When the player is Status Ailments (Poison), Attack +50%.",
+                "desc_template": "When the player is Status Ailments (Poison), Attack +{v}%.",
                 "type": "normal"
             },
             {
-                "name": "Earth Suction 4",
-                "desc": "● Poison damage -30%.",
+                "name": "Enhance Antidote 3",
+                "desc": "● Poison damage 30%.",
+                "desc_template": "● Poison damage {v}%.",
                 "type": "normal"
             },
             {
@@ -54548,18 +56257,65 @@ const characterData = {
             {
                 "name": "[While Accele Skill is activated] Ground Pulse 4",
                 "desc": "Deals +15% Earth element's damage to enemy.",
+                "desc_template": "Deals +{v}% Earth element's damage to enemy.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
+            "Extra effect time 7.5 sec.",
+            "Limit Break extends Accele Skill effect time."
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 21,
+                "def": 12,
+                "buffs": [
+                    10.4,
+                    -20.1,
+                    5.1
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2152,
+                "atk": 54,
+                "def": 30,
+                "buffs": [
+                    42,
+                    28,
+                    13
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 62,
+                "def": 34,
+                "buffs": [
+                    50,
+                    30,
+                    15
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
     },
     "1587": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Lightning Swing] Leafa",
-        "sub": "2H Axe (Blunt/Dark) Chain Skill",
-        "type": "chain",
+        "sub": "2H Axe (Blunt/Dark) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "2H Axe",
         "element1": "Blunt",
         "element2": "Dark",
@@ -54571,35 +56327,54 @@ const characterData = {
         "skill_name": "Greedy Shade",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 92] • [Break Gauge 57]",
         "damage": "2790% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/84f36284ede013e9f4fd04fe36828199.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001770.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101770.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "Dark element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dark Pile",
+                "name": "Dark Pile/Buff",
                 "desc": "When the target is hit using the Switch, dark element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Dark damage +50% when using dark skills",
-            "Attack +1000 while the buff to raise Dark element damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Dark damage +50.00% when using dark skills.",
+            "Attack +1000.00 while the buff to raise Dark element damage is in effect."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 2191
+            },
+            "80": {
+                "damage": 2270
+            },
+            "100": {
+                "damage": 2790
+            }
+        }
     },
     "1588": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Bright Spring Girl] Leafa",
-        "sub": "1H Sword (Slash/Holy) Chain Skill",
-        "type": "chain",
+        "sub": "1H Sword (Slash/Holy) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Sword",
         "element1": "Slash",
         "element2": "Holy",
@@ -54611,52 +56386,80 @@ const characterData = {
         "skill_name": "Holy Bite",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 72] • [Break Gauge 30]",
         "damage": "2250% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/35cbe3a6ba199456729e5a3419c84df1.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001771.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101771.png",
         "buffs": [
             {
-                "name": "Shine Pile",
+                "name": "Shine Pile/Buff",
                 "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Shine Pile",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Shine Pile/Buff",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Holy damage +50% when using Holy skills",
-            "Attack +1000 while the buff to raise Holy damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Holy damage +50.00% when using holy skills.",
+            "Attack +1000.00 while the buff to raise Holy damage is in effect."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 2051
+            },
+            "80": {
+                "damage": 2130
+            },
+            "100": {
+                "damage": 2250
+            }
+        }
     },
     "1589": {
+        "tags": [
+            "Floor/Event"
+        ],
         "name": "[Guided by a Strange Aura] Kirito",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 12,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Reduced Battle Wounds/Battle Healing",
+        "skill_name": "Ability",
         "stats": "[Attack 35] • [Defense 30] • [HP 1750]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/other/20250423ukif3.png",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ff0000",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001776.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101776.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Reduced Battle Wounds 3",
                 "desc": "● Reduces damage from slash, thrust, and blunt element monsters and status ailment damage by 3%.",
+                "desc_template": "● Reduces damage from slash, thrust, and blunt element monsters and status ailment damage by {v}%.",
                 "type": "normal"
             },
             {
@@ -54665,11 +56468,38 @@ const characterData = {
                 "type": "normal"
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 400,
+                "atk": 13,
+                "def": 12,
+                "buffs": [
+                    1.02
+                ]
+            },
+            "80": {
+                "hp": 1477,
+                "atk": 31,
+                "def": 26,
+                "buffs": [
+                    2.6
+                ]
+            },
+            "100": {
+                "hp": 1750,
+                "atk": 35,
+                "def": 30,
+                "buffs": [
+                    3
+                ]
+            }
+        }
     },
     "1590": {
         "name": "[Pocket Guide] Eugeo",
         "sub": "2H Axe (Blunt/Holy) MOD Skill",
+        "rarity": 4,
+        "cost": 46,
         "type": "mod",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -54682,8 +56512,15 @@ const characterData = {
         "skill_name": "Holy Ravage",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 46] • [Break Gauge 27]",
         "damage": "1790% damage (2x hit/All Foes)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (2x hit/All Foes)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/1b2326c3a4067d7d7ddd56e9d7b339f1.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001777.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101777.png",
         "buffs": [
             {
                 "name": "Mod Slot Effect",
@@ -54694,11 +56531,23 @@ const characterData = {
         "mod": [
             "Bonus: When equipping 3 or more of Eugeo's Skill Records in the same set, Attack +1200."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1591
+            },
+            "80": {
+                "damage": 1670
+            },
+            "100": {
+                "damage": 1790
+            }
+        }
     },
     "1591": {
         "name": "[The Winning Shot] Lisbeth",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 22,
         "type": "awakening",
         "weapon": "None",
         "element1": "None",
@@ -54710,18 +56559,27 @@ const characterData = {
         "break_gauge": 0,
         "skill_name": "Power Rise/Shine Conversion/More Deban",
         "stats": "[Attack 55] • [Defense 38] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/b5e9d1bf39606a0bbb5a52a83937b4ef.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001778.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101778.png",
         "buffs": [
             {
                 "name": "Power Rise 3",
                 "desc": "Attack +800.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Shine Conversion 5",
-                "desc": "Dark element's damage to enemies -15% and holy element's damage to enemies +30%.",
+                "desc": "Dark element's damage to enemies - 15% and holy element's damage to enemies +30%.",
+                "desc_template": "Dark element's damage to enemies -15% and holy element's damage to enemies + {v}%.",
                 "type": "normal"
             },
             {
@@ -54731,12 +56589,50 @@ const characterData = {
             }
         ],
         "awakening": [
-            "Soaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
-        ]
+            "Recollection Skill\nSoaring Flash[During Rush]\n Attack +5%.\n(Maximum Awakening Skill)"
+        ],
+        "awakening_template": [
+            "Recollection Skill\nSoaring Flash[During Rush]\n Attack +{v}%.\n(Maximum Awakening Skill)"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    107,
+                    20.1
+                ]
+            },
+            "80": {
+                "hp": 2152,
+                "atk": 48,
+                "def": 33,
+                "buffs": [
+                    660,
+                    28
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 55,
+                "def": 38,
+                "buffs": [
+                    800,
+                    30
+                ]
+            }
+        },
+        "awakening_lv_data": {
+            "1": 1,
+            "5": 5
+        }
     },
     "1592": {
         "name": "[Match Invitation] Alice",
         "sub": "1H Sword (Slash/Holy) Full Burst Skill",
+        "rarity": 4,
+        "cost": 50,
         "type": "full burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -54749,24 +56645,35 @@ const characterData = {
         "skill_name": "Prism Bump",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 56] • [Break Gauge 57]",
         "damage": "2020% damage (Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/608f5b52c3427664b8156ab4c9760887.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001779.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101779.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Holy Element Enhance4",
+                "name": "Holy Element Enhance 4/Buff",
                 "desc": "Holy element damage +9% for 15 sec.",
+                "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 56.0] • [Break Gauge 114.0]",
         "burst_skill_name": "Prism Bump Burst",
         "burst_activation": "Holy→Slash→Holy→(Fire)",
+		"burst_activation_template":"Holy→Slash→Holy→(Fire)",
         "burst_damage": "5600% damage (Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (Single Foe)[Front/Long/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -54780,16 +56687,43 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Holy element damage increases x 0.5% the number of Debility stacks when the player is inflicted with the Debility status ailment.<br>",
+                "desc": "Holy element damage increases x 0.5% the number of Debility stacks when the player is inflicted with the Debility status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1821,
+                "buffs": [
+                    10.05,
+                    5.04
+                ],
+                "burst_damage": 4707
+            },
+            "80": {
+                "damage": 1900,
+                "buffs": [
+                    14,
+                    8.2
+                ],
+                "burst_damage": 5260
+            },
+            "100": {
+                "damage": 2020,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 5600
+            }
+        }
     },
     "1593": {
         "name": "[The Table Illusionist] Koharu",
         "sub": "2H Spear (Thrust/Water) Burst Skill",
+        "rarity": 4,
+        "cost": 42,
         "type": "burst",
         "weapon": "2H Spear",
         "element1": "Thrust",
@@ -54802,28 +56736,39 @@ const characterData = {
         "skill_name": "Wide Aqua Fencer",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 40] • [Break Gauge 28]",
         "damage": "2170% damage (4x hit/All Foes)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (4x hit/All Foes)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/7ff3c111330039302ab5f518959e9c04.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001780.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101780.png",
         "buffs": [
             {
-                "name": "Water Element Weak 4",
+                "name": "Water Element Weak 4/Debuff",
                 "desc": "Water element damage to monster +25% for 10 sec.",
+                "desc_template": "Water element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
-                "name": "Water Element Enhance4",
+                "name": "Water Element Enhance 4/Buff",
                 "desc": "Water element damage +9% for 15 sec.",
+                "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 15.0] • [Switch Gauge 40.0] • [Break Gauge 56.0]",
         "burst_skill_name": "Wide Aqua Fencer Burst",
-        "burst_activation": "Water→Water→Thrust→Water",
+        "burst_activation": "Water→Water→Thrust→(Water)",
         "burst_damage": "6000% damage (4x hit/All Foes)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (4x hit/All Foes)[Front/Cone/Mid]",
         "burst_buffs": [
             {
-                "name": "Splashing Water Demon 5",
+                "name": "Splashing Water Demon 5/Buff",
                 "desc": "Water element damage +65% for 8 sec.",
+                "desc_template": "Water element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
@@ -54833,17 +56778,50 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "When equipping 2 or more of Sachi's Skill Records in the same set, Damage done to enemies weak to thrusting +100%.<br>",
+                "desc": "When equipping 2 or more of Sachi's Skill Records in the same set, Damage done to enemies weak to thrusting +100%.",
                 "type": "normal"
             }
         ],
         "burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1971,
+                "buffs": [
+                    15.1,
+                    5.04,
+                    20.45
+                ],
+                "burst_damage": 5107
+            },
+            "80": {
+                "damage": 2050,
+                "buffs": [
+                    23,
+                    8.2,
+                    56
+                ],
+                "burst_damage": 5660
+            },
+            "100": {
+                "damage": 2170,
+                "buffs": [
+                    25,
+                    9,
+                    65
+                ],
+                "burst_damage": 6000
+            }
+        }
     },
     "1594": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Another Happy Day] Lisbeth",
-        "sub": "1H Club (Blunt/Water) Chain Skill",
-        "type": "chain",
+        "sub": "1H Club (Blunt/Water) Skill",
+        "rarity": 4,
+        "cost": 46,
+        "type": "normal / chain",
         "weapon": "1H Club",
         "element1": "Blunt",
         "element2": "Water",
@@ -54855,36 +56833,54 @@ const characterData = {
         "skill_name": "Aqua Stamp",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 78] • [Break Gauge 39]",
         "damage": "2060% damage (Single Foe)[Front/Arc/Mid]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/1ee4843b1c495407b6c255116313b15e.png",
+        "damage_template": "{v}% damage (Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#6600ff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001781.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101781.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "Water element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Aqua Pile",
+                "name": "Aqua Pile/Buff",
                 "desc": "When the target is hit using the Switch, water element damage +1% per stack (Stack9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Water damage +50% when using water skills",
-            "Attack +1000 while the buff to raise water damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Water damage +50.00% when using water skills.",
+            "Attack +1000.00 while the buff to raise water damage is in effect."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1861
+            },
+            "80": {
+                "damage": 1940
+            },
+            "100": {
+                "damage": 2060
+            }
+        }
     },
     "1595": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Dazzling in the Mirror] Lisbeth",
         "sub": "Ability",
-        "type": "chain",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability / chain",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -54893,15 +56889,23 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Iron-Fisted Punishment/Hot-Blooded Spear",
+        "skill_name": "Ability",
         "stats": "[Attack 53] • [Defense 40] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/26e081e60e14797f5aae9a871a200414.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001782.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101782.png",
         "buffs": [
             {
                 "name": "Iron-Fisted Punishment 4",
                 "desc": "Attack +500 when attacking with blunt element.",
+                "desc_template": "Attack +{v} when attacking with blunt element.",
                 "type": "normal"
             },
             {
@@ -54911,12 +56915,57 @@ const characterData = {
             }
         ],
         "chains": [
-            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during ChainDeals +5% Water element's damage to enemy."
-        ]
+            "・Effect during Chain",
+            "Deals +5% Water element's damage to enemy."
+        ],
+        "chains_template": [
+            "・Effect during Chain",
+            "Deals +{v}% Water element's damage to enemy."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 13,
+                "buffs": [
+                    104
+                ],
+                "chains": [
+                    0.05
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 46,
+                "def": 35,
+                "buffs": [
+                    420
+                ],
+                "chains": [
+                    4
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 53,
+                "def": 40,
+                "buffs": [
+                    500
+                ],
+                "chains": [
+                    5
+                ]
+            }
+        }
     },
     "1596": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Instant Sword Flash] Yuuki",
         "sub": "1H Sword (Slash) Burst Skill",
+        "rarity": 4,
+        "cost": 44,
         "type": "burst",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -54929,24 +56978,34 @@ const characterData = {
         "skill_name": "Mother's Rosary",
         "stats": "[SP Cost 35] • [CD 20.0] • [Switch Gauge 44] • [Break Gauge 56]",
         "damage": "2290% damage (11x hit/Single Foe)[Front/Long/Mid]",
-        "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/e559b785b03afbcf81978bbf266a114f.png",
+        "damage_template": "{v}% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ff055d",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001783.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101783.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Enhance Defense 4",
+                "name": "Enhance Defense 4/Buff",
                 "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
-                "name": "Dyna Pile",
+                "name": "Dyna Pile/Buff",
                 "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 40.0] • [Switch Gauge 44.0] • [Break Gauge 112.0]",
         "burst_skill_name": "Mother's Rosary",
-        "burst_activation": "Dark→Water→Holy→Slash",
+        "burst_activation": "Dark→Water→Holy→(Slash)",
         "burst_damage": "5510% damage (11x hit/Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (11x hit/Single Foe)[Front/Long/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -54969,26 +57028,44 @@ const characterData = {
                 "type": "normal"
             },
             {
-                "name": "[While Accele Skill is activated] Bonus",
-                "desc": "Damage done to enemies weak to slashing +50%.",
-                "type": "normal"
-            },
-            {
-                "name": "",
-                "desc": "Can activate without using SP.(Able to activate when above SP35",
+                "name": "Bonus",
+                "desc": "While Accele Skill is activated Damage done to enemies weak to slashing +50%.",
                 "type": "normal"
             }
         ],
         "burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1691,
+                "buffs": [
+                    10.05
+                ],
+                "burst_damage": 4317
+            },
+            "80": {
+                "damage": 1770,
+                "buffs": [
+                    14
+                ],
+                "burst_damage": 4870
+            },
+            "100": {
+                "damage": 2290,
+                "buffs": [
+                    15
+                ],
+                "burst_damage": 5510
+            }
+        }
     },
     "1597": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Comeback Strategy] Yuuki",
-        "sub": "Ability",
+        "sub": "Ability Accele Skill",
+        "rarity": 4,
+        "cost": 22,
         "type": "accele",
         "weapon": "None",
         "element1": "None",
@@ -54998,36 +57075,92 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Enhance HP/Prosper/Hold the Front/Break the Dam",
+        "skill_name": "Ability",
         "stats": "[Attack 49] • [Defense 48] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/11e4b4a24a82525ce2e183734db79a2d.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001784.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101784.png",
         "buffs": [
             {
                 "name": "Enhance HP 4",
                 "desc": "Max HP +15%.",
+                "desc_template": "Max HP +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Prosper 4",
                 "desc": "Attack +20% when HP is above 50%.",
+                "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
                 "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
+                "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Break the Dam 3",
                 "desc": "Break gauge amount +30% at enemies.",
+                "desc_template": "Break gauge amount +{v}% at enemies.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "Extra effect time 7.5 sec.Limit Break extends Accele Skill effect time."
-        ]
+            "Extra effect time 7.5 sec.",
+            "Limit Break extends Accele Skill effect time."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 17,
+                "def": 14,
+                "buffs": [
+                    5.1,
+                    10.1,
+                    1.04,
+                    10.2
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 43,
+                "def": 41,
+                "buffs": [
+                    13,
+                    18,
+                    4.2,
+                    26
+                ],
+                "ability_effect": [
+                    2.5
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 49,
+                "def": 48,
+                "buffs": [
+                    15,
+                    20,
+                    5,
+                    30
+                ],
+                "ability_effect": [
+                    7.5
+                ]
+            }
+        }
     },
     "1598": {
         "tags": [
@@ -55035,38 +57168,80 @@ const characterData = {
         ],
         "name": "[Blade That Pierces the Gap] Kirito",
         "sub": "Ability",
+        "rarity": 4,
+        "cost": 12,
         "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Advance Trooper/Enhance Curse Res.",
+        "skill_name": "Ability",
         "stats": "[Attack 36] • [Defense 28] • [HP 1750]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101785.png",
-		"background": "resources/backgrounds/gold.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001785.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101785.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Advance Trooper 3",
                 "desc": "Attack +300.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
-                "name": "Advance Trooper 3",
-                "desc": "● Curse resistance +10%",
+                "name": "Enhance Curse Res. 1",
+                "desc": "● Curse resistance +10%.",
+                "desc_template": "● Curse resistance +{v}%.",
                 "type": "normal"
             }
         ],
-        "is_ex": true
+        "lv_data": {
+            "1": {
+                "hp": 400,
+                "atk": 14,
+                "def": 12,
+                "buffs": [
+                    3,
+                    1.09
+                ]
+            },
+            "80": {
+                "hp": 1477,
+                "atk": 32,
+                "def": 25,
+                "buffs": [
+                    240,
+                    8.2
+                ]
+            },
+            "100": {
+                "hp": 1750,
+                "atk": 36,
+                "def": 28,
+                "buffs": [
+                    300,
+                    10
+                ]
+            }
+        }
     },
     "1599": {
         "name": "[Crimson Deck] Kirito",
         "sub": "1H Sword (Slash/Fire) MOD Skill",
+        "rarity": 4,
+        "cost": 46,
         "type": "mod",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -55079,8 +57254,15 @@ const characterData = {
         "skill_name": "Indiscreet Heat",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 40] • [Break Gauge 13]",
         "damage": "1570% damage (8x hit/All Foes)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (8x hit/All Foes)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/926bdc48f732a33edee6135ee159d60e.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001794.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101794.png",
         "buffs": [
             {
                 "name": "Mod Slot Effect",
@@ -55091,12 +57273,24 @@ const characterData = {
         "mod": [
             "Bonus: When equipping 3 or more of Kirito's Skill Records in the same set, Attack +1000."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1371
+            },
+            "80": {
+                "damage": 1450
+            },
+            "100": {
+                "damage": 1570
+            }
+        }
     },
     "1600": {
         "name": "[Blazing Shipwreck] Klein",
-        "sub": "1H Club (Blunt/Wind) Chain Skill",
-        "type": "chain",
+        "sub": "1H Club (Blunt/Wind) Skill",
+        "rarity": 4,
+        "cost": 44,
+        "type": "normal / chain",
         "weapon": "1H Club",
         "element1": "Blunt",
         "element2": "Wind",
@@ -55108,31 +57302,49 @@ const characterData = {
         "skill_name": "Refuge Storm",
         "stats": "[SP Cost 26] • [CD 14.0] • [Switch Gauge 92] • [Break Gauge 43]",
         "damage": "2360% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/332f0fb197d4547daa197b4b5707bef3.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001795.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101795.png",
         "buffs": [
             {
-                "name": "Wind Pile",
+                "name": "Wind Pile/Buff",
                 "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Pile",
-                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Wind Pile/Buff",
+                "desc": "When the target is hit using the Switch, Wind element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills",
-            "Attack +1000 while the buff to raise wind damage is in effect",
-            ""
+            "・Super Chain effect (activates 1x)",
+            "Wind damage +50.00% when using wind skills.",
+            "Attack +1000.00 while the buff to raise wind damage is in effect."
         ],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1761
+            },
+            "80": {
+                "damage": 1840
+            },
+            "100": {
+                "damage": 2360
+            }
+        }
     },
     "1601": {
         "name": "[A Hero Jumps Aboard] Leafa",
         "sub": "2H Axe (Blunt/Wind) Full Burst Skill",
+        "rarity": 4,
+        "cost": 48,
         "type": "full burst",
         "weapon": "2H Axe",
         "element1": "Blunt",
@@ -55145,24 +57357,35 @@ const characterData = {
         "skill_name": "Air Double Down",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 48]",
         "damage": "2100% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/69a78f07a27207a487fb6f769e8774cd.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001796.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101796.png",
         "buffs": [
             {
-                "name": "Enhance Attack 4",
+                "name": "Enhance Attack 4/Buff",
                 "desc": "Attack +15% for 20 sec.",
+                "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Wind Element Enhance4",
+                "name": "Wind Element Enhance 4/Buff",
                 "desc": "Wind element damage +9% for 15 sec.",
+                "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
         ],
         "burst_stats": "[SP Cost 0.0] • [CD 30.0] • [Switch Gauge 52.0] • [Break Gauge 96.0]",
         "burst_skill_name": "Air Double Down Burst",
         "burst_activation": "Wind→Wind→Blunt→(Wind)",
+		"burst_activation_template": "Wind→Wind→Blunt→(Wind)",
         "burst_damage": "5800% damage (2x hit/Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (2x hit/Single Foe)[Front/Long/Mid]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -55176,17 +57399,44 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Wind element damage increases x 0.5% the number of bleed stacks when the player is inflicted with the bleed status ailment.<br>",
+                "desc": "Wind element damage increases x 0.5% the number of bleed stacks when the player is inflicted with the bleed status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4
+        "lv_data": {
+            "1": {
+                "damage": 1901,
+                "buffs": [
+                    5.1,
+                    5.04
+                ],
+                "burst_damage": 4907
+            },
+            "80": {
+                "damage": 1980,
+                "buffs": [
+                    13,
+                    8.2
+                ],
+                "burst_damage": 5460
+            },
+            "100": {
+                "damage": 2100,
+                "buffs": [
+                    15,
+                    9
+                ],
+                "burst_damage": 5800
+            }
+        }
     },
     "1602": {
         "name": "[Scorching Arrow] Sinon",
         "sub": "Ability",
-        "type": "chain",
+        "rarity": 4,
+        "cost": 20,
+        "type": "ability / chain",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -55195,15 +57445,23 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Power Rise/Air Flow/Back Up",
+        "skill_name": "Ability",
         "stats": "[Attack 56] • [Defense 34] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/5117e6448f0ddd7e8038d3045f64985a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001797.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101797.png",
         "buffs": [
             {
                 "name": "Power Rise 3",
                 "desc": "Attack +800.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
@@ -55213,17 +57471,107 @@ const characterData = {
             },
             {
                 "name": "Back Up 3",
-                "desc": "Effect changes depending on the Skill Records in the same set.When equipping 2 or more of Sinon's Skill Records: Attack +25%.When equipping 3 or more of Sinon's Skill Records: Damage done to enemies weak to thrusting +15%.When equipping 1 or more of Leafa's Skill Records: Skill's power is added +200% when used in switch.When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to blunt +15%.When equipping 1 or more of Asuna's Skill Records: Max HP increase 10%.",
+                "desc": "Effect changes depending on the Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Back Up 3/Buff",
+                "desc": "When equipping 2 or more of Sinon's Skill Records: Attack +25%.",
+                "desc_template": "When equipping 2 or more of Sinon's Skill Records: Attack +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Back Up 3/Buff",
+                "desc": "When equipping 3 or more of Sinon's Skill Records: Damage done to enemies weak to thrusting +15%.",
+                "desc_template": "When equipping 3 or more of Sinon's Skill Records: Damage done to enemies weak to thrusting +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Back Up 3/Buff",
+                "desc": "When equipping 1 or more of Leafa's Skill Records: Skill's power is added +200% when used in switch.",
+                "desc_template": "When equipping 1 or more of Leafa's Skill Records: Skill's power is added +{v}% when used in switch.",
+                "type": "normal"
+            },
+            {
+                "name": "Back Up 3/Buff",
+                "desc": "When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to blunt +15%.",
+                "desc_template": "When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to blunt +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Back Up 3/Buff",
+                "desc": "When equipping 1 or more of Asuna's Skill Records: Max HP increase 10%.",
+                "desc_template": "When equipping 1 or more of Asuna's Skill Records: Max HP increase {v}%.",
                 "type": "normal"
             }
         ],
         "chains": [
-            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during ChainDeals +5% Wind element's damage to enemy."
-        ]
+            "・Effect during Chain",
+            "Deals +5% Wind element's damage to enemy."
+        ],
+        "chains_template": [
+            "・Effect during Chain",
+            "Deals +{v}% Wind element's damage to enemy."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    107,
+                    5.2,
+                    5.1,
+                    101,
+                    5.1,
+                    5.05
+                ],
+                "chains": [
+                    0.05
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 49,
+                "def": 30,
+                "buffs": [
+                    660,
+                    21,
+                    13,
+                    180,
+                    13,
+                    9
+                ],
+                "chains": [
+                    4
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 56,
+                "def": 34,
+                "buffs": [
+                    800,
+                    25,
+                    15,
+                    200,
+                    15,
+                    10
+                ],
+                "chains": [
+                    5
+                ]
+            }
+        }
     },
     "1603": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Target Tracker] Argo",
         "sub": "Dagger (Slash/Earth) Full Burst Skill",
+        "rarity": 4,
+        "cost": 52,
         "type": "full burst",
         "weapon": "Dagger",
         "element1": "Slash",
@@ -55236,16 +57584,25 @@ const characterData = {
         "skill_name": "Earth Descent",
         "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 30] • [Break Gauge 29]",
         "damage": "2350% damage (2x hit/Single Foe)[Motion Range]",
+        "damage_template": "{v}% damage (2x hit/Single Foe)[Motion Range]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/ffb4de76e9b750dd3033ea5308ef8c1c.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001798.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101798.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Weak Slash 4",
+                "name": "Weak Slash 4/Debuff",
                 "desc": "Slash element's weakness damage +25% for 8 sec.",
+                "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
-                "name": "Poison",
+                "name": "Poison/Status Ailments",
                 "desc": "IInflict Poison (Stack 1) for 30 sec.",
                 "type": "normal"
             }
@@ -55253,7 +57610,9 @@ const characterData = {
         "burst_stats": "[SP Cost 0.0] • [CD 15.0] • [Switch Gauge 30.0] • [Break Gauge 58.0]",
         "burst_skill_name": "Earth Descent Burst",
         "burst_activation": "Earth→Earth→Slash→(Earth)",
+		"burst_activation_template": "Earth→Earth→Slash→(Earth)",
         "burst_damage": "5700% damage (2x hit/Single Foe)[Motion Range]",
+        "burst_damage_template": "{v}% damage (2x hit/Single Foe)[Motion Range]",
         "burst_buffs": [
             {
                 "name": "Bonus",
@@ -55267,53 +57626,127 @@ const characterData = {
             },
             {
                 "name": "Bonus",
-                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.<br>",
+                "desc": "Earth element damage increases x 0.5% the number of poison stacks when the player is inflicted with the poison status ailment.",
                 "type": "normal"
             }
         ],
         "full_burst": [],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1751,
+                "buffs": [
+                    15.1
+                ],
+                "burst_damage": 4507
+            },
+            "80": {
+                "damage": 1830,
+                "buffs": [
+                    23
+                ],
+                "burst_damage": 5060
+            },
+            "100": {
+                "damage": 2350,
+                "buffs": [
+                    25
+                ],
+                "burst_damage": 5700
+            }
+        }
     },
     "1604": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Informant's Insight] Argo",
         "sub": "Ability",
-        "type": "ability",
+        "rarity": 4,
+        "cost": 22,
+        "type": "awakening",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
         "category": "Ability",
+        "is_ex": true,
         "sp_cost": 0,
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
         "skill_name": "Combination/Ace of Daggers",
         "stats": "[Attack 52] • [Defense 36] • [HP 2500]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
         "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/bd2edea05a8767c746a5e6235ff14e59.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001799.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101799.png",
         "buffs": [
             {
-                "name": "Ace of Daggers 4",
-                "desc": "Attack +40% when using daggers.",
+                "name": "Combination 4",
+                "desc": "● Skill's power is added +100% when used in switch.",
+                "desc_template": "● Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
             {
-                "name": "Combination 4",
-                "desc": "● Skill's power is added +100% when used in switch."
+                "name": "Ace of Daggers 4",
+                "desc": "Attack +40% when using daggers.",
+                "desc_template": "Attack +{v}% when using daggers.",
+                "type": "normal"
             }
         ],
         "awakening": [
-            "Pincer Attack[During Rush]\n Damage +15% when using switch.\n(Maximum Awakening Skill)"
+            "Recollection Skill\nPincer Attack[During Rush]\n Damage +15% when using switch.\n(Maximum Awakening Skill)"
         ],
-        "is_ex": true
+        "awakening_template": [
+            "Recollection Skill\nPincer Attack[During Rush]\n Damage +{v}% when using switch.\n(Maximum Awakening Skill)"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 475,
+                "atk": 18,
+                "def": 13,
+                "buffs": [
+                    50.5,
+                    10.3
+                ]
+            },
+            "80": {
+                "hp": 2091,
+                "atk": 45,
+                "def": 31,
+                "buffs": [
+                    90,
+                    34
+                ]
+            },
+            "100": {
+                "hp": 2500,
+                "atk": 52,
+                "def": 36,
+                "buffs": [
+                    100,
+                    40
+                ]
+            }
+        },
+        "awakening_lv_data": {
+            "1": 3,
+            "5": 15
+        }
     },
     "1605": {
+        "tags": [
+            "Bday"
+        ],
         "name": "[Art of Many Swords] Rain",
         "sub": "1H Sword (Slash/Holy) Accele Skill",
+        "rarity": 4,
+        "cost": 48,
         "type": "accele",
         "weapon": "1H Sword",
         "element1": "Slash",
@@ -55326,43 +57759,60 @@ const characterData = {
         "skill_name": "Shine Whirlpool",
         "stats": "[SP Cost 26] • [CD 16.0] • [Switch Gauge 132] • [Break Gauge 43]",
         "damage": "1930% damage (6x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (6x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/1bf505eb2e55bede2e827b85cdc7f63a.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001800.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101800.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
-                "name": "Shine Pile",
+                "name": "Shine Pile/Buff",
                 "desc": "Holy element damage +1% per stack (Stack3) during 20 sec.",
                 "type": "normal"
             },
             {
-                "name": "Debility",
+                "name": "Debility/Status Ailments",
                 "desc": "When equipping 4 or more of Kirito's Skill Records in the same set, Debility (Stack 10) will affect the player for 30 sec.",
                 "type": "normal"
             },
             {
-                "name": "Shine Pile",
-                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec.*More than regular increase in switch gauge.",
+                "name": "Shine Pile/Buff",
+                "desc": "When the target is hit using the Switch, holy element damage +1% per stack (Stack9) during 20 sec. *More than regular increase in switch gauge.",
                 "type": "normal"
             },
             {
-                "name": "[While Accele Skill is activated] Jar of Ice 4",
+                "name": "[While Accele Skill is activated] Jar of Ice 4/Buff",
                 "desc": "Defense +10 per stack (Stack 9) during 20 sec.",
                 "type": "normal"
             }
         ],
         "ability_effect": [
-            "In effect 30 sec.\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills!During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
+            "Effect time: 30 sec\nUse Switch with the Switch gauge at the 2nd level or more to activate Accele Skills! During the effect time, Swords Skills that meet the conditions will have increased power, and reduced skill CT and SP consumption."
         ],
-        "rarity": 4,
-        "tags": [
-            "Bday"
-        ]
+        "lv_data": {
+            "1": {
+                "damage": 1731
+            },
+            "80": {
+                "damage": 1810
+            },
+            "100": {
+                "damage": 1930
+            }
+        }
     },
     "1606": {
-		"tags": ["Bday"],
+        "tags": [
+            "Bday"
+        ],
         "name": "[Dazzling Summer Night] Rain",
         "sub": "Ability",
-        "type": "normal",
+        "type": "ability",
         "weapon": "None",
         "element1": "None",
         "element2": "None",
@@ -55371,11 +57821,11 @@ const characterData = {
         "cooldown": 0,
         "switch_gauge": 0,
         "break_gauge": 0,
-        "skill_name": "Loyal Friend/Enhance Slash/Inflict Bleed",
+        "skill_name": "Ability",
         "stats": "[Attack 56] • [Defense 46] • [HP 2575]",
         "damage": "",
         "color": "#ffffff",
-        "image": "https://saoif-com.akamaized.net/web/shop_login/ja/img/gacha/pickup/fad1d94c478249c8786c5ce2a6eb0d63.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001801.png",
         "buffs": [
             {
                 "name": "Loyal Friend 2",
@@ -55385,6 +57835,7 @@ const characterData = {
             {
                 "name": "Enhance Slash 3",
                 "desc": "Damage done to enemies weak to slashing +15%.",
+                "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
@@ -55392,7 +57843,42 @@ const characterData = {
                 "desc": "When the target is hit using the Switch, make it Bleed (Stack 5) for 30 sec. (Invalid when equipped by Partner)",
                 "type": "normal"
             }
-        ]
+        ],
+        "cost": 20,
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101801.png",
+        "lv_data": {
+            "1": {
+                "buffs": [
+                    5.1
+                ],
+                "hp": 482,
+                "atk": 19,
+                "def": 14
+            },
+            "80": {
+                "buffs": [
+                    13
+                ],
+                "hp": 2152,
+                "atk": 49,
+                "def": 40
+            },
+            "100": {
+                "buffs": [
+                    15
+                ],
+                "hp": 2575,
+                "atk": 56,
+                "def": 46
+            }
+        }
     },
     "1607": {
         "tags": [
@@ -55405,29 +57891,69 @@ const characterData = {
         "element1": "None",
         "element2": "None",
         "category": "Ability",
-        "sp_cost": 0,
         "cooldown": 0,
-        "switch_gauge": 0,
-        "break_gauge": 0,
-        "skill_name": "Advance Trooper/Enhance Petrify Res.",
+        "skill_name": "Ability",
         "stats": "[Attack 23] • [Defense 44] • [HP 2125]",
         "damage": "",
         "color": "#ffffff",
-        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101802.png",
-		"background": "resources/backgrounds/gold.png",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6001802.png",
+        "background": "resources/backgrounds/gold.png",
         "buffs": [
             {
                 "name": "Advance Trooper 3",
                 "desc": "Attack +300.",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
-                "name": "Advance Trooper 3",
+                "name": "Enhance Petrify Res. 1",
                 "desc": "● Petrify resistance +10%.",
+                "desc_template": "● Petrify resistance +{v}%.",
                 "type": "normal"
             }
         ],
-        "is_ex": true
+        "is_ex": true,
+        "cost": 12,
+        "max_lv": 100,
+        "rarity": 4,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6101802.png",
+        "sp_cost": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "lv_data": {
+            "1": {
+                "buffs": [
+                    3,
+                    1.09
+                ],
+                "hp": 437,
+                "atk": 10,
+                "def": 13
+            },
+            "80": {
+                "buffs": [
+                    240,
+                    8.2
+                ],
+                "hp": 1784,
+                "atk": 20,
+                "def": 38
+            },
+            "100": {
+                "buffs": [
+                    300,
+                    10
+                ],
+                "hp": 2125,
+                "atk": 23,
+                "def": 44
+            }
+        }
     },
     "1608": {
         "name": "[Pegasus's Guidance] Asuna",
@@ -55478,13 +58004,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Element Enhance4/Buff",
-                "desc": "Wind element damage +9.00% for 15 sec.",
+                "desc": "Wind element damage +9% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc": "Critical damage +10% for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -55678,7 +58204,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 4",
-                "desc": "● Skill's power is added +100.00% when used in switch.",
+                "desc": "● Skill's power is added +100% when used in switch.",
                 "desc_template": "● Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
@@ -55690,7 +58216,7 @@ const characterData = {
             },
             {
                 "name": "Icy Blade 4",
-                "desc": "Deals +20.00% Water element's damage to enemy.",
+                "desc": "Deals +20% Water element's damage to enemy.",
                 "desc_template": "Deals +{v}% Water element's damage to enemy.",
                 "type": "normal"
             }
@@ -55826,13 +58352,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Thrust protect 4",
-                "desc": "Reduce damage from 15.00% thrust element monster.",
+                "desc": "Reduce damage from 15% thrust element monster.",
                 "desc_template": "Reduce damage from {v}% thrust element monster.",
                 "type": "normal"
             },
             {
                 "name": "Song of Pursuit 4",
-                "desc": "(Invalid when equipped by Partner) When the target is hit using the Switch, adds a buff that recovers your HP (3.00%/3 sec) for 30 sec.",
+                "desc": "(Invalid when equipped by Partner) When the target is hit using the Switch, adds a buff that recovers your HP (3%/3 sec) for 30 sec.",
                 "desc_template": "(Invalid when equipped by Partner) When the target is hit using the Switch, adds a buff that recovers your HP ({v}%/3 sec) for 30 sec.",
                 "type": "normal"
             },
@@ -55843,19 +58369,19 @@ const characterData = {
             },
             {
                 "name": "Song of Pursuit 4/Buff",
-                "desc": "When equipping 3 or more of Yuna's Skill Records: Adds a buff (PT Enhance Blunt 4) that increases damage done to enemies weak to blunt by +30.00%.",
+                "desc": "When equipping 3 or more of Yuna's Skill Records: Adds a buff (PT Enhance Blunt 4) that increases damage done to enemies weak to blunt by +30%.",
                 "desc_template": "When equipping 3 or more of Yuna's Skill Records: Adds a buff (PT Enhance Blunt 4) that increases damage done to enemies weak to blunt by +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Song of Pursuit 4/Buff",
-                "desc": "When equipping 4 or more of Yuna's Skill Records: Adds a buff (PT Enhance Thrust 4) that increases damage done to enemies weak to thrust by +30.00%.",
+                "desc": "When equipping 4 or more of Yuna's Skill Records: Adds a buff (PT Enhance Thrust 4) that increases damage done to enemies weak to thrust by +30%.",
                 "desc_template": "When equipping 4 or more of Yuna's Skill Records: Adds a buff (PT Enhance Thrust 4) that increases damage done to enemies weak to thrust by +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Song of Pursuit 4/Buff",
-                "desc": "When equipping 5 or more of Yuna's Skill Records: Adds a buff (PT Enhance Slash 4) that increases damage done to enemies weak to slash by +30.00%.",
+                "desc": "When equipping 5 or more of Yuna's Skill Records: Adds a buff (PT Enhance Slash 4) that increases damage done to enemies weak to slash by +30%.",
                 "desc_template": "When equipping 5 or more of Yuna's Skill Records: Adds a buff (PT Enhance Slash 4) that increases damage done to enemies weak to slash by +{v}%.",
                 "type": "normal"
             }
@@ -55921,13 +58447,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Stun Res. 3",
-                "desc": "● Stun resistance +30.00%.",
+                "desc": "● Stun resistance +30%.",
                 "desc_template": "● Stun resistance +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Debility Res. 3",
-                "desc": "● Debility resistance +30.00%",
+                "desc": "● Debility resistance +30%",
                 "desc_template": "● Debility resistance +{v}%",
                 "type": "normal"
             }
@@ -56060,7 +58586,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Vital Assention 3/Buff",
-                "desc": "Defense +400.00.",
+                "desc": "Defense +400.",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
@@ -56072,7 +58598,7 @@ const characterData = {
             },
             {
                 "name": "Purifying Flame 4/Buff",
-                "desc": "Deals +20.00% Fire element's damage to enemy.",
+                "desc": "Deals +20% Fire element's damage to enemy.",
                 "desc_template": "Deals +{v}% Fire element's damage to enemy.",
                 "type": "normal"
             }
@@ -56135,8 +58661,8 @@ const characterData = {
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
             "・Super Chain effect (activates 1x)",
-            "Fire damage +50.00% when using fire skills.",
-            "Attack +1000.00 while the buff to raise fire damage is in effect."
+            "Fire damage +50% when using fire skills.",
+            "Attack +1000 while the buff to raise fire damage is in effect."
         ],
         "rarity": 4
     },
@@ -56187,7 +58713,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -56279,13 +58805,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Earth Element Enhance4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -56388,7 +58914,7 @@ const characterData = {
             },
             {
                 "name": "Dagger Support 3/Buff",
-                "desc": "Switch gauge amount +15.00%, when using daggers.",
+                "desc": "Switch gauge amount +15%, when using daggers.",
                 "desc_template": "Switch gauge amount +{v}%, when using daggers.",
                 "type": "normal"
             }
@@ -56450,13 +58976,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Wind Element Enhance4/Buff",
-                "desc": "Wind element damage +9.00% for 15 sec.",
+                "desc": "Wind element damage +9% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -56576,7 +59102,7 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)\nEarth damage +50.00% when using earth skills.\nAttack +1000.00 while the buff to raise earth damage is in effect.",
+            "・Super Chain effect (activates 1x)\nEarth damage +50% when using earth skills.\nAttack +1000 while the buff to raise earth damage is in effect.",
             ""
         ],
         "lv_data": {
@@ -56623,7 +59149,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Five Sharp Weapons 3/Buff",
-                "desc": "Attack +800.00 when attacking with thrust element.",
+                "desc": "Attack +800 when attacking with thrust element.",
                 "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             },
@@ -56634,7 +59160,7 @@ const characterData = {
             }
         ],
         "chains": [
-            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain\nDamage done to enemies weak to thrusting +15.00%."
+            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain\nDamage done to enemies weak to thrusting +15%."
         ],
         "chains_template": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain\nDamage done to enemies weak to thrusting +{v}%."
@@ -56711,13 +59237,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Slash 3/Buff",
-                "desc": "Damage done to enemies weak to slashing +15.00%.",
+                "desc": "Damage done to enemies weak to slashing +15%.",
                 "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Ice Indemnity 2/Buff",
-                "desc": "When you are frostbitten, water element damage +35.00%.",
+                "desc": "When you are frostbitten, water element damage +35%.",
                 "desc_template": "When you are frostbitten, water element damage +{v}%.",
                 "type": "normal"
             }
@@ -56793,7 +59319,7 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)\nHoly damage +50.00% when using Holy skills.\nAttack +1000.00 while the buff to raise Holy damage is in effect.",
+            "・Super Chain effect (activates 1x)\nHoly damage +50% when using Holy skills.\nAttack +1000 while the buff to raise Holy damage is in effect.",
             ""
         ],
         "lv_data": {
@@ -56849,7 +59375,7 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)\nWind damage +50.00% when using wind skills.\nAttack +1000.00 while the buff to raise wind damage is in effect.",
+            "・Super Chain effect (activates 1x)\nWind damage +50% when using wind skills.\nAttack +1000 while the buff to raise wind damage is in effect.",
             ""
         ],
         "lv_data": {
@@ -56914,7 +59440,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -57010,13 +59536,13 @@ const characterData = {
             },
             {
                 "name": "Persistence 4",
-                "desc": "Attack +20.00% at below 50% of your own HP.",
+                "desc": "Attack +20% at below 50% of your own HP.",
                 "desc_template": "Attack +{v}% at below 50% of your own HP.",
                 "type": "normal"
             },
             {
                 "name": "Pierce 4/Buff",
-                "desc": "[While Accele Skill is activated] Damage done to enemies weak to thrusting +25.00%.",
+                "desc": "[While Accele Skill is activated] Damage done to enemies weak to thrusting +25%.",
                 "desc_template": "[While Accele Skill is activated] Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             }
@@ -57078,7 +59604,7 @@ const characterData = {
             },
             {
                 "name": "Holy Light Demon 3/Buff",
-                "desc": "Holy element damage +45.00% for 8 sec.",
+                "desc": "Holy element damage +45% for 8 sec.",
                 "desc_template": "Holy element damage +{v}% for 8 sec.",
                 "type": "normal"
             }
@@ -57091,7 +59617,7 @@ const characterData = {
             "5": 10
         },
         "awakening": [
-            "Stack Boost [When Rush Activates]\nRaises 10.00 stacks for all Stack buffs that are on yourself.\n(Maximum Awakening Skill)"
+            "Stack Boost [When Rush Activates]\nRaises 10 stacks for all Stack buffs that are on yourself.\n(Maximum Awakening Skill)"
         ],
         "rarity": 4
     },
@@ -57151,14 +59677,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 3/Buff",
-                "desc": "Attack +35.00% when attacking with thrust element.",
+                "desc": "Attack +35% when attacking with thrust element.",
                 "desc_template": "Attack +{v}% when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 4/Buff",
-                "desc": "Wind element's damage to enemies -10.00% and earth element's damage to enemies +25.00%.",
-                "desc_template": "Wind element's damage to enemies -10.00% and earth element's damage to enemies +{v}%.",
+                "desc": "Wind element's damage to enemies -10% and earth element's damage to enemies +25%.",
+                "desc_template": "Wind element's damage to enemies -10% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
@@ -57223,13 +59749,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Weak 4/Debuff",
-                "desc": "Earth element damage to monster +25.00% for 10 sec.",
+                "desc": "Earth element damage to monster +25% for 10 sec.",
                 "desc_template": "Earth element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Earth Element Enhance4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -57242,7 +59768,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Earth Dragon Demon 5/Buff",
-                "desc": "Earth element damage +65.00% for 8 sec.",
+                "desc": "Earth element damage +65% for 8 sec.",
                 "desc_template": "Earth element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -57313,13 +59839,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Enhance4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 1/Buff",
-                "desc": "Damage done to enemies weak to thrust +15.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +15% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -57396,8 +59922,8 @@ const characterData = {
             }
         ],
         "chains": [
-            "Super Chain effect (activates 1x)Dark damage +50.00% when using dark skills.",
-            "Attack +1000.00 while the buff to raise Dark element damage is in effect."
+            "Super Chain effect (activates 1x)Dark damage +50% when using dark skills.",
+            "Attack +1000 while the buff to raise Dark element damage is in effect."
         ],
         "rarity": 4,
         "tags": [
@@ -57464,20 +59990,20 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 5/Buff",
-                "desc": "Attack +500.00.",
+                "desc": "Attack +500.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Dark Boost 4/Buff",
-                "desc": "Elemental damage other than dark dealt to enemies -50.00%, and dark element's damage to enemies +40.00%.",
-                "desc_template": "Elemental damage other than dark dealt to enemies -50.00%, and dark element's damage to enemies +{v}%.",
+                "desc": "Elemental damage other than dark dealt to enemies -50%, and dark element's damage to enemies +40%.",
+                "desc_template": "Elemental damage other than dark dealt to enemies -50%, and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "chains": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain",
-            "Deals +5.00% Dark element's damage to enemy."
+            "Deals +5% Dark element's damage to enemy."
         ],
         "chains_template": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain",
@@ -57548,25 +60074,25 @@ const characterData = {
         "buffs": [
             {
                 "name": "Prosper 5/Buff",
-                "desc": "Attack +25.00% when HP is above 50%.",
+                "desc": "Attack +25% when HP is above 50%.",
                 "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4/Buff",
-                "desc": "Recovers a max of 5.00%+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Frontal Attack 5/Buff",
-                "desc": "Aggro increase -50.00% when attack hits.",
+                "desc": "Aggro increase -50% when attack hits.",
                 "desc_template": "Aggro increase {v}% when attack hits.",
                 "type": "normal"
             },
             {
                 "name": "Combination 3",
-                "desc": "● Skill's power is added +75.00% when used in switch.",
+                "desc": "● Skill's power is added +75% when used in switch.",
                 "desc_template": "●[Combination 3] Skill's power is added +{v}% when used in switch."
             }
         ],
@@ -57722,7 +60248,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 4",
-                "desc": "● Skill's power is added +100.00% when used in switch.",
+                "desc": "● Skill's power is added +100% when used in switch.",
                 "desc_template": "●[Combination 4] Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             }
@@ -57779,7 +60305,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -57880,7 +60406,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 5/Buff",
-                "desc": "Attack +500.00.",
+                "desc": "Attack +500.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
@@ -57952,7 +60478,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -58047,7 +60573,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Frostbite Blow 5/Buff",
-                "desc": "Attack against enemies with frostbite increases 30.00%.",
+                "desc": "Attack against enemies with frostbite increases 30%.",
                 "desc_template": "Attack against enemies with frostbite increases {v}%.",
                 "type": "normal"
             },
@@ -58063,7 +60589,7 @@ const characterData = {
         ],
         "chains": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain",
-            "Damage +10.00% when using switch."
+            "Damage +10% when using switch."
         ],
         "chains_template": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during Chain",
@@ -58196,7 +60722,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Stun Res. 4/Buff",
-                "desc": "● Stun resistance +70.00%.",
+                "desc": "● Stun resistance +70%.",
                 "desc_template": "● Stun resistance +{v}%.",
                 "type": "normal"
             },
@@ -58207,7 +60733,7 @@ const characterData = {
             }
         ],
         "chains": [
-            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during ChainSkill's power is added +150.00% when used in switch."
+            "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.・Effect during ChainSkill's power is added +150% when used in switch."
         ],
         "chains_template": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.<br> Effect during ChainSkill's power is added +{v}% when used in switch."
@@ -58273,13 +60799,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Wind Element Enhance4/Buff",
-                "desc": "Wind element damage +9.00% for 15 sec.",
+                "desc": "Wind element damage +9% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -58425,7 +60951,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Stun Res. 3/Buff",
-                "desc": "● Stun resistance +30.00%.",
+                "desc": "● Stun resistance +30%.",
                 "desc_template": "● Stun resistance +{v}%.",
                 "type": "normal"
             }
@@ -58495,13 +61021,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Steel Fang 4/Buff",
-                "desc": "Attack +500.00 when attacking with thrust element.",
+                "desc": "Attack +500 when attacking with thrust element.",
                 "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Persistence 4/Buff",
-                "desc": "Attack +20.00% at below 50% of your own HP.",
+                "desc": "Attack +20% at below 50% of your own HP.",
                 "desc_template": "Attack +{v}% at below 50% of your own HP.",
                 "type": "normal"
             },
@@ -58695,7 +61221,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Holy Element Weak 4/Debuff",
-                "desc": "Holy element damage to monster +25.00% for 10 sec.",
+                "desc": "Holy element damage to monster +25% for 10 sec.",
                 "desc_template": "Holy element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             }
@@ -58709,7 +61235,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Holy Light Demon 5/Buff",
-                "desc": "Holy element damage +65.00% for 8 sec.",
+                "desc": "Holy element damage +65% for 8 sec.",
                 "desc_template": "Holy element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -58839,13 +61365,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Earth Element Enhance4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -58931,7 +61457,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Peak 3/Buff",
-                "desc": "Attack +40.00% when HP is above 80%.",
+                "desc": "Attack +40% when HP is above 80%.",
                 "desc_template": "Attack +{v}% when HP is above 80%.",
                 "type": "normal"
             },
@@ -58995,7 +61521,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Enhance4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -59142,14 +61668,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3/Buff",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 5/Buff",
-                "desc": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +30.00%.",
-                "desc_template": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +{v}%.",
+                "desc": "Holy element's damage to enemies -15% and dark element's damage to enemies +30%.",
+                "desc_template": "Holy element's damage to enemies -15% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
@@ -59218,7 +61744,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -59308,13 +61834,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Holy Element Enhance 4/Buff",
-                "desc": "Holy element damage +9.00% for 15 sec.",
+                "desc": "Holy element damage +9% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc": "Critical damage +10% for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -59402,7 +61928,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Vital Assention 4/Buff",
-                "desc": "Defense +450.00.",
+                "desc": "Defense +450.",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
@@ -59423,7 +61949,7 @@ const characterData = {
             },
             {
                 "name": "[While Accele Skill is activated] Reduced Battle Wounds 5/Buff",
-                "desc": "Reduces damage from slash, thrust, and blunt element monsters and status ailment damage by 5.00%.",
+                "desc": "Reduces damage from slash, thrust, and blunt element monsters and status ailment damage by 5%.",
                 "desc_template": "Reduces damage from slash, thrust, and blunt element monsters and status ailment damage by {v}%.",
                 "type": "normal"
             }
@@ -59488,13 +62014,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Holy Element Enhance 4/Buff",
-                "desc": "Holy element damage +9.00% for 15 sec.",
+                "desc": "Holy element damage +9% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 1/Buff",
-                "desc": "Damage done to enemies weak to thrust +15.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +15% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -59583,13 +62109,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3/Buff",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Berserk 4/Buff",
-                "desc": "When the player is Status Ailments (Poison, Burn, Bleed, Frostbite, Curse, Debility), Attack +25.00%.",
+                "desc": "When the player is Status Ailments (Poison, Burn, Bleed, Frostbite, Curse, Debility), Attack +25%.",
                 "desc_template": "When the player is Status Ailments (Poison, Burn, Bleed, Frostbite, Curse, Debility), Attack +{v}%.",
                 "type": "normal"
             }
@@ -59660,7 +62186,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Vital Assention 3/Buff",
-                "desc": "Defense +400.00.",
+                "desc": "Defense +400.",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
@@ -59672,8 +62198,8 @@ const characterData = {
             },
             {
                 "name": "Aqua Boost 5",
-                "desc": "Elemental damage other than water dealt to enemies -50.00%(Non-elemental included), and water element's damage to enemies +45.00%.",
-                "desc_template": "Elemental damage other than water dealt to enemies -50.00%(Non-elemental included), and water element's damage to enemies +{v}%.",
+                "desc": "Elemental damage other than water dealt to enemies -50% (Non-elemental included), and water element's damage to enemies +45%.",
+                "desc_template": "Elemental damage other than water dealt to enemies -50% (Non-elemental included), and water element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
@@ -59794,13 +62320,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Aqua Force 4/Buff",
-                "desc": "Water element damage +15.00% for 15 sec.",
+                "desc": "Water element damage +15% for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Sleep Res. 4/Buff",
-                "desc": "Sleep resist +80.00% for 15 sec.",
+                "desc": "Sleep resist +80% for 15 sec.",
                 "desc_template": "Sleep resist +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -59864,13 +62390,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Streaming Pattern 4/Buff",
-                "desc": "Petrify resistance +80.00% for 15 sec.",
+                "desc": "Petrify resistance +80% for 15 sec.",
                 "desc_template": "Petrify resistance +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -59934,13 +62460,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +15.00% for 15 sec.",
+                "desc": "Wind element damage +15% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Sleep Res. 4/Buff",
-                "desc": "Sleep resist +80.00% for 15 sec.",
+                "desc": "Sleep resist +80% for 15 sec.",
                 "desc_template": "Sleep resist +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60004,13 +62530,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Force 4/Buff",
-                "desc": "Earth element damage +15.00% for 15 sec.",
+                "desc": "Earth element damage +15% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Paralysis Res. 4/Buff",
-                "desc": "Paralysis resist +80.00% for 15 sec.",
+                "desc": "Paralysis resist +80% for 15 sec.",
                 "desc_template": "Paralysis resist +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60074,13 +62600,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Weak 4/Debuff",
-                "desc": "Earth element damage to monster +25.00% for 10 sec.",
+                "desc": "Earth element damage to monster +25% for 10 sec.",
                 "desc_template": "Earth element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Stun Res. 4/Buff",
-                "desc": "Stun resist +80.00% for 15 sec.",
+                "desc": "Stun resist +80% for 15 sec.",
                 "desc_template": "Stun resist +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60146,7 +62672,7 @@ const characterData = {
             },
             {
                 "name": "Paralysis Res. 4/Buff",
-                "desc": "Paralysis resist +80.00% for 15 sec.",
+                "desc": "Paralysis resist +80% for 15 sec.",
                 "desc_template": "Paralysis resist +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60210,13 +62736,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Streaming Pattern 4/Buff",
-                "desc": "Petrify resistance +80.00% for 15 sec.",
+                "desc": "Petrify resistance +80% for 15 sec.",
                 "desc_template": "Petrify resistance +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60283,7 +62809,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 5",
-                "desc": "Attack +500.00.",
+                "desc": "Attack +500.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
@@ -60351,7 +62877,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Evasion 3/Buff",
-                "desc": "Evasion rate +11.00% for 10 sec. (This will not activate with focus attack)",
+                "desc": "Evasion rate +11% for 10 sec. (This will not activate with focus attack)",
                 "desc_template": "Evasion rate +{v}% for 10 sec. (This will not activate with focus attack)",
                 "type": "normal"
             }
@@ -60419,13 +62945,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Water Element Enhance 4/Buff",
-                "desc": "Water element damage +9.00% for 15 sec.",
+                "desc": "Water element damage +9% for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60619,7 +63145,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -60687,13 +63213,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Element Enhance 4/Buff",
-                "desc": "Dark element damage +9.00% for 15 sec.",
+                "desc": "Dark element damage +9% for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc": "Critical damage +10% for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -60785,13 +63311,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Iron-Fisted Punishment 4",
-                "desc": "Attack +500.00 when attacking with blunt element.",
+                "desc": "Attack +500 when attacking with blunt element.",
                 "desc_template": "Attack +{v} when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Prosper 4",
-                "desc": "Attack +20.00% when HP is above 50%.",
+                "desc": "Attack +20% when HP is above 50%.",
                 "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             }
@@ -60856,13 +63382,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Slash 2",
-                "desc": "Damage done to enemies weak to slashing +10.00%.",
+                "desc": "Damage done to enemies weak to slashing +10%.",
                 "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Debility Res. 3",
-                "desc": "● Debility resistance +30.00%",
+                "desc": "● Debility resistance +30%",
                 "desc_template": "● Debility resistance +{v}%",
                 "type": "normal"
             }
@@ -60930,14 +63456,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 5",
-                "desc": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +30.00%.",
-                "desc_template": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +{v}%.",
+                "desc": "Wind element's damage to enemies -15% and earth element's damage to enemies +30%.",
+                "desc_template": "Wind element's damage to enemies -15% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
@@ -61008,13 +63534,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Enhance 4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 1/Buff",
-                "desc": "Damage done to enemies weak to thrust +15.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +15% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -61096,13 +63622,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Weak 4/Debuff",
-                "desc": "Earth element damage to monster +25.00% for 10 sec.",
+                "desc": "Earth element damage to monster +25% for 10 sec.",
                 "desc_template": "Earth element damage to monster +{v}% for 10 sec.",
                 "type": "debuff"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -61168,7 +63694,7 @@ const characterData = {
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -61231,13 +63757,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +15.00% for 15 sec.",
+                "desc": "Wind element damage +15% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -61315,25 +63841,25 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 3",
-                "desc": "● Increases the damage of a skill record used on switch by an additional 75.00%.",
+                "desc": "● Increases the damage of a skill record used on switch by an additional 75%.",
                 "desc_template": "● Increases the damage of a skill record used on switch by an additional {v}%.",
                 "type": "normal"
             },
             {
                 "name": "Poisonous Blow 4",
-                "desc": "Attack +24.00% when the enemy is poisoned.",
+                "desc": "Attack +24% when the enemy is poisoned.",
                 "desc_template": "Attack +{v}% when the enemy is poisoned.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
-                "desc": "Recovers a max of 5.00%+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "Frontal Attack 5",
-                "desc": "Aggro increase -50.00% when attack hits. (While Accele Skill is activated)",
+                "desc": "Aggro increase -50% when attack hits. (While Accele Skill is activated)",
                 "desc_template": "Aggro increase -{v}% when attack hits. (While Accele Skill is activated)",
                 "type": "normal"
             }
@@ -61395,7 +63921,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -61485,13 +64011,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -61634,13 +64160,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Five Sharp Weapons 3",
-                "desc": "Attack +800.00 when attacking with thrust element.",
+                "desc": "Attack +800 when attacking with thrust element.",
                 "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Duet 2",
-                "desc": "Switch gauge amount +10.00%.",
+                "desc": "Switch gauge amount +10%.",
                 "desc_template": "Switch gauge amount +{v}%.",
                 "type": "normal"
             }
@@ -62027,8 +64553,8 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Dark element damage +50.00% .",
-            "LLv100：Attack +100.00%  against debuffed enemies."
+            "When Activated: Dark element damage +50% .",
+            "LLv100：Attack +100%  against debuffed enemies."
         ],
         "rarity": 4
     },
@@ -62094,13 +64620,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Thrust protect 3",
-                "desc": "Reduce damage from 12.00% thrust element monster.",
+                "desc": "Reduce damage from 12% thrust element monster.",
                 "desc_template": "Reduce damage from {v}% thrust element monster.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Paralysis Res. 2",
-                "desc": "● Paralysis Res. increase 22.00%",
+                "desc": "● Paralysis Res. increase 22%",
                 "desc_template": "Paralysis Res. increase {v}%",
                 "type": "normal"
             }
@@ -62163,13 +64689,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -62238,7 +64764,7 @@ const characterData = {
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -62338,7 +64864,7 @@ const characterData = {
         ],
         "chains": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.",
-            "・Effect during Chain Deals +5.00% fire element's damage to enemy."
+            "・Effect during Chain Deals +5% fire element's damage to enemy."
         ],
         "chains_template": [
             "Extra effect time 7.5 sec.For each 1 equipped in the same set, switch damage during the chain state increases, and the effect time is extended.",
@@ -62708,7 +65234,7 @@ const characterData = {
             },
             {
                 "name": "Enhance Attack 3",
-                "desc": "Attack +12.00%.",
+                "desc": "Attack +12%.",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
@@ -62945,9 +65471,9 @@ const characterData = {
         },
         "links": [
             
-            "When Activated: Holy element damage +50.00% .",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00%.",
-            "LLv250: Damage done to enemies weak to thrusting +50.00%."
+            "When Activated: Holy element damage +50% .",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100%.",
+            "LLv250: Damage done to enemies weak to thrusting +50%."
         ]
     },
     "1708": {
@@ -63007,14 +65533,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3",
-                "desc": "Attack +107.00.",
+                "desc": "Attack +107.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Shine Conversion 5",
-                "desc": "Dark element's damage to enemies -15.00% and holy element's damage to enemies +20.10%.",
-                "desc_template": "Dark element's damage to enemies -15.00% and holy element's damage to enemies +{v}%.",
+                "desc": "Dark element's damage to enemies -15% and holy element's damage to enemies +20.10%.",
+                "desc_template": "Dark element's damage to enemies -15% and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
@@ -63026,9 +65552,9 @@ const characterData = {
         "rarity": 4,
         "links": [
             
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00%.",
-            "LLv250: Holy element damage +20.00%."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100%.",
+            "LLv250: Holy element damage +20%."
         ]
     },
     "1709": {
@@ -63080,8 +65606,8 @@ const characterData = {
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
             "・Super Chain effect (activates 1x)",
-            "Earth damage +50.00% when using earth skills.",
-            "Attack +1000.00 while the buff to raise earth damage is in effect.",
+            "Earth damage +50% when using earth skills.",
+            "Attack +1000 while the buff to raise earth damage is in effect.",
             ""
         ],
         "rarity_steps": {
@@ -63242,7 +65768,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 5",
-                "desc": "Attack +104.00.",
+                "desc": "Attack +104.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
@@ -63326,9 +65852,9 @@ const characterData = {
         },
         "links": [
             
-            "When Activated: Earth element damage +50.00% .",
-            "LLv100: Attack +100.00%  against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark).",
-            "LLv250: Damage done to enemies weak to blunt +50.00% ."
+            "When Activated: Earth element damage +50% .",
+            "LLv100: Attack +100%  against enemies with the debuff (Mark, Small Mark, Death Mark, Thrust Erosion Mark, Slash Destruction Mark).",
+            "LLv250: Damage done to enemies weak to blunt +50% ."
         ]
     },
     "1713": {
@@ -63387,7 +65913,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "King of Spears 3/Buff",
-                "desc": "Attack +1000.00 when using 2H Spear.",
+                "desc": "Attack +1000 when using 2H Spear.",
                 "desc_template": "Attack +{v} when using 2H Spear.",
                 "type": "normal"
             },
@@ -63400,9 +65926,9 @@ const characterData = {
         "rarity": 4,
         "links": [
             
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Wind element damage +20.00% "
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Wind element damage +20% "
         ]
     },
     "1714": {
@@ -63462,13 +65988,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Element Weak 4/Debuff",
-                "desc": "Wind element damage to monster +25.00% for 10 sec.",
+                "desc": "Wind element damage to monster +25% for 10 sec.",
                 "desc_template": "Wind element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +15.00% for 15 sec.",
+                "desc": "Wind element damage +15% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -63482,7 +66008,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Gale Demon 5/Buff",
-                "desc": "Wind element damage +65.00% for 8 sec.",
+                "desc": "Wind element damage +65% for 8 sec.",
                 "desc_template": "Wind element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -63556,7 +66082,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Fire Element Enhance4/Buff",
-                "desc": "Fire element damage +9.00% for 15 sec.",
+                "desc": "Fire element damage +9% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -63656,14 +66182,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Strike 3/Buff",
-                "desc": "Attack +35.00% when attacking with blunt element.",
+                "desc": "Attack +35% when attacking with blunt element.",
                 "desc_template": "Attack +{v}% when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Flame Conversion 4/Buff",
-                "desc": "Water element's damage to enemies -10.00% and fire element's damage to enemies +25.00%.",
-                "desc_template": "Water element's damage to enemies -10.00% and fire element's damage to enemies +{v}%.",
+                "desc": "Water element's damage to enemies -10% and fire element's damage to enemies +25%.",
+                "desc_template": "Water element's damage to enemies -10% and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
@@ -63721,22 +66247,22 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +15.00% for 15 sec.",
+                "desc": "Fire element damage +15% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
         "links": [
             
-            "When Activated: Fire element damage +50.00% .",
+            "When Activated: Fire element damage +50% .",
             "LLv100: Your own attack increases by defense x 1 .",
-            "LLv250: Damage done to enemies weak to slashing +50.00% ."
+            "LLv250: Damage done to enemies weak to slashing +50% ."
         ],
         "rarity": 4,
         "rarity_steps": {
@@ -63795,13 +66321,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Dark Element Enhance4/Buff",
-                "desc": "Dark element damage +9.00% for 15 sec.",
+                "desc": "Dark element damage +9% for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -63891,7 +66417,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -63994,8 +66520,8 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Fire damage +50.00% when using fire skills.",
-            "Attack +1000.00 while the buff to raise fire damage is in effect.",
+            "・Super Chain effect (activates 1x)Fire damage +50% when using fire skills.",
+            "Attack +1000 while the buff to raise fire damage is in effect.",
             ""
         ],
         "rarity": 4,
@@ -64053,7 +66579,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -64149,13 +66675,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Fire Element Enhance4/Buff",
-                "desc": "Fire element damage +9.00% for 15 sec.",
+                "desc": "Fire element damage +9% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc": "Critical damage +10% for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -64243,8 +66769,8 @@ const characterData = {
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
             "・Super Chain effect (activates 1x)",
-            "Fire damage +50.00% when using fire skills.",
-            "Attack +1000.00 while the buff to raise fire damage is in effect.",
+            "Fire damage +50% when using fire skills.",
+            "Attack +1000 while the buff to raise fire damage is in effect.",
             ""
         ],
         "rarity": 4,
@@ -64331,14 +66857,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3/Buff",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Flame Conversion 5/Buff",
-                "desc": "Water element's damage to enemies -15.00% and fire element's damage to enemies +30.00%.",
-                "desc_template": "Water element's damage to enemies -15.00% and fire element's damage to enemies +{v}%.",
+                "desc": "Water element's damage to enemies -15% and fire element's damage to enemies +30%.",
+                "desc_template": "Water element's damage to enemies -15% and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
@@ -64348,37 +66874,37 @@ const characterData = {
             },
             {
                 "name": "Back Up 5/Buff",
-                "desc": "When equipping 1 or more of Asuna's Skill Records: Attack +25.00%.",
+                "desc": "When equipping 1 or more of Asuna's Skill Records: Attack +25%.",
                 "desc_template": "When equipping 1 or more of Asuna's Skill Records: Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 5/Buff",
-                "desc": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +15.00%.",
+                "desc": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +15%.",
                 "desc_template": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 5/Buff",
-                "desc": "When equipping 1 or more of Leafa's Skill Records: Skill's power is added +200.00% when used in switch.",
+                "desc": "When equipping 1 or more of Leafa's Skill Records: Skill's power is added +200% when used in switch.",
                 "desc_template": "When equipping 1 or more of Leafa's Skill Records: Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 5/Buff",
-                "desc": "When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to slashing +15.00%.",
+                "desc": "When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to slashing +15%.",
                 "desc_template": "When equipping 2 or more of Leafa's Skill Records: Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 5/Buff",
-                "desc": "When equipping 1 or more of Kirito's Skill Records: Max HP increase 10.00%.",
+                "desc": "When equipping 1 or more of Kirito's Skill Records: Max HP increase 10%.",
                 "desc_template": "When equipping 1 or more of Kirito's Skill Records: Max HP increase {v}%.",
                 "type": "normal"
             },
             {
                 "name": "Frontal Attack 4/Buff",
-                "desc": "Aggro increase -40.00% when attack hits. (While Accele Skill is activated)",
+                "desc": "Aggro increase -40% when attack hits. (While Accele Skill is activated)",
                 "desc_template": "Aggro increase -{v}% when attack hits. (While Accele Skill is activated)",
                 "type": "normal"
             }
@@ -64448,13 +66974,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Blunt 3/Buff",
-                "desc": "Damage done to enemies weak to blunt +14.00%.",
+                "desc": "Damage done to enemies weak to blunt +14%.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Light's Indemnity 2/Buff",
-                "desc": "When you are debilitated, holy element damage +32.00%.",
+                "desc": "When you are debilitated, holy element damage +32%.",
                 "desc_template": "When you are debilitated, holy element damage +{v}%.",
                 "type": "normal"
             }
@@ -64520,21 +67046,21 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +15.00% for 15 sec.",
+                "desc": "Wind element damage +15% for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Wind element damage +50.00% .",
-            "LLv100: Attack increases in proportion with your remaining HP x 200.00% .",
-            "LLv250: Damage done to enemies weak to blunt +50.00% ."
+            "When Activated: Wind element damage +50% .",
+            "LLv100: Attack increases in proportion with your remaining HP x 200% .",
+            "LLv250: Damage done to enemies weak to blunt +50% ."
         ],
         "rarity": 4
     },
@@ -64599,13 +67125,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4/Buff",
-                "desc": "Attack +900.00.",
+                "desc": "Attack +900.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00%.",
+                "desc": "Attack +15%.",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
@@ -64616,9 +67142,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Fire element damage +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Fire element damage +20% ."
         ],
         "rarity": 5
     },
@@ -64683,27 +67209,27 @@ const characterData = {
         "buffs": [
             {
                 "name": "Crushing Impact 3/Buff",
-                "desc": "Attack +800.00 when attacking with blunt element.",
+                "desc": "Attack +800 when attacking with blunt element.",
                 "desc_template": "Attack +{v} when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Duet 4/Buff",
-                "desc": "Switch gauge amount +20.00%.",
+                "desc": "Switch gauge amount +20%.",
                 "desc_template": "Switch gauge amount +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Onslaught 4/Buff",
-                "desc": "Attack +25.00%. (While Accele Skill is activated)",
+                "desc": "Attack +25%. (While Accele Skill is activated)",
                 "desc_template": "Attack +{v}%. (While Accele Skill is activated)",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Earth element damage +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Earth element damage +20% ."
         ],
         "rarity": 5
     },
@@ -64754,8 +67280,8 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Fire damage +50.00% when using fire skills.",
-            "Attack +1000.00 while the buff to raise fire damage is in effect."
+            "・Super Chain effect (activates 1x)Fire damage +50% when using fire skills.",
+            "Attack +1000 while the buff to raise fire damage is in effect."
         ],
         "rarity": 5
     },
@@ -64806,8 +67332,8 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Wind damage +50.00% when using wind skills.",
-            "Attack +1000.00 while the buff to raise wind damage is in effect."
+            "・Super Chain effect (activates 1x)Wind damage +50% when using wind skills.",
+            "Attack +1000 while the buff to raise wind damage is in effect."
         ],
         "rarity": 5
     },
@@ -64860,7 +67386,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Force 5/Buff (PT)",
-                "desc": "Earth element damage +20.00% for you and your party for 5 sec.",
+                "desc": "Earth element damage +20% for you and your party for 5 sec.",
                 "desc_template": "Earth element damage +{v}% for you and your party for 5 sec.",
                 "type": "normal"
             },
@@ -64959,19 +67485,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 5/Buff",
-                "desc": "Attack +500.00.",
+                "desc": "Attack +500.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Burn Immunity 4/Buff",
-                "desc": "Burn damage -50.00%.",
+                "desc": "Burn damage -50%.",
                 "desc_template": "Burn damage -{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4/Buff",
-                "desc": "Recovers a max of 5.00%+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             }
@@ -65037,13 +67563,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Fire Element Enhance4/Buff",
-                "desc": "Fire element damage +9.00% for 15 sec.",
+                "desc": "Fire element damage +9% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -65142,8 +67668,8 @@ const characterData = {
         ],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x)Fire damage +50.00% when using fire skills.",
-            "Attack +1000.00 while the buff to raise fire damage is in effect."
+            "・Super Chain effect (activates 1x)Fire damage +50% when using fire skills.",
+            "Attack +1000 while the buff to raise fire damage is in effect."
         ],
         "rarity": 4,
         "rarity_steps": {
@@ -65206,13 +67732,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Fire Element Weak 4/Debuff",
-                "desc": "Fire element damage to monster +25.00% for 10 sec.",
+                "desc": "Fire element damage to monster +25% for 10 sec.",
                 "desc_template": "Fire element damage to monster +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +15.00% for 15 sec.",
+                "desc": "Fire element damage +15% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -65226,7 +67752,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Blaze Demon 5/Buff",
-                "desc": "Fire element damage +65.00% for 8 sec.",
+                "desc": "Fire element damage +65% for 8 sec.",
                 "desc_template": "Fire element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -65395,27 +67921,27 @@ const characterData = {
         "buffs": [
             {
                 "name": "King of Daggers 3",
-                "desc": "Attack +1000.00 when using daggers.",
+                "desc": "Attack +1000 when using daggers.",
                 "desc_template": "Attack +{v} when using daggers.",
                 "type": "normal"
             },
             {
                 "name": "Bloody Blow 4",
-                "desc": "Attack +24.00% against bleeding enemies.",
+                "desc": "Attack +24% against bleeding enemies.",
                 "desc_template": "Attack +{v}% against bleeding enemies.",
                 "type": "normal"
             },
             {
                 "name": "Bisect 4",
-                "desc": "While Accele Skill is activated: Damage done to enemies weak to slashing +25.00%.",
+                "desc": "While Accele Skill is activated: Damage done to enemies weak to slashing +25%.",
                 "desc_template": "While Accele Skill is activated: Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Wind element damage +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Wind element damage +20% ."
         ],
         "rarity": 4,
         "rarity_steps": {
@@ -65451,13 +67977,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 3/Buff",
-                "desc": "Attack +35.00% when attacking with thrust element.",
+                "desc": "Attack +35% when attacking with thrust element.",
                 "desc_template": "Attack +{v}% when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Flame Conversion 4/Buff",
-                "desc": "Water element's damage to enemies -10.00% and fire element's damage to enemies +25.00%.",
+                "desc": "Water element's damage to enemies -10% and fire element's damage to enemies +25%.",
                 "desc_template": "Water element's damage to enemies -10% and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             }
@@ -65525,13 +68051,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +15.00% for 15 sec.",
+                "desc": "Fire element damage +15% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -65633,8 +68159,8 @@ const characterData = {
         ],
         "chains": [
             "Super Chain effect (activates 1x)",
-            "Holy damage +50.00% when using Holy skills.",
-            "Attack +1000.00 while the buff to raise Holy damage is in effect."
+            "Holy damage +50% when using Holy skills.",
+            "Attack +1000 while the buff to raise Holy damage is in effect."
         ],
         "ability_effect": [
             "*More than regular increase in switch gauge."
@@ -65700,8 +68226,8 @@ const characterData = {
         ],
         "chains": [
             "Super Chain effect (activates 1x)",
-            "Holy damage +50.00% when using Holy skills.",
-            "Attack +1000.00 while the buff to raise Holy damage is in effect."
+            "Holy damage +50% when using Holy skills.",
+            "Attack +1000 while the buff to raise Holy damage is in effect."
         ],
         "lv_data": {
             "1": {
@@ -65745,13 +68271,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 3/Buff",
-                "desc": "Attack +300.00.",
+                "desc": "Attack +300.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Antidote 4/Buff",
-                "desc": "● Poison damage -50.00%",
+                "desc": "● Poison damage -50%",
                 "desc_template": "● Poison damage -{v}%",
                 "type": "ex_skill"
             }
@@ -65819,7 +68345,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -65914,7 +68440,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3/Buff",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
@@ -65930,31 +68456,31 @@ const characterData = {
             },
             {
                 "name": "Back Up 6/Buff",
-                "desc": "When equipping 2 or more of Kirito's Skill Records: Attack +25.00%.",
+                "desc": "When equipping 2 or more of Kirito's Skill Records: Attack +25%.",
                 "desc_template": "When equipping 2 or more of Kirito's Skill Records: Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 6/Buff",
-                "desc": "When equipping 3 or more of Kirito's Skill Records: Damage done to enemies weak to slashing +15.00%.",
+                "desc": "When equipping 3 or more of Kirito's Skill Records: Damage done to enemies weak to slashing +15%.",
                 "desc_template": "When equipping 3 or more of Kirito's Skill Records: Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 6/Buff",
-                "desc": "When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +200.00% when used in switch.",
+                "desc": "When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +200% when used in switch.",
                 "desc_template": "When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 6/Buff",
-                "desc": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +15.00%.",
+                "desc": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +15%.",
                 "desc_template": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 6/Buff",
-                "desc": "When equipping 1 or more of Asuna's Skill Records: Max HP increase 10.00%.",
+                "desc": "When equipping 1 or more of Asuna's Skill Records: Max HP increase 10%.",
                 "desc_template": "When equipping 1 or more of Asuna's Skill Records: Max HP increase {v}%.",
                 "type": "normal"
             }
@@ -66055,13 +68581,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Dark Element Enhance 4/Buff",
-                "desc": "Dark element damage +9.00% for 15 sec.",
+                "desc": "Dark element damage +9% for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -66152,13 +68678,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +15.00% for 15 sec.",
+                "desc": "Fire element damage +15% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -66169,9 +68695,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Fire element damage +50.00%",
-            "LLv100：Attack increases in proportion with your remaining HP x 200.00%",
-            "LLv250：Damage done to enemies weak to blunt +50.00%"
+            "When Activated: Fire element damage +50%",
+            "LLv100：Attack increases in proportion with your remaining HP x 200%",
+            "LLv250：Damage done to enemies weak to blunt +50%"
         ],
         "lv_data": {
             "1": {
@@ -66238,21 +68764,21 @@ const characterData = {
             },
             {
                 "name": "Bloody Blow 5/Buff",
-                "desc": "Attack +30.00% against bleeding enemies.",
+                "desc": "Attack +30% against bleeding enemies.",
                 "desc_template": "Attack +{v}% against bleeding enemies.",
                 "type": "normal"
             },
             {
                 "name": "Bisect 5/Buff",
-                "desc": "・While Accele Skill is activated<br>Damage done to enemies weak to slashing +30.00%.",
+                "desc": "・While Accele Skill is activated<br>Damage done to enemies weak to slashing +30%.",
                 "desc_template": "・While Accele Skill is activated<br>Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Dark element damage +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Dark element damage +20% ."
         ],
         "lv_data": {
             "1": {
@@ -66316,7 +68842,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -66404,7 +68930,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Combination 4/Buff",
-                "desc": "● Skill's power is added +100.00% when used in switch.",
+                "desc": "● Skill's power is added +100% when used in switch.",
                 "desc_template": "● Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
@@ -66415,13 +68941,13 @@ const characterData = {
             },
             {
                 "name": "Shine Boost 5/Buff",
-                "desc": "Elemental damage other than holy dealt to enemies -50.00%(Non-elemental included), and holy element's damage to enemies +45.00%.",
-                "desc_template": "Elemental damage other than holy dealt to enemies -50.00%(Non-elemental included), and holy element's damage to enemies +{v}%.",
+                "desc": "Elemental damage other than holy dealt to enemies -50% (Non-elemental included), and holy element's damage to enemies +45%.",
+                "desc_template": "Elemental damage other than holy dealt to enemies -50% (Non-elemental included), and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Golden Opportunity 4/Buff",
-                "desc": "・While Accele Skill is activated<br>Critical damage +50.00%.",
+                "desc": "・While Accele Skill is activated<br>Critical damage +50%.",
                 "desc_template": "・While Accele Skill is activated<br>Critical damage +{v}%.",
                 "type": "normal"
             }
@@ -66509,13 +69035,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -66526,9 +69052,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Holy element damage +50.00% ",
+            "When Activated: Holy element damage +50% ",
             "LLv100: Your own attack increases by defense x 1 ",
-            "LLv250: Damage done to enemies weak to slashing +50.00% "
+            "LLv250: Damage done to enemies weak to slashing +50% "
         ],
         "lv_data": {
             "1": {
@@ -66587,13 +69113,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +15.00% for 15 sec.",
+                "desc": "Fire element damage +15% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -66605,9 +69131,9 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Fire element damage +50.00% .",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% .",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% ."
+            "When Activated: Fire element damage +50% .",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100% .",
+            "LLv250: Damage done to enemies weak to thrusting +50% ."
         ],
         "lv_data": {
             "1": {
@@ -66731,13 +69257,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Water Element Enhance 4/Buff",
-                "desc": "Water element damage +9.00% for 15 sec.",
+                "desc": "Water element damage +9% for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -66827,7 +69353,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Aqua Force 5/Buff (PT)",
-                "desc": "Water element damage +20.00% for you and your party for 5 sec.",
+                "desc": "Water element damage +20% for you and your party for 5 sec.",
                 "desc_template": "Water element damage +{v}% for you and your party for 5 sec.",
                 "type": "normal"
             },
@@ -66921,13 +69447,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 3",
-                "desc": "Attack +300.00",
+                "desc": "Attack +300",
                 "desc_template": "Attack +{v}",
                 "type": "normal"
             },
             {
                 "name": "• Enhance Stun Res. 1",
-                "desc": "• Stun resistance +10.00%",
+                "desc": "• Stun resistance +10%",
                 "desc_template": "Stun resistance +{v}%",
                 "type": "normal"
             }
@@ -66992,7 +69518,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
@@ -67009,15 +69535,15 @@ const characterData = {
             },
             {
                 "name": "[While Accele Skill is activated] Accelerated Healing 4",
-                "desc": "・While Accele Skill is activated<br>Recovers a max of 4.00% HP per 3 sec.",
+                "desc": "・While Accele Skill is activated<br>Recovers a max of 4% HP per 3 sec.",
                 "desc_template": "・While Accele Skill is activated<br>Recovers a max of {v}% HP per 3 sec.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: water element damage +20.00% .",
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: water element damage +20% .",
             ""
         ],
         "lv_data": {
@@ -67255,10 +69781,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Earth element damage +50.00%",
-            "LLv50: Earth element damage +50.00%",
+            "When Activated: Earth element damage +50%",
+            "LLv50: Earth element damage +50%",
             "LLv100: Your own attack increases by defense x 1",
-            "LLv250: Damage done to enemies weak to slashing +50.00%"
+            "LLv250: Damage done to enemies weak to slashing +50%"
         ],
         "lv_data": {
             "1": {
@@ -67315,7 +69841,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +108.00",
+                "desc": "Attack +108",
                 "desc_template": "Attack +{v}",
                 "type": "normal"
             },
@@ -67327,15 +69853,15 @@ const characterData = {
             },
             {
                 "name": "Exciting 4",
-                "desc": "Defense -30.00% and during the buff effect for increased max HP the critical damage -300%",
+                "desc": "Defense -30% and during the buff effect for increased max HP the critical damage -300%",
                 "desc_template": "Defense -{v}% and during the buff effect for increased max HP the critical damage -300%",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00%",
-            "LLv250: water element damage +20.00%"
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: water element damage +20%"
         ],
         "lv_data": {
             "1": {
@@ -67435,7 +69961,7 @@ const characterData = {
         },
         "chains": [
             "・Super Chain effect (activates 1x)",
-            "Damage done to enemies weak to slashing +50.00% when using water skills.",
+            "Damage done to enemies weak to slashing +50% when using water skills.",
             "Attack +1000."
         ]
     },
@@ -67504,8 +70030,8 @@ const characterData = {
         },
         "chains": [
             "・Super Chain effect (activates 1x)",
-            "Holy damage +50.00% when using Holy skills.",
-            "Attack +1000.00 while the buff to raise Holy damage is in effect."
+            "Holy damage +50% when using Holy skills.",
+            "Attack +1000 while the buff to raise Holy damage is in effect."
         ]
     },
     "1763": {
@@ -67539,19 +70065,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 5",
-                "desc": "Attack +210.00",
+                "desc": "Attack +210",
                 "desc_template": "Attack +{v}",
                 "type": "normal"
             },
             {
                 "name": "Hidden Blessing 3",
-                "desc": "Attack +5.10%, and non-natural elemental damage-100.00%.",
-                "desc_template": "Attack +{v}%, and non-natural elemental damage-100.00%.",
+                "desc": "Attack +5.10%, and non-natural elemental damage-100%.",
+                "desc_template": "Attack +{v}%, and non-natural elemental damage-100%.",
                 "type": "normal"
             },
             {
                 "name": "Halo 3",
-                "desc": "Defense -30.00% and during the buff effect for increased max HP the hit rate -30.00%",
+                "desc": "Defense -30% and during the buff effect for increased max HP the hit rate -30%",
                 "type": "normal"
             },
             {
@@ -67631,13 +70157,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Earth Element Enhance 4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -67726,7 +70252,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 5/Buff (PT)",
-                "desc": "Own and Party's attack +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 10 sec.",
+                "desc": "Own and Party's attack +10.10/18/20% (lvl1/lvl80/lvl100) for 10 sec.",
                 "desc_template": "Own and Party's attack +{v}% for 10 sec.",
                 "type": "normal"
             }
@@ -67793,19 +70319,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Strike 4",
-                "desc": "Attack +20.20/36.00/40.00% (lvl1/lvl80/lvl100) when attacking with blunt element.",
+                "desc": "Attack +20.20/36/40% (lvl1/lvl80/lvl100) when attacking with blunt element.",
                 "desc_template": "Attack +{v}% when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 4",
-                "desc": "Wind element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and earth element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Wind element's damage to enemies-10.00% and earth element's damage to enemies +{v}%.",
+                "desc": "Wind element's damage to enemies -10/10/10% (lvl1/lvl80/lvl100) and earth element's damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100).",
+                "desc_template": "Wind element's damage to enemies-10% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Iron-Fisted Punishment 3",
-                "desc": "Attack +103.00/340.00/400.00 (lvl1/lvl80/lvl100) when attacking with blunt element.",
+                "desc": "Attack +103/340/400 (lvl1/lvl80/lvl100) when attacking with blunt element.",
                 "desc_template": "Attack +{v} when attacking with blunt element.",
                 "type": "normal"
             }
@@ -67891,7 +70417,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -67929,7 +70455,7 @@ const characterData = {
             },
             {
                 "name": "Mechanics 4/Buff",
-                "desc": "While Full Burst state Non-elemental damage +50.00% for 20 sec. (While Full Burst state)",
+                "desc": "While Full Burst state Non-elemental damage +50% for 20 sec. (While Full Burst state)",
                 "desc_template": "While Full Burst state Non-elemental damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -67964,19 +70490,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance HP 4",
-                "desc": "Max HP +15.00%.",
+                "desc": "Max HP +15%.",
                 "desc_template": "Max HP +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Vital Assention 4",
-                "desc": "Defense +450.00.",
+                "desc": "Defense +450.",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
-                "desc": "Recovers a max of 5.00%+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             }
@@ -68031,7 +70557,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Iron-Fisted Punishment 4",
-                "desc": "Attack +104.00/420.00/500.00 (lvl1/lvl80/lvl100) when attacking with blunt element.",
+                "desc": "Attack +104/420/500 (lvl1/lvl80/lvl100) when attacking with blunt element.",
                 "desc_template": "Attack +{v} when attacking with blunt element.",
                 "type": "normal"
             },
@@ -68094,13 +70620,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Aqua Force 4/Buff",
-                "desc": "Water element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Water element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -68174,13 +70700,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Holy Element Enhance4/Buff",
-                "desc": "Holy element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Holy element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -68321,13 +70847,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Thrust 3",
-                "desc": "Damage done to enemies weak to thrusting +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Damage done to enemies weak to thrusting +5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Earth's Indemnity 2",
-                "desc": "When you are poisoned, earth element damage +5.30/29.00/35.00% (lvl1/lvl80/lvl100).",
+                "desc": "When you are poisoned, earth element damage +5.30/29/35% (lvl1/lvl80/lvl100).",
                 "desc_template": "When you are poisoned, earth element damage +{v}%.",
                 "type": "normal"
             }
@@ -68383,13 +70909,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Strike 3",
-                "desc": "Attack +15.20/31.00/35.00% (lvl1/lvl80/lvl100) when attacking with blunt element.",
+                "desc": "Attack +15.20/31/35% (lvl1/lvl80/lvl100) when attacking with blunt element.",
                 "desc_template": "Attack +{v}% when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Shine Conversion 4",
-                "desc": "Dark element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and holy element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
+                "desc": "Dark element's damage to enemies -10/10/10% (lvl1/lvl80/lvl100) and holy element's damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100).",
                 "desc_template": "Dark element's damage to enemies -10% and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             }
@@ -68506,13 +71032,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Wind element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "type": "normal",
                 "desc_template": "Wind element damage +{v}% for 15 sec."
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "type": "normal",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec."
             },
@@ -68585,7 +71111,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Holy Force 5/Buff (PT)/Buff",
-                "desc": "Holy element damage +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for you and your party for 5 sec.",
+                "desc": "Holy element damage +10.10/18/20% (lvl1/lvl80/lvl100) for you and your party for 5 sec.",
                 "desc_template": "Holy element damage +{v}% for you and your party for 5 sec.",
                 "type": "normal"
             },
@@ -68672,7 +71198,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff/Buff",
-                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc": "Slash element's weakness damage +15.10/23/25% (lvl1/lvl80/lvl100) for 8 sec.",
                 "type": "normal",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec."
             },
@@ -68825,13 +71351,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3/Buff",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 5/Buff",
-                "desc": "Wind element's damage to enemies -15% and earth element's damage to enemies +30.00%.",
+                "desc": "Wind element's damage to enemies -15% and earth element's damage to enemies +30%.",
                 "desc_template": "Wind element's damage to enemies -15% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             },
@@ -68842,37 +71368,37 @@ const characterData = {
             },
             {
                 "name": "Back Up 7/Buff",
-                "desc": "When equipping 1 or more of Eugeo's Skill Records: Attack +25.00%.",
+                "desc": "When equipping 1 or more of Eugeo's Skill Records: Attack +25%.",
                 "desc_template": "When equipping 1 or more of Eugeo's Skill Records: Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 7/Buff",
-                "desc": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +15.00%.",
+                "desc": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +15%.",
                 "desc_template": "When equipping 2 or more of Eugeo's Skill Records: Damage done to enemies weak to blunt +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 7/Buff",
-                "desc": "When equipping 1 or more of Asuna's Skill Records: Skill's power is added +200.00% when used in switch.",
+                "desc": "When equipping 1 or more of Asuna's Skill Records: Skill's power is added +200% when used in switch.",
                 "desc_template": "When equipping 1 or more of Asuna's Skill Records: Skill's power is added +{v}% when used in switch.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 7/Buff",
-                "desc": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +15.00%.",
+                "desc": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +15%.",
                 "desc_template": "When equipping 2 or more of Asuna's Skill Records: Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Back Up 7/Buff",
-                "desc": "When equipping 1 or more of Agil's Skill Records: Max HP increase 10.00%.",
+                "desc": "When equipping 1 or more of Agil's Skill Records: Max HP increase 10%.",
                 "desc_template": "When equipping 1 or more of Agil's Skill Records: Max HP increase {v}%.",
                 "type": "normal"
             },
             {
                 "name": "Frontal Attack 4/Buff",
-                "desc": "Aggro increase -40.00% when attack hits. (While Accele Skill is activated)",
+                "desc": "Aggro increase -40% when attack hits. (While Accele Skill is activated)",
                 "desc_template": "Aggro increase -{v}% when attack hits. (While Accele Skill is activated)",
                 "type": "normal"
             }
@@ -68958,13 +71484,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Force 4/Buff",
-                "desc": "Earth element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Earth element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -69530,13 +72056,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Enhance 4/Buff",
-                "desc": "Earth element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Earth element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +0.10/8.00/10.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Critical damage +0.10/8/10% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -69645,8 +72171,8 @@ const characterData = {
         "chains": [
             "More than regular increase in switch gauge.",
             "・Super Chain effect (activates 1x)",
-            "Earth damage +50.00% when using earth skills.",
-            "Attack +1000.00 while the buff to raise earth damage is in effect."
+            "Earth damage +50% when using earth skills.",
+            "Attack +1000 while the buff to raise earth damage is in effect."
         ],
         "lv_data": {
             "1": {
@@ -69683,13 +72209,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 2",
-                "desc": "• Attack +2.00/160.00/200.00 (lvl1/lvl80/lvl100).",
+                "desc": "• Attack +2/160/200 (lvl1/lvl80/lvl100).",
                 "desc_template": "• Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Shadow Indemnity 2",
-                "desc": "When you are cursed, dark element damage +5.30/29.00/35.00% (lvl1/lvl80/lvl100).",
+                "desc": "When you are cursed, dark element damage +5.30/29/35% (lvl1/lvl80/lvl100).",
                 "desc_template": "When you are cursed, dark element damage +{v}%.",
                 "type": "normal"
             }
@@ -69761,13 +72287,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Water Element Enhance 4/Buff",
-                "desc": "Water element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Water element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -69800,7 +72326,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Water 4/Buff",
-                "desc": "While Full Burst state Water element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Water element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Water element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -69868,20 +72394,20 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +108.00/740.00/900.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +108/740/900 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Shine Conversion 5",
-                "desc": "Dark element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and holy element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Dark element's damage to enemies -15.00% and holy element's damage to enemies +{v}%.",
+                "desc": "Dark element's damage to enemies -15/15/15% (lvl1/lvl80/lvl100) and holy element's damage to enemies +20.10/28/30% (lvl1/lvl80/lvl100).",
+                "desc_template": "Dark element's damage to enemies -15% and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
@@ -69893,9 +72419,9 @@ const characterData = {
         "links": [
             "Effect duration is extended.",
             "The higher the Limit Break level, the more Link Level increases when attacking with Link Sword Skills.",
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Holy element damage +20.00% "
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Holy element damage +20% "
         ],
         "lv_data": {
             "1": {
@@ -69973,8 +72499,8 @@ const characterData = {
         "tags": [],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x) Water damage +50.00% when using water skills",
-            "Attack +1000.00 while the buff to raise water damage is in effect",
+            "・Super Chain effect (activates 1x) Water damage +50% when using water skills",
+            "Attack +1000 while the buff to raise water damage is in effect",
             ""
         ],
         "lv_data": {
@@ -70016,7 +72542,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Holy element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -70115,13 +72641,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Water Element Enhance 4/Buff",
-                "desc": "Water element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Water element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -70154,7 +72680,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Water 4/Buff",
-                "desc": "While Full Burst state Water element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Water element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Water element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -70223,13 +72749,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Strike 3",
-                "desc": "Attack +15.20/31.00/35.00% (lvl1/lvl80/lvl100) when attacking with blunt element.",
+                "desc": "Attack +15.20/31/35% (lvl1/lvl80/lvl100) when attacking with blunt element.",
                 "desc_template": "Attack +{v}% when attacking with blunt element.",
                 "type": "normal"
             },
             {
                 "name": "Aqua Conversion 4",
-                "desc": "Fire element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and water element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
+                "desc": "Fire element's damage to enemies -10/10/10% (lvl1/lvl80/lvl100) and water element's damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100).",
                 "desc_template": "Fire element's damage to enemies -10% and water element's damage to enemies +{v}%.",
                 "type": "normal"
             }
@@ -70299,7 +72825,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Water Element Enhance4/Buff",
-                "desc": "Water element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Water element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -70337,7 +72863,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Water 4/Buff",
-                "desc": "While Full Burst state Water element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Water element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Water element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -70402,13 +72928,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Force 4/Buff",
-                "desc": "Dark element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Dark element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -70441,7 +72967,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Dark element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -70509,19 +73035,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Stun Res. 4",
-                "desc": "• Stun resistance +20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
+                "desc": "• Stun resistance +20.50/60/70% (lvl1/lvl80/lvl100).",
                 "desc_template": "• Stun resistance +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Break Attack 5",
-                "desc": "Attack +25.50/65.00/75.00% (lvl1/lvl80/lvl100) to enemies when using break.",
+                "desc": "Attack +25.50/65/75% (lvl1/lvl80/lvl100) to enemies when using break.",
                 "desc_template": "Attack +{v}% to enemies when using break.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Break the Dam 4",
-                "desc": "Break gauge amount +15.20/31.00/35.00% (lvl1/lvl80/lvl100) at enemies.",
+                "desc": "Break gauge amount +15.20/31/35% (lvl1/lvl80/lvl100) at enemies.",
                 "desc_template": "Break gauge amount +{v}% at enemies.",
                 "type": "normal"
             }
@@ -70594,13 +73120,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Aqua Force 4/Buff",
-                "desc": "Water element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Water element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Water element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -70616,10 +73142,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Water element damage +50.00% .",
-            "LLv50: Water element damage +50.00% .",
-            "LLv100: Attack increases in proportion with your remaining HP x 200.00% .",
-            "LLv250: Damage done to enemies weak to blunt +50.00% .",
+            "When Activated: Water element damage +50% .",
+            "LLv50: Water element damage +50% .",
+            "LLv100: Attack increases in proportion with your remaining HP x 200% .",
+            "LLv250: Damage done to enemies weak to blunt +50% .",
             ""
         ],
         "lv_data": {
@@ -70673,13 +73199,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Fire element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -70695,10 +73221,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Fire element damage +50.00% .",
-            "LLv50: Fire element damage +50.00% .",
+            "When Activated: Fire element damage +50% .",
+            "LLv50: Fire element damage +50% .",
             "LLv100: Your own attack increases by defense x 1 .",
-            "LLv250: Damage done to enemies weak to slashing +50.00% .",
+            "LLv250: Damage done to enemies weak to slashing +50% .",
             ""
         ],
         "lv_data": {
@@ -70752,13 +73278,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Element Weak 4/Debuff",
-                "desc": "Dark element damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 10 sec.",
+                "desc": "Dark element damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100) for 10 sec.",
                 "desc_template": "Dark element damage to enemies +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -70769,10 +73295,10 @@ const characterData = {
         },
         "tags": [],
         "links": [
-            "When Activated: Dark element damage +50.00% .",
-            "LLv50: Dark element damage +50.00% .",
-            "LLv100: Attack +100.00%  against debuffed enemies.",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
+            "When Activated: Dark element damage +50% .",
+            "LLv50: Dark element damage +50% .",
+            "LLv100: Attack +100%  against debuffed enemies.",
+            "LLv250: Damage done to enemies weak to thrusting +50% .",
             ""
         ],
         "lv_data": {
@@ -70826,13 +73352,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 5",
-                "desc": "Attack +210.00/1000.00/1200.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +210/1000/1200 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Hidden Blessing 3",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100), and non-natural elemental damage -100%.",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100), and non-natural elemental damage -100%.",
                 "desc_template": "Attack +{v}%, and non-natural elemental damage -100%.",
                 "type": "normal"
             },
@@ -70843,7 +73369,7 @@ const characterData = {
             },
             {
                 "name": "[While Accele Skill is activated] Dark Invitation 2",
-                "desc": "Deals +3.07/8.60/10.00% (lvl1/lvl80/lvl100) Dark element's damage to enemy.",
+                "desc": "Deals +3.07/8.60/10% (lvl1/lvl80/lvl100) Dark element's damage to enemy.",
                 "desc_template": "Deals +{v}% Dark element's damage to enemy.",
                 "type": "normal"
             }
@@ -70916,13 +73442,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Element Enhance4/Buff",
-                "desc": "Dark element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Dark element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +0.10/8.00/10.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Critical damage +0.10/8/10% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -70955,7 +73481,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Dark element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -71039,8 +73565,8 @@ const characterData = {
         "tags": [],
         "chains": [
             "Activates a chain state that turns all Chain Skills and sword skills with Limit Break +10 into Switch for a certain duration when a Super Chain is activated",
-            "・Super Chain effect (activates 1x) Dark damage +50.00% when using dark skills.",
-            "Attack +1000.00 while the buff to raise Dark element damage is in effect.",
+            "・Super Chain effect (activates 1x) Dark damage +50% when using dark skills.",
+            "Attack +1000 while the buff to raise Dark element damage is in effect.",
             ""
         ],
         "lv_data": {
@@ -71090,19 +73616,19 @@ const characterData = {
             },
             {
                 "name": "Prosper 5",
-                "desc": "Attack +10.15/22.00/25.00% (lvl1/lvl80/lvl100) when HP is above 50%.",
+                "desc": "Attack +10.15/22/25% (lvl1/lvl80/lvl100) when HP is above 50%.",
                 "desc_template": "Attack +{v}% when HP is above 50%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
-                "desc": "Recovers a max of 1.04/4.20/5.00% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 1.04/4.20/5% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Frontal Attack 5",
-                "desc": "Aggro increase -10.40/42.00/50.00% (lvl1/lvl80/lvl100) when attack hits.",
+                "desc": "Aggro increase -10.40/42/50% (lvl1/lvl80/lvl100) when attack hits.",
                 "desc_template": "Aggro increase -{v}% when attack hits.",
                 "type": "normal"
             }
@@ -71183,7 +73709,7 @@ const characterData = {
             },
             {
                 "name": "Enhance Debility Res. 3",
-                "desc": "● Debility resistance +30.00%",
+                "desc": "● Debility resistance +30%",
                 "desc_template": "● Debility resistance +{v}%",
                 "type": "normal"
             }
@@ -71308,7 +73834,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Vital Assention 3",
-                "desc": "Defense +400.00.",
+                "desc": "Defense +400.",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
@@ -71319,8 +73845,8 @@ const characterData = {
             },
             {
                 "name": "Earth Boost 5",
-                "desc": "Elemental damage other than Earth dealt to enemies -50.00%(Non-elemental included), and Earth element's damage to enemies +45.00%.",
-                "desc_template": "Elemental damage other than Earth dealt to enemies -50.00%(Non-elemental included), and Earth element's damage to enemies +{v}%.",
+                "desc": "Elemental damage other than Earth dealt to enemies -50% (Non-elemental included), and Earth element's damage to enemies +45%.",
+                "desc_template": "Elemental damage other than Earth dealt to enemies -50% (Non-elemental included), and Earth element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
@@ -71387,13 +73913,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Holy Element Enhance 4/Buff",
-                "desc": "Holy element damage +9.00% for 15 sec.",
+                "desc": "Holy element damage +9% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -71422,7 +73948,7 @@ const characterData = {
             },
             {
                 "name": " Ruinous Shine 4/Buff",
-                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc": "While Full Burst state Holy element damage +75% for 20 sec.",
                 "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -71492,25 +74018,25 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +900.00.",
+                "desc": "Attack +900.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4",
-                "desc": "Attack +15.00%.",
+                "desc": "Attack +15%.",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Shine Conversion 5",
-                "desc": "Dark element's damage to enemies -15.00% and holy element's damage to enemies +30.00%.",
-                "desc_template": "Dark element's damage to enemies -15.00% and holy element's damage to enemies +{v}%.",
+                "desc": "Dark element's damage to enemies -15% and holy element's damage to enemies +30%.",
+                "desc_template": "Dark element's damage to enemies -15% and holy element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "[While Accele Skill is activated] Beating 4",
-                "desc": "・While Accele Skill is activated<br>Damage done to enemies weak to blunt +25.00%.",
+                "desc": "・While Accele Skill is activated<br>Damage done to enemies weak to blunt +25%.",
                 "desc_template": "・While Accele Skill is activated<br>Damage done to enemies weak to blunt +{v}%.",
                 "type": "normal"
             }
@@ -71587,16 +74113,16 @@ const characterData = {
                 "damage": 1900,
                 "burst_damage": 5260,
                 "buffs": [
-                    14.00,
-                    65.00
+                    14,
+                    65
                 ]
             },
             "100": {
                 "damage": 2020,
                 "burst_damage": 5600,
                 "buffs": [
-                    15.00,
-                    75.00
+                    15,
+                    75
                 ]
             }
         },
@@ -71611,7 +74137,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -71645,7 +74171,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Earth 4/Buff",
-                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Earth element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -71682,13 +74208,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Force 4/Buff",
-                "desc": "Wind element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Wind element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -71703,10 +74229,10 @@ const characterData = {
             "70": 5
         },
         "links": [
-            "When Activated: Wind element damage +50.00% .",
-            "LLv50: Wind element damage +50.00% .",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00% .",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
+            "When Activated: Wind element damage +50% .",
+            "LLv50: Wind element damage +50% .",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100% .",
+            "LLv250: Damage done to enemies weak to thrusting +50% .",
             ""
         ],
         "lv_data": {
@@ -71720,15 +74246,15 @@ const characterData = {
             "80": {
                 "damage": 2380,
                 "buffs": [
-                    13.00,
-                    18.00
+                    13,
+                    18
                 ]
             },
             "100": {
                 "damage": 2500,
                 "buffs": [
-                    15.00,
-                    20.00
+                    15,
+                    20
                 ]
             }
         },
@@ -71819,7 +74345,7 @@ const characterData = {
                 "atk": 49,
                 "def": 30,
                 "buffs": [
-                    13.00,
+                    13,
                     4.20
                 ]
             },
@@ -71828,8 +74354,8 @@ const characterData = {
                 "atk": 56,
                 "def": 34,
                 "buffs": [
-                    15.00,
-                    5.00
+                    15,
+                    5
                 ]
             }
         },
@@ -71847,7 +74373,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance HP 4",
-                "desc": "Max HP increase 5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Max HP increase 5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Max HP increase {v}%.",
                 "type": "normal"
             },
@@ -71858,7 +74384,7 @@ const characterData = {
             },
             {
                 "name": "Hold the Front 4",
-                "desc": "Recovers a max of 1.04/4.20/5.00% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 1.04/4.20/5% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             }
@@ -71932,7 +74458,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -72031,13 +74557,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Holy element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Blunt 2/Buff",
-                "desc": "Damage done to enemies weak to blunt +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to blunt +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to blunt +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -72057,7 +74583,10 @@ const characterData = {
             "70": 5
         },
         "cost": 50,
-        "link_desc": "When Activated: Holy element damage +50.00% .\nLLv50: Holy element damage +50.00% .\nLLv100: Attack increases in proportion with your remaining HP x 200.00% .\nLLv250: Damage done to enemies weak to blunt +50.00% .",
+        "links": [ "When Activated: Holy element damage +50%.", 
+		           "LLv50: Holy element damage +50%.", 
+		           "LLv100: Attack increases in proportion with your remaining HP x 200% .",
+				   "LLv250: Damage done to enemies weak to blunt +50% ." ],
         "lv_data": {
             "1": {
                 "damage": 2621,
@@ -72104,7 +74633,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc": "Slash element's weakness damage +15.10/23/25% (lvl1/lvl80/lvl100) for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -72147,7 +74676,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Earth 4/Buff",
-                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Earth element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -72171,16 +74700,16 @@ const characterData = {
                 "damage": 1830,
                 "burst_damage": 5060,
                 "buffs": [
-                    23.00,
-                    65.00
+                    23,
+                    65
                 ]
             },
             "100": {
                 "damage": 2350,
                 "burst_damage": 5700,
                 "buffs": [
-                    25.00,
-                    75.00
+                    25,
+                    75
                 ]
             }
         }
@@ -72207,13 +74736,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Element Enhance 4/Buff",
-                "desc": "Earth element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Earth element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 1/Buff",
-                "desc": "Damage done to enemies weak to thrust +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +5.10/13/15% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -72253,7 +74782,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Earth 4/Buff",
-                "desc": "While Full Burst state Earth element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Earth element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -72279,17 +74808,17 @@ const characterData = {
                 "burst_damage": 5060,
                 "buffs": [
                     8.20,
-                    13.00,
-                    65.00
+                    13,
+                    65
                 ]
             },
             "100": {
                 "damage": 2350,
                 "burst_damage": 5700,
                 "buffs": [
-                    9.00,
-                    15.00,
-                    75.00
+                    9,
+                    15,
+                    75
                 ]
             }
         }
@@ -72329,27 +74858,27 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +108.00/740.00/900.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +108/740/900 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Wind Conversion 5",
-                "desc": "Earth element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and wind element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Earth element's damage to enemies -15.00% and wind element's damage to enemies +{v}%.",
+                "desc": "Earth element's damage to enemies -15/15/15% (lvl1/lvl80/lvl100) and wind element's damage to enemies +20.10/28/30% (lvl1/lvl80/lvl100).",
+                "desc_template": "Earth element's damage to enemies -15% and wind element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Wind element damage +20.00% "
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Wind element damage +20% "
         ],
         "lv_data": {
             "1": {
@@ -72368,8 +74897,8 @@ const characterData = {
                 "def": 34,
                 "buffs": [
                     740,
-                    13.00,
-                    28.00
+                    13,
+                    28
                 ]
             },
             "100": {
@@ -72378,8 +74907,8 @@ const characterData = {
                 "def": 40,
                 "buffs": [
                     900,
-                    15.00,
-                    30.00
+                    15,
+                    30
                 ]
             }
         }
@@ -72406,7 +74935,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc": "Slash element's weakness damage +15.10/23/25% (lvl1/lvl80/lvl100) for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -72449,7 +74978,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Dark element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -72473,16 +75002,16 @@ const characterData = {
                 "damage": 1830,
                 "burst_damage": 5060,
                 "buffs": [
-                    23.00,
-                    65.00
+                    23,
+                    65
                 ]
             },
             "100": {
                 "damage": 2350,
                 "burst_damage": 5700,
                 "buffs": [
-                    25.00,
-                    75.00
+                    25,
+                    75
                 ]
             }
         }
@@ -72519,19 +75048,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Slash 4",
-                "desc": "Attack +20.20/36.00/40.00% (lvl1/lvl80/lvl100) when attacking with slash element.",
+                "desc": "Attack +20.20/36/40% (lvl1/lvl80/lvl100) when attacking with slash element.",
                 "desc_template": "Attack +{v}% when attacking with slash element.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 4",
-                "desc": "Holy element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Holy element's damage to enemies -10.00% and dark element's damage to enemies +{v}%.",
+                "desc": "Holy element's damage to enemies -10/10/10% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -10% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Polish 3",
-                "desc": "Attack +103.00/340.00/400.00 (lvl1/lvl80/lvl100) when attacking with slash element.",
+                "desc": "Attack +103/340/400 (lvl1/lvl80/lvl100) when attacking with slash element.",
                 "desc_template": "Attack +{v} when attacking with slash element.",
                 "type": "normal"
             }
@@ -72552,8 +75081,8 @@ const characterData = {
                 "atk": 47,
                 "def": 36,
                 "buffs": [
-                    36.00,
-                    23.00,
+                    36,
+                    23,
                     340
                 ]
             },
@@ -72562,8 +75091,8 @@ const characterData = {
                 "atk": 53,
                 "def": 42,
                 "buffs": [
-                    40.00,
-                    25.00,
+                    40,
+                    25,
                     400
                 ]
             }
@@ -72591,7 +75120,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -72656,14 +75185,14 @@ const characterData = {
                 "damage": 1980,
                 "burst_damage": 5460,
                 "buffs": [
-                    14.00
+                    14
                 ]
             },
             "100": {
                 "damage": 2100,
                 "burst_damage": 5800,
                 "buffs": [
-                    15.00
+                    15
                 ]
             }
         }
@@ -72699,14 +75228,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Parry 4/Buff",
-                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45.00/50.00% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
+                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45/50% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
                 "desc_template": "When this skill direct hits, the damage you receive decreases at {v}% (Effect will disappear after 20 sec if not activated).",
                 "type": "normal"
             }
         ],
         "connect": [
             "Attack +1000 → 3000 → 5000 when using dark skills.",
-            "When equipping 2 or more of Klein's Skill Records in the same set, Dark element damage +50.00 → 100.00 → 150.00%."
+            "When equipping 2 or more of Klein's Skill Records in the same set, Dark element damage +50 → 100 → 150%."
         ],
         "lv_data": {
             "1": {
@@ -72718,13 +75247,13 @@ const characterData = {
             "80": {
                 "damage": 2060,
                 "buffs": [
-                    45.00
+                    45
                 ]
             },
             "100": {
                 "damage": 2180,
                 "buffs": [
-                    50.00
+                    50
                 ]
             }
         }
@@ -72764,13 +75293,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 3",
-                "desc": "Attack +3.00/240.00/300.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +3/240/300 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Bleed Res. 3",
-                "desc": "● Bleed resistance +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
+                "desc": "● Bleed resistance +20.10/28/30% (lvl1/lvl80/lvl100).",
                 "desc_template": "● Bleed resistance +{v}%.",
                 "type": "normal"
             }
@@ -72781,7 +75310,7 @@ const characterData = {
                 "atk": 13,
                 "def": 10,
                 "buffs": [
-                    3.00,
+                    3,
                     20.10
                 ]
             },
@@ -72790,8 +75319,8 @@ const characterData = {
                 "atk": 30,
                 "def": 22,
                 "buffs": [
-                    240.00,
-                    28.00
+                    240,
+                    28
                 ]
             },
             "100": {
@@ -72799,8 +75328,8 @@ const characterData = {
                 "atk": 35,
                 "def": 26,
                 "buffs": [
-                    300.00,
-                    30.00
+                    300,
+                    30
                 ]
             }
         }
@@ -72836,13 +75365,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Element Enhance 4/Buff",
-                "desc": "Dark element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Dark element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +0.10/8.00/10.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Critical damage +0.10/8/10% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -72895,15 +75424,15 @@ const characterData = {
                 "burst_damage": 5360,
                 "buffs": [
                     8.20,
-                    8.00
+                    8
                 ]
             },
             "100": {
                 "damage": 2460,
                 "burst_damage": 6000,
                 "buffs": [
-                    9.00,
-                    10.00
+                    9,
+                    10
                 ]
             }
         }
@@ -72939,7 +75468,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -72973,7 +75502,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Dark element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -72997,16 +75526,16 @@ const characterData = {
                 "damage": 1900,
                 "burst_damage": 5260,
                 "buffs": [
-                    14.00,
-                    65.00
+                    14,
+                    65
                 ]
             },
             "100": {
                 "damage": 2020,
                 "burst_damage": 5600,
                 "buffs": [
-                    15.00,
-                    75.00
+                    15,
+                    75
                 ]
             }
         }
@@ -73042,13 +75571,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Element Weak 4/Debuff",
-                "desc": "Dark element damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 10 sec.",
+                "desc": "Dark element damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100) for 10 sec.",
                 "desc_template": "Dark element damage to enemies +{v}% for 10 sec.",
                 "type": "normal"
             },
             {
                 "name": "Dark Force 4/Buff",
-                "desc": "Dark element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Dark element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -73062,7 +75591,7 @@ const characterData = {
         "burst_buffs": [
             {
                 "name": "Dark Shadow Demon 5/Buff",
-                "desc": "Dark element damage +20.45/56.00/65.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc": "Dark element damage +20.45/56/65% (lvl1/lvl80/lvl100) for 8 sec.",
                 "desc_template": "Dark element damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -73078,7 +75607,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Full Burst state Dark element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Dark element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -73104,20 +75633,20 @@ const characterData = {
                 "damage": 1940,
                 "burst_damage": 5360,
                 "buffs": [
-                    23.00,
-                    13.00,
-                    56.00,
-                    65.00
+                    23,
+                    13,
+                    56,
+                    65
                 ]
             },
             "100": {
                 "damage": 2460,
                 "burst_damage": 6000,
                 "buffs": [
-                    25.00,
-                    15.00,
-                    65.00,
-                    75.00
+                    25,
+                    15,
+                    65,
+                    75
                 ]
             }
         }
@@ -73154,7 +75683,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Paralysis Res. 4",
-                "desc": "• Paralysis Res. increase 20.50/60.00/70.00% (lvl1/lvl80/lvl100).",
+                "desc": "• Paralysis Res. increase 20.50/60/70% (lvl1/lvl80/lvl100).",
                 "desc_template": "• Paralysis Res. increase {v}%.",
                 "type": "normal"
             },
@@ -73165,7 +75694,7 @@ const characterData = {
             }
         ],
         "chains": [
-            "・Effect during Chain\nSkill's power is added +150.00% when used in switch."
+            "・Effect during Chain\nSkill's power is added +150% when used in switch."
         ],
         "lv_data": {
             "1": {
@@ -73181,7 +75710,7 @@ const characterData = {
                 "atk": 48,
                 "def": 33,
                 "buffs": [
-                    60.00
+                    60
                 ]
             },
             "100": {
@@ -73189,7 +75718,7 @@ const characterData = {
                 "atk": 54,
                 "def": 38,
                 "buffs": [
-                    70.00
+                    70
                 ]
             }
         }
@@ -73228,14 +75757,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Parry 4/Buff",
-                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45.00/50.00% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
+                "desc": "When this skill direct hits, the damage you receive decreases at 25.25/45/50% (lvl1/lvl80/lvl100) (Effect will disappear after 20 sec if not activated).",
                 "desc_template": "When this skill direct hits, the damage you receive decreases at {v}% (Effect will disappear after 20 sec if not activated).",
                 "type": "normal"
             }
         ],
         "connect": [
             "Attack +1000 → 3000 → 5000 when using dark skills.",
-            "When equipping 2 or more of Alice's Skill Records in the same set, Dark element damage +50.00 → 100.00 → 150.00%."
+            "When equipping 2 or more of Alice's Skill Records in the same set, Dark element damage +50 → 100 → 150%."
         ],
         "lv_data": {
             "1": {
@@ -73247,13 +75776,13 @@ const characterData = {
             "80": {
                 "damage": 2100,
                 "buffs": [
-                    45.00
+                    45
                 ]
             },
             "100": {
                 "damage": 2620,
                 "buffs": [
-                    50.00
+                    50
                 ]
             }
         }
@@ -73293,14 +75822,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3",
-                "desc": "Attack +107.00/660.00/800.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +107/660/800 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 5",
-                "desc": "Holy element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +{v}%.",
+                "desc": "Holy element's damage to enemies -15/15/15% (lvl1/lvl80/lvl100) and dark element's damage to enemies +20.10/28/30% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -15% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
@@ -73310,10 +75839,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Dark element damage +20.00% .",
-            "LLv350: Damage done to enemies weak to slashing +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Dark element damage +20% .",
+            "LLv350: Damage done to enemies weak to slashing +20% ."
         ],
         "lv_data": {
             "1": {
@@ -73321,7 +75850,7 @@ const characterData = {
                 "atk": 18,
                 "def": 13,
                 "buffs": [
-                    107.00,
+                    107,
                     20.10
                 ]
             },
@@ -73330,8 +75859,8 @@ const characterData = {
                 "atk": 46,
                 "def": 38,
                 "buffs": [
-                    660.00,
-                    28.00
+                    660,
+                    28
                 ]
             },
             "100": {
@@ -73339,8 +75868,8 @@ const characterData = {
                 "atk": 52,
                 "def": 44,
                 "buffs": [
-                    800.00,
-                    30.00
+                    800,
+                    30
                 ]
             }
         }
@@ -73377,22 +75906,22 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 3",
-                "desc": "Attack +15.20/31.00/35.00% (lvl1/lvl80/lvl100) when attacking with thrust element.",
+                "desc": "Attack +15.20/31/35% (lvl1/lvl80/lvl100) when attacking with thrust element.",
                 "desc_template": "Attack +{v}% when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 4",
-                "desc": "Holy element's damage to enemies -10.00/10.00/10.00% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23.00/25.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Holy element's damage to enemies -10.00% and dark element's damage to enemies +{v}%.",
+                "desc": "Holy element's damage to enemies -10/10/10% (lvl1/lvl80/lvl100) and dark element's damage to enemies +15.10/23/25% (lvl1/lvl80/lvl100).",
+                "desc_template": "Holy element's damage to enemies -10% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Dark element damage +20.00% .",
-            "LLv350: Damage done to enemies weak to thrusting +20.00%."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Dark element damage +20% .",
+            "LLv350: Damage done to enemies weak to thrusting +20%."
         ],
         "lv_data": {
             "1": {
@@ -73409,8 +75938,8 @@ const characterData = {
                 "atk": 50,
                 "def": 31,
                 "buffs": [
-                    31.00,
-                    23.00
+                    31,
+                    23
                 ]
             },
             "100": {
@@ -73418,8 +75947,8 @@ const characterData = {
                 "atk": 58,
                 "def": 36,
                 "buffs": [
-                    35.00,
-                    25.00
+                    35,
+                    25
                 ]
             }
         }
@@ -73455,13 +75984,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Force 4/Buff",
-                "desc": "Dark element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Dark element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -73472,11 +76001,11 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Dark element damage +50.00% .",
-            "LLv50: Dark element damage +50.00% .",
-            "LLv100: Attack +100.00% .",
-            "LLv250: Damage done to enemies weak to thrusting +50.00% .",
-            "LLv500: Critical rate +500.00% ."
+            "When Activated: Dark element damage +50% .",
+            "LLv50: Dark element damage +50% .",
+            "LLv100: Attack +100% .",
+            "LLv250: Damage done to enemies weak to thrusting +50% .",
+            "LLv500: Critical rate +500% ."
         ],
         "lv_data": {
             "1": {
@@ -73489,15 +76018,15 @@ const characterData = {
             "80": {
                 "damage": 2280,
                 "buffs": [
-                    13.00,
-                    18.00
+                    13,
+                    18
                 ]
             },
             "100": {
                 "damage": 2800,
                 "buffs": [
-                    15.00,
-                    20.00
+                    15,
+                    20
                 ]
             }
         }
@@ -73533,13 +76062,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Fire Element Enhance 4/Buff",
-                "desc": "Fire element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Fire element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -73568,7 +76097,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Flame 4/Buff",
-                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Fire element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -73593,18 +76122,18 @@ const characterData = {
                 "damage": 1980,
                 "burst_damage": 5460,
                 "buffs": [
-                    13.00,
+                    13,
                     8.20,
-                    65.00
+                    65
                 ]
             },
             "100": {
                 "damage": 2100,
                 "burst_damage": 5800,
                 "buffs": [
-                    15.00,
-                    9.00,
-                    75.00
+                    15,
+                    9,
+                    75
                 ]
             }
         }
@@ -73640,7 +76169,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Wind Element Enhance 4/Buff",
-                "desc": "Wind element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Wind element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Wind element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -73674,7 +76203,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Wind 4/Buff",
-                "desc": "While Full Burst state Wind element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Wind element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Wind element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -73699,15 +76228,15 @@ const characterData = {
                 "burst_damage": 5060,
                 "buffs": [
                     8.20,
-                    65.00
+                    65
                 ]
             },
             "100": {
                 "damage": 2350,
                 "burst_damage": 5700,
                 "buffs": [
-                    9.00,
-                    75.00
+                    9,
+                    75
                 ]
             }
         }
@@ -73744,25 +76273,25 @@ const characterData = {
         "buffs": [
             {
                 "name": "Super Enhance Heal",
-                "desc": "Effect of healing items and field objects +20.80/84.00/100.00% (lvl1/lvl80/lvl100).",
+                "desc": "Effect of healing items and field objects +20.80/84/100% (lvl1/lvl80/lvl100).",
                 "desc_template": "Effect of healing items and field objects +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Duet 2",
-                "desc": "Switch gauge amount +5.05/9.00/10.00% (lvl1/lvl80/lvl100).",
+                "desc": "Switch gauge amount +5.05/9/10% (lvl1/lvl80/lvl100).",
                 "desc_template": "Switch gauge amount +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Hold the Front 4",
-                "desc": "Recovers a max of 1.04/4.20/5.00% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
+                "desc": "Recovers a max of 1.04/4.20/5% (lvl1/lvl80/lvl100)+200 HP per 3 sec when HP is under 50%.",
                 "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
                 "type": "normal"
             },
             {
                 "name": "Break the Dam 3",
-                "desc": "Break gauge amount +10.20/26.00/30.00% (lvl1/lvl80/lvl100) at enemies while Accele Skill is activated.",
+                "desc": "Break gauge amount +10.20/26/30% (lvl1/lvl80/lvl100) at enemies while Accele Skill is activated.",
                 "desc_template": "Break gauge amount +{v}% at enemies while Accele Skill is activated.",
                 "type": "normal"
             }
@@ -73791,10 +76320,10 @@ const characterData = {
                 "atk": 47,
                 "def": 27,
                 "buffs": [
-                    84.00,
-                    9.00,
+                    84,
+                    9,
                     4.20,
-                    26.00
+                    26
                 ],
                 "ability_effect": [
                     2.5
@@ -73805,10 +76334,10 @@ const characterData = {
                 "atk": 55,
                 "def": 32,
                 "buffs": [
-                    100.00,
-                    10.00,
-                    5.00,
-                    30.00
+                    100,
+                    10,
+                    5,
+                    30
                 ],
                 "ability_effect": [
                     7.5
@@ -73847,13 +76376,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Force 4/Buff",
-                "desc": "Earth element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Earth element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -73864,10 +76393,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Earth element damage +50.00% .",
-            "LLv50: Earth element damage +50.00% .",
+            "When Activated: Earth element damage +50% .",
+            "LLv50: Earth element damage +50% .",
             "LLv100: Your own attack increases by defense x 1 .",
-            "LLv250: Damage done to enemies weak to slashing +50.00% .",
+            "LLv250: Damage done to enemies weak to slashing +50% .",
             "LLv500: Your own attack increases by defense x 1 ."
         ],
         "lv_data": {
@@ -73881,15 +76410,15 @@ const characterData = {
             "80": {
                 "damage": 2380,
                 "buffs": [
-                    13.00,
-                    18.00
+                    13,
+                    18
                 ]
             },
             "100": {
                 "damage": 2500,
                 "buffs": [
-                    15.00,
-                    20.00
+                    15,
+                    20
                 ]
             }
         }
@@ -73925,7 +76454,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +15.10/23.00/25.00% (lvl1/lvl80/lvl100) for 8 sec.",
+                "desc": "Slash element's weakness damage +15.10/23/25% (lvl1/lvl80/lvl100) for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
@@ -73981,14 +76510,14 @@ const characterData = {
                 "damage": 1900,
                 "burst_damage": 5260,
                 "buffs": [
-                    23.00
+                    23
                 ]
             },
             "100": {
                 "damage": 2420,
                 "burst_damage": 5900,
                 "buffs": [
-                    25.00
+                    25
                 ]
             }
         }
@@ -74024,13 +76553,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Fire element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -74059,7 +76588,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Flame 4/Buff",
-                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Fire element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -74084,18 +76613,18 @@ const characterData = {
                 "damage": 1870,
                 "burst_damage": 5160,
                 "buffs": [
-                    13.00,
-                    18.00,
-                    65.00
+                    13,
+                    18,
+                    65
                 ]
             },
             "100": {
                 "damage": 1990,
                 "burst_damage": 5500,
                 "buffs": [
-                    15.00,
-                    20.00,
-                    75.00
+                    15,
+                    20,
+                    75
                 ]
             }
         }
@@ -74172,7 +76701,7 @@ const characterData = {
             },
             {
                 "name": "Mechanics 4/Buff",
-                "desc": "While Full Burst state Non-elemental damage +10.40/42.00/50.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Non-elemental damage +10.40/42/50% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Non-elemental damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -74195,14 +76724,14 @@ const characterData = {
                 "damage": 1770,
                 "burst_damage": 4870,
                 "buffs": [
-                    42.00
+                    42
                 ]
             },
             "100": {
                 "damage": 2290,
                 "burst_damage": 5510,
                 "buffs": [
-                    50.00
+                    50
                 ]
             }
         }
@@ -74242,28 +76771,28 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +108.00/740.00/900.00 (lvl1/lvl80/lvl100).",
+                "desc": "Attack +108/740/900 (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4",
-                "desc": "Attack +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Attack +5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Flame Conversion 5",
-                "desc": "Water element's damage to enemies -15.00/15.00/15.00% (lvl1/lvl80/lvl100) and fire element's damage to enemies +20.10/28.00/30.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Water element's damage to enemies -15.00% and fire element's damage to enemies +{v}%.",
+                "desc": "Water element's damage to enemies -15/15/15% (lvl1/lvl80/lvl100) and fire element's damage to enemies +20.10/28/30% (lvl1/lvl80/lvl100).",
+                "desc_template": "Water element's damage to enemies -15% and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Fire element damage +20.00% .",
-            "LLv350: Damage done to enemies weak to thrusting +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Fire element damage +20% .",
+            "LLv350: Damage done to enemies weak to thrusting +20% ."
         ],
         "lv_data": {
             "1": {
@@ -74282,8 +76811,8 @@ const characterData = {
                 "def": 26,
                 "buffs": [
                     740,
-                    13.00,
-                    28.00
+                    13,
+                    28
                 ]
             },
             "100": {
@@ -74292,8 +76821,8 @@ const characterData = {
                 "def": 30,
                 "buffs": [
                     900,
-                    15.00,
-                    30.00
+                    15,
+                    30
                 ]
             }
         }
@@ -74333,14 +76862,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Advance Trooper 2",
-                "desc": "• Attack +2.00/160.00/200.00 (lvl1/lvl80/lvl100).",
-                "desc_template": "• Attack +{v}.",
+                "desc": "● Attack +2/160/200 (lvl1/lvl80/lvl100).",
+                "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Antidote 4",
-                "desc": "• Poison damage -10.40/42.00/50.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "• Poison damage -{v}%.",
+                "desc": "● Poison damage -10.40/42/50% (lvl1/lvl80/lvl100).",
+                "desc_template": "Poison damage -{v}%.",
                 "type": "normal"
             }
         ],
@@ -74350,7 +76879,7 @@ const characterData = {
                 "atk": 10,
                 "def": 14,
                 "buffs": [
-                    2.00,
+                    2,
                     10.40
                 ]
             },
@@ -74359,8 +76888,8 @@ const characterData = {
                 "atk": 19,
                 "def": 38,
                 "buffs": [
-                    160.00,
-                    42.00
+                    160,
+                    42
                 ]
             },
             "100": {
@@ -74368,8 +76897,8 @@ const characterData = {
                 "atk": 22,
                 "def": 46,
                 "buffs": [
-                    200.00,
-                    50.00
+                    200,
+                    50
                 ]
             }
         }
@@ -74408,13 +76937,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Flame Force 4/Buff",
-                "desc": "Fire element damage +5.10/13.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Fire element damage +5.10/13/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +10.10/18.00/20.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +10.10/18/20% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -74425,10 +76954,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Fire element damage +50.00% .",
-            "LLv50: Fire element damage +50.00%.",
+            "When Activated: Fire element damage +50% .",
+            "LLv50: Fire element damage +50%.",
             "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50%  for every Stack 1.",
-            "LLv250: Damage done to enemies weak to slashing +50.00% .",
+            "LLv250: Damage done to enemies weak to slashing +50% .",
             "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50%  for every Stack 1."
         ],
         "lv_data": {
@@ -74442,15 +76971,15 @@ const characterData = {
             "80": {
                 "damage": 2220,
                 "buffs": [
-                    13.00,
-                    18.00
+                    13,
+                    18
                 ]
             },
             "100": {
                 "damage": 2340,
                 "buffs": [
-                    15.00,
-                    20.00
+                    15,
+                    20
                 ]
             }
         }
@@ -74490,19 +77019,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Peak 3",
-                "desc": "Attack +10.30/34.00/40.00% (lvl1/lvl80/lvl100) when HP is above 80%.",
+                "desc": "Attack +10.30/34/40% (lvl1/lvl80/lvl100) when HP is above 80%.",
                 "desc_template": "Attack +{v}% when HP is above 80%.",
                 "type": "normal"
             },
             {
                 "name": "Duet 3",
-                "desc": "Switch gauge amount +5.10/13.00/15.00% (lvl1/lvl80/lvl100).",
+                "desc": "Switch gauge amount +5.10/13/15% (lvl1/lvl80/lvl100).",
                 "desc_template": "Switch gauge amount +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Accelerated Healing 4",
-                "desc": "Recovers a max of 1.03/3.40/4.00% (lvl1/lvl80/lvl100) HP per 3 sec while Accele Skill is activated.",
+                "desc": "Recovers a max of 1.03/3.40/4% (lvl1/lvl80/lvl100) HP per 3 sec while Accele Skill is activated.",
                 "desc_template": "Recovers a max of {v}% HP per 3 sec while Accele Skill is activated.",
                 "type": "normal"
             }
@@ -74530,8 +77059,8 @@ const characterData = {
                 "atk": 46,
                 "def": 29,
                 "buffs": [
-                    34.00,
-                    13.00,
+                    34,
+                    13,
                     3.40
                 ],
                 "ability_effect": [
@@ -74543,9 +77072,9 @@ const characterData = {
                 "atk": 52,
                 "def": 34,
                 "buffs": [
-                    40.00,
-                    15.00,
-                    4.00
+                    40,
+                    15,
+                    4
                 ],
                 "ability_effect": [
                     7.5
@@ -74587,13 +77116,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +10.05/14.00/15.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Defense +10.05/14/15% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Fire Element Enhance 4/Buff",
-                "desc": "Fire element damage +5.04/8.20/9.00% (lvl1/lvl80/lvl100) for 15 sec.",
+                "desc": "Fire element damage +5.04/8.20/9% (lvl1/lvl80/lvl100) for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -74622,7 +77151,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Flame 4/Buff",
-                "desc": "While Full Burst state Fire element damage +25.50/65.00/75.00% (lvl1/lvl80/lvl100) for 20 sec.",
+                "desc": "While Full Burst state Fire element damage +25.50/65/75% (lvl1/lvl80/lvl100) for 20 sec.",
                 "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -74647,18 +77176,18 @@ const characterData = {
                 "damage": 1880,
                 "burst_damage": 5160,
                 "buffs": [
-                    14.00,
+                    14,
                     8.20,
-                    65.00
+                    65
                 ]
             },
             "100": {
                 "damage": 2400,
                 "burst_damage": 5800,
                 "buffs": [
-                    15.00,
-                    9.00,
-                    75.00
+                    15,
+                    9,
+                    75
                 ]
             }
         }
@@ -74698,7 +77227,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Vital Assention 3",
-                "desc": "Defense +103.00/340.00/400.00 (lvl1/lvl80/lvl100).",
+                "desc": "Defense +103/340/400 (lvl1/lvl80/lvl100).",
                 "desc_template": "Defense +{v}.",
                 "type": "normal"
             },
@@ -74709,15 +77238,15 @@ const characterData = {
             },
             {
                 "name": "Flame Boost 5",
-                "desc": "Elemental damage other than fire dealt to enemies -50.00/50.00/50.00% (lvl1/lvl80/lvl100)(Non-elemental included), and fire element's damage to enemies +25.20/41.00/45.00% (lvl1/lvl80/lvl100).",
-                "desc_template": "Elemental damage other than fire dealt to enemies -50.00%(Non-elemental included), and fire element's damage to enemies +{v}%.",
+                "desc": "Elemental damage other than fire dealt to enemies -50/50/50% (lvl1/lvl80/lvl100)(Non-elemental included), and fire element's damage to enemies +25.20/41/45% (lvl1/lvl80/lvl100).",
+                "desc_template": "Elemental damage other than fire dealt to enemies -50% (Non-elemental included), and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00  when using Link Sword Skills.",
-            "LLv100: Skill Power is added +100.00% .",
-            "LLv250: Fire element damage +20.00% ."
+            "When Activated: Attack +500  when using Link Sword Skills.",
+            "LLv100: Skill Power is added +100% .",
+            "LLv250: Fire element damage +20% ."
         ],
         "lv_data": {
             "1": {
@@ -74725,7 +77254,7 @@ const characterData = {
                 "atk": 20,
                 "def": 13,
                 "buffs": [
-                    103.00,
+                    103,
                     25.20
                 ]
             },
@@ -74734,8 +77263,8 @@ const characterData = {
                 "atk": 50,
                 "def": 31,
                 "buffs": [
-                    340.00,
-                    41.00
+                    340,
+                    41
                 ]
             },
             "100": {
@@ -74743,8 +77272,8 @@ const characterData = {
                 "atk": 58,
                 "def": 36,
                 "buffs": [
-                    400.00,
-                    45.00
+                    400,
+                    45
                 ]
             }
         }
@@ -74784,7 +77313,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -74818,7 +77347,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shine 4/Buff",
-                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc": "While Full Burst state Holy element damage +75% for 20 sec.",
                 "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -74886,13 +77415,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Attack 4/Buff",
-                "desc": "Attack +15.00% for 20 sec.",
+                "desc": "Attack +15% for 20 sec.",
                 "desc_template": "Attack +{v}% for 20 sec.",
                 "type": "normal"
             },
             {
                 "name": "Earth Element Enhance 4/Buff",
-                "desc": "Earth element damage +9.00% for 15 sec.",
+                "desc": "Earth element damage +9% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -74921,7 +77450,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Earth 4/Buff",
-                "desc": "While Full Burst state Earth element damage +75.00% for 20 sec.",
+                "desc": "While Full Burst state Earth element damage +75% for 20 sec.",
                 "desc_template": "While Full Burst state Earth element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -74990,14 +77519,14 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 5",
-                "desc": "Attack +1200.00.",
+                "desc": "Attack +1200.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Hidden Blessing 3",
-                "desc": "Attack +15.00%, and non-natural elemental damage -100.00%.",
-                "desc_template": "Attack +{v}%, and non-natural elemental damage -100.00%.",
+                "desc": "Attack +15%, and non-natural elemental damage -100%.",
+                "desc_template": "Attack +{v}%, and non-natural elemental damage -100%.",
                 "type": "normal"
             },
             {
@@ -75007,7 +77536,7 @@ const characterData = {
             },
             {
                 "name": "[While Accele Skill is activated] Purifying Flame 2",
-                "desc": "Deals +10.00% Fire element's damage to enemy.",
+                "desc": "Deals +10% Fire element's damage to enemy.",
                 "desc_template": "Deals +{v}% Fire element's damage to enemy.",
                 "type": "normal"
             }
@@ -75083,13 +77612,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weak Defense 3/Debuff",
-                "desc": "Enemy defense -30.00% for 10 sec.",
+                "desc": "Enemy defense -30% for 10 sec.",
                 "desc_template": "Enemy defense -{v}% for 10 sec.",
                 "type": "normal"
             },
@@ -75100,10 +77629,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Fire element damage +50.00%",
-            "LLv50: Fire element damage +50.00%",
+            "When Activated: Fire element damage +50%",
+            "LLv50: Fire element damage +50%",
             "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1",
-            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv250: Damage done to enemies weak to slashing +50%",
             "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1"
         ],
         "lv_data": {
@@ -75161,27 +77690,27 @@ const characterData = {
         "buffs": [
             {
                 "name": "Five Sharp Weapons 3",
-                "desc": "Attack +800.00 when attacking with thrust element.",
+                "desc": "Attack +800 when attacking with thrust element.",
                 "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 4",
-                "desc": "Damage done to enemies weak to thrusting +24.00%.",
+                "desc": "Damage done to enemies weak to thrusting +24%.",
                 "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Black Swordsman 3",
-                "desc": "When equipping 2 or more of Kirito's Skill Records in the same set, Attack +20.00%.",
+                "desc": "When equipping 2 or more of Kirito's Skill Records in the same set, Attack +20%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 when using Link Sword Skills",
-            "LLv100: Skill Power is added +100.00%",
-            "LLv250: Dark element damage +20.00%",
-            "LLv350: Damage done to enemies weak to thrusting +20.00%"
+            "When Activated: Attack +500 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: Dark element damage +20%",
+            "LLv350: Damage done to enemies weak to thrusting +20%"
         ],
         "lv_data": {
             "1": {
@@ -75245,13 +77774,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Dark Force 4/Buff",
-                "desc": "Dark element damage +15.00% for 15 sec.",
+                "desc": "Dark element damage +15% for 15 sec.",
                 "desc_template": "Dark element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -75262,11 +77791,11 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Dark element damage +50.00%",
-            "LLv50: Dark element damage +50.00%",
-            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100.00%",
-            "LLv250: Damage done to enemies weak to thrusting +50.00%",
-            "LLv500: Critical rate +500.00%"
+            "When Activated: Dark element damage +50%",
+            "LLv50: Dark element damage +50%",
+            "LLv100: While debuff to raise your own damage taken is effective, attack power will increase 100%",
+            "LLv250: Damage done to enemies weak to thrusting +50%",
+            "LLv500: Critical rate +500%"
         ],
         "lv_data": {
             "1": {
@@ -75327,13 +77856,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Fire Element Enhance 4/Buff",
-                "desc": "Fire element damage +9.00% for 15 sec.",
+                "desc": "Fire element damage +9% for 15 sec.",
                 "desc_template": "Fire element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weakness Attack 3/Buff",
-                "desc": "Critical damage +10.00% for 15 sec.",
+                "desc": "Critical damage +10% for 15 sec.",
                 "desc_template": "Critical damage +{v}% for 15 sec.",
                 "type": "normal"
             }
@@ -75362,7 +77891,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Flame 4/Buff",
-                "desc": "While Full Burst state Fire element damage +75.00% for 20 sec.",
+                "desc": "While Full Burst state Fire element damage +75% for 20 sec.",
                 "desc_template": "While Full Burst state Fire element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -75431,19 +77960,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 3",
-                "desc": "Attack +800.00.",
+                "desc": "Attack +800.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Dark Conversion 5",
-                "desc": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +30.00%.",
-                "desc_template": "Holy element's damage to enemies -15.00% and dark element's damage to enemies +{v}%.",
+                "desc": "Holy element's damage to enemies -15% and dark element's damage to enemies +30%.",
+                "desc_template": "Holy element's damage to enemies -15% and dark element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Bond of Unity",
-                "desc": "Effect changes depending on the Skill Records in the same set.<br>・When equipping 1 or more of Kirito's Skill Records: Attack +25.00%.<br>・When equipping 1 or more of Yuuki's Skill Records: Max HP +10.00%.<br>・When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +200.00% when used in switch.<br>・When equipping 1 or more of Asuna's Skill Records: Critical damage +30.00%.<br>・When equipping 1 or more of Leafa's Skill Records: Recovers a max of 1.00% HP per 3 sec.",
+                "desc": "Effect changes depending on the Skill Records in the same set.<br>・When equipping 1 or more of Kirito's Skill Records: Attack +25%.<br>・When equipping 1 or more of Yuuki's Skill Records: Max HP +10%.<br>・When equipping 1 or more of Eugeo's Skill Records: Skill's power is added +200% when used in switch.<br>・When equipping 1 or more of Asuna's Skill Records: Critical damage +30%.<br>・When equipping 1 or more of Leafa's Skill Records: Recovers a max of 1% HP per 3 sec.",
                 "type": "normal"
             }
         ],
@@ -75515,7 +78044,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Defense 4/Buff",
-                "desc": "Defense +15.00% for 15 sec.",
+                "desc": "Defense +15% for 15 sec.",
                 "desc_template": "Defense +{v}% for 15 sec.",
                 "type": "normal"
             },
@@ -75549,7 +78078,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shadow 4/Buff",
-                "desc": "While Accele state Dark element damage +75.00% for 20 sec.",
+                "desc": "While Accele state Dark element damage +75% for 20 sec.",
                 "desc_template": "While Accele state Dark element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -75615,19 +78144,19 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bloody Battle Thrust 4",
-                "desc": "Attack +40.00% when attacking with thrust element.",
+                "desc": "Attack +40% when attacking with thrust element.",
                 "desc_template": "Attack +{v}% when attacking with thrust element.",
                 "type": "normal"
             },
             {
                 "name": "Flame Conversion 4",
-                "desc": "Water element's damage to enemies -10.00% and fire element's damage to enemies +25.00%.",
-                "desc_template": "Water element's damage to enemies -10.00% and fire element's damage to enemies +{v}%.",
+                "desc": "Water element's damage to enemies -10% and fire element's damage to enemies +25%.",
+                "desc_template": "Water element's damage to enemies -10% and fire element's damage to enemies +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Steel Fang 3",
-                "desc": "Attack +500.00 when attacking with thrust element.",
+                "desc": "Attack +500 when attacking with thrust element.",
                 "desc_template": "Attack +{v} when attacking with thrust element.",
                 "type": "normal"
             }
@@ -75695,13 +78224,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shattered to Pieces 3",
-                "desc": "Attack +800.00 when attacking with slash element.",
+                "desc": "Attack +800 when attacking with slash element.",
                 "desc_template": "Attack +{v} when attacking with slash element.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 4",
-                "desc": "Damage done to enemies weak to slashing +24.00%.",
+                "desc": "Damage done to enemies weak to slashing +24%.",
                 "desc_template": "Damage done to enemies weak to slashing +{v}%.",
                 "type": "normal"
             },
@@ -75712,10 +78241,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 when using Link Sword Skills",
-            "LLv100: Skill Power is added +100.00%",
-            "LLv250: Earth element damage +20.00%",
-            "LLv350: Damage done to enemies weak to slashing +20.00%"
+            "When Activated: Attack +500 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: Earth element damage +20%",
+            "LLv350: Damage done to enemies weak to slashing +20%"
         ],
         "lv_data": {
             "1": {
@@ -75748,7 +78277,7 @@ const characterData = {
         }
     },
     "1858": {
-        "tags": [],
+        "tags": ["Floor/Event"],
         "name": "[Flash of Strategy] Argo",
         "sub": "Ability",
         "type": "ability",
@@ -75777,13 +78306,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Enhance Thrust 3",
-                "desc": "Damage done to enemies weak to thrusting +15.00%.",
+                "desc": "Damage done to enemies weak to thrusting +15%.",
                 "desc_template": "Damage done to enemies weak to thrusting +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Ice Indemnity 2",
-                "desc": "When you are frostbitten, water element damage +35.00%.",
+                "desc": "When you are frostbitten, water element damage +35%.",
                 "desc_template": "When you are frostbitten, water element damage +{v}%.",
                 "type": "normal"
             }
@@ -75848,28 +78377,28 @@ const characterData = {
         "buffs": [
             {
                 "name": "Power Rise 4",
-                "desc": "Attack +900.00.",
+                "desc": "Attack +900.",
                 "desc_template": "Attack +{v}.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Attack 4",
-                "desc": "Attack +15.00%.",
+                "desc": "Attack +15%.",
                 "desc_template": "Attack +{v}%.",
                 "type": "normal"
             },
             {
                 "name": "Earth Conversion 5",
-                "desc": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +30.00%.",
-                "desc_template": "Wind element's damage to enemies -15.00% and earth element's damage to enemies +{v}%.",
+                "desc": "Wind element's damage to enemies -15% and earth element's damage to enemies +30%.",
+                "desc_template": "Wind element's damage to enemies -15% and earth element's damage to enemies +{v}%.",
                 "type": "normal"
             }
         ],
         "links": [
-            "When Activated: Attack +500.00 when using Link Sword Skills",
-            "LLv100: Skill Power is added +100.00%",
-            "LLv250: Earth element damage +20.00%",
-            "LLv350: Damage done to enemies weak to slashing +20.00%"
+            "When Activated: Attack +500 when using Link Sword Skills",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: Earth element damage +20%",
+            "LLv350: Damage done to enemies weak to slashing +20%"
         ],
         "lv_data": {
             "1": {
@@ -75936,13 +78465,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Shine Force 4/Buff",
-                "desc": "Holy element damage +15.00% for 15 sec.",
+                "desc": "Holy element damage +15% for 15 sec.",
                 "desc_template": "Holy element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Thrust 2/Buff",
-                "desc": "Damage done to enemies weak to thrust +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -75971,7 +78500,7 @@ const characterData = {
             },
             {
                 "name": "Ruinous Shine 4/Buff",
-                "desc": "While Full Burst state Holy element damage +75.00% for 20 sec.",
+                "desc": "While Full Burst state Holy element damage +75% for 20 sec.",
                 "desc_template": "While Full Burst state Holy element damage +{v}% for 20 sec.",
                 "type": "normal"
             }
@@ -76038,7 +78567,7 @@ const characterData = {
         "buffs": [
             {
                 "name": "Bolt Breaker 4/Buff (PT)",
-                "desc": "Break gauge amount +20.00% for you and your party for 10 sec.",
+                "desc": "Break gauge amount +20% for you and your party for 10 sec.",
                 "desc_template": "Break gauge amount +{v}% for you and your party for 10 sec.",
                 "type": "normal"
             }
@@ -76105,13 +78634,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Weak Slash 4/Debuff",
-                "desc": "Slash element's weakness damage +25.00% for 8 sec.",
+                "desc": "Slash element's weakness damage +25% for 8 sec.",
                 "desc_template": "Slash element's weakness damage +{v}% for 8 sec.",
                 "type": "normal"
             },
             {
                 "name": "Weak Defense 3/Debuff",
-                "desc": "Enemy defense -30.00% for 10 sec.",
+                "desc": "Enemy defense -30% for 10 sec.",
                 "desc_template": "Enemy defense -{v}% for 10 sec.",
                 "type": "normal"
             },
@@ -76122,10 +78651,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Earth element damage +50.00%",
-            "LLv50: Earth element damage +50.00%",
+            "When Activated: Earth element damage +50%",
+            "LLv50: Earth element damage +50%",
             "LLv100: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1",
-            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv250: Damage done to enemies weak to slashing +50%",
             "LLv500: Increases attack against enemies with status ailments (Poison, Burn, Bleed, Frostbite). +0.50% for every Stack 1"
         ],
         "lv_data": {
@@ -76184,13 +78713,13 @@ const characterData = {
         "buffs": [
             {
                 "name": "Earth Force 4/Buff",
-                "desc": "Earth element damage +15.00% for 15 sec.",
+                "desc": "Earth element damage +15% for 15 sec.",
                 "desc_template": "Earth element damage +{v}% for 15 sec.",
                 "type": "normal"
             },
             {
                 "name": "Enhance Slash 2/Buff",
-                "desc": "Damage done to enemies weak to Slash +20.00% for 20 sec.",
+                "desc": "Damage done to enemies weak to Slash +20% for 20 sec.",
                 "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
                 "type": "normal"
             },
@@ -76201,10 +78730,10 @@ const characterData = {
             }
         ],
         "links": [
-            "When Activated: Earth element damage +50.00%",
-            "LLv50: Earth element damage +50.00%",
+            "When Activated: Earth element damage +50%",
+            "LLv50: Earth element damage +50%",
             "LLv100: Your own attack increases by defense x 1",
-            "LLv250: Damage done to enemies weak to slashing +50.00%",
+            "LLv250: Damage done to enemies weak to slashing +50%",
             "LLv500: Your own attack increases by defense x 1"
         ],
         "lv_data": {
@@ -76231,5 +78760,689 @@ const characterData = {
             }
         }
     },
-
+    "1867": {
+        "name": "[Desperate Trump Card] Kirito",
+        "sub": "1H Sword (Slash) Full Burst Skill",
+        "rarity": 4,
+        "cost": 42,
+        "type": "full burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "None",
+        "category": "Skill",
+        "sp_cost": 35,
+        "cooldown": 20,
+        "switch_gauge": 80,
+        "break_gauge": 62,
+        "skill_name": "Starburst Stream",
+        "stats": "[SP Cost 35] • [CD 20.0] • [Switch Gauge 80] • [Break Gauge 62]",
+        "stats_template": "[SP Cost 35] • [CD 20.0] • [Switch Gauge 80] • [Break Gauge 62]",
+        "damage": "2290% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "resources/panic1.png",
+        "image_evo": "resources/panic.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Dyna Pile/Buff",
+                "desc": "Non-elemental damage +0.5% per stack (Stack 5) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 40.0] • [Switch Gauge 80] • [Break Gauge 124]",
+        "burst_skill_name": "Starburst Stream",
+        "burst_activation": "Slash→Holy→Fire→(Wind)",
+        "burst_activation_template": "Slash→Holy→Fire→(Wind)",
+        "burst_damage": "5510% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "burst_damage_template": "{v}% damage (16x hit/Single Foe)[Front/Long/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Non-elemental damage +100%, when equipping no Heathcliff Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "When equipping 2 or more of Asuna's Skill Records in the same set, Critical rate +500%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "The lower your own HP, critical damage increases. (max 100%)",
+                "type": "normal"
+            },
+            {
+                "name": "Mechanics 4/Buff",
+                "desc": "While Full Burst state Non-elemental damage +50% for 20 sec.",
+                "desc_template": "While Full Burst state Non-elemental damage +{v}% for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "full_burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1691,
+                "buffs": [
+                    10.05,
+                    10.4
+                ],
+                "burst_damage": 4317
+            },
+            "80": {
+                "damage": 1770,
+                "buffs": [
+                    14,
+                    42
+                ],
+                "burst_damage": 4870
+            },
+            "100": {
+                "damage": 2290,
+                "buffs": [
+                    15,
+                    50
+                ],
+                "burst_damage": 5510
+            }
+        }
+    },
+    "1868": {
+        "name": "[Villain's Composure] Heathcliff",
+        "sub": "Ability",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 44] • [Defense 50] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "resources/heat1.png",
+        "image_evo": "resources/heat.png",
+        "background": "",
+        "buffs": [
+            {
+                "name": "Veteran Sword Technique 4",
+                "desc": "Attack power increase with own level×0.17%. (max 34%)",
+                "desc_template": "Attack power increase with own level×{v}%. (max 34%)",
+                "type": "normal"
+            },
+            {
+                "name": "Holy Sword Power",
+                "desc": "Attack rises 500 x the number of Heathcliff Skill Records in the same set.",
+                "desc_template": "Attack rises {v} x the number of Heathcliff Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Blockade 2",
+                "desc": "All elemental damage decreases by 100% x the number of Asuna Skill Records in the same set (Non-elemental included).",
+                "type": "normal"
+            },
+            {
+                "name": "Forbidden Gate 2",
+                "desc": "Hit rate decreases by 100% x the number of Kirito Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Full Burst state] Defense Fundamentals 3",
+                "desc": "Defense +5%.",
+                "desc_template": "Defense +{v}%.",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 16,
+                "def": 14,
+                "buffs": [
+                    0.17,
+                    500,
+                    1.04
+                ]
+            },
+            "80": {
+                "hp": 2152,
+                "atk": 38,
+                "def": 43,
+                "buffs": [
+                    0.17,
+                    500,
+                    4.2
+                ]
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 44,
+                "def": 50,
+                "buffs": [
+                    0.17,
+                    500,
+                    5
+                ]
+            }
+        }
+    },
+    "1865": {
+        "tags": [
+            "Bday"
+        ],
+        "name": "[Wind-Slicing Greatsword] Strea",
+        "sub": "1H Sword (Slash/Dark) Link Skill",
+        "rarity": 4,
+        "cost": 50,
+        "type": "link",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Dark",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 55,
+        "break_gauge": 37,
+        "skill_name": "Shadow Cleaver",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 55] • [Break Gauge 37]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 55] • [Break Gauge 37]",
+        "damage": "2800% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "damage_template": "{v}% damage (5x hit/Single Foe)[Front/Arc/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "resources/strea11.png",
+        "image_evo": "resources/strea 2.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Dark Force 4/Buff",
+                "desc": "Dark element damage +15% for 15 sec.",
+                "desc_template": "Dark element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Slash 2/Buff",
+                "desc": "Damage done to enemies weak to Slash +20% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to Slash +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Slash Boost 3/Buff",
+                "desc": "Adds a buff where slash elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Dark element damage +50%",
+            "LLv50：Dark element damage +50%",
+            "LLv100: Your own attack increases by defense x 1",
+            "LLv250: Damage done to enemies weak to slashing +50%",
+            "LLv500: Your own attack increases by defense x 1"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2201,
+                "buffs": [
+                    5.1,
+                    10.1
+                ]
+            },
+            "80": {
+                "damage": 2280,
+                "buffs": [
+                    13,
+                    18
+                ]
+            },
+            "100": {
+                "damage": 2800,
+                "buffs": [
+                    15,
+                    20
+                ]
+            }
+        }
+    },
+    "1866": {
+        "tags": [
+            "Bday"
+        ],
+        "name": "[Sweet Cozy Lounge] Strea",
+        "sub": "Ability Link Skill",
+        "rarity": 4,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 53] • [Defense 30] • [HP 2650]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "resources/strea12.png",
+        "image_evo": "resources/strea 1.png",
+        "buffs": [
+            {
+                "name": "Enhance HP 4",
+                "desc": "Max HP increase 15%.",
+                "desc_template": "Max HP increase {v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Expertise 3",
+                "desc": "When equipping 3 or more of Kirito's Skill Records in the same set, Defense +15%.",
+                "desc_template": "When equipping 3 or more of Kirito's Skill Records in the same set, Defense +{v}%.",
+                "type": "normal"
+            },
+            {
+                "name": "Hold the Front 4",
+                "desc": "Recovers a max of 5%+200 HP per 3 sec when HP is under 50%.",
+                "desc_template": "Recovers a max of {v}%+200 HP per 3 sec when HP is under 50%.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500 (LLv 1) when using Link Sword Skills",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: Dark element damage +20%",
+            "LLv350: Damage done to enemies weak to slashing +20%"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 490,
+                "atk": 19,
+                "def": 12,
+                "buffs": [
+                    5.1,
+                    15,
+                    1.04
+                ]
+            },
+            "80": {
+                "hp": 2214,
+                "atk": 46,
+                "def": 26,
+                "buffs": [
+                    13,
+                    15,
+                    4.2
+                ]
+            },
+            "100": {
+                "hp": 2650,
+                "atk": 53,
+                "def": 30,
+                "buffs": [
+                    15,
+                    15,
+                    5
+                ]
+            }
+        }
+    },
+    "1869": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Young Sage of Purification] Kirito",
+        "sub": "Ability Link Skill",
+        "rarity": 4,
+        "cost": 22,
+        "type": "link",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 59] • [Defense 32] • [HP 2500]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002124.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102124.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "King of Arrow 3",
+                "desc": "When Bow is equipped,attack +1000.",
+                "desc_template": "When Bow is equipped,attack +{v}.",
+                "type": "normal"
+            },
+            {
+                "name": "Persistence 4",
+                "desc": "Attack +20% at below 50% of your own HP.",
+                "desc_template": "Attack +{v}% at below 50% of your own HP.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Attack +500 (LLv 1) when using Link Sword Skills",
+            "LLv100: Skill Power is added +100%",
+            "LLv250: Holy element damage +20%",
+            "LLv350: Damage done to enemies weak to thrusting +20%"
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 475,
+                "atk": 20,
+                "def": 12,
+                "buffs": [
+                    208,
+                    10.1
+                ]
+            },
+            "80": {
+                "hp": 2091,
+                "atk": 51,
+                "def": 28,
+                "buffs": [
+                    840,
+                    18
+                ]
+            },
+            "100": {
+                "hp": 2500,
+                "atk": 59,
+                "def": 32,
+                "buffs": [
+                    1000,
+                    20
+                ]
+            }
+        }
+    },
+    "1870": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Water-Blessed Shooter] Sinon",
+        "sub": "Bow (Thrust/Holy) Link Skill",
+        "rarity": 4,
+        "cost": 50,
+        "type": "link",
+        "weapon": "Bow",
+        "element1": "Thrust",
+        "element2": "Holy",
+        "category": "Skill",
+        "sp_cost": 18,
+        "cooldown": 16,
+        "switch_gauge": 36,
+        "break_gauge": 30,
+        "skill_name": "Trinity Ray",
+        "stats": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 36] • [Break Gauge 30]",
+        "stats_template": "[SP Cost 18] • [CD 16.0] • [Switch Gauge 36] • [Break Gauge 30]",
+        "damage": "2720% damage (3x hit/Single Foe)[Front/Long/Mid]",
+        "damage_template": "{v}% damage (3x hit/Single Foe)[Front/Long/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002125.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102125.png",
+        "background": "resources/backgrounds/link.png",
+        "buffs": [
+            {
+                "name": "Shine Force 4/Buff",
+                "desc": "Holy element damage +15% for 15 sec.",
+                "desc_template": "Holy element damage +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Enhance Thrust 2/Buff",
+                "desc": "Damage done to enemies weak to thrust +20% for 20 sec.",
+                "desc_template": "Damage done to enemies weak to thrust +{v}% for 20 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "[While Accele Skill is activated] Thrust Boost 3/Buff",
+                "desc": "Adds a buff where thrust elemental weakness damage +1% per 1 Stack (Stack 3) for 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "links": [
+            "When Activated: Holy element damage +50%",
+            "LLv50: Holy element damage +50%",
+            "LLv100: The lower your own HP, attack increases.(max 200%)",
+            "LLv250: Damage done to enemies weak to thrusting +50%",
+            "LLv500: The lower your own HP, damage increases against monsters not targeting you. (max 100%)"
+        ],
+        "lv_data": {
+            "1": {
+                "damage": 2121,
+                "buffs": [
+                    5.1,
+                    10.1
+                ]
+            },
+            "80": {
+                "damage": 2200,
+                "buffs": [
+                    13,
+                    18
+                ]
+            },
+            "100": {
+                "damage": 2720,
+                "buffs": [
+                    15,
+                    20
+                ]
+            }
+        }
+    },
+    "1871": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Fervent Swordsman of Fate] Eugeo",
+        "sub": "1H Sword (Slash/Wind) Burst Skill",
+        "rarity": 4,
+        "cost": 50,
+        "type": "burst",
+        "weapon": "1H Sword",
+        "element1": "Slash",
+        "element2": "Wind",
+        "category": "Skill",
+        "sp_cost": 30,
+        "cooldown": 15,
+        "switch_gauge": 52,
+        "break_gauge": 40,
+        "skill_name": "Vertical Storm",
+        "stats": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 40]",
+        "stats_template": "[SP Cost 30] • [CD 15.0] • [Switch Gauge 52] • [Break Gauge 40]",
+        "damage": "2100% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002126.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102126.png",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Enhance Defense 4/Buff",
+                "desc": "Defense +15% for 15 sec.",
+                "desc_template": "Defense +{v}% for 15 sec.",
+                "type": "normal"
+            },
+            {
+                "name": "Wind Pile/Buff",
+                "desc": "Wind element damage +1% per stack (Stack3) during 20 sec.",
+                "type": "normal"
+            }
+        ],
+        "burst_stats": "[SP Cost 0] • [CD 30.0] • [Switch Gauge 52] • [Break Gauge 80]",
+        "burst_skill_name": "Vertical Storm Burst",
+        "burst_activation": "Wind→Slash→Wind→(Wind)",
+        "burst_activation_template": "Wind→Slash→Wind→(Wind)",
+        "burst_damage": "5800% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_damage_template": "{v}% damage (4x hit/Single Foe)[Front/Cone/Mid]",
+        "burst_buffs": [
+            {
+                "name": "Bonus",
+                "desc": "Your own attack increases by defense x 2.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Wind element's damage rises by the number of Kirito Skill Records in the same set x 10%.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "Damage done to enemies weak to slashing +100%, when equipping no Yuuki Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Bonus",
+                "desc": "While Full Burst state Critical rate +500%.",
+                "type": "normal"
+            }
+        ],
+        "burst": [],
+        "lv_data": {
+            "1": {
+                "damage": 1901,
+                "buffs": [
+                    10.05
+                ],
+                "burst_damage": 4907
+            },
+            "80": {
+                "damage": 1980,
+                "buffs": [
+                    14
+                ],
+                "burst_damage": 5460
+            },
+            "100": {
+                "damage": 2100,
+                "buffs": [
+                    15
+                ],
+                "burst_damage": 5800
+            }
+        }
+    },
+    "1872": {
+        "collab": "Tales",
+        "tags": [
+            "Collab"
+        ],
+        "name": "[Lone Radiant Swordsman] Argo",
+        "sub": "Ability",
+        "rarity": 4,
+        "cost": 24,
+        "type": "ability / full burst",
+        "weapon": "None",
+        "element1": "None",
+        "element2": "None",
+        "category": "Ability",
+        "sp_cost": 0,
+        "cooldown": 0,
+        "switch_gauge": 0,
+        "break_gauge": 0,
+        "skill_name": "Ability",
+        "stats": "[Attack 52] • [Defense 34] • [HP 2575]",
+        "stats_template": "[Attack {atk}] • [Defense {def}] • [HP {hp}]",
+        "damage": "",
+        "max_lv": 100,
+        "rarity_steps": {
+            "1": 4,
+            "70": 5
+        },
+        "color": "#ffffff",
+        "image": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6002127.png",
+        "image_evo": "https://raw.githubusercontent.com/Nayuta-Kani/SAOIF-Skill-Records-Database/master/srimages/sr_icon_l_6102127.png",
+        "background": "resources/backgrounds/gold.png",
+        "buffs": [
+            {
+                "name": "Extension 1",
+                "desc": "Attack rises 6% x the number of Argo Skill Records in the same set.",
+                "type": "normal"
+            },
+            {
+                "name": "Engrave",
+                "desc": "When equipping no Alice Skill Records in the same set and hitting with switch, adds debuff (Mark).(Invalid when equipped by Partner)",
+                "type": "normal"
+            }
+        ],
+        "ability_effect": [
+            "For each piece of equipment in the same set, the number of activations in additional Full Burst state increases by 1 (1 activation per skill) <br>Stock Type: Resets remaining time for Full Burst skill activation, and extends duration of Full Burst state (+10 sec per 1 equipment) <br>Chain Type: Increases burst skill damage used in Full Burst state (+5% per 1 equipment) <br>*Burst activated Sword Skills during Full Burst state will activate normally until Full Burst State ends."
+        ],
+        "lv_data": {
+            "1": {
+                "hp": 482,
+                "atk": 18,
+                "def": 12
+            },
+            "100": {
+                "hp": 2575,
+                "atk": 52,
+                "def": 34
+            }
+        }
+    },
 };
